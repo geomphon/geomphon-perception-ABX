@@ -5,7 +5,7 @@ The only make command currently working properly is make triplet-list.
 We moved all files concerning this command and reorganised them, and edited the makefile to automate it.
 We created a tmp file which holds all files that should be deleted after their uses. (we don't know what command to use in the makefile to delete the directory tmp. -rm -rf doesn't work, or we don't know how to use it)
 
-We a€™re trying to do the same with the commands make distance and make stimuli.
+We are trying to do the same with the commands make distance and make stimuli.
 
 Current errors we're trying to fix : 
 
