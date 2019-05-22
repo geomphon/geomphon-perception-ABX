@@ -24,7 +24,7 @@ distances/tmp:
 
 distances/tmp/PAIRS_TMP.csv: distances/tmp
 	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
-stimulus_list.csv triplets.csv stimlist/item_meta_information.csv && \
+stimlist/stimulus_list.csv triplet_creation/triplets.csv stimlist/item_meta_information.csv && \
 Rscript --vanilla \
 distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
 stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
