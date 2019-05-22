@@ -23,11 +23,11 @@ distances/tmp:
 	mkdir -p distances/tmp
 
 distances/tmp/PAIRS_TMP.csv: distances/tmp
-	Rscript --vanilla stimuli/combine_triplet_meta_information.Rscript \
-stimulus_list.csv triplets.csv stimuli/item_meta_information.csv && \
+	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
+stimulus_list.csv triplets.csv stimlist/item_meta_information.csv && \
 Rscript --vanilla \
 distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
-stimuli/item_meta_information.csv stimuli/raw distances/tmp/PAIRS_TMP.csv
+stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
 
 distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
@@ -78,7 +78,7 @@ clean-distances-tmp
 
 stimulus_list.csv: stimlist/design.csv
 	Rscript --vanilla stimlist/create_stimlist.Rscript \
-567 stimlist/design.csv stimuli/meta_info_filelist.csv stimulus_list.csv
+567 stimlist/design.csv distances/meta_info_filelist.csv stimulus_list.csv
 
 stimuli/item_meta_information_with_distances.csv: distances
 	Rscript --vanilla \
