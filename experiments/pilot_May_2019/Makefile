@@ -17,17 +17,17 @@ tmp/ABX_TASK_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.item triplet_creation/triplets.
 clean-tmp
 
 clean-tmp:
-	rm -f tmp
+	rm -rf tmp
 
 distances/tmp:
 	mkdir -p distances/tmp
 
 distances/tmp/PAIRS_TMP.csv: distances/tmp
 	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
-../stimlist/stimulus_list.csv ../triplet_creation/triplets.csv ../stimlist/item_meta_information.csv && \
+stimlist/stimulus_list.csv triplet_creation/triplets.csv stimlist/item_meta_information.csv && \
 Rscript --vanilla \
 distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
-../stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
+stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
 
 distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
@@ -78,7 +78,7 @@ clean-distances-tmp
 
 stimulus_list.csv: stimlist/design.csv
 	Rscript --vanilla stimlist/create_stimlist.Rscript \
-567 stimlist/design.csv stimlist/meta_info_filelist.csv stimlist/stimulus_list.csv
+567 stimlist/design.csv distances/meta_info_filelist.csv stimulus_list.csv
 
 stimuli/item_meta_information_with_distances.csv: distances
 	Rscript --vanilla \
@@ -109,7 +109,6 @@ anon_output/results.csv \
 anon_output/presurvey.csv \
 anon_output/postsurvey.csv \
 anon_output/postsurvey2.csv
-
 filter_data: stimuli/item_meta_information_with_distances.csv
 	Rscript --vanilla analysis_step1_preprocess_Aug_2018_pilot.Rscript \
 anon_output/presurvey.csv \
