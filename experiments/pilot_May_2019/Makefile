@@ -1,26 +1,33 @@
-triplet-list:
+tmp:
+	mkdir -p tmp
+
+triplet-list: tmp
 	python ../../src/textgrid_to_abx_item_file_word.py word \
 raw_data/textGrid/amelia_vowels_ONLY_TARGET_CHECKED.TextGrid,../wav/amelia_vowels.wav \
 raw_data/textGrid/amelia_consonants_ONLY_TARGET_CHECKED.TextGrid,../wav/amelia_consonants.wav \
 raw_data/textGrid/ewan_ONLY_TARGET_CHECKED.TextGrid,../wav/ewan.wav \
---excluded-words=SAY,AGAIN,sp0 > ABX_ITEM_FILE.item \
+--excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.item \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
-ABX_ITEM_FILE.item ABX_ITEM_FILE_COMPLETE.item \
-&& abx-task ABX_ITEM_FILE_COMPLETE.item ABX_TASK_FILE.task \
+tmp/ABX_ITEM_FILE.item tmp/ABX_ITEM_FILE_COMPLETE.item \
+&& abx-task tmp/ABX_ITEM_FILE_COMPLETE.item tmp/ABX_TASK_FILE.task \
 -o word -a speaker -b CV context \
-&& python ../../src/task2txt.py ABX_TASK_FILE.task ABX_TASK_FILE.csv \
+&& python ../../src/task2txt.py tmp/ABX_TASK_FILE.task tmp/ABX_TASK_FILE.csv \
 && Rscript --vanilla triplet_creation/add_meta_information_to_triplet_file.Rscript \
-ABX_TASK_FILE.csv ABX_ITEM_FILE_COMPLETE.item triplets.csv
+tmp/ABX_TASK_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.item triplet_creation/triplets.csv \
+clean-tmp
+
+clean-tmp:
+	rm -f tmp
 
 distances/tmp:
 	mkdir -p distances/tmp
 
 distances/tmp/PAIRS_TMP.csv: distances/tmp
-	Rscript --vanilla stimuli/combine_triplet_meta_information.Rscript \
-stimulus_list.csv triplets.csv stimuli/item_meta_information.csv && \
+	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
+../stimlist/stimulus_list.csv ../triplet_creation/triplets.csv ../stimlist/item_meta_information.csv && \
 Rscript --vanilla \
 distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
-stimuli/item_meta_information.csv stimuli/raw distances/tmp/PAIRS_TMP.csv
+../stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
 
 distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
@@ -69,9 +76,9 @@ distances/distances__normed_mfcc__dtw_sum.csv \
 distances/distances__unnormed_mfcc__dtw_sum.csv \
 clean-distances-tmp
 
-stimulus_list.csv: design.csv
-	Rscript --vanilla create_stimlist.Rscript \
-567 design.csv stimuli/meta_info_filelist.csv stimulus_list.csv
+stimulus_list.csv: stimlist/design.csv
+	Rscript --vanilla stimlist/create_stimlist.Rscript \
+567 stimlist/design.csv stimlist/meta_info_filelist.csv stimlist/stimulus_list.csv
 
 stimuli/item_meta_information_with_distances.csv: distances
 	Rscript --vanilla \
