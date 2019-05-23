@@ -99,25 +99,25 @@ stimuli/raw/ewan_ONLY_TARGET_CHECKED.TextGrid,stimuli/raw/ewan.wav
 anonymize_data: 
 	python anonymize_lmeds_data_filenames.py \
 /Users/post-doc/Desktop/output \
-/Users/post-doc/Documents/GitHub/geomphon-perception-ABX/experiments/pilot_Aug_2018/anon_output \
+/Users/post-doc/Documents/GitHub/geomphon-perception-ABX/experiments/pilot_May_2019/anon_output \
 /Users/post-doc/Desktop/anon_key.csv
 
 split_output_to_results_files: anon_output
-	python split_output_to_results_files.py \
+	python anonymize_data/split_output_to_results_files.py \
 anon_output/ \
 anon_output/results.csv \
 anon_output/presurvey.csv \
 anon_output/postsurvey.csv \
 anon_output/postsurvey2.csv
 
-filter_data: stimuli/item_meta_information_with_distances.csv
-	Rscript --vanilla analysis_step1_preprocess_Aug_2018_pilot.Rscript \
+filter_data: distances/item_meta_information_with_distances.csv
+	Rscript --vanilla results/analysis_step1_preprocess_May_2019_pilot.Rscript \
 anon_output/presurvey.csv \
 anon_output/results.csv \
 anon_output/postsurvey.csv \
 anon_output/postsurvey2.csv \
-stimuli/item_meta_information_with_distances.csv \
-analysis/geomphon_pilot_results_for_analysis.csv
+distances/item_meta_information_with_distances.csv \
+results/geomphon_pilot_results_for_analysis.csv
 
 clean-design:
 	rm design.csv
