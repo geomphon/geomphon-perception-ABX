@@ -13,13 +13,13 @@ Current errors we're trying to fix :
 make distances :
 
 
-Traceback (most recent call last):
+> Traceback (most recent call last):
 
-  File "../../src/wav_to_distance.py", line 10, in <module>
+> File "../../src/wav_to_distance.py", line 10, in <module>
   
-    import standard_format as sf
+> import standard_format as sf
     
-ImportError: No module named standard_format
+> ImportError: No module named standard_format
 
 
 -> seems to be an import error, it is the same if I try this command in pilot_Aug_2018.
@@ -27,17 +27,17 @@ ImportError: No module named standard_format
 
 make stimulus_list.csv :
 
-Error in file(file, "rt") : cannot open the connection
+> Error in file(file, "rt") : cannot open the connection
 
-Calls: read.csv -> read.table -> file
+> Calls: read.csv -> read.table -> file
 
-In addition: Warning message:
+> In addition: Warning message:
 
-In file(file, "rt") :
+> In file(file, "rt") :
 
-  cannot open file 'design.csv': No such file or directory
+> cannot open file 'design.csv': No such file or directory
   
-Execution halted
+> Execution halted
 
 
 ->seems to be an error in create_stimlist.Rscript, the path of the working directory could be the problem.
