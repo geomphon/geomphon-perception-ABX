@@ -14,11 +14,8 @@ make distances :
 
 
 > Traceback (most recent call last):
-
-> File "../../src/wav_to_distance.py", line 10, in <module>
-  
-> import standard_format as sf
-    
+> File "../../src/wav_to_distance.py", line 10, in <module>  
+> import standard_format as sf   
 > ImportError: No module named standard_format
 
 
@@ -28,15 +25,10 @@ make distances :
 make stimulus_list.csv :
 
 > Error in file(file, "rt") : cannot open the connection
-
 > Calls: read.csv -> read.table -> file
-
 > In addition: Warning message:
-
 > In file(file, "rt") :
-
-> cannot open file 'design.csv': No such file or directory
-  
+> cannot open file 'design.csv': No such file or directory  
 > Execution halted
 
 
