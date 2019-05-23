@@ -78,7 +78,7 @@ clean-distances-tmp
 
 stimulus_list.csv: stimlist/design.csv
 	Rscript --vanilla stimlist/create_stimlist.Rscript \
-567 stimlist/design.csv distances/meta_info_filelist.csv stimulus_list.csv
+567 design.csv distances/meta_info_filelist.csv stimulus_list.csv
 
 stimuli/item_meta_information_with_distances.csv: distances
 	Rscript --vanilla \
