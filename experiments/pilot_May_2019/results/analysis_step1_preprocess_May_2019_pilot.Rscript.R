@@ -3,6 +3,8 @@
 
 #data cleaning and analysis of geomphon pilot 
 #last edit 23 October 2018 by amelia 
+#Attention : in line 145 and 148 we choose a particular distance, it used to be distance_TGT and distance_OTH
+#It may have been possible to choose without having to edit this script but not anymore.
 
 rm(list=ls())
 
@@ -12,12 +14,12 @@ library(stringr)
 ARGS <- commandArgs(TRUE)
 
 #Arguments 
-presurvey_file <- anon_output/presurvey.csv #ARGS[1] 
-results_file<- anon_output/results.csv #ARGS[2]
-postsurvey_file<-anon_output/postsurvey.csv #ARGS[3]
-postsurvey2_file<- anon_output/postsurvey2.csv #ARGS[4]
-acoustic_dist_file<-distances/item_meta_information_with_distances.csv #ARGS[5]
-output_file<-results/geomphon_pilot_results_for_analysis.csv #ARGS[6]#csv of filtered data for analysis
+presurvey_file <- ARGS[1] 
+results_file<- ARGS[2]
+postsurvey_file<-ARGS[3]
+postsurvey2_file<- ARGS[4]
+acoustic_dist_file<-ARGS[5]
+output_file<-ARGS[6]#csv of filtered data for analysis
 
 
 
@@ -141,10 +143,10 @@ trials_only<-dplyr::filter(trials_only, !grepl('attention', tripletid))
 
 
 #add a new column subtracting the two distances
-trials_only$delta_dist_sub<-trials_only$distance_TGT-trials_only$distance_OTH
+trials_only$delta_dist_sub<-trials_only$distance_normed_filterbank__dtw_pathlength_TGT-trials_only$distance_normed_filterbank__dtw_pathlength_OTH
 
 #add a new column dividing the two distances 
-trials_only$delta_dist_div<-trials_only$distance_TGT/trials_only$distance_OTH
+trials_only$delta_dist_div<-trials_only$distance_normed_filterbank__dtw_pathlength_TGT/trials_only$distance_normed_filterbank__dtw_pathlength_OTH
 
 # add a column that takes the log 
 trials_only$log_delta_dist_div<-log(trials_only$delta_dist_div)
