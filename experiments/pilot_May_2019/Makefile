@@ -14,10 +14,6 @@ tmp/ABX_ITEM_FILE.item tmp/ABX_ITEM_FILE_COMPLETE.item \
 && python ../../src/task2txt.py tmp/ABX_TASK_FILE.task tmp/ABX_TASK_FILE.csv \
 && Rscript --vanilla triplet_creation/add_meta_information_to_triplet_file.Rscript \
 tmp/ABX_TASK_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.item triplet_creation/triplets.csv \
-clean-tmp
-
-clean-tmp:
-	rm -rf tmp
 
 distances/tmp:
 	mkdir -p distances/tmp
@@ -83,16 +79,16 @@ stimulus_list.csv: stimlist/design.csv
 stimuli/item_meta_information_with_distances.csv: distances
 	Rscript --vanilla \
 distances/merge_distances.Rscript \
-stimuli/item_meta_information.csv \
-stimuli/item_meta_information_with_distances.csv \
+stimlist/item_meta_information.csv \
+stimlist/item_meta_information_with_distances.csv \
 distances/distances__*.csv
 
 stimuli/stimuli_intervals:
-	python stimuli/save_intervals_to_wavs.py word stimuli/stimuli_intervals \
-stimuli/meta_info_filelist.csv \
-stimuli/raw/amelia_consonants_ONLY_TARGET_CHECKED.TextGrid,stimuli/raw/amelia_consonants.wav \
-stimuli/raw/amelia_vowels_ONLY_TARGET_CHECKED.TextGrid,stimuli/raw/amelia_vowels.wav \
-stimuli/raw/ewan_ONLY_TARGET_CHECKED.TextGrid,stimuli/raw/ewan.wav
+	python stimlist/save_intervals_to_wavs.py word stimuli/stimuli_intervals \
+stimlist/meta_info_filelist.csv \
+raw_data/textGrid/amelia_consonants_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/amelia_consonants.wav \
+raw_data/textGrid/amelia_vowels_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/amelia_vowels.wav \
+raw_data/textGrid/ewan_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/ewan.wav
 
 #NB- this step ONLY takes absolute paths to raw data files. raw data files contain
 #personally identifiable information and  should never be shared or synced to git 
@@ -135,6 +131,9 @@ clean-stimuli-intervals:
 	rm -rf stimuli/stimuli_intervals
 
 clean-stimuli-construction: clean-stimuli-intervals
+
+clean-tmp:
+	rm -rf tmp
 
 
 
