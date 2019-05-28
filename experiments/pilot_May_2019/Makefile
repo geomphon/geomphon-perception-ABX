@@ -83,8 +83,8 @@ stimlist/item_meta_information.csv \
 stimlist/item_meta_information_with_distances.csv \
 distances/distances__*.csv
 
-stimuli/stimuli_intervals:
-	python stimlist/save_intervals_to_wavs.py word stimuli/stimuli_intervals \
+stimlist/stimuli_intervals:
+	python stimlist/save_intervals_to_wavs.py word stimlist/stimuli_intervals \
 stimlist/meta_info_filelist.csv \
 raw_data/textGrid/amelia_consonants_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/amelia_consonants.wav \
 raw_data/textGrid/amelia_vowels_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/amelia_vowels.wav \
