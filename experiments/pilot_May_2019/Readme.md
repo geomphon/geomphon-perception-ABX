@@ -64,7 +64,7 @@ Execute the command :
 ### Process the data
 
 Execute the commands :  
-&emsp;`make split_output_to_results_files`
+&emsp;`make split_output_to_results_files`  
 &emsp;`make filter_data`
         
 ### Clean the data
