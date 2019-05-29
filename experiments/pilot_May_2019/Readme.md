@@ -46,6 +46,16 @@ Download the project geomphon-perception-ABX : https://github.com/geomphon/geomp
 
 In your terminal go to `/Users/adele/Documents/GitHub/geomphon-perception-ABX/experiments/pilot_May_2019`
 
+At this point you have 2 solutions :
+
+## Solution 1
+
+Execute the file `geomphon_May_2019.sh`
+
+## Solution 2
+
+Execute the commands from the make file like described below
+
 ### Create stimuli
 
 WARNING : Be sur to have your data in `raw_data`   
