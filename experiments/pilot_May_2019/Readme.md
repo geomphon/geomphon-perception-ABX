@@ -1,35 +1,87 @@
-Pilot_May_2019
-
-The only make command currently working properly is make triplet-list.
-
-We moved all files concerning this command and reorganised them, and edited the makefile to automate it.
-We created a tmp file which holds all files that should be deleted after their uses. (we don't know what command to use in the makefile to delete the directory tmp. -rm -rf doesn't work, or we don't know how to use it)
-
-We are trying to do the same with the commands make distance and make stimuli.
-
-Current errors we're trying to fix : 
+## May pilot 2019
 
 
-make distances :
+Found under `experiments/pilot_May_2019`.
 
+The goal of this pilot was to collect some ABX data and develop basic tools for preprocessing data, as well as start testing the models we plan to use to analyse the data.
 
-> Traceback (most recent call last):
-> File "../../src/wav_to_distance.py", line 10, in <module>  
-> import standard_format as sf   
-> ImportError: No module named standard_format
+## To start
 
+Put your data in the folder `raw_data`. 
 
--> seems to be an import error, it is the same if I try this command in pilot_Aug_2018.
+### Requirements
 
+**Python**
 
-make stimulus_list.csv :
+```
+- standard_format: pip install git+git://github.com/geomphon/standard-format.git@v0.1#egg=standard_format
+- Custom fork of python_speech_features: pip install git+git://github.com/geomphon/python_speech_features_geomphon.git@v1.0GEOMPH#egg=python_speech_features
+- fastdtw==0.3.2 (pip)
+- numpy
+- scipy
+- h5py==2.6.0
+- ffmpeg
+- pandas
+- simanneal
+- scikit-learn
+- cython (dependency for ABXpy that's not correctly dealt with)
+- ABXpy v0.4: pip install git+git://github.com/bootphon/ABXpy.git@v0.4.1#egg=ABXpy
+- textgrid: pip install git+git://github.com/kylebgorman/textgrid.git
+```
 
-> Error in file(file, "rt") : cannot open the connection
-> Calls: read.csv -> read.table -> file
-> In addition: Warning message:
-> In file(file, "rt") :
-> cannot open file 'design.csv': No such file or directory  
-> Execution halted
+**R**
 
+```
+- magrittr
+- readr
+- tidyr
+- dplyr
+```
 
-->seems to be an error in create_stimlist.Rscript, the path of the working directory could be the problem.
+## Install
+
+Download the project geomphon-perception-ABX : https://github.com/geomphon/geomphon-perception-ABX.git
+
+## Run the programm
+
+In your terminal go to `/Users/adele/Documents/GitHub/geomphon-perception-ABX/experiments/pilot_May_2019`
+
+At this point you have 2 solutions :
+
+## Solution 1
+
+Execute the file `geomphon_May_2019.sh`
+
+## Solution 2
+
+Execute the commands from the make file like described below
+
+### Create stimuli
+
+WARNING : Be sur to have your data in `raw_data`   
+
+Execute the commands :  
+&emsp;`make triplet_list`  
+&emsp;`make stimulus_list.csv`  
+&emsp;`make stimlist/item_meta_information_with_distances.csv`  
+&emsp;`make stimlist/stimuli_intervals`  
+        
+### Anonymize your data
+
+Execute the command :  
+&emsp;`make anonymize_data`
+        
+### Process the data
+
+Execute the commands :  
+&emsp;`make split_output_to_results_files`  
+&emsp;`make filter_data`
+        
+### Clean the data
+
+Execute the command :  
+&emsp;`make clean-all`
+        
+## Results
+
+You can find your results under the folder `results`
