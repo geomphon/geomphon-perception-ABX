@@ -61,10 +61,7 @@ postsurvey2_filename = sys.argv[5]
 file_language_tuples = []
 for current_root, dirnames_d, filenames_d in os.walk(folderpath):
     csv_filenames = fnmatch.filter(filenames_d, "*.csv")
-    print(current_root == folderpath)
     if current_root == folderpath:
-        print(csv_filenames)
-        print(len(csv_filenames))
         if len(csv_filenames) < 0:
             print >> sys.stderr(""), \
                     "ERROR: need at least one level of nesting " \

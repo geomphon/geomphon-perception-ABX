@@ -1,3 +1,12 @@
+all: triplet-list \
+stimulus_list.csv \
+stimlist/item_meta_information_with_distances.csv \
+stimlist/stimuli_intervals \
+anonymize_data \
+split_output_to_results_files \
+filter_data \
+
+
 tmp:
 	mkdir -p tmp
 
@@ -116,10 +125,10 @@ distances/item_meta_information_with_distances.csv \
 results/geomphon_pilot_results_for_analysis.csv
 
 clean-design:
-	rm design.csv
+	rm stimlist/design.csv
 
 clean-stimulus-list:
-	rm stimulus_list.csv
+	rm stimlist/stimulus_list.csv
 
 clean-distances-tmp:
 	rm -rf distances/tmp
@@ -128,12 +137,18 @@ clean-distances: clean-distances-tmp
 	rm -f distances/distances_*.csv
 
 clean-stimuli-intervals:
-	rm -rf stimuli/stimuli_intervals
+	rm -rf raw_data/stimuli_intervals
 
 clean-stimuli-construction: clean-stimuli-intervals
 
 clean-tmp:
 	rm -rf tmp
+clean-all: clean-design \
+clean-stimulus-list \
+clean-distances-tmp \
+clean-distances \
+clean-stimuli_intervals \
+clean-stimuli-construction
 
 
 
