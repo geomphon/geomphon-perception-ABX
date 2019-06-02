@@ -41,8 +41,14 @@ create_standat <- function(data_file, pos_vars, neg_vars) {
                    x_oth = x_oth,
                    x_u = x_u,
                    x_w = x_w,
-                   N_subj=length(unique(subj_var)),
-                   N_item=length(unique(item_var)))
+                   N_subj = length(unique(subj_var)),
+                   N_item = length(unique(item_var)),
+                   scale_global = 1,
+                   nu_global = 1,
+                   nu_local = 1,
+                   slab_scale = 1,
+                   slab_df = 1
+  )
   
   if ( is.na(neg_vars) & is.na(pos_vars)) {
     print ("No constrained variables: something has gone wrong")
