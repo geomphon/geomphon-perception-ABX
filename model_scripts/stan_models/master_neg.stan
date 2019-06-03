@@ -20,10 +20,17 @@ data {
   matrix[N_obs, N_cf_w] x_w;     // predictors ass. with unmod. item-level var
   
   int accuracy[N_obs];           // DEPENDENT VARIABLE: accuracy
+  /////NEW
+  real<lower=0> scale_global;   // scale for the half-t prior for tau
+  real<lower=1> nu_global;      // degrees of freedom for the half-t prior for tau
+  real<lower=0> nu_local;        // degrees of freedom for the half-t prior for lambdas
+  real<lower=0> slab_scale;      // slab scale for the regularized horseshoe
+  real<lower=0> slab_df;        // slab degrees of freedom for the regularized horseshoe
+
 }
 
 parameters {
-  vector<upper=0>[N_cf_cns_neg] beta_cns_neg; // constrained neg betas
+  vector<lower=0>[N_cf_cns_neg] z; //// constrained neg betas
   vector[N_cf_oth] beta_oth; // unconstrained betas
   
   vector<lower=0> [N_cf_u] sigma_u;   // subject-level sd
