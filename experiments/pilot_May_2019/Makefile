@@ -11,10 +11,10 @@ tmp:
 	mkdir -p tmp
 
 triplet-list: tmp
-	python ../../src/textgrid_to_abx_item_file_word.py sound \
-raw_data/textGrid/Niralee2.TextGrid,wav/Niralee2.wav \
-raw_data/textGrid/rajesh1.TextGrid,wav/rajesh1.wav \
-raw_data/textGrid/rajesh2.TextGrid,wav/rajesh2.wav \
+	python ../../src/textgrid_to_abx_item_file_word.py word \
+raw_data/textGrid/amelia_vowels_ONLY_TARGET_CHECKED.TextGrid,wav/amelia_vowels.wav \
+raw_data/textGrid/amelia_consonants_ONLY_TARGET_CHECKED.TextGrid,wav/amelia_consonants.wav \
+raw_data/textGrid/ewan_ONLY_TARGET_CHECKED.TextGrid,wav/ewan.wav \
 --excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.item \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
 tmp/ABX_ITEM_FILE.item tmp/ABX_ITEM_FILE_COMPLETE.item \
