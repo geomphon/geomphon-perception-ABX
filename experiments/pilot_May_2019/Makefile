@@ -1,7 +1,7 @@
 all: triplet-list \
+stimlist/stimuli_intervals \
 stimulus_list.csv \
 stimlist/item_meta_information_with_distances.csv \
-stimlist/stimuli_intervals \
 anonymize_data \
 split_output_to_results_files \
 filter_data \
@@ -12,9 +12,9 @@ tmp:
 
 triplet-list: tmp
 	python ../../src/textgrid_to_abx_item_file_word.py word \
-raw_data/textGrid/amelia_vowels_ONLY_TARGET_CHECKED.TextGrid,wav/amelia_vowels.wav \
-raw_data/textGrid/amelia_consonants_ONLY_TARGET_CHECKED.TextGrid,wav/amelia_consonants.wav \
-raw_data/textGrid/ewan_ONLY_TARGET_CHECKED.TextGrid,wav/ewan.wav \
+raw_data/textGrid/nirbhay1.TextGrid,raw_data/wav/nirbhay1.wav \
+raw_data/textGrid/nirbhay2.TextGrid,raw_data/wav/nirbhay2.wav \
+raw_data/textGrid/sakshi1.TextGrid,raw_data/wav/sakshi1.wav \
 --excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.item \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
 tmp/ABX_ITEM_FILE.item tmp/ABX_ITEM_FILE_COMPLETE.item \
@@ -95,9 +95,9 @@ distances/distances__*.csv
 stimlist/stimuli_intervals:
 	python stimlist/save_intervals_to_wavs.py word stimlist/stimuli_intervals \
 stimlist/meta_info_filelist.csv \
-raw_data/textGrid/amelia_consonants_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/amelia_consonants.wav \
-raw_data/textGrid/amelia_vowels_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/amelia_vowels.wav \
-raw_data/textGrid/ewan_ONLY_TARGET_CHECKED.TextGrid,raw_data/wav/ewan.wav
+raw_data/textGrid/nirbhay1.TextGrid,raw_data/wav/nirbhay1.wav \
+raw_data/textGrid/nirbhay2.TextGrid,raw_data/wav/nirbhay2.wav \
+raw_data/textGrid/sakshi1.TextGrid,raw_data/wav/sakshi1.wav
 
 #NB- this step ONLY takes absolute paths to raw data files. raw data files contain
 #personally identifiable information and  should never be shared or synced to git 
