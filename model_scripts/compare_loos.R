@@ -13,7 +13,7 @@ mod_pairs<-as.data.frame(mod_pairs)
 
 
 #get subset of pairs in mod pairs where both files exist
-rds_list<- list.files("~/model_scripts/model_scripts/hindi_kab_rds")
+rds_list<- list.files("~/model_scripts/model_scripts/hindi_rds")
 cor_list<-list()
 wrong_list<-list()
 
@@ -35,19 +35,19 @@ done_pairs$correct_model<-done_pairs$cor_list
 
 
 #calculate loos for remaining pairs. 
-rds_folder<-"hindi_kab_rds"
+rds_folder<-"hindi_rds"
 
 correct_model<-list()
 wrong_model<-list() 
 comparison<-list()
 
 
-for (i in 11:15) {
+for (i in 1:nrow(done_pairs)) {
   wrong_mod<-readRDS(paste0(rds_folder,"/",done_pairs$wrong_model[i],".rds"))
   corr_mod<-readRDS(paste0(rds_folder,"/",done_pairs$correct_model[i],".rds"))
-  loo_wrong<-loo(wrong_mod)
-  loo_corr<- loo(corr_mod)
-  comp<-compare(loo_wrong,loo_corr)
+  loo_wrong<-loo::loo(wrong_mod)
+  loo_corr<- loo::loo(corr_mod)
+  comp<-loo::compare(loo_wrong,loo_corr)
   
   correct_model[i]<-paste0(rds_folder,"/",done_pairs$correct_model[i],".rds")
   wrong_model[i]<-paste0(rds_folder,"/",done_pairs$wrong_model[i],".rds")
@@ -55,7 +55,41 @@ for (i in 11:15) {
 }
 
 
-comp_df<-as.data.frame(cbind(correct_model,wrong_model,comparison))
+
+
+
+
+
+#HINDI values
+comparison<-comp_df_hindi$comparison
+
+elpd_diff<-list()
+se<-list()
+
+for (i in 1:length(comparison)){
+  elpd_diff[i]<-unname(comparison[[i]][1])
+  se[i]<-unname(comparison[[i]][2])
+}
+
+hindi_results_df<-as.data.frame(cbind(elpd_diff,se))
+
+write.csv(hindi_results_df,"hindi_results_df.csv")
+
+
+#Hindi kab values 
+comparison_hk<-comp_df$comparison
+
+elpd_diff<-list()
+se<-list()
+
+for (i in 1:length(comparison_hk)){
+  elpd_diff[i]<-unname(comparison_hk[[i]][1])
+  se[i]<-unname(comparison_hk[[i]][2])
+}
+
+hindi_kab_results_df<-as.data.frame(cbind(elpd_diff,se))
+write.csv(hindi_kab_results_df,"hindi_kab_results_df.csv")
+
 
 
 

@@ -27,7 +27,7 @@ readr::write_csv(master_df, path="master_df.csv")
 #create csv dataset#
 ####################
 
-design_df <- readr::read_csv("exp_design_HK_with_acoustic_distance.csv")
+design_df <- readr::read_csv("exp_design_Hindi_with_acoustic_distance.csv")
 colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
 num_subjs = 30 
 num_reps_trials = 2 #number of times the whole design is repeated
@@ -82,7 +82,7 @@ for (i in 1:length(uniq_filenames)){
                                               coef_dist),
                               intercept = 1.3592
                               )
-    readr::write_csv(data_i,paste0("hindi_kab_for_comparison","/",uniq_filenames[i]))
+    readr::write_csv(data_i,paste0("hindi_for_comparison","/",uniq_filenames[i]))
 }
 
 

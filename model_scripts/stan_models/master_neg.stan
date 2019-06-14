@@ -42,6 +42,14 @@ parameters {
   matrix[N_cf_w,N_item] z_w;          // item-level correlation (decomposed)
   
   real sigma_e;                       // residual sd
+  
+  real<lower=0> aux1_global;
+  real<lower=0> aux2_global;
+  vector<lower=0>[N_cf_cns_neg] aux1_local;  //
+  vector<lower=0>[N_cf_cns_neg] aux2_local;  //
+  real<lower=0> caux;
+  
+
 }
 
 transformed parameters {
@@ -92,8 +100,6 @@ model {
   sigma_w ~ normal(0,1);
   
   sigma_e ~ normal(0,10); // between -10 and 10 on log odds scale
-  
-  beta_cns_neg ~ normal(0,10); 
   beta_oth ~ normal(0,10); 
   
   L_u ~ lkj_corr_cholesky(2.0); // uninformative: see ???
