@@ -22,10 +22,7 @@ source(create_standat)
 
 master_df$standat_h<- vector(mode="list", length=nrow(master_df))
 master_df$hindi<- NA
-#TODO:amelia  change this loop to purrr
-#write a fucntion to create this function, 
-#write a function that takes three inputs and then it will stick them in as the three 
-#arguments 
+
 
 
 for (i in 1:nrow(master_df)) {
@@ -40,7 +37,6 @@ for (i in 1:nrow(master_df)) {
                                master_df$csv_filename[i],
                                sep ="/")
                             }
-
 
 
 

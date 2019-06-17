@@ -8,31 +8,25 @@
 ##################
 #create master df#
 ##################
-
-
 create_masterdf<-"create_masterdf_function_pos_neg.R"
 source(create_masterdf)
 master_df<- create_masterdf(vars=c("econ","glob","loc"),
                             coef_vals=c(-1,0,1),
                             num_data_sets = 2)
 
-
-
-
 readr::write_csv(master_df, path="master_df.csv")
-
-
 
 ####################
 #create csv dataset#
 ####################
-
 design_df <- readr::read_csv("exp_design_Hindi_with_acoustic_distance.csv")
 colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
 num_subjs = 30 
-num_reps_trials = 2 #number of times the whole design is repeated
-num_trials = nrow(design_df) * num_reps_trials 
-# FIXME add noise to the repetitions of the acoustic distance 
+
+#set number of trials to 150 for both conditions 
+#num_reps_trials = 2 #number of times the whole design is repeated
+num_trials = 150 #nrow(design_df) * num_reps_trials 
+
 
 subjs<- c()
 for (i in 1:num_subjs) {
@@ -44,21 +38,18 @@ for (i in 1:num_trials) {
   trials[i] = paste("trial",i,sep = "_")
 }
 
-
 subs_trials <- expand.grid(subjs, trials)
 names(subs_trials)<-c("subject","trial")
 
-rep_design<- design_df[rep(seq_len(nrow(design_df)), num_reps_trials*num_subjs), ]
+rep_design<- design_df[rep(seq_len(num_trials),num_subjs), ]
 
 response_var <-c(sample(c(0,1), nrow(rep_design), replace = TRUE))
+#Nb these responses are dummy responses for the moment,but must exist 
+#for the sampling function  #FIXME
 
 full_design <- as.data.frame(cbind(subs_trials,rep_design,response_var))
 
 
-
-#Nb these responses are dummy responses for the moment,but must exist 
-#for the sampling function  
-#FIXME streamline
 
 ######################
 #sample data and save#
@@ -82,7 +73,7 @@ for (i in 1:length(uniq_filenames)){
                                               coef_dist),
                               intercept = 1.3592
                               )
-    readr::write_csv(data_i,paste0("hindi_for_comparison","/",uniq_filenames[i]))
+    readr::write_csv(data_i,paste0("hindi_150","/",uniq_filenames[i]))
 }
 
 
