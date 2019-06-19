@@ -12,9 +12,8 @@ tmp:
 
 triplet-list: tmp
 	python ../../src/textgrid_to_abx_item_file_word.py word \
-raw_data/textGrid/nirbhay1.TextGrid,raw_data/wav/nirbhay1.wav \
-raw_data/textGrid/nirbhay2.TextGrid,raw_data/wav/nirbhay2.wav \
-raw_data/textGrid/sakshi1.TextGrid,raw_data/wav/sakshi1.wav \
+raw_data/textGrid/ \
+raw_data/wav/ \
 --excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.item \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
 tmp/ABX_ITEM_FILE.item tmp/ABX_ITEM_FILE_COMPLETE.item \

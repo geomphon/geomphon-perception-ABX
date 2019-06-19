@@ -8,6 +8,7 @@ from __future__ import print_function
 from textgrid import TextGrid
 import sys, argparse
 import os.path as osp
+import glob
 
 class TextGridError(RuntimeError):
     pass
@@ -48,17 +49,33 @@ def BUILD_ARGPARSE():
             type=str)
     parser.add_argument('tier_name', help="Name of TextGrid tier",
             type=str)
-    parser.add_argument('textgrid_wavfile_pairs',
+    parser.add_argument('textgrid_path',
             help="pairs of filenames, separated by a comma <TextGrid>,<WavFile>",
-            type=str, nargs="+")
+            type=str)
+    parser.add_argument('waveFile_path',
+            help="pairs of filenames, separated by a comma <TextGrid>,<WavFile>",
+            type=str)
+    
     return parser
 
 if __name__ == "__main__":
+    
     parser = BUILD_ARGPARSE()
     args = parser.parse_args(sys.argv[1:])
+    
+    textgrid_wavefile_pairs = []
 
+    mypathTxtGrid = args.textgrid_path + "*.TextGrid"
+    mypathWav = args.waveFile_path + "*.wav"
+
+    listTxtGrid = glob.glob(mypathTxtGrid)
+    listWav = glob.glob(mypathWav)
+
+    for txtGrid, waveFile in zip(listTxtGrid, listWav) :
+        textgrid_wavefile_pairs.append(txtGrid + "," + waveFile)
+        
     print_abx_item_file_header()
-    for tw in args.textgrid_wavfile_pairs:
+    for tw in textgrid_wavefile_pairs:
         try:
             f_tg, f_wav = tw.split(",")
         except ValueError:
