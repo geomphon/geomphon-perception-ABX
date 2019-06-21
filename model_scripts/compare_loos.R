@@ -58,6 +58,20 @@ for (i in 1:nrow(done_pairs)) {
 
 
 
+#HINDI PARED DOWN values
+
+elpd_diff<-list()
+se<-list()
+
+for (i in 1:length(comparison)){
+  elpd_diff[i]<-unname(comparison[[i]][1])
+  se[i]<-unname(comparison[[i]][2])
+}
+
+hindi_pared_results_df<-as.data.frame(cbind(elpd_diff,se))
+hindi_pared_results_df <- apply(hindi_pared_results_df,2,as.character)
+
+write.csv(hindi_pared_results_df,"hindi_results_pared_df.csv")
 
 
 
