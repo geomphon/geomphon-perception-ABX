@@ -1,5 +1,7 @@
 #comapre loos 
 
+RDS_FOLDER<-"~/model_scripts/model_scripts/hindi_pared_down_rds"
+  
 master_df<-readr::read_csv("master_df.csv")
 
 #calculate which pairs are of interest 
@@ -13,7 +15,7 @@ mod_pairs<-as.data.frame(mod_pairs)
 
 
 #get subset of pairs in mod pairs where both files exist
-rds_list<- list.files("~/model_scripts/model_scripts/hindi_rds")
+rds_list<- list.files(RDS_FOLDER)
 cor_list<-list()
 wrong_list<-list()
 
@@ -35,7 +37,7 @@ done_pairs$correct_model<-done_pairs$cor_list
 
 
 #calculate loos for remaining pairs. 
-rds_folder<-"hindi_rds"
+rds_folder<-RDS_FOLDER
 
 correct_model<-list()
 wrong_model<-list() 
