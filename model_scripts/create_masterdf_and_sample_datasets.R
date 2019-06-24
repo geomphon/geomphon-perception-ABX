@@ -19,13 +19,12 @@ readr::write_csv(master_df, path="master_df.csv")
 ####################
 #create csv dataset#
 ####################
-design_df <- readr::read_csv("exp_design_Hindi_with_acoustic_distance.csv")
-colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
+design_df <- readr::read_csv("HK_experiment_pared_down.csv")
+colnames(design_df)[colnames(design_df)=="Acoustic distance category"] <- "acoustic_distance"
 num_subjs = 30 
 
-#set number of trials to 150 for both conditions 
-#num_reps_trials = 2 #number of times the whole design is repeated
-num_trials = 150 #nrow(design_df) * num_reps_trials 
+num_reps_trials = 8 #number of times the whole design is repeated
+num_trials = nrow(design_df) * num_reps_trials 
 
 
 subjs<- c()
@@ -41,14 +40,19 @@ for (i in 1:num_trials) {
 subs_trials <- expand.grid(subjs, trials)
 names(subs_trials)<-c("subject","trial")
 
-rep_design<- design_df[rep(seq_len(num_trials),num_subjs), ]
+rep_design<- design_df[rep(seq_len(nrow(design_df)), num_reps_trials), ]
+
 
 response_var <-c(sample(c(0,1), nrow(rep_design), replace = TRUE))
 #Nb these responses are dummy responses for the moment,but must exist 
-#for the sampling function  #FIXME
+#for the sampling function 
 
 full_design <- as.data.frame(cbind(subs_trials,rep_design,response_var))
 
+######
+#add noise to each repetition of the acoustic distance
+
+full_design$noisy_acoustic_distance<-jitter(full_design$acoustic_distance)
 
 
 ######################
@@ -73,7 +77,7 @@ for (i in 1:length(uniq_filenames)){
                                               coef_dist),
                               intercept = 1.3592
                               )
-    readr::write_csv(data_i,paste0("hindi_150","/",uniq_filenames[i]))
+    readr::write_csv(data_i,paste0("hindi_pared_down","/",uniq_filenames[i]))
 }
 
 

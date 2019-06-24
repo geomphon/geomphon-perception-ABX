@@ -6,12 +6,15 @@ master_df<-readr::read_csv("master_df.csv")
 
 #calculate which pairs are of interest 
 correct_mods<-dplyr::filter(master_df, modelcorrect=="yes")
+
 cor_mod_7<-correct_mods[rep(seq_len(nrow(correct_mods)), each=7),]
+
 correct_model<-cor_mod_7$model_data_name
 wrong_mods<-dplyr::filter(master_df,modelcorrect=="no")
 wrong_model<-wrong_mods$model_data_name
 mod_pairs<-cbind(wrong_model,correct_model)
 mod_pairs<-as.data.frame(mod_pairs)
+
 
 
 #get subset of pairs in mod pairs where both files exist
@@ -76,6 +79,8 @@ write.csv(hindi_pared_results_df,"hindi_results_pared_df.csv")
 
 
 
+
+
 #HINDI values
 comparison<-comp_df_hindi$comparison
 
@@ -90,6 +95,11 @@ for (i in 1:length(comparison)){
 hindi_results_df<-as.data.frame(cbind(elpd_diff,se))
 
 write.csv(hindi_results_df,"hindi_results_df.csv")
+
+
+
+
+
 
 
 #Hindi kab values 
