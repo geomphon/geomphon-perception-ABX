@@ -22,9 +22,12 @@ readr::write_csv(master_df, path="master_df.csv")
 design_df <- readr::read_csv("HK_experiment_pared_down.csv")
 colnames(design_df)[colnames(design_df)=="Acoustic distance category"] <- "acoustic_distance"
 num_subjs = 30 
-
 num_reps_trials = 8 #number of times the whole design is repeated
 num_trials = nrow(design_df) * num_reps_trials 
+# FIXME  have a full design at this point. 
+
+
+
 
 
 subjs<- c()
