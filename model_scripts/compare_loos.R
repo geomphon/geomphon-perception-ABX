@@ -1,6 +1,6 @@
 #comapre loos 
 
-RDS_FOLDER<-"~/model_scripts/model_scripts/hindi_pared_down_rds"
+RDS_FOLDER<-"~/model_scripts/model_scripts/model_output_rds/hindi_144"
   
 master_df<-readr::read_csv("master_df.csv")
 
@@ -39,7 +39,7 @@ done_pairs$correct_model<-done_pairs$cor_list
 
 
 
-#calculate loos for remaining pairs. 
+#calculate loos for done pairs. 
 rds_folder<-RDS_FOLDER
 
 correct_model<-list()
@@ -48,16 +48,92 @@ comparison<-list()
 
 
 for (i in 1:nrow(done_pairs)) {
-  wrong_mod<-readRDS(paste0(rds_folder,"/",done_pairs$wrong_model[i],".rds"))
-  corr_mod<-readRDS(paste0(rds_folder,"/",done_pairs$correct_model[i],".rds"))
+  wrong_mod<-readRDS(paste0(RDS_FOLDER,"/",done_pairs$wrong_model[i],".rds"))
+  corr_mod<-readRDS(paste0(RDS_FOLDER,"/",done_pairs$correct_model[i],".rds"))
   loo_wrong<-loo::loo(wrong_mod)
   loo_corr<- loo::loo(corr_mod)
   comp<-loo::compare(loo_wrong,loo_corr)
   
-  correct_model[i]<-paste0(rds_folder,"/",done_pairs$correct_model[i],".rds")
-  wrong_model[i]<-paste0(rds_folder,"/",done_pairs$wrong_model[i],".rds")
+  correct_model[i]<-paste0(RDS_FOLDER,"/",done_pairs$correct_model[i],".rds")
+  wrong_model[i]<-paste0(RDS_FOLDER,"/",done_pairs$wrong_model[i],".rds")
   comparison[[i]]<-comp
 }
+
+
+
+
+#Hindi kab values 
+comparison_hk<-comp_df$comparison
+
+elpd_diff<-list()
+se<-list()
+
+for (i in 1:length(comparison_hk)){
+  elpd_diff[i]<-unname(comparison_hk[[i]][1])
+  se[i]<-unname(comparison_hk[[i]][2])
+}
+
+hindi_kab_results_df<-as.data.frame(cbind(elpd_diff,se))
+write.csv(hindi_kab_results_df,"hindi_kab_results_df.csv")
+
+full_hk_df<-cbind(comp_df,comp_hk)
+
+
+hk_low_elpds<-subset(full_hk_df, full_hk_df$elpd_diff< -15)
+
+
+
+
+
+
+
+
+
+
+#HINDI values
+comparison<-comp_df_hindi$comparison
+
+elpd_diff<-list()
+se<-list()
+
+for (i in 1:length(comparison)){
+  elpd_diff[i]<-unname(comparison[[i]][1])
+  se[i]<-unname(comparison[[i]][2])
+}
+
+hindi_results_df<-as.data.frame(cbind(elpd_diff,se))
+
+saveRDS(hindi_results_df,"hindi_results_df.RData")
+
+full_hindi_df<-cbind(comp_df_hindi,comp_hindi)
+
+hindi_low_elpds<-subset(full_hindi_df, full_hindi_df$elpd_diff< -10)
+
+saveRDS(hindi_low_elpds, file= "hindi_low_elpds.Rdata")
+
+
+
+
+#Hindi kab values 
+comparison_hk<-comp_df$comparison
+
+elpd_diff<-list()
+se<-list()
+
+for (i in 1:length(comparison_hk)){
+  elpd_diff[i]<-unname(comparison_hk[[i]][1])
+  se[i]<-unname(comparison_hk[[i]][2])
+}
+
+hindi_kab_results_df<-as.data.frame(cbind(elpd_diff,se))
+write.csv(hindi_kab_results_df,"hindi_kab_results_df.csv")
+
+full_hk_df<-cbind(comp_df,comp_hk)
+
+
+hk_low_elpds<-subset(full_hk_df, full_hk_df$elpd_diff< -15)
+
+
 
 
 
@@ -81,40 +157,11 @@ write.csv(hindi_pared_results_df,"hindi_results_pared_df.csv")
 
 
 
-#HINDI values
-comparison<-comp_df_hindi$comparison
-
-elpd_diff<-list()
-se<-list()
-
-for (i in 1:length(comparison)){
-  elpd_diff[i]<-unname(comparison[[i]][1])
-  se[i]<-unname(comparison[[i]][2])
-}
-
-hindi_results_df<-as.data.frame(cbind(elpd_diff,se))
-
-write.csv(hindi_results_df,"hindi_results_df.csv")
 
 
 
 
 
-
-
-#Hindi kab values 
-comparison_hk<-comp_df$comparison
-
-elpd_diff<-list()
-se<-list()
-
-for (i in 1:length(comparison_hk)){
-  elpd_diff[i]<-unname(comparison_hk[[i]][1])
-  se[i]<-unname(comparison_hk[[i]][2])
-}
-
-hindi_kab_results_df<-as.data.frame(cbind(elpd_diff,se))
-write.csv(hindi_kab_results_df,"hindi_kab_results_df.csv")
 
 
 

@@ -1,9 +1,14 @@
 #!/usr/bin/env Rscript
-#last edit Apr 18 2019 by Amelia
+#last edit June 27 2019 by Amelia
 
 
 `%>%`<-magrittr::`%>%`
 
+DATA_SUB_FOLDER <- "sampled_data/hk_144"
+MASTER_OUT_CSV <- "master_df_hk.csv"
+DESIGN_CSV<- "exp_designs/exp_design_hk_144.csv"
+NUM_TRIALS = 144
+NUM_SUBJS = 30 
 
 ##################
 #create master df#
@@ -14,36 +19,34 @@ master_df<- create_masterdf(vars=c("econ","glob","loc"),
                             coef_vals=c(-1,0,1),
                             num_data_sets = 2)
 
-readr::write_csv(master_df, path="master_df.csv")
+readr::write_csv(master_df, path=MASTER_OUT_CSV)
 
 ####################
 #create csv dataset#
 ####################
-design_df <- readr::read_csv("HK_experiment_pared_down.csv")
-colnames(design_df)[colnames(design_df)=="Acoustic distance category"] <- "acoustic_distance"
-num_subjs = 30 
-num_reps_trials = 8 #number of times the whole design is repeated
-num_trials = nrow(design_df) * num_reps_trials 
-# FIXME  have a full design at this point. 
+design_df <- readr::read_csv(DESIGN_CSV)
 
+colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
 
 
 
 
 subjs<- c()
-for (i in 1:num_subjs) {
+for (i in 1:NUM_SUBJS) {
     subjs[i] = paste("subject",i,sep = "_")
 }
 
 trials <- c()
-for (i in 1:num_trials) {
+for (i in 1:NUM_TRIALS) {
   trials[i] = paste("trial",i,sep = "_")
 }
 
 subs_trials <- expand.grid(subjs, trials)
 names(subs_trials)<-c("subject","trial")
 
-rep_design<- design_df[rep(seq_len(nrow(design_df)), num_reps_trials), ]
+#THE BELOW IS JUST a dumb way to do rep_len for a df
+rep_design<- design_df[rep(seq_len(nrow(design_df)), 100), ]
+rep_design <- rep_design[1:(NUM_SUBJS*NUM_TRIALS),c('Phone_NOTENG','Phone_ENG', 'Econ','Loc','Glob','acoustic_distance')]
 
 
 response_var <-c(sample(c(0,1), nrow(rep_design), replace = TRUE))
@@ -51,11 +54,6 @@ response_var <-c(sample(c(0,1), nrow(rep_design), replace = TRUE))
 #for the sampling function 
 
 full_design <- as.data.frame(cbind(subs_trials,rep_design,response_var))
-
-######
-#add noise to each repetition of the acoustic distance
-
-full_design$noisy_acoustic_distance<-jitter(full_design$acoustic_distance)
 
 
 ######################
@@ -68,6 +66,7 @@ coef_dist <- -.1784  #effect of acoustic distance. taken from pilot data
 uniq_filenames <- unique(master_df$csv_filename)
 
 for (i in 1:length(uniq_filenames)){
+  
   data_i <- sample_binary_four(d = full_design,
                               response_var = "response_var",
                               predictor_vars = c("Econ",
@@ -80,7 +79,7 @@ for (i in 1:length(uniq_filenames)){
                                               coef_dist),
                               intercept = 1.3592
                               )
-    readr::write_csv(data_i,paste0("hindi_pared_down","/",uniq_filenames[i]))
+    readr::write_csv(data_i,path = paste0(DATA_SUB_FOLDER,"/",uniq_filenames[i]))
 }
 
 

@@ -1,0 +1,2 @@
+model_name,coef_econ,coef_loc,coef_glob,model_pos_vars,model_neg_vars,data_pos_vars,data_neg_vars,modelcorrect,stanfile,model_data_name,csv_filename,seed,standat_h,hindi
+econ_glob_loc,-1,-1,-1,Econ+Glob+Loc,NA,NA,Econ+Glob+Loc,no,stan_models/master_pos.stan,econ_-1_loc_-1_glob_-1_mod_econ_glob_loc,econ_-1_loc_-1_glob_-1.csv,8666.455529227387,

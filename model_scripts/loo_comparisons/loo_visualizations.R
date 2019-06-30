@@ -1,6 +1,6 @@
 #loo graphs 
 
-hindi_results<-load("comp_df_hindi.RData")
+comp_df<-load("comp_df_hindi.RData")
 hindi_kab_results<-load("comp_df_hindi_kab.Rdata")
 hindi_pared_results<-readr::read_csv("hindi_results_pared_df.csv")
 
@@ -27,6 +27,7 @@ hist(hindi_pared_results$se,xlim=c(0,10),ylim=c(0,100))
 hist(comp_hk$se,xlim=c(0,10),ylim=c(0,100))
 hist(comp_hindi$se,xlim=c(0,10),ylim=c(0,100))
 
+thing <- subset(comp_hindi,comp_hindi$elpd_diff< -10)
 
 
 # Harness the power of rbind list
