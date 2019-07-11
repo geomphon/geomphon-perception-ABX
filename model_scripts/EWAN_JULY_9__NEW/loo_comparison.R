@@ -8,9 +8,10 @@ MODEL_FIT_SUBDIR <- "model_fits"
 
 #' Title
 #'
-#' @param d 
+#' @param d string which starts names of data set columns
 #'
 #' @return
+#' 
 #' @export
 #'
 #' @examples
@@ -168,6 +169,7 @@ loos_for_paired_models <- function(paired_models) {
                                  "econ_-1_loc_-1_glob_0_mod_econ.rds"), 1))
   # --- DEBUG ---
   mfs <- sapply(model_fit_fns, readRDS)
+  #FIXME- return NA for se and Elpd diff if model does not exist
   paired_models$elpd_diff <- NA
   paired_models$se_diff <- NA
   for (i in 1:nrow(paired_models)) {

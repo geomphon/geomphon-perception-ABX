@@ -46,7 +46,8 @@ names(subs_trials)<-c("subject","trial")
 
 #THE BELOW IS JUST a dumb way to do rep_len for a df
 rep_design<- design_df[rep(seq_len(nrow(design_df)), 100), ]
-rep_design <- rep_design[1:(NUM_SUBJS*NUM_TRIALS),c('Phone_NOTENG','Phone_ENG', 'Econ','Loc','Glob','acoustic_distance')]
+rep_design <- rep_design[1:(NUM_SUBJS*NUM_TRIALS),
+                         c('Phone_NOTENG','Phone_ENG', 'Econ','Loc','Glob','acoustic_distance')]
 
 
 response_var <-c(sample(c(0,1), nrow(rep_design), replace = TRUE))

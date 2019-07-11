@@ -1,6 +1,7 @@
 #fit_and_save_stan_mod
 
 #' fit and save a stan mod 
+#' 
 #'
 #' @param stan_model_filename 
 #' @param standat 
