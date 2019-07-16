@@ -3,12 +3,16 @@
 
 
 `%>%`<-magrittr::`%>%`
+EXPERIMENT_NAME<- "hk"
+DATA_INSTANCE <- "dinst1"
+MASTER_OUT_CSV <- "EWAN_JULY_9__NEW/master_df_hk.csv"
 
 DATA_SUB_FOLDER <- "sampled_data/hk_144"
-MASTER_OUT_CSV <- "master_df_hk.csv"
 DESIGN_CSV<- "exp_designs/exp_design_hk_144.csv"
 NUM_TRIALS = 144
 NUM_SUBJS = 30 
+
+
 
 ##################
 #create master df#
@@ -16,9 +20,15 @@ NUM_SUBJS = 30
 create_masterdf<-"create_masterdf_function_pos_neg.R"
 source(create_masterdf)
 master_df<- create_masterdf(vars=c("econ","glob","loc"),
-                            coef_vals=c(-1,0,1))
+                            coef_vals=c(-1,0,1),
+                            exp_name= EXPERIMENT_NAME,
+                            data_inst= DATA_INSTANCE)
+                            
 
 readr::write_csv(master_df, path=MASTER_OUT_CSV)
+
+
+
 
 ####################
 #create csv dataset#
