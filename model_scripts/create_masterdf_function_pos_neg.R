@@ -5,9 +5,6 @@
 #'@param vars vector of strings of names of each variable
 #'@param coef_vals vector of numeric values to be used as coefficients for 
 #'         each variable 
-#' @param num_data_sets  number of dfs to be sampled for each coef value
-#'     (sampling occurs in a different script)
-#
 #' @return data frame 
 #' 
 #' 
@@ -111,10 +108,6 @@ df_mods$modelcorrect<-dplyr::case_when(df_mods$model_pos_vars == df_mods$data_po
                               )
   
   
-  #multiply the whole thing by the number of datasets wanted. 
- full_df<- zoo::coredata(df_mods)[rep(seq(nrow(df_mods)),num_data_sets),]
- full_df<-do.call("rbind", replicate(num_data_sets, df_mods, simplify = FALSE))
- 
 
  
  #add seed column 
