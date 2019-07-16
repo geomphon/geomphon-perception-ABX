@@ -12,15 +12,12 @@
 #'
 
 
-create_masterdf <- function(vars, coef_vals,num_data_sets) {
+create_masterdf <- function(vars, coef_vals) {
   if (!is.vector(vars)) {
     stop("vars must be a list")
   }
   if (!is.vector(coef_vals)) {
     stop("coef_vals must be a list")
-  }
-  if (!is.numeric(num_data_sets)) {
-    stop("num_data_sets must be numeric")
   }
   
   df<-expand.grid(coef_vals,coef_vals,coef_vals)
