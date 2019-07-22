@@ -1,0 +1,2 @@
+file_TGT,onset_TGT,offset_TGT,item_TGT,word_TGT,speaker_TGT,CV_TGT,context_TGT,phone_TGT,file_OTH,onset_OTH,offset_OTH,item_OTH,word_OTH,speaker_OTH,CV_OTH,context_OTH,phone_OTH,file_X,onset_X,offset_X,item_X,word_X,speaker_X,CV_X,context_X,phone_X
+raw_data/wav/Fbhavya1.wav,14.51,14.98,Fbhavya1_1,AKA,Fbhavya1,C,I,k,raw_data/wav/Mrajesh2.wav,38.65,39.07,Mrajesh2_4,AKHA,Mrajesh2,C,I,kæ¡,raw_data/wav/Mrajesh1.wav,370.91,371.32,Mrajesh1_93,AHHA,Mrajesh1,C,I,ƒ_

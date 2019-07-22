@@ -28,8 +28,8 @@ INPUT <- ARGS[1]
 # in the stimulus information table in the columns starting with
 # "file_" (file_X, file_TGT, file_OTH):
 # e.g., "/Users/emd/Science/_data/TIMIT/timit/TIMIT/"
-FILE_PREFIX <- paste0(ARGS[2], "/")
-
+#FILE_PREFIX <- paste0(ARGS[2], "/")
+FILE_PREFIX <- paste0("")
 # Name of output file 
 # e.g., "pairs.csv"
 OUTPUT <- ARGS[3]

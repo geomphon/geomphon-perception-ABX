@@ -424,507 +424,435 @@ raw_data/wav/Mrajesh1.wav,424.600000,425.010000,Mrajesh1_105,ARTA,Mrajesh1,C,I,�
 raw_data/wav/Mrajesh1.wav,429.850000,430.270000,Mrajesh1_106,ANRA,Mrajesh1,C,I,ɳ
 raw_data/wav/Mrajesh1.wav,433.420000,433.810000,Mrajesh1_107,ANRA,Mrajesh1,C,I,ɳ
 raw_data/wav/Mrajesh1.wav,436.760000,437.170000,Mrajesh1_108,ANRA,Mrajesh1,C,I,ɳ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,12.125850,12.442460,Fhanna_enligsh_hindi_context_1,AKA,Fhanna,C,I,k
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,14.060000,14.430000,Fhanna_enligsh_hindi_context_2,AKA,Fhanna,C,I,k
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,16.190000,16.570000,Fhanna_enligsh_hindi_context_3,AKA,Fhanna,C,I,k
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,20.360000,20.760000,Fhanna_enligsh_hindi_context_4,AKHA,Fhanna,C,I,kʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,22.680000,23.060000,Fhanna_enligsh_hindi_context_5,AKHA,Fhanna,C,I,kʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,25.030000,25.450000,Fhanna_enligsh_hindi_context_6,AKHA,Fhanna,C,I,kʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,37.540000,37.970000,Fhanna_enligsh_hindi_context_10,AGHA,Fhanna,C,I,ɡʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,39.590000,39.960000,Fhanna_enligsh_hindi_context_11,AGHA,Fhanna,C,I,ɡʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,41.590000,41.970000,Fhanna_enligsh_hindi_context_12,AGHA,Fhanna,C,I,ɡʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,45.720000,46.120000,Fhanna_enligsh_hindi_context_13,ATXA,Fhanna,C,I,t͡ʃ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,48.030000,48.420000,Fhanna_enligsh_hindi_context_14,ATXA,Fhanna,C,I,t͡ʃ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,50.440000,50.810000,Fhanna_enligsh_hindi_context_15,ATXA,Fhanna,C,I,t͡ʃ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,54.460000,54.830000,Fhanna_enligsh_hindi_context_16,ATXHA,Fhanna,C,I,t͡ʃʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,56.580000,56.960000,Fhanna_enligsh_hindi_context_17,ATXHA,Fhanna,C,I,t͡ʃʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,58.670000,59.040000,Fhanna_enligsh_hindi_context_18,ATXHA,Fhanna,C,I,t͡ʃʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,62.920000,63.310000,Fhanna_enligsh_hindi_context_19,ADXA,Fhanna,C,I,d͡ʒ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,65.260000,65.600000,Fhanna_enligsh_hindi_context_20,ADXA,Fhanna,C,I,d͡ʒ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,67.450000,67.790000,Fhanna_enligsh_hindi_context_21,ADXA,Fhanna,C,I,d͡ʒ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,71.490000,71.890000,Fhanna_enligsh_hindi_context_22,AZA,Fhanna,C,I,z
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,73.850000,74.240000,Fhanna_enligsh_hindi_context_23,AZA,Fhanna,C,I,z
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,76.340000,76.720000,Fhanna_enligsh_hindi_context_24,AZA,Fhanna,C,I,z
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,81.750000,82.110000,Fhanna_enligsh_hindi_context_25,ADXHA,Fhanna,C,I,d͡ʒʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,83.870000,84.230000,Fhanna_enligsh_hindi_context_26,ADXHA,Fhanna,C,I,d͡ʒʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,85.850000,86.210000,Fhanna_enligsh_hindi_context_27,ADXHA,Fhanna,C,I,d͡ʒʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,89.438720,89.770000,Fhanna_enligsh_hindi_context_28,ATRA,Fhanna,C,I,ʈ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,91.623530,91.930000,Fhanna_enligsh_hindi_context_29,ATRA,Fhanna,C,I,ʈ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,93.583000,93.880000,Fhanna_enligsh_hindi_context_30,ATRA,Fhanna,C,I,ʈ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,97.680000,98.060000,Fhanna_enligsh_hindi_context_31,ATRHA,Fhanna,C,I,ʈʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,99.890000,100.290000,Fhanna_enligsh_hindi_context_32,ATRHA,Fhanna,C,I,ʈʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,102.050000,102.480000,Fhanna_enligsh_hindi_context_33,ATRHA,Fhanna,C,I,ʈʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,106.320000,106.700000,Fhanna_enligsh_hindi_context_34,ADRA,Fhanna,C,I,ɖ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,108.320000,108.650000,Fhanna_enligsh_hindi_context_35,ADRA,Fhanna,C,I,ɖ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,110.324750,110.620000,Fhanna_enligsh_hindi_context_36,ADRA,Fhanna,C,I,ɖ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,114.603780,114.940000,Fhanna_enligsh_hindi_context_37,ADRHA,Fhanna,C,I,ɖʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,116.650000,117.020900,Fhanna_enligsh_hindi_context_38,ADRHA,Fhanna,C,I,ɖʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,118.760000,119.120000,Fhanna_enligsh_hindi_context_39,ADRHA,Fhanna,C,I,ɖʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,122.860000,123.230000,Fhanna_enligsh_hindi_context_40,ATA,Fhanna,C,I,t
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,129.430000,129.790000,Fhanna_enligsh_hindi_context_41,ATA,Fhanna,C,I,t
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,131.610000,131.970000,Fhanna_enligsh_hindi_context_42,ATA,Fhanna,C,I,t
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,133.540000,133.900000,Fhanna_enligsh_hindi_context_43,ATA,Fhanna,C,I,t
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,137.210000,137.590000,Fhanna_enligsh_hindi_context_44,ATHA,Fhanna,C,I,tʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,139.310000,139.700000,Fhanna_enligsh_hindi_context_45,ATHA,Fhanna,C,I,tʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,141.250000,141.640000,Fhanna_enligsh_hindi_context_46,ATHA,Fhanna,C,I,tʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,145.140000,145.490000,Fhanna_enligsh_hindi_context_47,ADA,Fhanna,C,I,d
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,147.020000,147.320000,Fhanna_enligsh_hindi_context_48,ADA,Fhanna,C,I,d
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,148.780000,149.130000,Fhanna_enligsh_hindi_context_49,ADA,Fhanna,C,I,d
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,153.453950,153.795810,Fhanna_enligsh_hindi_context_50,ADHA,Fhanna,C,I,dʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,155.341850,155.682890,Fhanna_enligsh_hindi_context_51,ADHA,Fhanna,C,I,dʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,157.228640,157.520000,Fhanna_enligsh_hindi_context_52,ADHA,Fhanna,C,I,dʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,161.160000,161.540000,Fhanna_enligsh_hindi_context_53,ANA,Fhanna,C,I,n
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,163.060000,163.430000,Fhanna_enligsh_hindi_context_54,ANA,Fhanna,C,I,n
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,165.040000,165.390000,Fhanna_enligsh_hindi_context_55,ANA,Fhanna,C,I,n
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,168.640000,169.030000,Fhanna_enligsh_hindi_context_56,ABA,Fhanna,C,I,b
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,170.470000,170.860000,Fhanna_enligsh_hindi_context_57,ABA,Fhanna,C,I,b
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,172.330000,172.700000,Fhanna_enligsh_hindi_context_58,ABA,Fhanna,C,I,b
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,176.680000,177.070000,Fhanna_enligsh_hindi_context_59,APHA,Fhanna,C,I,pʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,178.690000,179.070000,Fhanna_enligsh_hindi_context_60,APHA,Fhanna,C,I,pʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,180.570000,180.960000,Fhanna_enligsh_hindi_context_61,APHA,Fhanna,C,I,pʰ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,184.360000,184.730000,Fhanna_enligsh_hindi_context_62,ABA,Fhanna,C,I,b
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,186.270000,186.640000,Fhanna_enligsh_hindi_context_63,ABA,Fhanna,C,I,b
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,188.240000,188.600000,Fhanna_enligsh_hindi_context_64,ABA,Fhanna,C,I,b
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,192.060000,192.440000,Fhanna_enligsh_hindi_context_65,ABHA,Fhanna,C,I,bʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,194.150000,194.520000,Fhanna_enligsh_hindi_context_66,ABHA,Fhanna,C,I,bʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,196.170000,196.560000,Fhanna_enligsh_hindi_context_67,ABHA,Fhanna,C,I,bʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,199.700000,200.060000,Fhanna_enligsh_hindi_context_68,AMA,Fhanna,C,I,m
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,201.880000,202.270000,Fhanna_enligsh_hindi_context_69,AMA,Fhanna,C,I,m
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,203.850000,204.220000,Fhanna_enligsh_hindi_context_70,AMA,Fhanna,C,I,m
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,208.240000,208.610000,Fhanna_enligsh_hindi_context_71,AJA,Fhanna,C,I,j
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,210.430000,210.780000,Fhanna_enligsh_hindi_context_72,AJA,Fhanna,C,I,j
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,212.430000,212.760000,Fhanna_enligsh_hindi_context_73,AJA,Fhanna,C,I,j
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,216.720000,217.060000,Fhanna_enligsh_hindi_context_74,ARA,Fhanna,C,I,ɾ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,218.690000,219.030000,Fhanna_enligsh_hindi_context_75,ARA,Fhanna,C,I,ɾ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,220.600000,220.940000,Fhanna_enligsh_hindi_context_76,ARA,Fhanna,C,I,ɾ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,225.520000,225.860000,Fhanna_enligsh_hindi_context_77,ALA,Fhanna,C,I,l
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,227.580000,227.900000,Fhanna_enligsh_hindi_context_78,ALA,Fhanna,C,I,l
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,229.700000,230.050000,Fhanna_enligsh_hindi_context_79,ALA,Fhanna,C,I,l
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,233.930000,234.270000,Fhanna_enligsh_hindi_context_80,AVA,Fhanna,C,I,NA
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,235.950070,236.240000,Fhanna_enligsh_hindi_context_81,AVA,Fhanna,C,I,NA
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,237.790000,238.110000,Fhanna_enligsh_hindi_context_82,AVA,Fhanna,C,I,NA
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,241.570000,241.920000,Fhanna_enligsh_hindi_context_83,AXA,Fhanna,C,I,ʃ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,243.450000,243.810000,Fhanna_enligsh_hindi_context_84,AXA,Fhanna,C,I,ʃ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,245.250000,245.580000,Fhanna_enligsh_hindi_context_85,AXA,Fhanna,C,I,ʃ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,248.680000,249.030000,Fhanna_enligsh_hindi_context_86,AXRA,Fhanna,C,I,ʂ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,250.540000,250.880000,Fhanna_enligsh_hindi_context_87,AXRA,Fhanna,C,I,ʂ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,252.400000,252.750000,Fhanna_enligsh_hindi_context_88,AXRA,Fhanna,C,I,ʂ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,256.550000,256.940000,Fhanna_enligsh_hindi_context_89,ASA,Fhanna,C,I,s
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,258.550000,258.920000,Fhanna_enligsh_hindi_context_90,ASA,Fhanna,C,I,s
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,260.440000,260.810000,Fhanna_enligsh_hindi_context_91,ASA,Fhanna,C,I,s
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,264.580000,264.960000,Fhanna_enligsh_hindi_context_92,AHHA,Fhanna,C,I,ɦ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,266.470000,266.800000,Fhanna_enligsh_hindi_context_93,AHHA,Fhanna,C,I,ɦ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,268.290000,268.600000,Fhanna_enligsh_hindi_context_94,AHHA,Fhanna,C,I,ɦ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,272.270000,272.610000,Fhanna_enligsh_hindi_context_95,ARRA,Fhanna,C,I,ɣ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,274.120000,274.480000,Fhanna_enligsh_hindi_context_96,ARRA,Fhanna,C,I,ɣ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,276.050000,276.400000,Fhanna_enligsh_hindi_context_97,ARRA,Fhanna,C,I,ɣ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,279.870000,280.250000,Fhanna_enligsh_hindi_context_98,ARHA,Fhanna,C,I,x
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,281.750000,282.160000,Fhanna_enligsh_hindi_context_99,ARHA,Fhanna,C,I,x
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,283.770000,284.150000,Fhanna_enligsh_hindi_context_100,ARHA,Fhanna,C,I,x
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,287.440000,287.750000,Fhanna_enligsh_hindi_context_101,ARTHA,Fhanna,C,I,ɽʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,289.470000,289.750000,Fhanna_enligsh_hindi_context_102,ARTHA,Fhanna,C,I,ɽʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,291.180000,291.490000,Fhanna_enligsh_hindi_context_103,ARTHA,Fhanna,C,I,ɽʱ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,296.000000,296.310000,Fhanna_enligsh_hindi_context_104,ARTA,Fhanna,C,I,ɽ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,298.080000,298.380000,Fhanna_enligsh_hindi_context_105,ARTA,Fhanna,C,I,ɽ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,299.970000,300.280000,Fhanna_enligsh_hindi_context_106,ARTA,Fhanna,C,I,ɽ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,304.180000,304.530000,Fhanna_enligsh_hindi_context_107,ANRA,Fhanna,C,I,ɳ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,306.410000,306.740000,Fhanna_enligsh_hindi_context_108,ANRA,Fhanna,C,I,ɳ
-raw_data/wav/Fhanna_enligsh_hindi_context.wav,308.630000,308.950000,Fhanna_enligsh_hindi_context_109,ANRA,Fhanna,C,I,ɳ
-raw_data/wav/FNiralee2.wav,12.202300,12.506370,FNiralee2_1,AKA,FNiralee2,C,I,k
-raw_data/wav/FNiralee2.wav,13.730000,14.170000,FNiralee2_2,AKA,FNiralee2,C,I,k
-raw_data/wav/FNiralee2.wav,15.370000,15.780000,FNiralee2_3,AKA,FNiralee2,C,I,k
-raw_data/wav/FNiralee2.wav,19.160000,19.620000,FNiralee2_4,AKHA,FNiralee2,C,I,kʰ
-raw_data/wav/FNiralee2.wav,20.870000,21.350000,FNiralee2_5,AKHA,FNiralee2,C,I,kʰ
-raw_data/wav/FNiralee2.wav,22.530000,22.990000,FNiralee2_6,AKHA,FNiralee2,C,I,kʰ
-raw_data/wav/FNiralee2.wav,34.080000,34.520000,FNiralee2_10,AGHA,FNiralee2,C,I,ɡʱ
-raw_data/wav/FNiralee2.wav,35.710000,36.210000,FNiralee2_11,AGHA,FNiralee2,C,I,ɡʱ
-raw_data/wav/FNiralee2.wav,37.540000,37.900000,FNiralee2_12,AGHA,FNiralee2,C,I,ɡʱ
-raw_data/wav/FNiralee2.wav,41.100000,41.460000,FNiralee2_13,ATXA,FNiralee2,C,I,t͡ʃ
-raw_data/wav/FNiralee2.wav,42.790000,43.130000,FNiralee2_14,ATXA,FNiralee2,C,I,t͡ʃ
-raw_data/wav/FNiralee2.wav,44.520000,44.850000,FNiralee2_15,ATXA,FNiralee2,C,I,t͡ʃ
-raw_data/wav/FNiralee2.wav,48.850000,49.130000,FNiralee2_16,ATXHA,FNiralee2,C,I,t͡ʃʰ
-raw_data/wav/FNiralee2.wav,50.570000,50.830000,FNiralee2_17,ATXHA,FNiralee2,C,I,t͡ʃʰ
-raw_data/wav/FNiralee2.wav,52.300000,52.550000,FNiralee2_18,ATXHA,FNiralee2,C,I,t͡ʃʰ
-raw_data/wav/FNiralee2.wav,56.650000,56.890000,FNiralee2_19,ADXA,FNiralee2,C,I,d͡ʒ
-raw_data/wav/FNiralee2.wav,58.390000,58.630000,FNiralee2_20,ADXA,FNiralee2,C,I,d͡ʒ
-raw_data/wav/FNiralee2.wav,60.005100,60.310000,FNiralee2_21,ADXA,FNiralee2,C,I,d͡ʒ
-raw_data/wav/FNiralee2.wav,64.180000,64.520000,FNiralee2_22,AZA,FNiralee2,C,I,z
-raw_data/wav/FNiralee2.wav,65.890000,66.240000,FNiralee2_23,AZA,FNiralee2,C,I,z
-raw_data/wav/FNiralee2.wav,67.670000,68.020000,FNiralee2_24,AZA,FNiralee2,C,I,z
-raw_data/wav/FNiralee2.wav,74.730000,74.990000,FNiralee2_25,ADXHA,FNiralee2,C,I,d͡ʒʱ
-raw_data/wav/FNiralee2.wav,76.510000,76.770000,FNiralee2_26,ADXHA,FNiralee2,C,I,d͡ʒʱ
-raw_data/wav/FNiralee2.wav,78.280000,78.550000,FNiralee2_27,ADXHA,FNiralee2,C,I,d͡ʒʱ
-raw_data/wav/FNiralee2.wav,81.946270,82.350000,FNiralee2_28,ATRA,FNiralee2,C,I,ʈ
-raw_data/wav/FNiralee2.wav,83.563570,84.020000,FNiralee2_29,ATRA,FNiralee2,C,I,ʈ
-raw_data/wav/FNiralee2.wav,85.330000,85.800000,FNiralee2_30,ATRA,FNiralee2,C,I,ʈ
-raw_data/wav/FNiralee2.wav,89.100000,89.570000,FNiralee2_31,ATRHA,FNiralee2,C,I,ʈʰ
-raw_data/wav/FNiralee2.wav,90.850000,91.360000,FNiralee2_32,ATRHA,FNiralee2,C,I,ʈʰ
-raw_data/wav/FNiralee2.wav,92.802230,93.200000,FNiralee2_33,ATRHA,FNiralee2,C,I,ʈʰ
-raw_data/wav/FNiralee2.wav,96.647200,97.080000,FNiralee2_34,ADRA,FNiralee2,C,I,ɖ
-raw_data/wav/FNiralee2.wav,98.427750,98.850000,FNiralee2_35,ADRA,FNiralee2,C,I,ɖ
-raw_data/wav/FNiralee2.wav,100.177090,100.550000,FNiralee2_36,ADRA,FNiralee2,C,I,ɖ
-raw_data/wav/FNiralee2.wav,103.759130,104.120000,FNiralee2_37,ADRHA,FNiralee2,C,I,ɖʱ
-raw_data/wav/FNiralee2.wav,105.499030,105.910000,FNiralee2_38,ADRHA,FNiralee2,C,I,ɖʱ
-raw_data/wav/FNiralee2.wav,107.150000,107.660000,FNiralee2_39,ADRHA,FNiralee2,C,I,ɖʱ
-raw_data/wav/FNiralee2.wav,111.130000,111.630000,FNiralee2_40,ATA,FNiralee2,C,I,t
-raw_data/wav/FNiralee2.wav,112.970000,113.450000,FNiralee2_41,ATA,FNiralee2,C,I,t
-raw_data/wav/FNiralee2.wav,114.780000,115.200000,FNiralee2_42,ATA,FNiralee2,C,I,t
-raw_data/wav/FNiralee2.wav,119.070000,119.590000,FNiralee2_43,ATHA,FNiralee2,C,I,tʰ
-raw_data/wav/FNiralee2.wav,120.850000,121.360000,FNiralee2_44,ATHA,FNiralee2,C,I,tʰ
-raw_data/wav/FNiralee2.wav,122.774740,123.140000,FNiralee2_45,ATHA,FNiralee2,C,I,tʰ
-raw_data/wav/FNiralee2.wav,127.000000,127.290000,FNiralee2_46,ADA,FNiralee2,C,I,d
-raw_data/wav/FNiralee2.wav,128.820000,129.070000,FNiralee2_47,ADA,FNiralee2,C,I,d
-raw_data/wav/FNiralee2.wav,130.570000,130.820000,FNiralee2_48,ADA,FNiralee2,C,I,d
-raw_data/wav/FNiralee2.wav,137.980000,138.280000,FNiralee2_49,ADHA,FNiralee2,C,I,dʱ
-raw_data/wav/FNiralee2.wav,139.820000,140.110000,FNiralee2_50,ADHA,FNiralee2,C,I,dʱ
-raw_data/wav/FNiralee2.wav,141.400000,141.880000,FNiralee2_51,ADHA,FNiralee2,C,I,dʱ
-raw_data/wav/FNiralee2.wav,145.460000,145.880000,FNiralee2_52,ANA,FNiralee2,C,I,n
-raw_data/wav/FNiralee2.wav,147.200000,147.640000,FNiralee2_53,ANA,FNiralee2,C,I,n
-raw_data/wav/FNiralee2.wav,148.980000,149.410000,FNiralee2_54,ANA,FNiralee2,C,I,n
-raw_data/wav/FNiralee2.wav,153.070000,153.550000,FNiralee2_55,APA,FNiralee2,C,I,p
-raw_data/wav/FNiralee2.wav,154.850000,155.330000,FNiralee2_56,APA,FNiralee2,C,I,p
-raw_data/wav/FNiralee2.wav,156.690000,157.050000,FNiralee2_57,APA,FNiralee2,C,I,p
-raw_data/wav/FNiralee2.wav,161.480000,161.870000,FNiralee2_58,APHA,FNiralee2,C,I,pʰ
-raw_data/wav/FNiralee2.wav,163.260000,163.690000,FNiralee2_59,APHA,FNiralee2,C,I,pʰ
-raw_data/wav/FNiralee2.wav,164.960000,165.430000,FNiralee2_60,APHA,FNiralee2,C,I,pʰ
-raw_data/wav/FNiralee2.wav,168.910000,169.350000,FNiralee2_61,ABA,FNiralee2,C,I,b
-raw_data/wav/FNiralee2.wav,170.670000,171.120000,FNiralee2_62,ABA,FNiralee2,C,I,b
-raw_data/wav/FNiralee2.wav,172.420000,172.870000,FNiralee2_63,ABA,FNiralee2,C,I,b
-raw_data/wav/FNiralee2.wav,176.500000,176.980000,FNiralee2_64,ABHA,FNiralee2,C,I,bʱ
-raw_data/wav/FNiralee2.wav,178.290000,178.720000,FNiralee2_65,ABHA,FNiralee2,C,I,bʱ
-raw_data/wav/FNiralee2.wav,180.100000,180.530000,FNiralee2_66,ABHA,FNiralee2,C,I,bʱ
-raw_data/wav/FNiralee2.wav,183.930000,184.380000,FNiralee2_67,AMA,FNiralee2,C,I,m
-raw_data/wav/FNiralee2.wav,185.670000,186.080000,FNiralee2_68,AMA,FNiralee2,C,I,m
-raw_data/wav/FNiralee2.wav,187.510000,187.880000,FNiralee2_69,AMA,FNiralee2,C,I,m
-raw_data/wav/FNiralee2.wav,191.090000,191.540000,FNiralee2_70,AJA,FNiralee2,C,I,j
-raw_data/wav/FNiralee2.wav,192.900000,193.320000,FNiralee2_71,AJA,FNiralee2,C,I,j
-raw_data/wav/FNiralee2.wav,194.630000,195.050000,FNiralee2_72,AJA,FNiralee2,C,I,j
-raw_data/wav/FNiralee2.wav,198.330000,198.750000,FNiralee2_73,ARA,FNiralee2,C,I,ɾ
-raw_data/wav/FNiralee2.wav,200.090000,200.530000,FNiralee2_74,ARA,FNiralee2,C,I,ɾ
-raw_data/wav/FNiralee2.wav,201.860000,202.320000,FNiralee2_75,ARA,FNiralee2,C,I,ɾ
-raw_data/wav/FNiralee2.wav,205.573070,205.920000,FNiralee2_76,ALA,FNiralee2,C,I,l
-raw_data/wav/FNiralee2.wav,207.394270,207.720000,FNiralee2_77,ALA,FNiralee2,C,I,l
-raw_data/wav/FNiralee2.wav,209.228020,209.530000,FNiralee2_78,ALA,FNiralee2,C,I,l
-raw_data/wav/FNiralee2.wav,213.166000,213.500000,FNiralee2_79,AVLA,FNiralee2,C,I,ʋ
-raw_data/wav/FNiralee2.wav,214.968990,215.290000,FNiralee2_80,AVLA,FNiralee2,C,I,ʋ
-raw_data/wav/FNiralee2.wav,216.750000,217.040000,FNiralee2_81,AVLA,FNiralee2,C,I,ʋ
-raw_data/wav/FNiralee2.wav,223.340000,223.700000,FNiralee2_82,AXA,FNiralee2,C,I,ʃ
-raw_data/wav/FNiralee2.wav,225.140000,225.510000,FNiralee2_83,AXA,FNiralee2,C,I,ʃ
-raw_data/wav/FNiralee2.wav,226.960000,227.290000,FNiralee2_84,AXA,FNiralee2,C,I,ʃ
-raw_data/wav/FNiralee2.wav,231.200000,231.550000,FNiralee2_85,AXRA,FNiralee2,C,I,ʂ
-raw_data/wav/FNiralee2.wav,232.920000,233.300000,FNiralee2_86,AXRA,FNiralee2,C,I,ʂ
-raw_data/wav/FNiralee2.wav,234.590000,235.030000,FNiralee2_87,AXRA,FNiralee2,C,I,ʂ
-raw_data/wav/FNiralee2.wav,238.410000,238.870000,FNiralee2_88,ASA,FNiralee2,C,I,s
-raw_data/wav/FNiralee2.wav,240.120000,240.590000,FNiralee2_89,ASA,FNiralee2,C,I,s
-raw_data/wav/FNiralee2.wav,241.850000,242.280000,FNiralee2_90,ASA,FNiralee2,C,I,s
-raw_data/wav/FNiralee2.wav,244.910000,245.350000,FNiralee2_91,AHHA,FNiralee2,C,I,ɦ
-raw_data/wav/FNiralee2.wav,246.780000,247.160000,FNiralee2_92,AHHA,FNiralee2,C,I,ɦ
-raw_data/wav/FNiralee2.wav,248.430000,248.840000,FNiralee2_93,AHHA,FNiralee2,C,I,ɦ
-raw_data/wav/FNiralee2.wav,252.150000,252.620000,FNiralee2_94,ARRA,FNiralee2,C,I,ɣ
-raw_data/wav/FNiralee2.wav,253.950000,254.410000,FNiralee2_95,ARRA,FNiralee2,C,I,ɣ
-raw_data/wav/FNiralee2.wav,255.750000,256.210000,FNiralee2_96,ARRA,FNiralee2,C,I,ɣ
-raw_data/wav/FNiralee2.wav,260.330000,260.840000,FNiralee2_97,ARHA,FNiralee2,C,I,x
-raw_data/wav/FNiralee2.wav,262.110000,262.590000,FNiralee2_98,ARHA,FNiralee2,C,I,x
-raw_data/wav/FNiralee2.wav,264.028130,264.420000,FNiralee2_99,ARHA,FNiralee2,C,I,x
-raw_data/wav/FNiralee2.wav,269.870000,270.370000,FNiralee2_100,ARTHA,FNiralee2,C,I,ɽʱ
-raw_data/wav/FNiralee2.wav,271.690000,272.170000,FNiralee2_101,ARTHA,FNiralee2,C,I,ɽʱ
-raw_data/wav/FNiralee2.wav,273.521610,273.930000,FNiralee2_102,ARTHA,FNiralee2,C,I,ɽʱ
-raw_data/wav/FNiralee2.wav,277.664950,278.030000,FNiralee2_103,ARTA,FNiralee2,C,I,ɽ
-raw_data/wav/FNiralee2.wav,279.440960,279.820000,FNiralee2_104,ARTA,FNiralee2,C,I,ɽ
-raw_data/wav/FNiralee2.wav,281.334750,281.580000,FNiralee2_105,ARTA,FNiralee2,C,I,ɽ
-raw_data/wav/FNiralee2.wav,284.200000,284.570000,FNiralee2_106,ANRA,FNiralee2,C,I,ɳ
-raw_data/wav/FNiralee2.wav,285.937370,286.280000,FNiralee2_107,ANRA,FNiralee2,C,I,ɳ
-raw_data/wav/FNiralee2.wav,287.667600,287.972760,FNiralee2_108,ANRA,FNiralee2,C,I,ɳ
-raw_data/wav/FNiralee1.wav,39.810000,40.340000,FNiralee1_1,AKA,FNiralee1,C,I,k
-raw_data/wav/FNiralee1.wav,41.960000,42.430000,FNiralee1_2,AKA,FNiralee1,C,I,k
-raw_data/wav/FNiralee1.wav,44.020000,44.530000,FNiralee1_3,AKA,FNiralee1,C,I,k
-raw_data/wav/FNiralee1.wav,63.840000,64.370000,FNiralee1_4,AKHA,FNiralee1,C,I,kʰ
-raw_data/wav/FNiralee1.wav,65.940370,66.420000,FNiralee1_5,AKHA,FNiralee1,C,I,kʰ
-raw_data/wav/FNiralee1.wav,68.018530,68.471030,FNiralee1_6,AKHA,FNiralee1,C,I,kʰ
-raw_data/wav/FNiralee1.wav,103.909450,104.435220,FNiralee1_10,AGHA,FNiralee1,C,I,ɡʱ
-raw_data/wav/FNiralee1.wav,106.026010,106.551780,FNiralee1_11,AGHA,FNiralee1,C,I,ɡʱ
-raw_data/wav/FNiralee1.wav,108.180000,108.660000,FNiralee1_12,AGHA,FNiralee1,C,I,ɡʱ
-raw_data/wav/FNiralee1.wav,123.767370,124.216390,FNiralee1_13,ATXA,FNiralee1,C,I,t͡ʃ
-raw_data/wav/FNiralee1.wav,125.830000,126.300000,FNiralee1_14,ATXA,FNiralee1,C,I,t͡ʃ
-raw_data/wav/FNiralee1.wav,127.910000,128.400000,FNiralee1_15,ATXA,FNiralee1,C,I,t͡ʃ
-raw_data/wav/FNiralee1.wav,141.906680,142.390000,FNiralee1_16,ATXHA,FNiralee1,C,I,t͡ʃʰ
-raw_data/wav/FNiralee1.wav,144.065730,144.530000,FNiralee1_17,ATXHA,FNiralee1,C,I,t͡ʃʰ
-raw_data/wav/FNiralee1.wav,146.140920,146.630000,FNiralee1_18,ATXHA,FNiralee1,C,I,t͡ʃʰ
-raw_data/wav/FNiralee1.wav,160.050000,160.510000,FNiralee1_19,ADXA,FNiralee1,C,I,d͡ʒ
-raw_data/wav/FNiralee1.wav,162.099090,162.640000,FNiralee1_20,ADXA,FNiralee1,C,I,d͡ʒ
-raw_data/wav/FNiralee1.wav,164.240000,164.800000,FNiralee1_21,ADXA,FNiralee1,C,I,d͡ʒ
-raw_data/wav/FNiralee1.wav,186.700000,187.210000,FNiralee1_22,AZA,FNiralee1,C,I,z
-raw_data/wav/FNiralee1.wav,188.850000,189.380000,FNiralee1_23,AZA,FNiralee1,C,I,z
-raw_data/wav/FNiralee1.wav,191.050960,191.470000,FNiralee1_24,AZA,FNiralee1,C,I,z
-raw_data/wav/FNiralee1.wav,215.885610,216.300000,FNiralee1_25,ADXA,FNiralee1,C,I,d͡ʒ
-raw_data/wav/FNiralee1.wav,217.871500,218.300000,FNiralee1_26,ADXA,FNiralee1,C,I,d͡ʒ
-raw_data/wav/FNiralee1.wav,219.890000,220.360000,FNiralee1_27,ADXA,FNiralee1,C,I,d͡ʒ
-raw_data/wav/FNiralee1.wav,236.440000,236.910000,FNiralee1_28,ATRA,FNiralee1,C,I,ʈ
-raw_data/wav/FNiralee1.wav,238.617890,239.050000,FNiralee1_29,ATRA,FNiralee1,C,I,ʈ
-raw_data/wav/FNiralee1.wav,240.700000,241.160000,FNiralee1_30,ATRA,FNiralee1,C,I,ʈ
-raw_data/wav/FNiralee1.wav,256.270000,256.820630,FNiralee1_31,ATRHA,FNiralee1,C,I,ʈʰ
-raw_data/wav/FNiralee1.wav,258.340000,258.840000,FNiralee1_32,ATRHA,FNiralee1,C,I,ʈʰ
-raw_data/wav/FNiralee1.wav,260.530000,261.050000,FNiralee1_33,ATRHA,FNiralee1,C,I,ʈʰ
-raw_data/wav/FNiralee1.wav,276.220000,276.690000,FNiralee1_34,ADRA,FNiralee1,C,I,ɖ
-raw_data/wav/FNiralee1.wav,278.340000,278.800000,FNiralee1_35,ADRA,FNiralee1,C,I,ɖ
-raw_data/wav/FNiralee1.wav,280.460000,280.910000,FNiralee1_36,ADRA,FNiralee1,C,I,ɖ
-raw_data/wav/FNiralee1.wav,295.770000,296.290000,FNiralee1_37,ADRHA,FNiralee1,C,I,ɖʱ
-raw_data/wav/FNiralee1.wav,297.880000,298.350000,FNiralee1_38,ADRHA,FNiralee1,C,I,ɖʱ
-raw_data/wav/FNiralee1.wav,299.970000,300.500230,FNiralee1_39,ADRHA,FNiralee1,C,I,ɖʱ
-raw_data/wav/FNiralee1.wav,315.407620,315.870000,FNiralee1_40,ATA,FNiralee1,C,I,t
-raw_data/wav/FNiralee1.wav,317.744890,318.220000,FNiralee1_41,ATA,FNiralee1,C,I,t
-raw_data/wav/FNiralee1.wav,319.950000,320.420000,FNiralee1_42,ADHA,FNiralee1,C,I,dʱ
-raw_data/wav/FNiralee1.wav,334.370000,334.840000,FNiralee1_43,ATA,FNiralee1,C,I,t
-raw_data/wav/FNiralee1.wav,336.520000,336.980000,FNiralee1_44,ATA,FNiralee1,C,I,t
-raw_data/wav/FNiralee1.wav,338.660000,339.340000,FNiralee1_45,ATA,FNiralee1,C,I,t
-raw_data/wav/FNiralee1.wav,354.505400,354.985720,FNiralee1_46,ATHA,FNiralee1,C,I,tʰ
-raw_data/wav/FNiralee1.wav,356.627710,357.140050,FNiralee1_47,ATHA,FNiralee1,C,I,tʰ
-raw_data/wav/FNiralee1.wav,358.690000,359.240000,FNiralee1_48,ATHA,FNiralee1,C,I,tʰ
-raw_data/wav/FNiralee1.wav,372.660000,373.150000,FNiralee1_49,ADA,FNiralee1,C,I,d
-raw_data/wav/FNiralee1.wav,374.710000,375.220000,FNiralee1_50,ADA,FNiralee1,C,I,d
-raw_data/wav/FNiralee1.wav,376.850000,377.410000,FNiralee1_51,ADA,FNiralee1,C,I,d
-raw_data/wav/FNiralee1.wav,397.230000,397.745690,FNiralee1_52,ADHA,FNiralee1,C,I,dʱ
-raw_data/wav/FNiralee1.wav,399.393430,399.801960,FNiralee1_53,ADHA,FNiralee1,C,I,dʱ
-raw_data/wav/FNiralee1.wav,401.572600,402.090080,FNiralee1_54,ADHA,FNiralee1,C,I,dʱ
-raw_data/wav/FNiralee1.wav,416.850000,417.280000,FNiralee1_55,ANA,FNiralee1,C,I,n
-raw_data/wav/FNiralee1.wav,418.992190,419.420000,FNiralee1_56,ANA,FNiralee1,C,I,n
-raw_data/wav/FNiralee1.wav,421.135220,421.580000,FNiralee1_57,ANA,FNiralee1,C,I,n
-raw_data/wav/FNiralee1.wav,437.950000,438.380000,FNiralee1_58,APA,FNiralee1,C,I,p
-raw_data/wav/FNiralee1.wav,439.992150,440.500000,FNiralee1_59,APA,FNiralee1,C,I,p
-raw_data/wav/FNiralee1.wav,442.471460,442.950000,FNiralee1_60,APA,FNiralee1,C,I,p
-raw_data/wav/FNiralee1.wav,456.756640,457.240000,FNiralee1_61,APHA,FNiralee1,C,I,pʰ
-raw_data/wav/FNiralee1.wav,458.968150,459.500000,FNiralee1_62,APHA,FNiralee1,C,I,pʰ
-raw_data/wav/FNiralee1.wav,461.133600,461.642830,FNiralee1_63,APHA,FNiralee1,C,I,pʰ
-raw_data/wav/FNiralee1.wav,474.983250,475.430820,FNiralee1_64,ABA,FNiralee1,C,I,b
-raw_data/wav/FNiralee1.wav,476.925710,477.400140,FNiralee1_65,ABA,FNiralee1,C,I,b
-raw_data/wav/FNiralee1.wav,479.065110,479.548490,FNiralee1_66,ABA,FNiralee1,C,I,b
-raw_data/wav/FNiralee1.wav,494.673210,495.247200,FNiralee1_67,ABHA,FNiralee1,C,I,bʱ
-raw_data/wav/FNiralee1.wav,496.926130,497.370980,FNiralee1_68,ABHA,FNiralee1,C,I,bʱ
-raw_data/wav/FNiralee1.wav,499.064260,499.509110,FNiralee1_69,ABHA,FNiralee1,C,I,bʱ
-raw_data/wav/FNiralee1.wav,523.436800,523.889950,FNiralee1_70,AMA,FNiralee1,C,I,m
-raw_data/wav/FNiralee1.wav,525.680940,526.177240,FNiralee1_71,AMA,FNiralee1,C,I,m
-raw_data/wav/FNiralee1.wav,527.968230,528.421370,FNiralee1_72,AMA,FNiralee1,C,I,m
-raw_data/wav/FNiralee1.wav,540.997800,541.472520,FNiralee1_73,AJA,FNiralee1,C,I,j
-raw_data/wav/FNiralee1.wav,543.112460,543.544030,FNiralee1_74,AJA,FNiralee1,C,I,j
-raw_data/wav/FNiralee1.wav,545.205550,545.701850,FNiralee1_75,AJA,FNiralee1,C,I,j
-raw_data/wav/FNiralee1.wav,587.544020,587.972470,FNiralee1_76,ARA,FNiralee1,C,I,ɾ
-raw_data/wav/FNiralee1.wav,589.618600,590.047040,FNiralee1_77,ARA,FNiralee1,C,I,ɾ
-raw_data/wav/FNiralee1.wav,591.670620,592.144160,FNiralee1_78,ARA,FNiralee1,C,I,ɾ
-raw_data/wav/FNiralee1.wav,605.325070,605.798610,FNiralee1_79,ALA,FNiralee1,C,I,l
-raw_data/wav/FNiralee1.wav,607.422190,607.873180,FNiralee1_80,ALA,FNiralee1,C,I,l
-raw_data/wav/FNiralee1.wav,609.519310,610.015400,FNiralee1_81,ALA,FNiralee1,C,I,l
-raw_data/wav/FNiralee1.wav,630.626410,631.111350,FNiralee1_82,AVLA,FNiralee1,C,I,ʋ
-raw_data/wav/FNiralee1.wav,632.957860,633.461450,FNiralee1_83,AVLA,FNiralee1,C,I,ʋ
-raw_data/wav/FNiralee1.wav,635.270660,635.718300,FNiralee1_84,AVLA,FNiralee1,C,I,ʋ
-raw_data/wav/FNiralee1.wav,647.290680,647.794270,FNiralee1_85,AXA,FNiralee1,C,I,ʃ
-raw_data/wav/FNiralee1.wav,651.711110,652.401220,FNiralee1_86,AXA,FNiralee1,C,I,ʃ
-raw_data/wav/FNiralee1.wav,666.424640,666.949310,FNiralee1_87,AXRA,FNiralee1,C,I,ʂ
-raw_data/wav/FNiralee1.wav,668.523320,669.047990,FNiralee1_88,AXRA,FNiralee1,C,I,ʂ
-raw_data/wav/FNiralee1.wav,670.796900,671.242070,FNiralee1_89,AXRA,FNiralee1,C,I,ʂ
-raw_data/wav/FNiralee1.wav,693.870800,694.391740,FNiralee1_90,ASA,FNiralee1,C,I,s
-raw_data/wav/FNiralee1.wav,696.103400,696.609460,FNiralee1_91,ASA,FNiralee1,C,I,s
-raw_data/wav/FNiralee1.wav,698.365770,698.812290,FNiralee1_92,ASA,FNiralee1,C,I,s
-raw_data/wav/FNiralee1.wav,710.857170,711.370690,FNiralee1_93,AHHA,FNiralee1,C,I,ɦ
-raw_data/wav/FNiralee1.wav,713.116660,713.630190,FNiralee1_94,AHHA,FNiralee1,C,I,ɦ
-raw_data/wav/FNiralee1.wav,715.260620,715.748460,FNiralee1_95,AHHA,FNiralee1,C,I,ɦ
-raw_data/wav/FNiralee1.wav,767.992580,768.538310,FNiralee1_96,ARRA,FNiralee1,C,I,ɣ
-raw_data/wav/FNiralee1.wav,770.209620,770.823570,FNiralee1_97,ARRA,FNiralee1,C,I,ɣ
-raw_data/wav/FNiralee1.wav,772.426660,773.006500,FNiralee1_98,ARRA,FNiralee1,C,I,ɣ
-raw_data/wav/FNiralee1.wav,786.561580,787.055310,FNiralee1_99,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,788.635260,789.326490,FNiralee1_100,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,791.029880,791.474240,FNiralee1_101,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,837.453870,837.962480,FNiralee1_102,ARHA,FNiralee1,C,I,x
-raw_data/wav/FNiralee1.wav,839.623920,840.149470,FNiralee1_103,ARHA,FNiralee1,C,I,x
-raw_data/wav/FNiralee1.wav,841.827870,842.336470,FNiralee1_104,ARHA,FNiralee1,C,I,x
-raw_data/wav/FNiralee1.wav,855.177370,855.651700,FNiralee1_105,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,857.356990,857.828290,FNiralee1_106,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,859.600400,860.071700,FNiralee1_107,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,887.904660,888.382480,FNiralee1_108,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,889.966850,890.469830,FNiralee1_109,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,892.532020,892.934400,FNiralee1_110,ARTHA,FNiralee1,C,I,ɽʱ
-raw_data/wav/FNiralee1.wav,904.834400,905.261930,FNiralee1_111,ARTA,FNiralee1,C,I,ɽ
-raw_data/wav/FNiralee1.wav,906.997190,907.449870,FNiralee1_112,ARTA,FNiralee1,C,I,ɽ
-raw_data/wav/FNiralee1.wav,909.059390,909.486910,FNiralee1_113,ARTA,FNiralee1,C,I,ɽ
-raw_data/wav/FNiralee1.wav,922.521650,923.010800,FNiralee1_114,ANRA,FNiralee1,C,I,ɳ
-raw_data/wav/FNiralee1.wav,924.600550,925.040790,FNiralee1_115,ANRA,FNiralee1,C,I,ɳ
-raw_data/wav/FNiralee1.wav,926.752820,927.193060,FNiralee1_116,ANRA,FNiralee1,C,I,ɳ
-raw_data/wav/Fsakshi1.wav,9.430000,9.850000,Fsakshi1_1,AKA,Fsakshi1,C,I,k
-raw_data/wav/Fsakshi1.wav,11.180000,11.670000,Fsakshi1_2,AKA,Fsakshi1,C,I,k
-raw_data/wav/Fsakshi1.wav,13.120000,13.580000,Fsakshi1_3,AKA,Fsakshi1,C,I,k
-raw_data/wav/Fsakshi1.wav,25.880000,26.387620,Fsakshi1_4,AKHA,Fsakshi1,C,I,kʰ
-raw_data/wav/Fsakshi1.wav,27.760000,28.240000,Fsakshi1_5,AKHA,Fsakshi1,C,I,kʰ
-raw_data/wav/Fsakshi1.wav,29.650000,30.120000,Fsakshi1_6,AKHA,Fsakshi1,C,I,kʰ
-raw_data/wav/Fsakshi1.wav,62.668570,63.119560,Fsakshi1_10,AGHA,Fsakshi1,C,I,ɡʱ
-raw_data/wav/Fsakshi1.wav,64.515490,65.009440,Fsakshi1_11,AGHA,Fsakshi1,C,I,ɡʱ
-raw_data/wav/Fsakshi1.wav,66.420000,66.860000,Fsakshi1_12,AGHA,Fsakshi1,C,I,ɡʱ
-raw_data/wav/Fsakshi1.wav,82.382480,82.854950,Fsakshi1_13,ATXA,Fsakshi1,C,I,t͡ʃ
-raw_data/wav/Fsakshi1.wav,84.370000,84.880000,Fsakshi1_14,ATXA,Fsakshi1,C,I,t͡ʃ
-raw_data/wav/Fsakshi1.wav,86.527320,87.021260,Fsakshi1_15,ATXA,Fsakshi1,C,I,t͡ʃ
-raw_data/wav/Fsakshi1.wav,103.610000,104.070000,Fsakshi1_16,ATXHA,Fsakshi1,C,I,t͡ʃʰ
-raw_data/wav/Fsakshi1.wav,105.580000,106.040000,Fsakshi1_17,ATXHA,Fsakshi1,C,I,t͡ʃʰ
-raw_data/wav/Fsakshi1.wav,107.510000,107.970000,Fsakshi1_18,ATXHA,Fsakshi1,C,I,t͡ʃʰ
-raw_data/wav/Fsakshi1.wav,124.840000,125.290000,Fsakshi1_19,ADXA,Fsakshi1,C,I,d͡ʒ
-raw_data/wav/Fsakshi1.wav,126.890000,127.320000,Fsakshi1_20,ADXA,Fsakshi1,C,I,d͡ʒ
-raw_data/wav/Fsakshi1.wav,129.031320,129.510000,Fsakshi1_21,ADXA,Fsakshi1,C,I,d͡ʒ
-raw_data/wav/Fsakshi1.wav,145.455920,145.540000,Fsakshi1_22,AZA,Fsakshi1,C,I,z
-raw_data/wav/Fsakshi1.wav,147.148690,147.630000,Fsakshi1_23,AZA,Fsakshi1,C,I,z
-raw_data/wav/Fsakshi1.wav,149.460000,149.990000,Fsakshi1_24,AZA,Fsakshi1,C,I,z
-raw_data/wav/Fsakshi1.wav,166.780000,167.270000,Fsakshi1_25,ADXHA,Fsakshi1,C,I,d͡ʒʱ
-raw_data/wav/Fsakshi1.wav,168.790000,169.239840,Fsakshi1_26,ADXHA,Fsakshi1,C,I,d͡ʒʱ
-raw_data/wav/Fsakshi1.wav,170.716600,171.280000,Fsakshi1_27,ADXHA,Fsakshi1,C,I,d͡ʒʱ
-raw_data/wav/Fsakshi1.wav,189.611120,190.007860,Fsakshi1_28,ATRA,Fsakshi1,C,I,ʈ
-raw_data/wav/Fsakshi1.wav,191.550000,191.971040,Fsakshi1_29,ATRA,Fsakshi1,C,I,ʈ
-raw_data/wav/Fsakshi1.wav,193.690000,194.098350,Fsakshi1_30,ATRA,Fsakshi1,C,I,ʈ
-raw_data/wav/Fsakshi1.wav,210.150000,210.610000,Fsakshi1_31,ATRHA,Fsakshi1,C,I,ʈʰ
-raw_data/wav/Fsakshi1.wav,212.140000,212.590000,Fsakshi1_32,ATRHA,Fsakshi1,C,I,ʈʰ
-raw_data/wav/Fsakshi1.wav,214.240000,214.680000,Fsakshi1_33,ATRHA,Fsakshi1,C,I,ʈʰ
-raw_data/wav/Fsakshi1.wav,231.250000,231.660000,Fsakshi1_34,ADRA,Fsakshi1,C,I,ɖ
-raw_data/wav/Fsakshi1.wav,233.080000,233.540000,Fsakshi1_35,ADRA,Fsakshi1,C,I,ɖ
-raw_data/wav/Fsakshi1.wav,234.996840,235.420000,Fsakshi1_36,ADRA,Fsakshi1,C,I,ɖ
-raw_data/wav/Fsakshi1.wav,252.078890,252.580000,Fsakshi1_37,ADRHA,Fsakshi1,C,I,ɖʱ
-raw_data/wav/Fsakshi1.wav,254.090000,254.560000,Fsakshi1_38,ADRHA,Fsakshi1,C,I,ɖʱ
-raw_data/wav/Fsakshi1.wav,256.088740,256.600000,Fsakshi1_39,ADRHA,Fsakshi1,C,I,ɖʱ
-raw_data/wav/Fsakshi1.wav,273.250140,273.690000,Fsakshi1_40,ATA,Fsakshi1,C,I,t
-raw_data/wav/Fsakshi1.wav,275.226820,275.680000,Fsakshi1_41,ATA,Fsakshi1,C,I,t
-raw_data/wav/Fsakshi1.wav,277.220000,277.690000,Fsakshi1_42,ATA,Fsakshi1,C,I,t
-raw_data/wav/Fsakshi1.wav,294.290000,294.780000,Fsakshi1_43,ATHA,Fsakshi1,C,I,tʰ
-raw_data/wav/Fsakshi1.wav,296.390000,296.974030,Fsakshi1_44,ATHA,Fsakshi1,C,I,tʰ
-raw_data/wav/Fsakshi1.wav,298.860000,299.310000,Fsakshi1_45,ATHA,Fsakshi1,C,I,tʰ
-raw_data/wav/Fsakshi1.wav,314.520000,314.980000,Fsakshi1_46,ADA,Fsakshi1,C,I,d
-raw_data/wav/Fsakshi1.wav,316.690000,317.120000,Fsakshi1_47,ADA,Fsakshi1,C,I,d
-raw_data/wav/Fsakshi1.wav,318.830000,319.320000,Fsakshi1_48,ADA,Fsakshi1,C,I,d
-raw_data/wav/Fsakshi1.wav,335.740000,336.180000,Fsakshi1_49,ADHA,Fsakshi1,C,I,dʱ
-raw_data/wav/Fsakshi1.wav,337.760000,338.250000,Fsakshi1_50,ADHA,Fsakshi1,C,I,dʱ
-raw_data/wav/Fsakshi1.wav,339.930000,340.450000,Fsakshi1_51,ADHA,Fsakshi1,C,I,dʱ
-raw_data/wav/Fsakshi1.wav,358.670000,359.100000,Fsakshi1_52,ANA,Fsakshi1,C,I,n
-raw_data/wav/Fsakshi1.wav,361.270000,361.780000,Fsakshi1_53,ANA,Fsakshi1,C,I,n
-raw_data/wav/Fsakshi1.wav,364.110000,364.630000,Fsakshi1_54,ANA,Fsakshi1,C,I,n
-raw_data/wav/Fsakshi1.wav,378.950000,379.380000,Fsakshi1_55,APA,Fsakshi1,C,I,p
-raw_data/wav/Fsakshi1.wav,381.200000,381.700000,Fsakshi1_56,APA,Fsakshi1,C,I,p
-raw_data/wav/Fsakshi1.wav,383.650000,384.120000,Fsakshi1_57,APA,Fsakshi1,C,I,p
-raw_data/wav/Fsakshi1.wav,402.090000,402.520000,Fsakshi1_58,APHA,Fsakshi1,C,I,pʰ
-raw_data/wav/Fsakshi1.wav,404.260000,404.761500,Fsakshi1_59,APHA,Fsakshi1,C,I,pʰ
-raw_data/wav/Fsakshi1.wav,406.490000,406.999920,Fsakshi1_60,APHA,Fsakshi1,C,I,pʰ
-raw_data/wav/Fsakshi1.wav,425.999050,426.440000,Fsakshi1_61,ABA,Fsakshi1,C,I,b
-raw_data/wav/Fsakshi1.wav,428.280000,428.740000,Fsakshi1_62,ABA,Fsakshi1,C,I,b
-raw_data/wav/Fsakshi1.wav,430.660000,431.245910,Fsakshi1_63,ABA,Fsakshi1,C,I,b
-raw_data/wav/Fsakshi1.wav,445.968350,446.470000,Fsakshi1_64,ABHA,Fsakshi1,C,I,bʱ
-raw_data/wav/Fsakshi1.wav,448.350000,448.850000,Fsakshi1_65,ABHA,Fsakshi1,C,I,bʱ
-raw_data/wav/Fsakshi1.wav,450.960000,451.500000,Fsakshi1_66,ABHA,Fsakshi1,C,I,bʱ
-raw_data/wav/Fsakshi1.wav,468.900000,469.360000,Fsakshi1_67,AMA,Fsakshi1,C,I,m
-raw_data/wav/Fsakshi1.wav,471.500000,471.890000,Fsakshi1_68,AMA,Fsakshi1,C,I,m
-raw_data/wav/Fsakshi1.wav,474.390000,474.840000,Fsakshi1_69,AMA,Fsakshi1,C,I,m
-raw_data/wav/Fsakshi1.wav,491.135450,491.560000,Fsakshi1_70,AJA,Fsakshi1,C,I,j
-raw_data/wav/Fsakshi1.wav,493.500000,493.930000,Fsakshi1_71,AJA,Fsakshi1,C,I,j
-raw_data/wav/Fsakshi1.wav,495.760000,496.280000,Fsakshi1_72,AJA,Fsakshi1,C,I,j
-raw_data/wav/Fsakshi1.wav,513.822990,514.226130,Fsakshi1_73,ARA,Fsakshi1,C,I,ɾ
-raw_data/wav/Fsakshi1.wav,516.580000,516.960000,Fsakshi1_74,ARA,Fsakshi1,C,I,ɾ
-raw_data/wav/Fsakshi1.wav,519.870000,520.250000,Fsakshi1_75,ARA,Fsakshi1,C,I,ɾ
-raw_data/wav/Fsakshi1.wav,537.030000,537.470000,Fsakshi1_76,ALA,Fsakshi1,C,I,l
-raw_data/wav/Fsakshi1.wav,539.620000,540.040000,Fsakshi1_77,ALA,Fsakshi1,C,I,l
-raw_data/wav/Fsakshi1.wav,542.560000,542.980000,Fsakshi1_78,ALA,Fsakshi1,C,I,l
-raw_data/wav/Fsakshi1.wav,559.510000,559.970000,Fsakshi1_79,AVLA,Fsakshi1,C,I,ʋ
-raw_data/wav/Fsakshi1.wav,562.110000,562.540000,Fsakshi1_80,AVLA,Fsakshi1,C,I,ʋ
-raw_data/wav/Fsakshi1.wav,564.810000,565.220000,Fsakshi1_81,AVLA,Fsakshi1,C,I,ʋ
-raw_data/wav/Fsakshi1.wav,580.213260,580.700000,Fsakshi1_82,AXA,Fsakshi1,C,I,ʃ
-raw_data/wav/Fsakshi1.wav,583.110000,583.556020,Fsakshi1_83,AXA,Fsakshi1,C,I,ʃ
-raw_data/wav/Fsakshi1.wav,585.950000,586.390000,Fsakshi1_84,AXA,Fsakshi1,C,I,ʃ
-raw_data/wav/Fsakshi1.wav,606.880000,607.330910,Fsakshi1_85,AXRA,Fsakshi1,C,I,ʂ
-raw_data/wav/Fsakshi1.wav,609.077880,609.570000,Fsakshi1_86,AXRA,Fsakshi1,C,I,ʂ
-raw_data/wav/Fsakshi1.wav,611.513560,612.010000,Fsakshi1_87,AXRA,Fsakshi1,C,I,ʂ
-raw_data/wav/Fsakshi1.wav,629.529810,629.980000,Fsakshi1_88,ASA,Fsakshi1,C,I,s
-raw_data/wav/Fsakshi1.wav,631.925260,632.412960,Fsakshi1_89,ASA,Fsakshi1,C,I,s
-raw_data/wav/Fsakshi1.wav,634.492850,635.037920,Fsakshi1_90,ASA,Fsakshi1,C,I,s
-raw_data/wav/Fsakshi1.wav,650.389520,650.868330,Fsakshi1_91,AHHA,Fsakshi1,C,I,ɦ
-raw_data/wav/Fsakshi1.wav,652.912460,653.428090,Fsakshi1_92,AHHA,Fsakshi1,C,I,ɦ
-raw_data/wav/Fsakshi1.wav,655.803700,656.319340,Fsakshi1_93,AHHA,Fsakshi1,C,I,ɦ
-raw_data/wav/Fsakshi1.wav,672.698360,673.195580,Fsakshi1_94,ARRA,Fsakshi1,C,I,ɣ
-raw_data/wav/Fsakshi1.wav,675.092380,675.626430,Fsakshi1_95,ARRA,Fsakshi1,C,I,ɣ
-raw_data/wav/Fsakshi1.wav,677.578490,678.296690,Fsakshi1_96,ARRA,Fsakshi1,C,I,ɣ
-raw_data/wav/Fsakshi1.wav,695.994630,696.528680,Fsakshi1_97,ARHA,Fsakshi1,C,I,x
-raw_data/wav/Fsakshi1.wav,698.535980,698.996370,Fsakshi1_98,ARHA,Fsakshi1,C,I,x
-raw_data/wav/Fsakshi1.wav,701.408810,701.850780,Fsakshi1_99,ARHA,Fsakshi1,C,I,x
-raw_data/wav/Fsakshi1.wav,718.056600,718.572240,Fsakshi1_100,ARTHA,Fsakshi1,C,I,ɽʱ
-raw_data/wav/Fsakshi1.wav,720.395380,721.003090,Fsakshi1_101,ARTHA,Fsakshi1,C,I,ɽʱ
-raw_data/wav/Fsakshi1.wav,722.955150,723.544450,Fsakshi1_102,ARTHA,Fsakshi1,C,I,ɽʱ
-raw_data/wav/Fsakshi1.wav,737.921550,738.400350,Fsakshi1_103,ARTA,Fsakshi1,C,I,ɽ
-raw_data/wav/Fsakshi1.wav,740.168250,740.647060,Fsakshi1_104,ARTA,Fsakshi1,C,I,ɽ
-raw_data/wav/Fsakshi1.wav,742.470200,742.985840,Fsakshi1_105,ARTA,Fsakshi1,C,I,ɽ
-raw_data/wav/Fsakshi1.wav,758.738930,759.217740,Fsakshi1_106,ANRA,Fsakshi1,C,I,ɳ
-raw_data/wav/Fsakshi1.wav,761.169790,761.667010,Fsakshi1_107,ANRA,Fsakshi1,C,I,ɳ
-raw_data/wav/Fsakshi1.wav,763.840050,764.318860,Fsakshi1_108,ANRA,Fsakshi1,C,I,ɳ
-raw_data/wav/Mnirbhay2.wav,7.400000,7.980000,Mnirbhay2_1,APA,Mnirbhay2,C,I,p
-raw_data/wav/Mnirbhay2.wav,9.670000,10.270000,Mnirbhay2_2,APA,Mnirbhay2,C,I,p
-raw_data/wav/Mnirbhay2.wav,11.796210,12.280000,Mnirbhay2_3,APA,Mnirbhay2,C,I,p
-raw_data/wav/Mnirbhay2.wav,13.685900,14.180000,Mnirbhay2_4,APA,Mnirbhay2,C,I,p
-raw_data/wav/Mnirbhay2.wav,16.170230,16.650000,Mnirbhay2_5,ABA,Mnirbhay2,C,I,b
-raw_data/wav/Mnirbhay2.wav,18.054400,18.650000,Mnirbhay2_6,ABA,Mnirbhay2,C,I,b
-raw_data/wav/Mnirbhay2.wav,19.968960,20.470000,Mnirbhay2_7,ABA,Mnirbhay2,C,I,b
-raw_data/wav/Mnirbhay2.wav,22.571670,23.060000,Mnirbhay2_8,AMA,Mnirbhay2,C,I,m
-raw_data/wav/Mnirbhay2.wav,24.450000,25.000000,Mnirbhay2_9,AMA,Mnirbhay2,C,I,m
-raw_data/wav/Mnirbhay2.wav,26.350000,26.920000,Mnirbhay2_10,AMA,Mnirbhay2,C,I,m
-raw_data/wav/Mnirbhay2.wav,30.370000,30.810000,Mnirbhay2_11,AMA,Mnirbhay2,C,I,m
-raw_data/wav/Mnirbhay2.wav,33.000000,33.570000,Mnirbhay2_12,AFA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,34.890000,35.430000,Mnirbhay2_13,AFA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,36.770000,37.340000,Mnirbhay2_14,AFA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,39.313010,39.830000,Mnirbhay2_15,AVA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,41.220790,41.760000,Mnirbhay2_16,AVA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,43.173170,43.720000,Mnirbhay2_17,AVA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,45.910000,46.440000,Mnirbhay2_18,ATA,Mnirbhay2,C,I,t
-raw_data/wav/Mnirbhay2.wav,47.758300,48.260000,Mnirbhay2_19,ATA,Mnirbhay2,C,I,t
-raw_data/wav/Mnirbhay2.wav,49.790000,50.250000,Mnirbhay2_20,ATA,Mnirbhay2,C,I,t
-raw_data/wav/Mnirbhay2.wav,52.390720,52.880000,Mnirbhay2_21,ADA,Mnirbhay2,C,I,d
-raw_data/wav/Mnirbhay2.wav,54.292030,54.800000,Mnirbhay2_22,ADA,Mnirbhay2,C,I,d
-raw_data/wav/Mnirbhay2.wav,56.250640,56.750000,Mnirbhay2_23,ADA,Mnirbhay2,C,I,d
-raw_data/wav/Mnirbhay2.wav,59.160000,59.650000,Mnirbhay2_24,ANA,Mnirbhay2,C,I,n
-raw_data/wav/Mnirbhay2.wav,61.080000,61.510000,Mnirbhay2_25,ANA,Mnirbhay2,C,I,n
-raw_data/wav/Mnirbhay2.wav,63.050000,63.520000,Mnirbhay2_26,ANA,Mnirbhay2,C,I,n
-raw_data/wav/Mnirbhay2.wav,65.714810,66.280000,Mnirbhay2_27,ARA,Mnirbhay2,C,I,ɾ
-raw_data/wav/Mnirbhay2.wav,67.701360,68.190000,Mnirbhay2_28,ARA,Mnirbhay2,C,I,ɾ
-raw_data/wav/Mnirbhay2.wav,70.380000,70.870000,Mnirbhay2_29,ARA,Mnirbhay2,C,I,ɾ
-raw_data/wav/Mnirbhay2.wav,72.370000,72.910000,Mnirbhay2_30,ARA,Mnirbhay2,C,I,ɾ
-raw_data/wav/Mnirbhay2.wav,77.730000,78.330000,Mnirbhay2_31,ADHA,Mnirbhay2,C,I,dʱ
-raw_data/wav/Mnirbhay2.wav,79.730000,80.250000,Mnirbhay2_32,ATHA,Mnirbhay2,C,I,tʰ
-raw_data/wav/Mnirbhay2.wav,81.686870,82.160000,Mnirbhay2_33,ATHA,Mnirbhay2,C,I,tʰ
-raw_data/wav/Mnirbhay2.wav,83.580000,84.090000,Mnirbhay2_34,ATHA,Mnirbhay2,C,I,tʰ
-raw_data/wav/Mnirbhay2.wav,86.300000,86.920000,Mnirbhay2_35,ADHA,Mnirbhay2,C,I,dʱ
-raw_data/wav/Mnirbhay2.wav,88.340000,88.830000,Mnirbhay2_36,ADHA,Mnirbhay2,C,I,dʱ
-raw_data/wav/Mnirbhay2.wav,90.310000,91.010000,Mnirbhay2_37,ADHA,Mnirbhay2,C,I,dʱ
-raw_data/wav/Mnirbhay2.wav,92.472110,93.033600,Mnirbhay2_38,ADHA,Mnirbhay2,C,I,dʱ
-raw_data/wav/Mnirbhay2.wav,95.810000,96.230000,Mnirbhay2_39,ASA,Mnirbhay2,C,I,s
-raw_data/wav/Mnirbhay2.wav,97.600000,98.200000,Mnirbhay2_40,ASA,Mnirbhay2,C,I,s
-raw_data/wav/Mnirbhay2.wav,99.626250,100.140000,Mnirbhay2_41,ASA,Mnirbhay2,C,I,s
-raw_data/wav/Mnirbhay2.wav,102.430000,102.820000,Mnirbhay2_42,AZA,Mnirbhay2,C,I,z
-raw_data/wav/Mnirbhay2.wav,104.300000,104.820000,Mnirbhay2_43,AZA,Mnirbhay2,C,I,z
-raw_data/wav/Mnirbhay2.wav,107.762680,108.310710,Mnirbhay2_44,AZA,Mnirbhay2,C,I,z
-raw_data/wav/Mnirbhay2.wav,109.792530,110.290620,Mnirbhay2_45,AZA,Mnirbhay2,C,I,z
-raw_data/wav/Mnirbhay2.wav,112.980000,113.420000,Mnirbhay2_46,ASHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,114.850000,115.330000,Mnirbhay2_47,ASHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,116.850000,117.260000,Mnirbhay2_48,ASHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,119.520000,119.920000,Mnirbhay2_49,ACHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,121.590000,121.980000,Mnirbhay2_50,ACHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,123.600000,124.010000,Mnirbhay2_51,ACHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,126.530000,127.070000,Mnirbhay2_52,AZHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,128.520000,129.010000,Mnirbhay2_53,AZHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,130.550000,131.030000,Mnirbhay2_54,AZHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,133.081450,133.600000,Mnirbhay2_55,AJHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,134.979320,135.490000,Mnirbhay2_56,AJHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,136.995810,137.444490,Mnirbhay2_57,AJHA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,142.831890,143.306320,Mnirbhay2_58,ALA,Mnirbhay2,C,I,l
-raw_data/wav/Mnirbhay2.wav,144.889600,145.303350,Mnirbhay2_59,ALA,Mnirbhay2,C,I,l
-raw_data/wav/Mnirbhay2.wav,147.179010,147.598280,Mnirbhay2_60,ALA,Mnirbhay2,C,I,l
-raw_data/wav/Mnirbhay2.wav,150.439320,150.895930,Mnirbhay2_61,AKA,Mnirbhay2,C,I,k
-raw_data/wav/Mnirbhay2.wav,152.285620,152.781930,Mnirbhay2_62,AKA,Mnirbhay2,C,I,k
-raw_data/wav/Mnirbhay2.wav,154.186510,154.667940,Mnirbhay2_63,AKA,Mnirbhay2,C,I,k
-raw_data/wav/Mnirbhay2.wav,163.650000,164.150000,Mnirbhay2_67,AYA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,165.588370,166.040240,Mnirbhay2_68,AYA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,167.658580,168.150000,Mnirbhay2_69,AYA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,169.910000,170.380000,Mnirbhay2_70,AYA,Mnirbhay2,C,I,NA
-raw_data/wav/Mnirbhay2.wav,172.739730,173.230000,Mnirbhay2_71,AHHA,Mnirbhay2,C,I,ɦ
-raw_data/wav/Mnirbhay2.wav,175.220000,175.690000,Mnirbhay2_72,AHHA,Mnirbhay2,C,I,ɦ
-raw_data/wav/Mnirbhay2.wav,177.160000,177.600000,Mnirbhay2_73,AHHA,Mnirbhay2,C,I,ɦ
-raw_data/wav/Mnirbhay2.wav,179.120000,179.650000,Mnirbhay2_74,AHHA,Mnirbhay2,C,I,ɦ
-raw_data/wav/Mnirbhay2.wav,182.720000,183.150000,Mnirbhay2_75,AHHA,Mnirbhay2,C,I,ɦ
+raw_data/wav/FNiralee2.wav,12.125850,12.442460,FNiralee2_1,AKA,FNiralee2,C,I,k
+raw_data/wav/FNiralee2.wav,14.060000,14.430000,FNiralee2_2,AKA,FNiralee2,C,I,k
+raw_data/wav/FNiralee2.wav,16.190000,16.570000,FNiralee2_3,AKA,FNiralee2,C,I,k
+raw_data/wav/FNiralee2.wav,20.360000,20.760000,FNiralee2_4,AKHA,FNiralee2,C,I,kʰ
+raw_data/wav/FNiralee2.wav,22.680000,23.060000,FNiralee2_5,AKHA,FNiralee2,C,I,kʰ
+raw_data/wav/FNiralee2.wav,25.030000,25.450000,FNiralee2_6,AKHA,FNiralee2,C,I,kʰ
+raw_data/wav/FNiralee2.wav,37.540000,37.970000,FNiralee2_10,AGHA,FNiralee2,C,I,ɡʱ
+raw_data/wav/FNiralee2.wav,39.590000,39.960000,FNiralee2_11,AGHA,FNiralee2,C,I,ɡʱ
+raw_data/wav/FNiralee2.wav,41.590000,41.970000,FNiralee2_12,AGHA,FNiralee2,C,I,ɡʱ
+raw_data/wav/FNiralee2.wav,45.720000,46.120000,FNiralee2_13,ATXA,FNiralee2,C,I,t͡ʃ
+raw_data/wav/FNiralee2.wav,48.030000,48.420000,FNiralee2_14,ATXA,FNiralee2,C,I,t͡ʃ
+raw_data/wav/FNiralee2.wav,50.440000,50.810000,FNiralee2_15,ATXA,FNiralee2,C,I,t͡ʃ
+raw_data/wav/FNiralee2.wav,54.460000,54.830000,FNiralee2_16,ATXHA,FNiralee2,C,I,t͡ʃʰ
+raw_data/wav/FNiralee2.wav,56.580000,56.960000,FNiralee2_17,ATXHA,FNiralee2,C,I,t͡ʃʰ
+raw_data/wav/FNiralee2.wav,58.670000,59.040000,FNiralee2_18,ATXHA,FNiralee2,C,I,t͡ʃʰ
+raw_data/wav/FNiralee2.wav,62.920000,63.310000,FNiralee2_19,ADXA,FNiralee2,C,I,d͡ʒ
+raw_data/wav/FNiralee2.wav,65.260000,65.600000,FNiralee2_20,ADXA,FNiralee2,C,I,d͡ʒ
+raw_data/wav/FNiralee2.wav,67.450000,67.790000,FNiralee2_21,ADXA,FNiralee2,C,I,d͡ʒ
+raw_data/wav/FNiralee2.wav,71.490000,71.890000,FNiralee2_22,AZA,FNiralee2,C,I,z
+raw_data/wav/FNiralee2.wav,73.850000,74.240000,FNiralee2_23,AZA,FNiralee2,C,I,z
+raw_data/wav/FNiralee2.wav,76.340000,76.720000,FNiralee2_24,AZA,FNiralee2,C,I,z
+raw_data/wav/FNiralee2.wav,81.750000,82.110000,FNiralee2_25,ADXHA,FNiralee2,C,I,d͡ʒʱ
+raw_data/wav/FNiralee2.wav,83.870000,84.230000,FNiralee2_26,ADXHA,FNiralee2,C,I,d͡ʒʱ
+raw_data/wav/FNiralee2.wav,85.850000,86.210000,FNiralee2_27,ADXHA,FNiralee2,C,I,d͡ʒʱ
+raw_data/wav/FNiralee2.wav,89.438720,89.770000,FNiralee2_28,ATRA,FNiralee2,C,I,ʈ
+raw_data/wav/FNiralee2.wav,91.623530,91.930000,FNiralee2_29,ATRA,FNiralee2,C,I,ʈ
+raw_data/wav/FNiralee2.wav,93.583000,93.880000,FNiralee2_30,ATRA,FNiralee2,C,I,ʈ
+raw_data/wav/FNiralee2.wav,97.680000,98.060000,FNiralee2_31,ATRHA,FNiralee2,C,I,ʈʰ
+raw_data/wav/FNiralee2.wav,99.890000,100.290000,FNiralee2_32,ATRHA,FNiralee2,C,I,ʈʰ
+raw_data/wav/FNiralee2.wav,102.050000,102.480000,FNiralee2_33,ATRHA,FNiralee2,C,I,ʈʰ
+raw_data/wav/FNiralee2.wav,106.320000,106.700000,FNiralee2_34,ADRA,FNiralee2,C,I,ɖ
+raw_data/wav/FNiralee2.wav,108.320000,108.650000,FNiralee2_35,ADRA,FNiralee2,C,I,ɖ
+raw_data/wav/FNiralee2.wav,110.324750,110.620000,FNiralee2_36,ADRA,FNiralee2,C,I,ɖ
+raw_data/wav/FNiralee2.wav,114.603780,114.940000,FNiralee2_37,ADRHA,FNiralee2,C,I,ɖʱ
+raw_data/wav/FNiralee2.wav,116.650000,117.020900,FNiralee2_38,ADRHA,FNiralee2,C,I,ɖʱ
+raw_data/wav/FNiralee2.wav,118.760000,119.120000,FNiralee2_39,ADRHA,FNiralee2,C,I,ɖʱ
+raw_data/wav/FNiralee2.wav,122.860000,123.230000,FNiralee2_40,ATA,FNiralee2,C,I,t
+raw_data/wav/FNiralee2.wav,129.430000,129.790000,FNiralee2_41,ATA,FNiralee2,C,I,t
+raw_data/wav/FNiralee2.wav,131.610000,131.970000,FNiralee2_42,ATA,FNiralee2,C,I,t
+raw_data/wav/FNiralee2.wav,133.540000,133.900000,FNiralee2_43,ATA,FNiralee2,C,I,t
+raw_data/wav/FNiralee2.wav,137.210000,137.590000,FNiralee2_44,ATHA,FNiralee2,C,I,tʰ
+raw_data/wav/FNiralee2.wav,139.310000,139.700000,FNiralee2_45,ATHA,FNiralee2,C,I,tʰ
+raw_data/wav/FNiralee2.wav,141.250000,141.640000,FNiralee2_46,ATHA,FNiralee2,C,I,tʰ
+raw_data/wav/FNiralee2.wav,145.140000,145.490000,FNiralee2_47,ADA,FNiralee2,C,I,d
+raw_data/wav/FNiralee2.wav,147.020000,147.320000,FNiralee2_48,ADA,FNiralee2,C,I,d
+raw_data/wav/FNiralee2.wav,148.780000,149.130000,FNiralee2_49,ADA,FNiralee2,C,I,d
+raw_data/wav/FNiralee2.wav,153.453950,153.795810,FNiralee2_50,ADHA,FNiralee2,C,I,dʱ
+raw_data/wav/FNiralee2.wav,155.341850,155.682890,FNiralee2_51,ADHA,FNiralee2,C,I,dʱ
+raw_data/wav/FNiralee2.wav,157.228640,157.520000,FNiralee2_52,ADHA,FNiralee2,C,I,dʱ
+raw_data/wav/FNiralee2.wav,161.160000,161.540000,FNiralee2_53,ANA,FNiralee2,C,I,n
+raw_data/wav/FNiralee2.wav,163.060000,163.430000,FNiralee2_54,ANA,FNiralee2,C,I,n
+raw_data/wav/FNiralee2.wav,165.040000,165.390000,FNiralee2_55,ANA,FNiralee2,C,I,n
+raw_data/wav/FNiralee2.wav,168.640000,169.030000,FNiralee2_56,ABA,FNiralee2,C,I,b
+raw_data/wav/FNiralee2.wav,170.470000,170.860000,FNiralee2_57,ABA,FNiralee2,C,I,b
+raw_data/wav/FNiralee2.wav,172.330000,172.700000,FNiralee2_58,ABA,FNiralee2,C,I,b
+raw_data/wav/FNiralee2.wav,176.680000,177.070000,FNiralee2_59,APHA,FNiralee2,C,I,pʰ
+raw_data/wav/FNiralee2.wav,178.690000,179.070000,FNiralee2_60,APHA,FNiralee2,C,I,pʰ
+raw_data/wav/FNiralee2.wav,180.570000,180.960000,FNiralee2_61,APHA,FNiralee2,C,I,pʰ
+raw_data/wav/FNiralee2.wav,184.360000,184.730000,FNiralee2_62,ABA,FNiralee2,C,I,b
+raw_data/wav/FNiralee2.wav,186.270000,186.640000,FNiralee2_63,ABA,FNiralee2,C,I,b
+raw_data/wav/FNiralee2.wav,188.240000,188.600000,FNiralee2_64,ABA,FNiralee2,C,I,b
+raw_data/wav/FNiralee2.wav,192.060000,192.440000,FNiralee2_65,ABHA,FNiralee2,C,I,bʱ
+raw_data/wav/FNiralee2.wav,194.150000,194.520000,FNiralee2_66,ABHA,FNiralee2,C,I,bʱ
+raw_data/wav/FNiralee2.wav,196.170000,196.560000,FNiralee2_67,ABHA,FNiralee2,C,I,bʱ
+raw_data/wav/FNiralee2.wav,199.700000,200.060000,FNiralee2_68,AMA,FNiralee2,C,I,m
+raw_data/wav/FNiralee2.wav,201.880000,202.270000,FNiralee2_69,AMA,FNiralee2,C,I,m
+raw_data/wav/FNiralee2.wav,203.850000,204.220000,FNiralee2_70,AMA,FNiralee2,C,I,m
+raw_data/wav/FNiralee2.wav,208.240000,208.610000,FNiralee2_71,AJA,FNiralee2,C,I,j
+raw_data/wav/FNiralee2.wav,210.430000,210.780000,FNiralee2_72,AJA,FNiralee2,C,I,j
+raw_data/wav/FNiralee2.wav,212.430000,212.760000,FNiralee2_73,AJA,FNiralee2,C,I,j
+raw_data/wav/FNiralee2.wav,216.720000,217.060000,FNiralee2_74,ARA,FNiralee2,C,I,ɾ
+raw_data/wav/FNiralee2.wav,218.690000,219.030000,FNiralee2_75,ARA,FNiralee2,C,I,ɾ
+raw_data/wav/FNiralee2.wav,220.600000,220.940000,FNiralee2_76,ARA,FNiralee2,C,I,ɾ
+raw_data/wav/FNiralee2.wav,225.520000,225.860000,FNiralee2_77,ALA,FNiralee2,C,I,l
+raw_data/wav/FNiralee2.wav,227.580000,227.900000,FNiralee2_78,ALA,FNiralee2,C,I,l
+raw_data/wav/FNiralee2.wav,229.700000,230.050000,FNiralee2_79,ALA,FNiralee2,C,I,l
+raw_data/wav/FNiralee2.wav,233.930000,234.270000,FNiralee2_80,AVA,FNiralee2,C,I,NA
+raw_data/wav/FNiralee2.wav,235.950070,236.240000,FNiralee2_81,AVA,FNiralee2,C,I,NA
+raw_data/wav/FNiralee2.wav,237.790000,238.110000,FNiralee2_82,AVA,FNiralee2,C,I,NA
+raw_data/wav/FNiralee2.wav,241.570000,241.920000,FNiralee2_83,AXA,FNiralee2,C,I,ʃ
+raw_data/wav/FNiralee2.wav,243.450000,243.810000,FNiralee2_84,AXA,FNiralee2,C,I,ʃ
+raw_data/wav/FNiralee2.wav,245.250000,245.580000,FNiralee2_85,AXA,FNiralee2,C,I,ʃ
+raw_data/wav/FNiralee2.wav,248.680000,249.030000,FNiralee2_86,AXRA,FNiralee2,C,I,ʂ
+raw_data/wav/FNiralee2.wav,250.540000,250.880000,FNiralee2_87,AXRA,FNiralee2,C,I,ʂ
+raw_data/wav/FNiralee2.wav,252.400000,252.750000,FNiralee2_88,AXRA,FNiralee2,C,I,ʂ
+raw_data/wav/FNiralee2.wav,256.550000,256.940000,FNiralee2_89,ASA,FNiralee2,C,I,s
+raw_data/wav/FNiralee2.wav,258.550000,258.920000,FNiralee2_90,ASA,FNiralee2,C,I,s
+raw_data/wav/FNiralee2.wav,260.440000,260.810000,FNiralee2_91,ASA,FNiralee2,C,I,s
+raw_data/wav/FNiralee2.wav,264.580000,264.960000,FNiralee2_92,AHHA,FNiralee2,C,I,ɦ
+raw_data/wav/FNiralee2.wav,266.470000,266.800000,FNiralee2_93,AHHA,FNiralee2,C,I,ɦ
+raw_data/wav/FNiralee2.wav,268.290000,268.600000,FNiralee2_94,AHHA,FNiralee2,C,I,ɦ
+raw_data/wav/FNiralee2.wav,272.270000,272.610000,FNiralee2_95,ARRA,FNiralee2,C,I,ɣ
+raw_data/wav/FNiralee2.wav,274.120000,274.480000,FNiralee2_96,ARRA,FNiralee2,C,I,ɣ
+raw_data/wav/FNiralee2.wav,276.050000,276.400000,FNiralee2_97,ARRA,FNiralee2,C,I,ɣ
+raw_data/wav/FNiralee2.wav,279.870000,280.250000,FNiralee2_98,ARHA,FNiralee2,C,I,x
+raw_data/wav/FNiralee2.wav,281.750000,282.160000,FNiralee2_99,ARHA,FNiralee2,C,I,x
+raw_data/wav/FNiralee2.wav,283.770000,284.150000,FNiralee2_100,ARHA,FNiralee2,C,I,x
+raw_data/wav/FNiralee2.wav,287.440000,287.750000,FNiralee2_101,ARTHA,FNiralee2,C,I,ɽʱ
+raw_data/wav/FNiralee2.wav,289.470000,289.750000,FNiralee2_102,ARTHA,FNiralee2,C,I,ɽʱ
+raw_data/wav/FNiralee2.wav,291.180000,291.490000,FNiralee2_103,ARTHA,FNiralee2,C,I,ɽʱ
+raw_data/wav/FNiralee2.wav,296.000000,296.310000,FNiralee2_104,ARTA,FNiralee2,C,I,ɽ
+raw_data/wav/FNiralee2.wav,298.080000,298.380000,FNiralee2_105,ARTA,FNiralee2,C,I,ɽ
+raw_data/wav/FNiralee2.wav,299.970000,300.280000,FNiralee2_106,ARTA,FNiralee2,C,I,ɽ
+raw_data/wav/FNiralee2.wav,304.180000,304.530000,FNiralee2_107,ANRA,FNiralee2,C,I,ɳ
+raw_data/wav/FNiralee2.wav,306.410000,306.740000,FNiralee2_108,ANRA,FNiralee2,C,I,ɳ
+raw_data/wav/FNiralee2.wav,308.630000,308.950000,FNiralee2_109,ANRA,FNiralee2,C,I,ɳ
+raw_data/wav/FNiralee1.wav,12.202300,12.506370,FNiralee1_1,AKA,FNiralee1,C,I,k
+raw_data/wav/FNiralee1.wav,13.730000,14.170000,FNiralee1_2,AKA,FNiralee1,C,I,k
+raw_data/wav/FNiralee1.wav,15.370000,15.780000,FNiralee1_3,AKA,FNiralee1,C,I,k
+raw_data/wav/FNiralee1.wav,19.160000,19.620000,FNiralee1_4,AKHA,FNiralee1,C,I,kʰ
+raw_data/wav/FNiralee1.wav,20.870000,21.350000,FNiralee1_5,AKHA,FNiralee1,C,I,kʰ
+raw_data/wav/FNiralee1.wav,22.530000,22.990000,FNiralee1_6,AKHA,FNiralee1,C,I,kʰ
+raw_data/wav/FNiralee1.wav,34.080000,34.520000,FNiralee1_10,AGHA,FNiralee1,C,I,ɡʱ
+raw_data/wav/FNiralee1.wav,35.710000,36.210000,FNiralee1_11,AGHA,FNiralee1,C,I,ɡʱ
+raw_data/wav/FNiralee1.wav,37.540000,37.900000,FNiralee1_12,AGHA,FNiralee1,C,I,ɡʱ
+raw_data/wav/FNiralee1.wav,41.100000,41.460000,FNiralee1_13,ATXA,FNiralee1,C,I,t͡ʃ
+raw_data/wav/FNiralee1.wav,42.790000,43.130000,FNiralee1_14,ATXA,FNiralee1,C,I,t͡ʃ
+raw_data/wav/FNiralee1.wav,44.520000,44.850000,FNiralee1_15,ATXA,FNiralee1,C,I,t͡ʃ
+raw_data/wav/FNiralee1.wav,48.850000,49.130000,FNiralee1_16,ATXHA,FNiralee1,C,I,t͡ʃʰ
+raw_data/wav/FNiralee1.wav,50.570000,50.830000,FNiralee1_17,ATXHA,FNiralee1,C,I,t͡ʃʰ
+raw_data/wav/FNiralee1.wav,52.300000,52.550000,FNiralee1_18,ATXHA,FNiralee1,C,I,t͡ʃʰ
+raw_data/wav/FNiralee1.wav,56.650000,56.890000,FNiralee1_19,ADXA,FNiralee1,C,I,d͡ʒ
+raw_data/wav/FNiralee1.wav,58.390000,58.630000,FNiralee1_20,ADXA,FNiralee1,C,I,d͡ʒ
+raw_data/wav/FNiralee1.wav,60.005100,60.310000,FNiralee1_21,ADXA,FNiralee1,C,I,d͡ʒ
+raw_data/wav/FNiralee1.wav,64.180000,64.520000,FNiralee1_22,AZA,FNiralee1,C,I,z
+raw_data/wav/FNiralee1.wav,65.890000,66.240000,FNiralee1_23,AZA,FNiralee1,C,I,z
+raw_data/wav/FNiralee1.wav,67.670000,68.020000,FNiralee1_24,AZA,FNiralee1,C,I,z
+raw_data/wav/FNiralee1.wav,74.730000,74.990000,FNiralee1_25,ADXHA,FNiralee1,C,I,d͡ʒʱ
+raw_data/wav/FNiralee1.wav,76.510000,76.770000,FNiralee1_26,ADXHA,FNiralee1,C,I,d͡ʒʱ
+raw_data/wav/FNiralee1.wav,78.280000,78.550000,FNiralee1_27,ADXHA,FNiralee1,C,I,d͡ʒʱ
+raw_data/wav/FNiralee1.wav,81.946270,82.350000,FNiralee1_28,ATRA,FNiralee1,C,I,ʈ
+raw_data/wav/FNiralee1.wav,83.563570,84.020000,FNiralee1_29,ATRA,FNiralee1,C,I,ʈ
+raw_data/wav/FNiralee1.wav,85.330000,85.800000,FNiralee1_30,ATRA,FNiralee1,C,I,ʈ
+raw_data/wav/FNiralee1.wav,89.100000,89.570000,FNiralee1_31,ATRHA,FNiralee1,C,I,ʈʰ
+raw_data/wav/FNiralee1.wav,90.850000,91.360000,FNiralee1_32,ATRHA,FNiralee1,C,I,ʈʰ
+raw_data/wav/FNiralee1.wav,92.802230,93.200000,FNiralee1_33,ATRHA,FNiralee1,C,I,ʈʰ
+raw_data/wav/FNiralee1.wav,96.647200,97.080000,FNiralee1_34,ADRA,FNiralee1,C,I,ɖ
+raw_data/wav/FNiralee1.wav,98.427750,98.850000,FNiralee1_35,ADRA,FNiralee1,C,I,ɖ
+raw_data/wav/FNiralee1.wav,100.177090,100.550000,FNiralee1_36,ADRA,FNiralee1,C,I,ɖ
+raw_data/wav/FNiralee1.wav,103.759130,104.120000,FNiralee1_37,ADRHA,FNiralee1,C,I,ɖʱ
+raw_data/wav/FNiralee1.wav,105.499030,105.910000,FNiralee1_38,ADRHA,FNiralee1,C,I,ɖʱ
+raw_data/wav/FNiralee1.wav,107.150000,107.660000,FNiralee1_39,ADRHA,FNiralee1,C,I,ɖʱ
+raw_data/wav/FNiralee1.wav,111.130000,111.630000,FNiralee1_40,ATA,FNiralee1,C,I,t
+raw_data/wav/FNiralee1.wav,112.970000,113.450000,FNiralee1_41,ATA,FNiralee1,C,I,t
+raw_data/wav/FNiralee1.wav,114.780000,115.200000,FNiralee1_42,ATA,FNiralee1,C,I,t
+raw_data/wav/FNiralee1.wav,119.070000,119.590000,FNiralee1_43,ATHA,FNiralee1,C,I,tʰ
+raw_data/wav/FNiralee1.wav,120.850000,121.360000,FNiralee1_44,ATHA,FNiralee1,C,I,tʰ
+raw_data/wav/FNiralee1.wav,122.774740,123.140000,FNiralee1_45,ATHA,FNiralee1,C,I,tʰ
+raw_data/wav/FNiralee1.wav,127.000000,127.290000,FNiralee1_46,ADA,FNiralee1,C,I,d
+raw_data/wav/FNiralee1.wav,128.820000,129.070000,FNiralee1_47,ADA,FNiralee1,C,I,d
+raw_data/wav/FNiralee1.wav,130.570000,130.820000,FNiralee1_48,ADA,FNiralee1,C,I,d
+raw_data/wav/FNiralee1.wav,137.980000,138.280000,FNiralee1_49,ADHA,FNiralee1,C,I,dʱ
+raw_data/wav/FNiralee1.wav,139.820000,140.110000,FNiralee1_50,ADHA,FNiralee1,C,I,dʱ
+raw_data/wav/FNiralee1.wav,141.400000,141.880000,FNiralee1_51,ADHA,FNiralee1,C,I,dʱ
+raw_data/wav/FNiralee1.wav,145.460000,145.880000,FNiralee1_52,ANA,FNiralee1,C,I,n
+raw_data/wav/FNiralee1.wav,147.200000,147.640000,FNiralee1_53,ANA,FNiralee1,C,I,n
+raw_data/wav/FNiralee1.wav,148.980000,149.410000,FNiralee1_54,ANA,FNiralee1,C,I,n
+raw_data/wav/FNiralee1.wav,153.070000,153.550000,FNiralee1_55,APA,FNiralee1,C,I,p
+raw_data/wav/FNiralee1.wav,154.850000,155.330000,FNiralee1_56,APA,FNiralee1,C,I,p
+raw_data/wav/FNiralee1.wav,156.690000,157.050000,FNiralee1_57,APA,FNiralee1,C,I,p
+raw_data/wav/FNiralee1.wav,161.480000,161.870000,FNiralee1_58,APHA,FNiralee1,C,I,pʰ
+raw_data/wav/FNiralee1.wav,163.260000,163.690000,FNiralee1_59,APHA,FNiralee1,C,I,pʰ
+raw_data/wav/FNiralee1.wav,164.960000,165.430000,FNiralee1_60,APHA,FNiralee1,C,I,pʰ
+raw_data/wav/FNiralee1.wav,168.910000,169.350000,FNiralee1_61,ABA,FNiralee1,C,I,b
+raw_data/wav/FNiralee1.wav,170.670000,171.120000,FNiralee1_62,ABA,FNiralee1,C,I,b
+raw_data/wav/FNiralee1.wav,172.420000,172.870000,FNiralee1_63,ABA,FNiralee1,C,I,b
+raw_data/wav/FNiralee1.wav,176.500000,176.980000,FNiralee1_64,ABHA,FNiralee1,C,I,bʱ
+raw_data/wav/FNiralee1.wav,178.290000,178.720000,FNiralee1_65,ABHA,FNiralee1,C,I,bʱ
+raw_data/wav/FNiralee1.wav,180.100000,180.530000,FNiralee1_66,ABHA,FNiralee1,C,I,bʱ
+raw_data/wav/FNiralee1.wav,183.930000,184.380000,FNiralee1_67,AMA,FNiralee1,C,I,m
+raw_data/wav/FNiralee1.wav,185.670000,186.080000,FNiralee1_68,AMA,FNiralee1,C,I,m
+raw_data/wav/FNiralee1.wav,187.510000,187.880000,FNiralee1_69,AMA,FNiralee1,C,I,m
+raw_data/wav/FNiralee1.wav,191.090000,191.540000,FNiralee1_70,AJA,FNiralee1,C,I,j
+raw_data/wav/FNiralee1.wav,192.900000,193.320000,FNiralee1_71,AJA,FNiralee1,C,I,j
+raw_data/wav/FNiralee1.wav,194.630000,195.050000,FNiralee1_72,AJA,FNiralee1,C,I,j
+raw_data/wav/FNiralee1.wav,198.330000,198.750000,FNiralee1_73,ARA,FNiralee1,C,I,ɾ
+raw_data/wav/FNiralee1.wav,200.090000,200.530000,FNiralee1_74,ARA,FNiralee1,C,I,ɾ
+raw_data/wav/FNiralee1.wav,201.860000,202.320000,FNiralee1_75,ARA,FNiralee1,C,I,ɾ
+raw_data/wav/FNiralee1.wav,205.573070,205.920000,FNiralee1_76,ALA,FNiralee1,C,I,l
+raw_data/wav/FNiralee1.wav,207.394270,207.720000,FNiralee1_77,ALA,FNiralee1,C,I,l
+raw_data/wav/FNiralee1.wav,209.228020,209.530000,FNiralee1_78,ALA,FNiralee1,C,I,l
+raw_data/wav/FNiralee1.wav,213.166000,213.500000,FNiralee1_79,AVLA,FNiralee1,C,I,ʋ
+raw_data/wav/FNiralee1.wav,214.968990,215.290000,FNiralee1_80,AVLA,FNiralee1,C,I,ʋ
+raw_data/wav/FNiralee1.wav,216.750000,217.040000,FNiralee1_81,AVLA,FNiralee1,C,I,ʋ
+raw_data/wav/FNiralee1.wav,223.340000,223.700000,FNiralee1_82,AXA,FNiralee1,C,I,ʃ
+raw_data/wav/FNiralee1.wav,225.140000,225.510000,FNiralee1_83,AXA,FNiralee1,C,I,ʃ
+raw_data/wav/FNiralee1.wav,226.960000,227.290000,FNiralee1_84,AXA,FNiralee1,C,I,ʃ
+raw_data/wav/FNiralee1.wav,231.200000,231.550000,FNiralee1_85,AXRA,FNiralee1,C,I,ʂ
+raw_data/wav/FNiralee1.wav,232.920000,233.300000,FNiralee1_86,AXRA,FNiralee1,C,I,ʂ
+raw_data/wav/FNiralee1.wav,234.590000,235.030000,FNiralee1_87,AXRA,FNiralee1,C,I,ʂ
+raw_data/wav/FNiralee1.wav,238.410000,238.870000,FNiralee1_88,ASA,FNiralee1,C,I,s
+raw_data/wav/FNiralee1.wav,240.120000,240.590000,FNiralee1_89,ASA,FNiralee1,C,I,s
+raw_data/wav/FNiralee1.wav,241.850000,242.280000,FNiralee1_90,ASA,FNiralee1,C,I,s
+raw_data/wav/FNiralee1.wav,244.910000,245.350000,FNiralee1_91,AHHA,FNiralee1,C,I,ɦ
+raw_data/wav/FNiralee1.wav,246.780000,247.160000,FNiralee1_92,AHHA,FNiralee1,C,I,ɦ
+raw_data/wav/FNiralee1.wav,248.430000,248.840000,FNiralee1_93,AHHA,FNiralee1,C,I,ɦ
+raw_data/wav/FNiralee1.wav,252.150000,252.620000,FNiralee1_94,ARRA,FNiralee1,C,I,ɣ
+raw_data/wav/FNiralee1.wav,253.950000,254.410000,FNiralee1_95,ARRA,FNiralee1,C,I,ɣ
+raw_data/wav/FNiralee1.wav,255.750000,256.210000,FNiralee1_96,ARRA,FNiralee1,C,I,ɣ
+raw_data/wav/FNiralee1.wav,260.330000,260.840000,FNiralee1_97,ARHA,FNiralee1,C,I,x
+raw_data/wav/FNiralee1.wav,262.110000,262.590000,FNiralee1_98,ARHA,FNiralee1,C,I,x
+raw_data/wav/FNiralee1.wav,264.028130,264.420000,FNiralee1_99,ARHA,FNiralee1,C,I,x
+raw_data/wav/FNiralee1.wav,269.870000,270.370000,FNiralee1_100,ARTHA,FNiralee1,C,I,ɽʱ
+raw_data/wav/FNiralee1.wav,271.690000,272.170000,FNiralee1_101,ARTHA,FNiralee1,C,I,ɽʱ
+raw_data/wav/FNiralee1.wav,273.521610,273.930000,FNiralee1_102,ARTHA,FNiralee1,C,I,ɽʱ
+raw_data/wav/FNiralee1.wav,277.664950,278.030000,FNiralee1_103,ARTA,FNiralee1,C,I,ɽ
+raw_data/wav/FNiralee1.wav,279.440960,279.820000,FNiralee1_104,ARTA,FNiralee1,C,I,ɽ
+raw_data/wav/FNiralee1.wav,281.334750,281.580000,FNiralee1_105,ARTA,FNiralee1,C,I,ɽ
+raw_data/wav/FNiralee1.wav,284.200000,284.570000,FNiralee1_106,ANRA,FNiralee1,C,I,ɳ
+raw_data/wav/FNiralee1.wav,285.937370,286.280000,FNiralee1_107,ANRA,FNiralee1,C,I,ɳ
+raw_data/wav/FNiralee1.wav,287.667600,287.972760,FNiralee1_108,ANRA,FNiralee1,C,I,ɳ
+raw_data/wav/Fsakshi1.wav,39.810000,40.340000,Fsakshi1_1,AKA,Fsakshi1,C,I,k
+raw_data/wav/Fsakshi1.wav,41.960000,42.430000,Fsakshi1_2,AKA,Fsakshi1,C,I,k
+raw_data/wav/Fsakshi1.wav,44.020000,44.530000,Fsakshi1_3,AKA,Fsakshi1,C,I,k
+raw_data/wav/Fsakshi1.wav,63.840000,64.370000,Fsakshi1_4,AKHA,Fsakshi1,C,I,kʰ
+raw_data/wav/Fsakshi1.wav,65.940370,66.420000,Fsakshi1_5,AKHA,Fsakshi1,C,I,kʰ
+raw_data/wav/Fsakshi1.wav,68.018530,68.471030,Fsakshi1_6,AKHA,Fsakshi1,C,I,kʰ
+raw_data/wav/Fsakshi1.wav,103.909450,104.435220,Fsakshi1_10,AGHA,Fsakshi1,C,I,ɡʱ
+raw_data/wav/Fsakshi1.wav,106.026010,106.551780,Fsakshi1_11,AGHA,Fsakshi1,C,I,ɡʱ
+raw_data/wav/Fsakshi1.wav,108.180000,108.660000,Fsakshi1_12,AGHA,Fsakshi1,C,I,ɡʱ
+raw_data/wav/Fsakshi1.wav,123.767370,124.216390,Fsakshi1_13,ATXA,Fsakshi1,C,I,t͡ʃ
+raw_data/wav/Fsakshi1.wav,125.830000,126.300000,Fsakshi1_14,ATXA,Fsakshi1,C,I,t͡ʃ
+raw_data/wav/Fsakshi1.wav,127.910000,128.400000,Fsakshi1_15,ATXA,Fsakshi1,C,I,t͡ʃ
+raw_data/wav/Fsakshi1.wav,141.906680,142.390000,Fsakshi1_16,ATXHA,Fsakshi1,C,I,t͡ʃʰ
+raw_data/wav/Fsakshi1.wav,144.065730,144.530000,Fsakshi1_17,ATXHA,Fsakshi1,C,I,t͡ʃʰ
+raw_data/wav/Fsakshi1.wav,146.140920,146.630000,Fsakshi1_18,ATXHA,Fsakshi1,C,I,t͡ʃʰ
+raw_data/wav/Fsakshi1.wav,160.050000,160.510000,Fsakshi1_19,ADXA,Fsakshi1,C,I,d͡ʒ
+raw_data/wav/Fsakshi1.wav,162.099090,162.640000,Fsakshi1_20,ADXA,Fsakshi1,C,I,d͡ʒ
+raw_data/wav/Fsakshi1.wav,164.240000,164.800000,Fsakshi1_21,ADXA,Fsakshi1,C,I,d͡ʒ
+raw_data/wav/Fsakshi1.wav,186.700000,187.210000,Fsakshi1_22,AZA,Fsakshi1,C,I,z
+raw_data/wav/Fsakshi1.wav,188.850000,189.380000,Fsakshi1_23,AZA,Fsakshi1,C,I,z
+raw_data/wav/Fsakshi1.wav,191.050960,191.470000,Fsakshi1_24,AZA,Fsakshi1,C,I,z
+raw_data/wav/Fsakshi1.wav,215.885610,216.300000,Fsakshi1_25,ADXA,Fsakshi1,C,I,d͡ʒ
+raw_data/wav/Fsakshi1.wav,217.871500,218.300000,Fsakshi1_26,ADXA,Fsakshi1,C,I,d͡ʒ
+raw_data/wav/Fsakshi1.wav,219.890000,220.360000,Fsakshi1_27,ADXA,Fsakshi1,C,I,d͡ʒ
+raw_data/wav/Fsakshi1.wav,236.440000,236.910000,Fsakshi1_28,ATRA,Fsakshi1,C,I,ʈ
+raw_data/wav/Fsakshi1.wav,238.617890,239.050000,Fsakshi1_29,ATRA,Fsakshi1,C,I,ʈ
+raw_data/wav/Fsakshi1.wav,240.700000,241.160000,Fsakshi1_30,ATRA,Fsakshi1,C,I,ʈ
+raw_data/wav/Fsakshi1.wav,256.270000,256.820630,Fsakshi1_31,ATRHA,Fsakshi1,C,I,ʈʰ
+raw_data/wav/Fsakshi1.wav,258.340000,258.840000,Fsakshi1_32,ATRHA,Fsakshi1,C,I,ʈʰ
+raw_data/wav/Fsakshi1.wav,260.530000,261.050000,Fsakshi1_33,ATRHA,Fsakshi1,C,I,ʈʰ
+raw_data/wav/Fsakshi1.wav,276.220000,276.690000,Fsakshi1_34,ADRA,Fsakshi1,C,I,ɖ
+raw_data/wav/Fsakshi1.wav,278.340000,278.800000,Fsakshi1_35,ADRA,Fsakshi1,C,I,ɖ
+raw_data/wav/Fsakshi1.wav,280.460000,280.910000,Fsakshi1_36,ADRA,Fsakshi1,C,I,ɖ
+raw_data/wav/Fsakshi1.wav,295.770000,296.290000,Fsakshi1_37,ADRHA,Fsakshi1,C,I,ɖʱ
+raw_data/wav/Fsakshi1.wav,297.880000,298.350000,Fsakshi1_38,ADRHA,Fsakshi1,C,I,ɖʱ
+raw_data/wav/Fsakshi1.wav,299.970000,300.500230,Fsakshi1_39,ADRHA,Fsakshi1,C,I,ɖʱ
+raw_data/wav/Fsakshi1.wav,315.407620,315.870000,Fsakshi1_40,ATA,Fsakshi1,C,I,t
+raw_data/wav/Fsakshi1.wav,317.744890,318.220000,Fsakshi1_41,ATA,Fsakshi1,C,I,t
+raw_data/wav/Fsakshi1.wav,319.950000,320.420000,Fsakshi1_42,ADHA,Fsakshi1,C,I,dʱ
+raw_data/wav/Fsakshi1.wav,334.370000,334.840000,Fsakshi1_43,ATA,Fsakshi1,C,I,t
+raw_data/wav/Fsakshi1.wav,336.520000,336.980000,Fsakshi1_44,ATA,Fsakshi1,C,I,t
+raw_data/wav/Fsakshi1.wav,338.660000,339.340000,Fsakshi1_45,ATA,Fsakshi1,C,I,t
+raw_data/wav/Fsakshi1.wav,354.505400,354.985720,Fsakshi1_46,ATHA,Fsakshi1,C,I,tʰ
+raw_data/wav/Fsakshi1.wav,356.627710,357.140050,Fsakshi1_47,ATHA,Fsakshi1,C,I,tʰ
+raw_data/wav/Fsakshi1.wav,358.690000,359.240000,Fsakshi1_48,ATHA,Fsakshi1,C,I,tʰ
+raw_data/wav/Fsakshi1.wav,372.660000,373.150000,Fsakshi1_49,ADA,Fsakshi1,C,I,d
+raw_data/wav/Fsakshi1.wav,374.710000,375.220000,Fsakshi1_50,ADA,Fsakshi1,C,I,d
+raw_data/wav/Fsakshi1.wav,376.850000,377.410000,Fsakshi1_51,ADA,Fsakshi1,C,I,d
+raw_data/wav/Fsakshi1.wav,397.230000,397.745690,Fsakshi1_52,ADHA,Fsakshi1,C,I,dʱ
+raw_data/wav/Fsakshi1.wav,399.393430,399.801960,Fsakshi1_53,ADHA,Fsakshi1,C,I,dʱ
+raw_data/wav/Fsakshi1.wav,401.572600,402.090080,Fsakshi1_54,ADHA,Fsakshi1,C,I,dʱ
+raw_data/wav/Fsakshi1.wav,416.850000,417.280000,Fsakshi1_55,ANA,Fsakshi1,C,I,n
+raw_data/wav/Fsakshi1.wav,418.992190,419.420000,Fsakshi1_56,ANA,Fsakshi1,C,I,n
+raw_data/wav/Fsakshi1.wav,421.135220,421.580000,Fsakshi1_57,ANA,Fsakshi1,C,I,n
+raw_data/wav/Fsakshi1.wav,437.950000,438.380000,Fsakshi1_58,APA,Fsakshi1,C,I,p
+raw_data/wav/Fsakshi1.wav,439.992150,440.500000,Fsakshi1_59,APA,Fsakshi1,C,I,p
+raw_data/wav/Fsakshi1.wav,442.471460,442.950000,Fsakshi1_60,APA,Fsakshi1,C,I,p
+raw_data/wav/Fsakshi1.wav,456.756640,457.240000,Fsakshi1_61,APHA,Fsakshi1,C,I,pʰ
+raw_data/wav/Fsakshi1.wav,458.968150,459.500000,Fsakshi1_62,APHA,Fsakshi1,C,I,pʰ
+raw_data/wav/Fsakshi1.wav,461.133600,461.642830,Fsakshi1_63,APHA,Fsakshi1,C,I,pʰ
+raw_data/wav/Fsakshi1.wav,474.983250,475.430820,Fsakshi1_64,ABA,Fsakshi1,C,I,b
+raw_data/wav/Fsakshi1.wav,476.925710,477.400140,Fsakshi1_65,ABA,Fsakshi1,C,I,b
+raw_data/wav/Fsakshi1.wav,479.065110,479.548490,Fsakshi1_66,ABA,Fsakshi1,C,I,b
+raw_data/wav/Fsakshi1.wav,494.673210,495.247200,Fsakshi1_67,ABHA,Fsakshi1,C,I,bʱ
+raw_data/wav/Fsakshi1.wav,496.926130,497.370980,Fsakshi1_68,ABHA,Fsakshi1,C,I,bʱ
+raw_data/wav/Fsakshi1.wav,499.064260,499.509110,Fsakshi1_69,ABHA,Fsakshi1,C,I,bʱ
+raw_data/wav/Fsakshi1.wav,523.436800,523.889950,Fsakshi1_70,AMA,Fsakshi1,C,I,m
+raw_data/wav/Fsakshi1.wav,525.680940,526.177240,Fsakshi1_71,AMA,Fsakshi1,C,I,m
+raw_data/wav/Fsakshi1.wav,527.968230,528.421370,Fsakshi1_72,AMA,Fsakshi1,C,I,m
+raw_data/wav/Fsakshi1.wav,540.997800,541.472520,Fsakshi1_73,AJA,Fsakshi1,C,I,j
+raw_data/wav/Fsakshi1.wav,543.112460,543.544030,Fsakshi1_74,AJA,Fsakshi1,C,I,j
+raw_data/wav/Fsakshi1.wav,545.205550,545.701850,Fsakshi1_75,AJA,Fsakshi1,C,I,j
+raw_data/wav/Fsakshi1.wav,587.544020,587.972470,Fsakshi1_76,ARA,Fsakshi1,C,I,ɾ
+raw_data/wav/Fsakshi1.wav,589.618600,590.047040,Fsakshi1_77,ARA,Fsakshi1,C,I,ɾ
+raw_data/wav/Fsakshi1.wav,591.670620,592.144160,Fsakshi1_78,ARA,Fsakshi1,C,I,ɾ
+raw_data/wav/Fsakshi1.wav,605.325070,605.798610,Fsakshi1_79,ALA,Fsakshi1,C,I,l
+raw_data/wav/Fsakshi1.wav,607.422190,607.873180,Fsakshi1_80,ALA,Fsakshi1,C,I,l
+raw_data/wav/Fsakshi1.wav,609.519310,610.015400,Fsakshi1_81,ALA,Fsakshi1,C,I,l
+raw_data/wav/Fsakshi1.wav,630.626410,631.111350,Fsakshi1_82,AVLA,Fsakshi1,C,I,ʋ
+raw_data/wav/Fsakshi1.wav,632.957860,633.461450,Fsakshi1_83,AVLA,Fsakshi1,C,I,ʋ
+raw_data/wav/Fsakshi1.wav,635.270660,635.718300,Fsakshi1_84,AVLA,Fsakshi1,C,I,ʋ
+raw_data/wav/Fsakshi1.wav,647.290680,647.794270,Fsakshi1_85,AXA,Fsakshi1,C,I,ʃ
+raw_data/wav/Fsakshi1.wav,651.711110,652.401220,Fsakshi1_86,AXA,Fsakshi1,C,I,ʃ
+raw_data/wav/Fsakshi1.wav,666.424640,666.949310,Fsakshi1_87,AXRA,Fsakshi1,C,I,ʂ
+raw_data/wav/Fsakshi1.wav,668.523320,669.047990,Fsakshi1_88,AXRA,Fsakshi1,C,I,ʂ
+raw_data/wav/Fsakshi1.wav,670.796900,671.242070,Fsakshi1_89,AXRA,Fsakshi1,C,I,ʂ
+raw_data/wav/Fsakshi1.wav,693.870800,694.391740,Fsakshi1_90,ASA,Fsakshi1,C,I,s
+raw_data/wav/Fsakshi1.wav,696.103400,696.609460,Fsakshi1_91,ASA,Fsakshi1,C,I,s
+raw_data/wav/Fsakshi1.wav,698.365770,698.812290,Fsakshi1_92,ASA,Fsakshi1,C,I,s
+raw_data/wav/Fsakshi1.wav,710.857170,711.370690,Fsakshi1_93,AHHA,Fsakshi1,C,I,ɦ
+raw_data/wav/Fsakshi1.wav,713.116660,713.630190,Fsakshi1_94,AHHA,Fsakshi1,C,I,ɦ
+raw_data/wav/Fsakshi1.wav,715.260620,715.748460,Fsakshi1_95,AHHA,Fsakshi1,C,I,ɦ
+raw_data/wav/Fsakshi1.wav,767.992580,768.538310,Fsakshi1_96,ARRA,Fsakshi1,C,I,ɣ
+raw_data/wav/Fsakshi1.wav,770.209620,770.823570,Fsakshi1_97,ARRA,Fsakshi1,C,I,ɣ
+raw_data/wav/Fsakshi1.wav,772.426660,773.006500,Fsakshi1_98,ARRA,Fsakshi1,C,I,ɣ
+raw_data/wav/Fsakshi1.wav,786.561580,787.055310,Fsakshi1_99,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,788.635260,789.326490,Fsakshi1_100,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,791.029880,791.474240,Fsakshi1_101,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,837.453870,837.962480,Fsakshi1_102,ARHA,Fsakshi1,C,I,x
+raw_data/wav/Fsakshi1.wav,839.623920,840.149470,Fsakshi1_103,ARHA,Fsakshi1,C,I,x
+raw_data/wav/Fsakshi1.wav,841.827870,842.336470,Fsakshi1_104,ARHA,Fsakshi1,C,I,x
+raw_data/wav/Fsakshi1.wav,855.177370,855.651700,Fsakshi1_105,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,857.356990,857.828290,Fsakshi1_106,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,859.600400,860.071700,Fsakshi1_107,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,887.904660,888.382480,Fsakshi1_108,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,889.966850,890.469830,Fsakshi1_109,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,892.532020,892.934400,Fsakshi1_110,ARTHA,Fsakshi1,C,I,ɽʱ
+raw_data/wav/Fsakshi1.wav,904.834400,905.261930,Fsakshi1_111,ARTA,Fsakshi1,C,I,ɽ
+raw_data/wav/Fsakshi1.wav,906.997190,907.449870,Fsakshi1_112,ARTA,Fsakshi1,C,I,ɽ
+raw_data/wav/Fsakshi1.wav,909.059390,909.486910,Fsakshi1_113,ARTA,Fsakshi1,C,I,ɽ
+raw_data/wav/Fsakshi1.wav,922.521650,923.010800,Fsakshi1_114,ANRA,Fsakshi1,C,I,ɳ
+raw_data/wav/Fsakshi1.wav,924.600550,925.040790,Fsakshi1_115,ANRA,Fsakshi1,C,I,ɳ
+raw_data/wav/Fsakshi1.wav,926.752820,927.193060,Fsakshi1_116,ANRA,Fsakshi1,C,I,ɳ
+raw_data/wav/Mnirbhay2.wav,9.430000,9.850000,Mnirbhay2_1,AKA,Mnirbhay2,C,I,k
+raw_data/wav/Mnirbhay2.wav,11.180000,11.670000,Mnirbhay2_2,AKA,Mnirbhay2,C,I,k
+raw_data/wav/Mnirbhay2.wav,13.120000,13.580000,Mnirbhay2_3,AKA,Mnirbhay2,C,I,k
+raw_data/wav/Mnirbhay2.wav,25.880000,26.387620,Mnirbhay2_4,AKHA,Mnirbhay2,C,I,kʰ
+raw_data/wav/Mnirbhay2.wav,27.760000,28.240000,Mnirbhay2_5,AKHA,Mnirbhay2,C,I,kʰ
+raw_data/wav/Mnirbhay2.wav,29.650000,30.120000,Mnirbhay2_6,AKHA,Mnirbhay2,C,I,kʰ
+raw_data/wav/Mnirbhay2.wav,62.668570,63.119560,Mnirbhay2_10,AGHA,Mnirbhay2,C,I,ɡʱ
+raw_data/wav/Mnirbhay2.wav,64.515490,65.009440,Mnirbhay2_11,AGHA,Mnirbhay2,C,I,ɡʱ
+raw_data/wav/Mnirbhay2.wav,66.420000,66.860000,Mnirbhay2_12,AGHA,Mnirbhay2,C,I,ɡʱ
+raw_data/wav/Mnirbhay2.wav,82.382480,82.854950,Mnirbhay2_13,ATXA,Mnirbhay2,C,I,t͡ʃ
+raw_data/wav/Mnirbhay2.wav,84.370000,84.880000,Mnirbhay2_14,ATXA,Mnirbhay2,C,I,t͡ʃ
+raw_data/wav/Mnirbhay2.wav,86.527320,87.021260,Mnirbhay2_15,ATXA,Mnirbhay2,C,I,t͡ʃ
+raw_data/wav/Mnirbhay2.wav,103.610000,104.070000,Mnirbhay2_16,ATXHA,Mnirbhay2,C,I,t͡ʃʰ
+raw_data/wav/Mnirbhay2.wav,105.580000,106.040000,Mnirbhay2_17,ATXHA,Mnirbhay2,C,I,t͡ʃʰ
+raw_data/wav/Mnirbhay2.wav,107.510000,107.970000,Mnirbhay2_18,ATXHA,Mnirbhay2,C,I,t͡ʃʰ
+raw_data/wav/Mnirbhay2.wav,124.840000,125.290000,Mnirbhay2_19,ADXA,Mnirbhay2,C,I,d͡ʒ
+raw_data/wav/Mnirbhay2.wav,126.890000,127.320000,Mnirbhay2_20,ADXA,Mnirbhay2,C,I,d͡ʒ
+raw_data/wav/Mnirbhay2.wav,129.031320,129.510000,Mnirbhay2_21,ADXA,Mnirbhay2,C,I,d͡ʒ
+raw_data/wav/Mnirbhay2.wav,145.455920,145.540000,Mnirbhay2_22,AZA,Mnirbhay2,C,I,z
+raw_data/wav/Mnirbhay2.wav,147.148690,147.630000,Mnirbhay2_23,AZA,Mnirbhay2,C,I,z
+raw_data/wav/Mnirbhay2.wav,149.460000,149.990000,Mnirbhay2_24,AZA,Mnirbhay2,C,I,z
+raw_data/wav/Mnirbhay2.wav,166.780000,167.270000,Mnirbhay2_25,ADXHA,Mnirbhay2,C,I,d͡ʒʱ
+raw_data/wav/Mnirbhay2.wav,168.790000,169.239840,Mnirbhay2_26,ADXHA,Mnirbhay2,C,I,d͡ʒʱ
+raw_data/wav/Mnirbhay2.wav,170.716600,171.280000,Mnirbhay2_27,ADXHA,Mnirbhay2,C,I,d͡ʒʱ
+raw_data/wav/Mnirbhay2.wav,189.611120,190.007860,Mnirbhay2_28,ATRA,Mnirbhay2,C,I,ʈ
+raw_data/wav/Mnirbhay2.wav,191.550000,191.971040,Mnirbhay2_29,ATRA,Mnirbhay2,C,I,ʈ
+raw_data/wav/Mnirbhay2.wav,193.690000,194.098350,Mnirbhay2_30,ATRA,Mnirbhay2,C,I,ʈ
+raw_data/wav/Mnirbhay2.wav,210.150000,210.610000,Mnirbhay2_31,ATRHA,Mnirbhay2,C,I,ʈʰ
+raw_data/wav/Mnirbhay2.wav,212.140000,212.590000,Mnirbhay2_32,ATRHA,Mnirbhay2,C,I,ʈʰ
+raw_data/wav/Mnirbhay2.wav,214.240000,214.680000,Mnirbhay2_33,ATRHA,Mnirbhay2,C,I,ʈʰ
+raw_data/wav/Mnirbhay2.wav,231.250000,231.660000,Mnirbhay2_34,ADRA,Mnirbhay2,C,I,ɖ
+raw_data/wav/Mnirbhay2.wav,233.080000,233.540000,Mnirbhay2_35,ADRA,Mnirbhay2,C,I,ɖ
+raw_data/wav/Mnirbhay2.wav,234.996840,235.420000,Mnirbhay2_36,ADRA,Mnirbhay2,C,I,ɖ
+raw_data/wav/Mnirbhay2.wav,252.078890,252.580000,Mnirbhay2_37,ADRHA,Mnirbhay2,C,I,ɖʱ
+raw_data/wav/Mnirbhay2.wav,254.090000,254.560000,Mnirbhay2_38,ADRHA,Mnirbhay2,C,I,ɖʱ
+raw_data/wav/Mnirbhay2.wav,256.088740,256.600000,Mnirbhay2_39,ADRHA,Mnirbhay2,C,I,ɖʱ
+raw_data/wav/Mnirbhay2.wav,273.250140,273.690000,Mnirbhay2_40,ATA,Mnirbhay2,C,I,t
+raw_data/wav/Mnirbhay2.wav,275.226820,275.680000,Mnirbhay2_41,ATA,Mnirbhay2,C,I,t
+raw_data/wav/Mnirbhay2.wav,277.220000,277.690000,Mnirbhay2_42,ATA,Mnirbhay2,C,I,t
+raw_data/wav/Mnirbhay2.wav,294.290000,294.780000,Mnirbhay2_43,ATHA,Mnirbhay2,C,I,tʰ
+raw_data/wav/Mnirbhay2.wav,296.390000,296.974030,Mnirbhay2_44,ATHA,Mnirbhay2,C,I,tʰ
+raw_data/wav/Mnirbhay2.wav,298.860000,299.310000,Mnirbhay2_45,ATHA,Mnirbhay2,C,I,tʰ
+raw_data/wav/Mnirbhay2.wav,314.520000,314.980000,Mnirbhay2_46,ADA,Mnirbhay2,C,I,d
+raw_data/wav/Mnirbhay2.wav,316.690000,317.120000,Mnirbhay2_47,ADA,Mnirbhay2,C,I,d
+raw_data/wav/Mnirbhay2.wav,318.830000,319.320000,Mnirbhay2_48,ADA,Mnirbhay2,C,I,d
+raw_data/wav/Mnirbhay2.wav,335.740000,336.180000,Mnirbhay2_49,ADHA,Mnirbhay2,C,I,dʱ
+raw_data/wav/Mnirbhay2.wav,337.760000,338.250000,Mnirbhay2_50,ADHA,Mnirbhay2,C,I,dʱ
+raw_data/wav/Mnirbhay2.wav,339.930000,340.450000,Mnirbhay2_51,ADHA,Mnirbhay2,C,I,dʱ
+raw_data/wav/Mnirbhay2.wav,358.670000,359.100000,Mnirbhay2_52,ANA,Mnirbhay2,C,I,n
+raw_data/wav/Mnirbhay2.wav,361.270000,361.780000,Mnirbhay2_53,ANA,Mnirbhay2,C,I,n
+raw_data/wav/Mnirbhay2.wav,364.110000,364.630000,Mnirbhay2_54,ANA,Mnirbhay2,C,I,n
+raw_data/wav/Mnirbhay2.wav,378.950000,379.380000,Mnirbhay2_55,APA,Mnirbhay2,C,I,p
+raw_data/wav/Mnirbhay2.wav,381.200000,381.700000,Mnirbhay2_56,APA,Mnirbhay2,C,I,p
+raw_data/wav/Mnirbhay2.wav,383.650000,384.120000,Mnirbhay2_57,APA,Mnirbhay2,C,I,p
+raw_data/wav/Mnirbhay2.wav,402.090000,402.520000,Mnirbhay2_58,APHA,Mnirbhay2,C,I,pʰ
+raw_data/wav/Mnirbhay2.wav,404.260000,404.761500,Mnirbhay2_59,APHA,Mnirbhay2,C,I,pʰ
+raw_data/wav/Mnirbhay2.wav,406.490000,406.999920,Mnirbhay2_60,APHA,Mnirbhay2,C,I,pʰ
+raw_data/wav/Mnirbhay2.wav,425.999050,426.440000,Mnirbhay2_61,ABA,Mnirbhay2,C,I,b
+raw_data/wav/Mnirbhay2.wav,428.280000,428.740000,Mnirbhay2_62,ABA,Mnirbhay2,C,I,b
+raw_data/wav/Mnirbhay2.wav,430.660000,431.245910,Mnirbhay2_63,ABA,Mnirbhay2,C,I,b
+raw_data/wav/Mnirbhay2.wav,445.968350,446.470000,Mnirbhay2_64,ABHA,Mnirbhay2,C,I,bʱ
+raw_data/wav/Mnirbhay2.wav,448.350000,448.850000,Mnirbhay2_65,ABHA,Mnirbhay2,C,I,bʱ
+raw_data/wav/Mnirbhay2.wav,450.960000,451.500000,Mnirbhay2_66,ABHA,Mnirbhay2,C,I,bʱ
+raw_data/wav/Mnirbhay2.wav,468.900000,469.360000,Mnirbhay2_67,AMA,Mnirbhay2,C,I,m
+raw_data/wav/Mnirbhay2.wav,471.500000,471.890000,Mnirbhay2_68,AMA,Mnirbhay2,C,I,m
+raw_data/wav/Mnirbhay2.wav,474.390000,474.840000,Mnirbhay2_69,AMA,Mnirbhay2,C,I,m
+raw_data/wav/Mnirbhay2.wav,491.135450,491.560000,Mnirbhay2_70,AJA,Mnirbhay2,C,I,j
+raw_data/wav/Mnirbhay2.wav,493.500000,493.930000,Mnirbhay2_71,AJA,Mnirbhay2,C,I,j
+raw_data/wav/Mnirbhay2.wav,495.760000,496.280000,Mnirbhay2_72,AJA,Mnirbhay2,C,I,j
+raw_data/wav/Mnirbhay2.wav,513.822990,514.226130,Mnirbhay2_73,ARA,Mnirbhay2,C,I,ɾ
+raw_data/wav/Mnirbhay2.wav,516.580000,516.960000,Mnirbhay2_74,ARA,Mnirbhay2,C,I,ɾ
+raw_data/wav/Mnirbhay2.wav,519.870000,520.250000,Mnirbhay2_75,ARA,Mnirbhay2,C,I,ɾ
+raw_data/wav/Mnirbhay2.wav,537.030000,537.470000,Mnirbhay2_76,ALA,Mnirbhay2,C,I,l
+raw_data/wav/Mnirbhay2.wav,539.620000,540.040000,Mnirbhay2_77,ALA,Mnirbhay2,C,I,l
+raw_data/wav/Mnirbhay2.wav,542.560000,542.980000,Mnirbhay2_78,ALA,Mnirbhay2,C,I,l
+raw_data/wav/Mnirbhay2.wav,559.510000,559.970000,Mnirbhay2_79,AVLA,Mnirbhay2,C,I,ʋ
+raw_data/wav/Mnirbhay2.wav,562.110000,562.540000,Mnirbhay2_80,AVLA,Mnirbhay2,C,I,ʋ
+raw_data/wav/Mnirbhay2.wav,564.810000,565.220000,Mnirbhay2_81,AVLA,Mnirbhay2,C,I,ʋ
+raw_data/wav/Mnirbhay2.wav,580.213260,580.700000,Mnirbhay2_82,AXA,Mnirbhay2,C,I,ʃ
+raw_data/wav/Mnirbhay2.wav,583.110000,583.556020,Mnirbhay2_83,AXA,Mnirbhay2,C,I,ʃ
+raw_data/wav/Mnirbhay2.wav,585.950000,586.390000,Mnirbhay2_84,AXA,Mnirbhay2,C,I,ʃ
+raw_data/wav/Mnirbhay2.wav,606.880000,607.330910,Mnirbhay2_85,AXRA,Mnirbhay2,C,I,ʂ
+raw_data/wav/Mnirbhay2.wav,609.077880,609.570000,Mnirbhay2_86,AXRA,Mnirbhay2,C,I,ʂ
+raw_data/wav/Mnirbhay2.wav,611.513560,612.010000,Mnirbhay2_87,AXRA,Mnirbhay2,C,I,ʂ
+raw_data/wav/Mnirbhay2.wav,629.529810,629.980000,Mnirbhay2_88,ASA,Mnirbhay2,C,I,s
+raw_data/wav/Mnirbhay2.wav,631.925260,632.412960,Mnirbhay2_89,ASA,Mnirbhay2,C,I,s
+raw_data/wav/Mnirbhay2.wav,634.492850,635.037920,Mnirbhay2_90,ASA,Mnirbhay2,C,I,s
+raw_data/wav/Mnirbhay2.wav,650.389520,650.868330,Mnirbhay2_91,AHHA,Mnirbhay2,C,I,ɦ
+raw_data/wav/Mnirbhay2.wav,652.912460,653.428090,Mnirbhay2_92,AHHA,Mnirbhay2,C,I,ɦ
+raw_data/wav/Mnirbhay2.wav,655.803700,656.319340,Mnirbhay2_93,AHHA,Mnirbhay2,C,I,ɦ
+raw_data/wav/Mnirbhay2.wav,672.698360,673.195580,Mnirbhay2_94,ARRA,Mnirbhay2,C,I,ɣ
+raw_data/wav/Mnirbhay2.wav,675.092380,675.626430,Mnirbhay2_95,ARRA,Mnirbhay2,C,I,ɣ
+raw_data/wav/Mnirbhay2.wav,677.578490,678.296690,Mnirbhay2_96,ARRA,Mnirbhay2,C,I,ɣ
+raw_data/wav/Mnirbhay2.wav,695.994630,696.528680,Mnirbhay2_97,ARHA,Mnirbhay2,C,I,x
+raw_data/wav/Mnirbhay2.wav,698.535980,698.996370,Mnirbhay2_98,ARHA,Mnirbhay2,C,I,x
+raw_data/wav/Mnirbhay2.wav,701.408810,701.850780,Mnirbhay2_99,ARHA,Mnirbhay2,C,I,x
+raw_data/wav/Mnirbhay2.wav,718.056600,718.572240,Mnirbhay2_100,ARTHA,Mnirbhay2,C,I,ɽʱ
+raw_data/wav/Mnirbhay2.wav,720.395380,721.003090,Mnirbhay2_101,ARTHA,Mnirbhay2,C,I,ɽʱ
+raw_data/wav/Mnirbhay2.wav,722.955150,723.544450,Mnirbhay2_102,ARTHA,Mnirbhay2,C,I,ɽʱ
+raw_data/wav/Mnirbhay2.wav,737.921550,738.400350,Mnirbhay2_103,ARTA,Mnirbhay2,C,I,ɽ
+raw_data/wav/Mnirbhay2.wav,740.168250,740.647060,Mnirbhay2_104,ARTA,Mnirbhay2,C,I,ɽ
+raw_data/wav/Mnirbhay2.wav,742.470200,742.985840,Mnirbhay2_105,ARTA,Mnirbhay2,C,I,ɽ
+raw_data/wav/Mnirbhay2.wav,758.738930,759.217740,Mnirbhay2_106,ANRA,Mnirbhay2,C,I,ɳ
+raw_data/wav/Mnirbhay2.wav,761.169790,761.667010,Mnirbhay2_107,ANRA,Mnirbhay2,C,I,ɳ
+raw_data/wav/Mnirbhay2.wav,763.840050,764.318860,Mnirbhay2_108,ANRA,Mnirbhay2,C,I,ɳ
 raw_data/wav/Fsakshi2.wav,20.350000,20.750000,Fsakshi2_1,AKA,Fsakshi2,C,I,k
 raw_data/wav/Fsakshi2.wav,22.440000,22.840000,Fsakshi2_2,AKA,Fsakshi2,C,I,k
 raw_data/wav/Fsakshi2.wav,24.570000,24.980000,Fsakshi2_3,AKA,Fsakshi2,C,I,k

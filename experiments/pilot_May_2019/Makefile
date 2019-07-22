@@ -14,11 +14,11 @@ triplet-list: tmp
 	python ../../src/textgrid_to_abx_item_file_word.py word \
 raw_data/textGrid/ \
 raw_data/wav/ \
---excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.item \
+--excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.csv \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
-tmp/ABX_ITEM_FILE.item tmp/ABX_ITEM_FILE_COMPLETE.item \
+tmp/ABX_ITEM_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.csv \
 && abx-task tmp/ABX_ITEM_FILE_COMPLETE.item tmp/ABX_TASK_FILE.task \
--o word -a speaker -b CV context \
+-o word \
 && python ../../src/task2txt.py tmp/ABX_TASK_FILE.task tmp/ABX_TASK_FILE.csv \
 && Rscript --vanilla triplet_creation/add_meta_information_to_triplet_file.Rscript \
 tmp/ABX_TASK_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.item triplet_creation/triplets.csv \
@@ -26,7 +26,7 @@ tmp/ABX_TASK_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.item triplet_creation/triplets.
 distances/tmp:
 	mkdir -p distances/tmp
 
-distances/tmp/PAIRS_TMP.csv: distances/tmp
+stimlist/item_meta_information_with_distances.csv: distances/tmp
 	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
 stimlist/stimulus_list.csv triplet_creation/triplets.csv stimlist/item_meta_information.csv && \
 Rscript --vanilla \
@@ -35,35 +35,35 @@ stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
 
 distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/tmp/distances__unnormed_filterbank__dtw_pathlength__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/tmp/distances__normed_mfcc__dtw_pathlength__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --nceps=13 --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py --nceps=13 --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/tmp/distances__unnormed_mfcc__dtw_pathlength__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --nceps=13 distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py --nceps=13 distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/tmp/distances__normed_filterbank__dtw_sum__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --normalize-by-speaker --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py --normalize-by-speaker --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/tmp/distances__unnormed_filterbank__dtw_sum__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/tmp/distances__normed_mfcc__dtw_sum__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --normalize-by-speaker --nceps=13 --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py --normalize-by-speaker --nceps=13 --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/tmp/distances__unnormed_mfcc__dtw_sum__by_pair.csv: \
 	distances/tmp distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --nceps=13 --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 16000 $@
+	python ../../src/wav_to_distance.py --nceps=13 --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/distances__%.csv: distances/tmp/distances__%__by_pair.csv
 	Rscript --vanilla \
@@ -80,9 +80,8 @@ distances/distances__normed_mfcc__dtw_sum.csv \
 distances/distances__unnormed_mfcc__dtw_sum.csv \
 clean-distances-tmp
 
-stimulus_list.csv: stimlist/design.csv
-	Rscript --vanilla stimlist/create_stimlist.Rscript \
-567 stimlist/design.csv stimlist/meta_info_filelist.csv stimlist/stimulus_list.csv
+stimulus_list.csv: stimlist/design.csv 
+	python stimlist/generate_design.py 4 18 10 1 0 1 2 3 4 5 8000 0.00001 24 stimlist/design.csv
 
 stimlist/item_meta_information_with_distances.csv: distances
 	Rscript --vanilla \
@@ -94,9 +93,17 @@ distances/distances__*.csv
 stimlist/stimuli_intervals:
 	python stimlist/save_intervals_to_wavs.py word stimlist/stimuli_intervals \
 stimlist/meta_info_filelist.csv \
-raw_data/textGrid/nirbhay1.TextGrid,raw_data/wav/nirbhay1.wav \
-raw_data/textGrid/nirbhay2.TextGrid,raw_data/wav/nirbhay2.wav \
-raw_data/textGrid/sakshi1.TextGrid,raw_data/wav/sakshi1.wav
+raw_data/textGrid/Mnirbhay1.TextGrid,raw_data/wav/Mnirbhay1.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Mnirbhay2.wav \
+raw_data/textGrid/Fsakshi1.TextGrid,raw_data/wav/Fsakshi1.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Fsakshi2.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Fbhavya1.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Fbhavya2.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/FNiralee1.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/FNiralee2.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Mrajesh1.wav \
+raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Mrajesh2.wav \
+
 
 #NB- this step ONLY takes absolute paths to raw data files. raw data files contain
 #personally identifiable information and  should never be shared or synced to git 
