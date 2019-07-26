@@ -1,7 +1,6 @@
 #!/usr/bin/env Rscript
 
-# Adds the meta-information to the August 2018 pilot
-# triplet file
+# Adds the meta-information to the triplet file
 #
 # Author: Ewan Dunbar
 

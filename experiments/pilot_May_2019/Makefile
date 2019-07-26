@@ -17,11 +17,7 @@ raw_data/wav/ \
 --excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.csv \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
 tmp/ABX_ITEM_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.csv \
-&& abx-task tmp/ABX_ITEM_FILE_COMPLETE.item tmp/ABX_TASK_FILE.task \
--o word \
-&& python ../../src/task2txt.py tmp/ABX_TASK_FILE.task tmp/ABX_TASK_FILE.csv \
-&& Rscript --vanilla triplet_creation/add_meta_information_to_triplet_file.Rscript \
-tmp/ABX_TASK_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.item triplet_creation/triplets.csv \
+&& python triplet_creation/generate_triplets.py tmp/ABX_ITEM_FILE_COMPLETE.csv \ triplet_creation/triplet_list.csv
 
 distances/tmp:
 	mkdir -p distances/tmp

@@ -1,7 +1,7 @@
 #!/usr/bin/env Rscript
 
-# Adds the meta-information to the August 2018 pilot
-# item file (modified to take and produce a csv file instead)
+# Adds the meta-information to the item file
+# (script modified to take and produce a csv file instead)
 #
 # Author: Ewan Dunbar
 
@@ -17,7 +17,7 @@ format_numeric <- function(x, ...) {
 ARGS <- commandArgs(TRUE)
 
 # Item file generated from TextGrids
-# e.g., "ABX_ITEM_FILE.item"
+# e.g., "ABX_ITEM_FILE.csv"
 INPUT <- ARGS[1] 
 
 # Updated item file to write
