@@ -49,6 +49,8 @@ Ex : a female speaker name Katie must have both following files : Fkatie.wav , F
 
 You also have to make sure that your textgrids are correctly formatted. You must have a tier name "word", in which only the words you want to work on are marked. You also have to make sure that there's exactly 3 words per sound per .wav.
 Ex : If you want to study "AKA" , you can only have 3 "AKA" following each other in .wav. You can change this in the script stimlist/generate_design.py (more on this later).
+
+Finally, you will need to change triplet_creation/combine_triplet_meta_information.Rscript. You'll have to add your own code that you used to annote your texgrids. You can just add it to the list without deleting anything.
 ```
 ### You will have to adapt the makefile too :
 
@@ -87,12 +89,16 @@ Despite the names, those are simple .csv and not .item or ABX files.This is beca
 
 On generate_triplet.py :
 This script makes triplets of sounds based on ABX_ITEM_FILE_COMPLET.csv, but it does NOT generate ALL triplets. 
-Some conditions are made that are based on what we needed for the last experiment. You have to take a look at this file to see everything it's generating, otherwise you may have trouble for the next parts. We had roughly 1000 sounds, and making all triplets for these created a 270gb file that was completely unusable. If you really need every possible triplet, make sure the file created is not bigger than 7gb (biggest file that worked for later scripts).
+
+Some conditions are made that are based on what we needed for the last experiment. You have to take a look at this file to see everything it's 
+generating, otherwise you may have trouble for the next parts. We had roughly 1000 sounds, and making all triplets for these created a 270gb file that was completely unusable. 
+If you really need every possible triplet, make sure the file created is not bigger than 7gb (biggest file that worked for later scripts).
 This script takes a lot of time to run. For the last experiment it lasted for several hours (I don't know the exact amount, I left it running the night before we needed the file, you should do the same).
 
-One last thing to note is that there may be conflict between the triplets generating and the design (if you don't generate all triplets there may be triplets needed for the design that you didn't generate, or maybe the design is wrong and asks for triplets you shouldn't need). There's still problems within the conditions sets in this script to generate te triplets and it needs to be revised.
+One last thing to note is that there may be conflict between the triplets generating and the design (if you don't generate all triplets there may be triplets needed for the design that you didn't generate, or maybe the design is wrong and asks for triplets you shouldn't need).
+ There's still problems within the conditions sets in this script to generate te triplets and it needs to be revised.
 
-###stimlist/stimuli_intervals :
+### stimlist/stimuli_intervals :
 
 This part of the makefile generates all stimuli based on you textgrid. Make sure you followed the formatted marked above.
 You will have to replace every filenames in the makefile by yours.
