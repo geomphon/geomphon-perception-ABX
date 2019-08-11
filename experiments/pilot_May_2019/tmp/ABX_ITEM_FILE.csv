@@ -1,1059 +1,1054 @@
-#file,onset,offset,#item,word
-raw_data/wav/Fbhavya1.wav,14.51,14.98,Fbhavya1_1,AKA
-raw_data/wav/Fbhavya1.wav,16.39,16.84,Fbhavya1_2,AKA
-raw_data/wav/Fbhavya1.wav,18.29,18.59218,Fbhavya1_3,AKA
-raw_data/wav/Fbhavya1.wav,35.21,35.69,Fbhavya1_4,AKHA
-raw_data/wav/Fbhavya1.wav,37.05,37.47,Fbhavya1_5,AKHA
-raw_data/wav/Fbhavya1.wav,38.87363,39.17,Fbhavya1_6,AKHA
-raw_data/wav/Fbhavya1.wav,70.14459,70.56,Fbhavya1_10,AGHA
-raw_data/wav/Fbhavya1.wav,71.9268,72.34,Fbhavya1_11,AGHA
-raw_data/wav/Fbhavya1.wav,73.69,74.05,Fbhavya1_12,AGHA
-raw_data/wav/Fbhavya1.wav,95.25,95.59,Fbhavya1_13,ATXA
-raw_data/wav/Fbhavya1.wav,97.21,97.51,Fbhavya1_14,ATXA
-raw_data/wav/Fbhavya1.wav,99.08,99.36,Fbhavya1_15,ATXA
-raw_data/wav/Fbhavya1.wav,102.44,102.75,Fbhavya1_16,ATXHA
-raw_data/wav/Fbhavya1.wav,104.26,104.55,Fbhavya1_17,ATXHA
-raw_data/wav/Fbhavya1.wav,105.91054,106.35,Fbhavya1_18,ATXHA
-raw_data/wav/Fbhavya1.wav,108.88,109.36,Fbhavya1_19,ADXA
-raw_data/wav/Fbhavya1.wav,110.75,111.19,Fbhavya1_20,ADXA
-raw_data/wav/Fbhavya1.wav,112.569,112.95,Fbhavya1_21,ADXA
-raw_data/wav/Fbhavya1.wav,116.12,116.38,Fbhavya1_22,AZA
-raw_data/wav/Fbhavya1.wav,117.89,118.17,Fbhavya1_23,AZA
-raw_data/wav/Fbhavya1.wav,119.48,119.95,Fbhavya1_24,AZA
-raw_data/wav/Fbhavya1.wav,122.84,123.28,Fbhavya1_25,ADXA
-raw_data/wav/Fbhavya1.wav,124.70708,125.18796,Fbhavya1_26,ADXHA
-raw_data/wav/Fbhavya1.wav,126.58,127.06,Fbhavya1_27,ADXHA
-raw_data/wav/Fbhavya1.wav,129.98,130.46,Fbhavya1_28,ATRA
-raw_data/wav/Fbhavya1.wav,131.79,132.24,Fbhavya1_29,ATRA
-raw_data/wav/Fbhavya1.wav,133.58,134.01,Fbhavya1_30,ATRA
-raw_data/wav/Fbhavya1.wav,137.57,138.11,Fbhavya1_31,ATRHA
-raw_data/wav/Fbhavya1.wav,139.57,140.09,Fbhavya1_32,ATRHA
-raw_data/wav/Fbhavya1.wav,141.69,142.09,Fbhavya1_33,ATRHA
-raw_data/wav/Fbhavya1.wav,145.57,145.82,Fbhavya1_34,ADRA
-raw_data/wav/Fbhavya1.wav,147.41,147.63,Fbhavya1_35,ADRA
-raw_data/wav/Fbhavya1.wav,149.09229,149.38889,Fbhavya1_36,ADRA
-raw_data/wav/Fbhavya1.wav,152.43025,152.86,Fbhavya1_37,ADRHA
-raw_data/wav/Fbhavya1.wav,154.30132,154.69,Fbhavya1_38,ADRHA
-raw_data/wav/Fbhavya1.wav,156.07,156.52,Fbhavya1_39,ADRHA
-raw_data/wav/Fbhavya1.wav,160.99,161.45,Fbhavya1_40,ATA
-raw_data/wav/Fbhavya1.wav,162.73,163.19,Fbhavya1_41,ATA
-raw_data/wav/Fbhavya1.wav,164.51,164.98,Fbhavya1_42,ATA
-raw_data/wav/Fbhavya1.wav,168.07,168.54,Fbhavya1_43,ATHA
-raw_data/wav/Fbhavya1.wav,169.94,170.45,Fbhavya1_44,ATHA
-raw_data/wav/Fbhavya1.wav,171.94,172.35,Fbhavya1_45,ATHA
-raw_data/wav/Fbhavya1.wav,175.05,175.46,Fbhavya1_46,ATHA
-raw_data/wav/Fbhavya1.wav,179.71,180.13,Fbhavya1_47,ADA
-raw_data/wav/Fbhavya1.wav,181.44,181.88,Fbhavya1_48,ADA
-raw_data/wav/Fbhavya1.wav,183.19,183.57,Fbhavya1_49,ADA
-raw_data/wav/Fbhavya1.wav,190.73,191.2,Fbhavya1_50,ADHA
-raw_data/wav/Fbhavya1.wav,192.61,193.08,Fbhavya1_51,ADHA
-raw_data/wav/Fbhavya1.wav,194.43,194.87,Fbhavya1_52,ADHA
-raw_data/wav/Fbhavya1.wav,198.51,199.02,Fbhavya1_53,ABA
-raw_data/wav/Fbhavya1.wav,200.47,200.86,Fbhavya1_54,ANA
-raw_data/wav/Fbhavya1.wav,202.34,202.71,Fbhavya1_55,ANA
-raw_data/wav/Fbhavya1.wav,205.76,206.22,Fbhavya1_56,APA
-raw_data/wav/Fbhavya1.wav,207.82,208.09,Fbhavya1_57,APA
-raw_data/wav/Fbhavya1.wav,209.51,209.91,Fbhavya1_58,APA
-raw_data/wav/Fbhavya1.wav,213.63,214.13,Fbhavya1_59,APHA
-raw_data/wav/Fbhavya1.wav,215.56,216.03,Fbhavya1_60,APHA
-raw_data/wav/Fbhavya1.wav,217.65,217.97,Fbhavya1_61,APHA
-raw_data/wav/Fbhavya1.wav,222.02,222.41,Fbhavya1_62,ABA
-raw_data/wav/Fbhavya1.wav,223.95,224.25,Fbhavya1_63,ABA
-raw_data/wav/Fbhavya1.wav,225.77,226.19,Fbhavya1_64,ABA
-raw_data/wav/Fbhavya1.wav,230.48,230.76,Fbhavya1_65,ABHA
-raw_data/wav/Fbhavya1.wav,232.39,232.68,Fbhavya1_66,ABHA
-raw_data/wav/Fbhavya1.wav,234.23,234.52,Fbhavya1_67,ABHA
-raw_data/wav/Fbhavya1.wav,238.8,239.16,Fbhavya1_68,AMA
-raw_data/wav/Fbhavya1.wav,240.72,241.05,Fbhavya1_69,AMA
-raw_data/wav/Fbhavya1.wav,242.61,242.91,Fbhavya1_70,AMA
-raw_data/wav/Fbhavya1.wav,246.88,247.23,Fbhavya1_71,AJA
-raw_data/wav/Fbhavya1.wav,248.74,249.05,Fbhavya1_72,AJA
-raw_data/wav/Fbhavya1.wav,250.59,250.91,Fbhavya1_73,AJA
-raw_data/wav/Fbhavya1.wav,254.33,254.83,Fbhavya1_74,ARA
-raw_data/wav/Fbhavya1.wav,256.26,256.69,Fbhavya1_75,ARA
-raw_data/wav/Fbhavya1.wav,258.19,258.6,Fbhavya1_76,ARA
-raw_data/wav/Fbhavya1.wav,263.79,264.19,Fbhavya1_77,ALA
-raw_data/wav/Fbhavya1.wav,265.6,265.98,Fbhavya1_78,ALA
-raw_data/wav/Fbhavya1.wav,267.4,267.83,Fbhavya1_79,ALA
-raw_data/wav/Fbhavya1.wav,271.4,271.85,Fbhavya1_80,AVLA
-raw_data/wav/Fbhavya1.wav,273.23,273.69,Fbhavya1_81,AVLA
-raw_data/wav/Fbhavya1.wav,275.2,275.6,Fbhavya1_82,AVLA
-raw_data/wav/Fbhavya1.wav,281.46,281.96,Fbhavya1_83,AXA
-raw_data/wav/Fbhavya1.wav,283.27,283.76,Fbhavya1_84,AXA
-raw_data/wav/Fbhavya1.wav,285.27866,285.64,Fbhavya1_85,AXA
-raw_data/wav/Fbhavya1.wav,289.55329,289.97,Fbhavya1_86,AXRA
-raw_data/wav/Fbhavya1.wav,291.32862,291.73,Fbhavya1_87,AXRA
-raw_data/wav/Fbhavya1.wav,293.05803,293.45,Fbhavya1_88,AXRA
-raw_data/wav/Fbhavya1.wav,297.02034,297.46,Fbhavya1_89,ASA
-raw_data/wav/Fbhavya1.wav,298.79282,299.19,Fbhavya1_90,ASA
-raw_data/wav/Fbhavya1.wav,300.57555,300.96,Fbhavya1_91,ASA
-raw_data/wav/Fbhavya1.wav,304.37,304.73,Fbhavya1_92,AHHA
-raw_data/wav/Fbhavya1.wav,306.15,306.58,Fbhavya1_93,AHHA
-raw_data/wav/Fbhavya1.wav,308.00052,308.45133,Fbhavya1_94,AHHA
-raw_data/wav/Fbhavya1.wav,311.34467,311.78442,Fbhavya1_95,ARRA
-raw_data/wav/Fbhavya1.wav,313.12056,313.61104,Fbhavya1_96,ARRA
-raw_data/wav/Fbhavya1.wav,314.94719,315.40385,Fbhavya1_97,ARRA
-raw_data/wav/Fbhavya1.wav,318.31994,318.79351,Fbhavya1_98,ARHA
-raw_data/wav/Fbhavya1.wav,319.99435,320.51866,Fbhavya1_99,ARHA
-raw_data/wav/Fbhavya1.wav,321.82097,322.2438,Fbhavya1_100,ARHA
-raw_data/wav/Fbhavya1.wav,326.88183,327.33848,Fbhavya1_101,ARTHA
-raw_data/wav/Fbhavya1.wav,328.69154,329.16511,Fbhavya1_102,ARTHA
-raw_data/wav/Fbhavya1.wav,330.56891,331.02557,Fbhavya1_103,ARTHA
-raw_data/wav/Fbhavya1.wav,336.53408,337.17679,Fbhavya1_104,ARTA
-raw_data/wav/Fbhavya1.wav,338.29306,338.69898,Fbhavya1_105,ARTA
-raw_data/wav/Fbhavya1.wav,340.15351,340.55943,Fbhavya1_106,ARTA
-raw_data/wav/Fbhavya1.wav,344.07619,344.54976,Fbhavya1_107,ANRA
-raw_data/wav/Fbhavya1.wav,345.83516,346.34256,Fbhavya1_108,ANRA
-raw_data/wav/Fbhavya1.wav,347.66179,348.08462,Fbhavya1_109,ANRA
-raw_data/wav/Fbhavya2.wav,8.39,8.93,Fbhavya2_1,AKA
-raw_data/wav/Fbhavya2.wav,10.7,11.28,Fbhavya2_2,AKA
-raw_data/wav/Fbhavya2.wav,13.03,13.55,Fbhavya2_3,AKA
-raw_data/wav/Fbhavya2.wav,17.15,17.81,Fbhavya2_4,AKHA
-raw_data/wav/Fbhavya2.wav,19.74583,20.25525,Fbhavya2_5,AKHA
-raw_data/wav/Fbhavya2.wav,22.22,22.8,Fbhavya2_6,AKHA
-raw_data/wav/Fbhavya2.wav,35.91,36.57,Fbhavya2_10,AGHA
-raw_data/wav/Fbhavya2.wav,43.05815,43.50199,Fbhavya2_11,AGHA
-raw_data/wav/Fbhavya2.wav,45.49,46.06,Fbhavya2_12,AGHA
-raw_data/wav/Fbhavya2.wav,48.25,48.84,Fbhavya2_13,AGHA
-raw_data/wav/Fbhavya2.wav,52.19,52.65,Fbhavya2_14,ATXA
-raw_data/wav/Fbhavya2.wav,54.51,55.01,Fbhavya2_15,ATXA
-raw_data/wav/Fbhavya2.wav,56.88,57.36,Fbhavya2_16,ATXA
-raw_data/wav/Fbhavya2.wav,61.12,61.62,Fbhavya2_17,ATXHA
-raw_data/wav/Fbhavya2.wav,63.48,63.98,Fbhavya2_18,ATXHA
-raw_data/wav/Fbhavya2.wav,65.87,66.33,Fbhavya2_19,ATXHA
-raw_data/wav/Fbhavya2.wav,69.84,70.29,Fbhavya2_20,ADXA
-raw_data/wav/Fbhavya2.wav,72.15,72.66,Fbhavya2_21,ADXA
-raw_data/wav/Fbhavya2.wav,74.57,75.04,Fbhavya2_22,ADXA
-raw_data/wav/Fbhavya2.wav,78.7,79.21,Fbhavya2_23,AZA
-raw_data/wav/Fbhavya2.wav,81.11,81.62,Fbhavya2_24,AZA
-raw_data/wav/Fbhavya2.wav,83.33,83.85,Fbhavya2_25,AZA
-raw_data/wav/Fbhavya2.wav,93.5,94.05,Fbhavya2_26,ADXHA
-raw_data/wav/Fbhavya2.wav,95.94,96.49,Fbhavya2_27,ADXHA
-raw_data/wav/Fbhavya2.wav,98.35537,98.82,Fbhavya2_28,ADXHA
-raw_data/wav/Fbhavya2.wav,102.32792,102.77,Fbhavya2_29,ATRA
-raw_data/wav/Fbhavya2.wav,104.5,105.01,Fbhavya2_30,ATRA
-raw_data/wav/Fbhavya2.wav,106.89,107.36,Fbhavya2_31,ATRA
-raw_data/wav/Fbhavya2.wav,114.88,115.43,Fbhavya2_32,ATRHA
-raw_data/wav/Fbhavya2.wav,117.34,117.9,Fbhavya2_33,ATRHA
-raw_data/wav/Fbhavya2.wav,119.89136,120.3513,Fbhavya2_34,ATRHA
-raw_data/wav/Fbhavya2.wav,123.74815,124.1817,Fbhavya2_35,ADRA
-raw_data/wav/Fbhavya2.wav,126.28412,126.6761,Fbhavya2_36,ADRA
-raw_data/wav/Fbhavya2.wav,128.69537,129.07547,Fbhavya2_37,ADRA
-raw_data/wav/Fbhavya2.wav,132.48861,132.9209,Fbhavya2_38,ADRHA
-raw_data/wav/Fbhavya2.wav,134.79417,135.24376,Fbhavya2_39,ADRHA
-raw_data/wav/Fbhavya2.wav,137.18,137.75,Fbhavya2_40,ADRHA
-raw_data/wav/Fbhavya2.wav,142.11,142.66,Fbhavya2_41,ATA
-raw_data/wav/Fbhavya2.wav,144.4,144.97,Fbhavya2_42,ATA
-raw_data/wav/Fbhavya2.wav,146.97,147.47,Fbhavya2_43,ATA
-raw_data/wav/Fbhavya2.wav,151.09,151.6,Fbhavya2_44,ATHA
-raw_data/wav/Fbhavya2.wav,153.28,153.79,Fbhavya2_45,ATHA
-raw_data/wav/Fbhavya2.wav,155.72736,156.25828,Fbhavya2_46,ATHA
-raw_data/wav/Fbhavya2.wav,159.28591,159.69337,Fbhavya2_47,ADA
-raw_data/wav/Fbhavya2.wav,162.01984,162.44044,Fbhavya2_48,ADA
-raw_data/wav/Fbhavya2.wav,164.64,165.19,Fbhavya2_49,ADA
-raw_data/wav/Fbhavya2.wav,173.72904,174.24,Fbhavya2_50,ADHA
-raw_data/wav/Fbhavya2.wav,176.05,176.65,Fbhavya2_51,ADHA
-raw_data/wav/Fbhavya2.wav,178.49,179.07,Fbhavya2_52,ADHA
-raw_data/wav/Fbhavya2.wav,182.52,183.07,Fbhavya2_53,ANA
-raw_data/wav/Fbhavya2.wav,184.88,185.38,Fbhavya2_54,ANA
-raw_data/wav/Fbhavya2.wav,187.11,187.65,Fbhavya2_55,ANA
-raw_data/wav/Fbhavya2.wav,190.85,191.3,Fbhavya2_56,APA
-raw_data/wav/Fbhavya2.wav,193.17,193.67,Fbhavya2_57,APA
-raw_data/wav/Fbhavya2.wav,195.58,196.06,Fbhavya2_58,APA
-raw_data/wav/Fbhavya2.wav,199.15,199.67212,Fbhavya2_59,APHA
-raw_data/wav/Fbhavya2.wav,201.51,202.08,Fbhavya2_60,APHA
-raw_data/wav/Fbhavya2.wav,204.01248,204.54632,Fbhavya2_61,APHA
-raw_data/wav/Fbhavya2.wav,208.46,209.01,Fbhavya2_62,ABA
-raw_data/wav/Fbhavya2.wav,210.8,211.32,Fbhavya2_63,ABA
-raw_data/wav/Fbhavya2.wav,213.07,213.62,Fbhavya2_64,ABA
-raw_data/wav/Fbhavya2.wav,217.22,217.82,Fbhavya2_65,ABHA
-raw_data/wav/Fbhavya2.wav,219.87499,220.3776,Fbhavya2_66,ABHA
-raw_data/wav/Fbhavya2.wav,222.19,222.7,Fbhavya2_67,ABHA
-raw_data/wav/Fbhavya2.wav,229.57,230.1,Fbhavya2_68,ABHA
-raw_data/wav/Fbhavya2.wav,231.8,232.33,Fbhavya2_69,ABHA
-raw_data/wav/Fbhavya2.wav,233.99,234.52,Fbhavya2_70,ABH
-raw_data/wav/Fbhavya2.wav,238.07,238.51,Fbhavya2_71,AJA
-raw_data/wav/Fbhavya2.wav,240.33,240.82,Fbhavya2_72,AJA
-raw_data/wav/Fbhavya2.wav,242.71,243.19,Fbhavya2_73,AJA
-raw_data/wav/Fbhavya2.wav,293.59,294.14,Fbhavya2_74,AMA
-raw_data/wav/Fbhavya2.wav,296.21,296.78,Fbhavya2_75,AMA
-raw_data/wav/Fbhavya2.wav,298.81,299.43,Fbhavya2_76,AMA
-raw_data/wav/Fbhavya2.wav,302.62,303.08,Fbhavya2_77,ARA
-raw_data/wav/Fbhavya2.wav,305.1463,305.53542,Fbhavya2_78,ARA
-raw_data/wav/Fbhavya2.wav,307.58,308.06,Fbhavya2_79,ARA
-raw_data/wav/Fbhavya2.wav,311.14659,311.53477,Fbhavya2_80,ALA
-raw_data/wav/Fbhavya2.wav,313.56814,313.93168,Fbhavya2_81,ALA
-raw_data/wav/Fbhavya2.wav,316.21151,316.5997,Fbhavya2_82,ALA
-raw_data/wav/Fbhavya2.wav,319.77,320.22,Fbhavya2_83,AVLA
-raw_data/wav/Fbhavya2.wav,322.11,322.55,Fbhavya2_84,AVLA
-raw_data/wav/Fbhavya2.wav,324.53,325.01,Fbhavya2_85,AVLA
-raw_data/wav/Fbhavya2.wav,330.92,331.38,Fbhavya2_86,AXA
-raw_data/wav/Fbhavya2.wav,333.35,333.81,Fbhavya2_87,AXA
-raw_data/wav/Fbhavya2.wav,335.74,336.21,Fbhavya2_88,AXA
-raw_data/wav/Fbhavya2.wav,338.98,339.58,Fbhavya2_89,AXRA
-raw_data/wav/Fbhavya2.wav,341.31,341.86,Fbhavya2_90,AXRA
-raw_data/wav/Fbhavya2.wav,343.71,344.3,Fbhavya2_91,AXRA
-raw_data/wav/Fbhavya2.wav,347.6,348.05,Fbhavya2_92,ASA
-raw_data/wav/Fbhavya2.wav,350.13,350.6,Fbhavya2_93,ASA
-raw_data/wav/Fbhavya2.wav,352.61,353.13,Fbhavya2_94,ASA
-raw_data/wav/Fbhavya2.wav,357.27,357.75,Fbhavya2_95,AHHA
-raw_data/wav/Fbhavya2.wav,359.53,360.1,Fbhavya2_96,AHHA
-raw_data/wav/Fbhavya2.wav,362.04,362.66,Fbhavya2_97,AHHA
-raw_data/wav/Fbhavya2.wav,365.71,366.29,Fbhavya2_98,ARRA
-raw_data/wav/Fbhavya2.wav,368.17,368.75,Fbhavya2_99,ARRA
-raw_data/wav/Fbhavya2.wav,370.52,371.09,Fbhavya2_100,ARRA
-raw_data/wav/Fbhavya2.wav,374.84859,375.32673,Fbhavya2_101,ARHA
-raw_data/wav/Fbhavya2.wav,377.18805,377.68896,Fbhavya2_102,ARHA
-raw_data/wav/Fbhavya2.wav,379.60151,380.12518,Fbhavya2_103,ARHA
-raw_data/wav/Fbhavya2.wav,385.26014,385.73313,Fbhavya2_104,ARTHA
-raw_data/wav/Fbhavya2.wav,387.65848,388.02018,Fbhavya2_105,ARTHA
-raw_data/wav/Fbhavya2.wav,389.90657,390.36287,Fbhavya2_106,ARTHA
-raw_data/wav/Fbhavya2.wav,396.54195,396.95617,Fbhavya2_107,ARTA
-raw_data/wav/Fbhavya2.wav,398.96571,399.37433,Fbhavya2_108,ARTA
-raw_data/wav/Fbhavya2.wav,401.33909,401.84287,Fbhavya2_109,ARTA
-raw_data/wav/Fbhavya2.wav,404.86421,405.25726,Fbhavya2_110,ANRA
-raw_data/wav/Fbhavya2.wav,407.05736,407.43333,Fbhavya2_111,ANRA
-raw_data/wav/Fbhavya2.wav,409.34166,409.81447,Fbhavya2_112,ANRA
-raw_data/wav/Mrajesh2.wav,30.49,30.91,Mrajesh2_1,AKA
-raw_data/wav/Mrajesh2.wav,32.49,32.87,Mrajesh2_2,AKA
-raw_data/wav/Mrajesh2.wav,34.69,35.12,Mrajesh2_3,AKA
-raw_data/wav/Mrajesh2.wav,38.65,39.07,Mrajesh2_4,AKHA
-raw_data/wav/Mrajesh2.wav,40.94,41.4,Mrajesh2_5,AKHA
-raw_data/wav/Mrajesh2.wav,43.29,43.74,Mrajesh2_6,AKHA
-raw_data/wav/Mrajesh2.wav,58.97,59.4,Mrajesh2_10,AGHA
-raw_data/wav/Mrajesh2.wav,61.02,61.46,Mrajesh2_11,AGHA
-raw_data/wav/Mrajesh2.wav,63.18,63.6,Mrajesh2_12,AGHA
-raw_data/wav/Mrajesh2.wav,70.81894,71.11,Mrajesh2_13,ATXA
-raw_data/wav/Mrajesh2.wav,72.8,73.13,Mrajesh2_14,ATXA
-raw_data/wav/Mrajesh2.wav,74.96,75.24,Mrajesh2_15,ATXA
-raw_data/wav/Mrajesh2.wav,83.87406,84.29,Mrajesh2_16,ATXHA
-raw_data/wav/Mrajesh2.wav,86.16,86.43,Mrajesh2_17,ATXHA
-raw_data/wav/Mrajesh2.wav,88.17,88.61,Mrajesh2_18,ATXHA
-raw_data/wav/Mrajesh2.wav,94.93,95.19,Mrajesh2_19,ADXA
-raw_data/wav/Mrajesh2.wav,97.1,97.48,Mrajesh2_20,ADXA
-raw_data/wav/Mrajesh2.wav,99.39,99.77,Mrajesh2_21,ADXA
-raw_data/wav/Mrajesh2.wav,106.54,106.81,Mrajesh2_22,AZA
-raw_data/wav/Mrajesh2.wav,108.89,109.31,Mrajesh2_23,AZA
-raw_data/wav/Mrajesh2.wav,111.35,111.58,Mrajesh2_24,AZA
-raw_data/wav/Mrajesh2.wav,116.79986,117.1,Mrajesh2_25,ADXHA
-raw_data/wav/Mrajesh2.wav,118.94,119.21,Mrajesh2_26,ADXHA
-raw_data/wav/Mrajesh2.wav,121.12636,121.44,Mrajesh2_27,ADXHA
-raw_data/wav/Mrajesh2.wav,129.65566,129.96,Mrajesh2_28,ATRA
-raw_data/wav/Mrajesh2.wav,131.80583,132.11,Mrajesh2_29,ATRA
-raw_data/wav/Mrajesh2.wav,133.93,134.35,Mrajesh2_30,ATRA
-raw_data/wav/Mrajesh2.wav,141.42,141.86,Mrajesh2_31,ATRHA
-raw_data/wav/Mrajesh2.wav,143.61,143.98,Mrajesh2_32,ATRHA
-raw_data/wav/Mrajesh2.wav,145.65575,146.02,Mrajesh2_33,ATRHA
-raw_data/wav/Mrajesh2.wav,153.93255,154.25,Mrajesh2_34,ADRA
-raw_data/wav/Mrajesh2.wav,155.99412,156.35,Mrajesh2_35,ADRA
-raw_data/wav/Mrajesh2.wav,158.2176,158.51,Mrajesh2_36,ADRA
-raw_data/wav/Mrajesh2.wav,165.06857,165.41,Mrajesh2_37,ADRA
-raw_data/wav/Mrajesh2.wav,167.24135,167.59,Mrajesh2_38,ADRA
-raw_data/wav/Mrajesh2.wav,169.91,170.32,Mrajesh2_39,ADRA
-raw_data/wav/Mrajesh2.wav,177.79,178.19,Mrajesh2_40,ATA
-raw_data/wav/Mrajesh2.wav,180.0,180.41,Mrajesh2_41,ATA
-raw_data/wav/Mrajesh2.wav,182.2,182.62,Mrajesh2_42,ATA
-raw_data/wav/Mrajesh2.wav,190.42,190.85,Mrajesh2_43,ATHA
-raw_data/wav/Mrajesh2.wav,192.55,192.96,Mrajesh2_44,ATHA
-raw_data/wav/Mrajesh2.wav,194.84475,195.17,Mrajesh2_45,ATHA
-raw_data/wav/Mrajesh2.wav,200.94355,201.22,Mrajesh2_46,ADA
-raw_data/wav/Mrajesh2.wav,203.00796,203.28,Mrajesh2_47,ADA
-raw_data/wav/Mrajesh2.wav,205.24572,205.56,Mrajesh2_48,ADA
-raw_data/wav/Mrajesh2.wav,212.33605,212.66,Mrajesh2_49,ADHA
-raw_data/wav/Mrajesh2.wav,214.45848,214.73746,Mrajesh2_50,ADHA
-raw_data/wav/Mrajesh2.wav,216.68,217.12,Mrajesh2_51,ADHA
-raw_data/wav/Mrajesh2.wav,224.58,224.96,Mrajesh2_52,ANA
-raw_data/wav/Mrajesh2.wav,226.8,227.19,Mrajesh2_53,ANA
-raw_data/wav/Mrajesh2.wav,229.07,229.46,Mrajesh2_54,ANA
-raw_data/wav/Mrajesh2.wav,234.28,234.7,Mrajesh2_55,APA
-raw_data/wav/Mrajesh2.wav,236.86,237.26,Mrajesh2_56,APA
-raw_data/wav/Mrajesh2.wav,239.4,239.79,Mrajesh2_57,APA
-raw_data/wav/Mrajesh2.wav,247.20264,247.56,Mrajesh2_58,APHA
-raw_data/wav/Mrajesh2.wav,249.29,249.73,Mrajesh2_59,APHA
-raw_data/wav/Mrajesh2.wav,251.64,252.02,Mrajesh2_60,APHA
-raw_data/wav/Mrajesh2.wav,258.28,258.67,Mrajesh2_61,ABA
-raw_data/wav/Mrajesh2.wav,260.76,261.18533,Mrajesh2_62,ABA
-raw_data/wav/Mrajesh2.wav,264.0,264.37,Mrajesh2_63,ABA
-raw_data/wav/Mrajesh2.wav,270.07,270.46,Mrajesh2_64,ABHA
-raw_data/wav/Mrajesh2.wav,272.14,272.59,Mrajesh2_65,ABHA
-raw_data/wav/Mrajesh2.wav,274.39,274.86,Mrajesh2_66,ABHA
-raw_data/wav/Mrajesh2.wav,282.11385,282.46,Mrajesh2_67,AMA
-raw_data/wav/Mrajesh2.wav,284.3,284.72,Mrajesh2_68,AMA
-raw_data/wav/Mrajesh2.wav,286.672,287.06,Mrajesh2_69,AMA
-raw_data/wav/Mrajesh2.wav,293.87668,294.2,Mrajesh2_70,AJA
-raw_data/wav/Mrajesh2.wav,295.95,296.39,Mrajesh2_71,AJA
-raw_data/wav/Mrajesh2.wav,298.27,298.63,Mrajesh2_72,AJA
-raw_data/wav/Mrajesh2.wav,305.22,305.62,Mrajesh2_73,ARA
-raw_data/wav/Mrajesh2.wav,307.76,308.17,Mrajesh2_74,ARA
-raw_data/wav/Mrajesh2.wav,311.18513,311.49,Mrajesh2_75,ARA
-raw_data/wav/Mrajesh2.wav,317.67189,318.02,Mrajesh2_76,ALA
-raw_data/wav/Mrajesh2.wav,320.07887,320.38,Mrajesh2_77,ALA
-raw_data/wav/Mrajesh2.wav,322.30031,322.62,Mrajesh2_78,ALA
-raw_data/wav/Mrajesh2.wav,329.24457,329.58,Mrajesh2_79,AVLA
-raw_data/wav/Mrajesh2.wav,331.57769,331.9,Mrajesh2_80,AVLA
-raw_data/wav/Mrajesh2.wav,333.7,334.1,Mrajesh2_81,AVLA
-raw_data/wav/Mrajesh2.wav,339.73641,340.10553,Mrajesh2_82,AXA
-raw_data/wav/Mrajesh2.wav,342.06684,342.38,Mrajesh2_83,AXA
-raw_data/wav/Mrajesh2.wav,344.38074,344.66,Mrajesh2_84,AXA
-raw_data/wav/Mrajesh2.wav,353.34,353.68,Mrajesh2_85,AXRA
-raw_data/wav/Mrajesh2.wav,355.48557,355.83,Mrajesh2_86,AXRA
-raw_data/wav/Mrajesh2.wav,357.56,357.99144,Mrajesh2_87,AXRA
-raw_data/wav/Mrajesh2.wav,364.92,365.28,Mrajesh2_88,ASA
-raw_data/wav/Mrajesh2.wav,367.12,367.54,Mrajesh2_89,ASA
-raw_data/wav/Mrajesh2.wav,369.53,369.89,Mrajesh2_90,ASA
-raw_data/wav/Mrajesh2.wav,375.44,375.81,Mrajesh2_91,AHHA
-raw_data/wav/Mrajesh2.wav,377.71,378.09,Mrajesh2_92,AHHA
-raw_data/wav/Mrajesh2.wav,379.98,380.38,Mrajesh2_93,AHHA
-raw_data/wav/Mrajesh2.wav,388.0,388.44,Mrajesh2_94,ARRA
-raw_data/wav/Mrajesh2.wav,390.17,390.55,Mrajesh2_95,ARRA
-raw_data/wav/Mrajesh2.wav,392.45,392.86,Mrajesh2_96,ARRA
-raw_data/wav/Mrajesh2.wav,398.79,399.17,Mrajesh2_97,ARHA
-raw_data/wav/Mrajesh2.wav,400.95,401.34,Mrajesh2_98,ARHA
-raw_data/wav/Mrajesh2.wav,403.44645,403.85,Mrajesh2_99,ARHA
-raw_data/wav/Mrajesh2.wav,410.5558,410.89,Mrajesh2_100,ARTHA
-raw_data/wav/Mrajesh2.wav,412.76072,413.13,Mrajesh2_101,ARTHA
-raw_data/wav/Mrajesh2.wav,415.23001,415.57,Mrajesh2_102,ARTHA
-raw_data/wav/Mrajesh2.wav,421.4169,421.76,Mrajesh2_103,ARTA
-raw_data/wav/Mrajesh2.wav,423.5841,423.94,Mrajesh2_104,ARTA
-raw_data/wav/Mrajesh2.wav,425.91506,426.27,Mrajesh2_105,ARTA
-raw_data/wav/Mrajesh2.wav,432.93925,433.28,Mrajesh2_106,ANRA
-raw_data/wav/Mrajesh2.wav,435.27693,435.61,Mrajesh2_107,ANRA
-raw_data/wav/Mrajesh2.wav,437.80022,438.15,Mrajesh2_108,ANRA
-raw_data/wav/Mrajesh1.wav,5.70032,6.08702,Mrajesh1_1,AKA
-raw_data/wav/Mrajesh1.wav,8.61035,9.0036,Mrajesh1_2,AKA
-raw_data/wav/Mrajesh1.wav,11.61,12.06,Mrajesh1_3,AKA
-raw_data/wav/Mrajesh1.wav,18.06,18.58,Mrajesh1_4,AKHA
-raw_data/wav/Mrajesh1.wav,20.64,21.19,Mrajesh1_5,AKHA
-raw_data/wav/Mrajesh1.wav,23.67,24.19,Mrajesh1_6,AKHA
-raw_data/wav/Mrajesh1.wav,40.11,40.64,Mrajesh1_10,AGHA
-raw_data/wav/Mrajesh1.wav,43.01,43.54,Mrajesh1_11,AGHA
-raw_data/wav/Mrajesh1.wav,46.33,46.81,Mrajesh1_12,AGHA
-raw_data/wav/Mrajesh1.wav,51.15,51.58,Mrajesh1_13,ATXA
-raw_data/wav/Mrajesh1.wav,54.08,54.55,Mrajesh1_14,ATXA
-raw_data/wav/Mrajesh1.wav,57.08,57.58,Mrajesh1_15,ATXA
-raw_data/wav/Mrajesh1.wav,61.44,61.96,Mrajesh1_16,ATXHA
-raw_data/wav/Mrajesh1.wav,64.26,64.81,Mrajesh1_17,ATXHA
-raw_data/wav/Mrajesh1.wav,67.22,67.7,Mrajesh1_18,ATXHA
-raw_data/wav/Mrajesh1.wav,70.85,71.29,Mrajesh1_19,ADXA
-raw_data/wav/Mrajesh1.wav,73.9,74.32,Mrajesh1_20,ADXA
-raw_data/wav/Mrajesh1.wav,77.2,77.64,Mrajesh1_21,ADXA
-raw_data/wav/Mrajesh1.wav,81.6,82.09,Mrajesh1_22,AZA
-raw_data/wav/Mrajesh1.wav,84.55,85.06,Mrajesh1_23,AZA
-raw_data/wav/Mrajesh1.wav,87.85,88.36,Mrajesh1_24,AZA
-raw_data/wav/Mrajesh1.wav,97.37,97.87,Mrajesh1_25,ADXHA
-raw_data/wav/Mrajesh1.wav,100.57,101.06,Mrajesh1_26,ADXHA
-raw_data/wav/Mrajesh1.wav,103.9,104.36,Mrajesh1_27,ADXHA
-raw_data/wav/Mrajesh1.wav,109.27,109.73,Mrajesh1_28,ATRA
-raw_data/wav/Mrajesh1.wav,112.33,112.82,Mrajesh1_29,ATRA
-raw_data/wav/Mrajesh1.wav,115.37,115.82,Mrajesh1_30,ATRA
-raw_data/wav/Mrajesh1.wav,120.04,120.54,Mrajesh1_31,ATRHA
-raw_data/wav/Mrajesh1.wav,123.11,123.68,Mrajesh1_32,ATRHA
-raw_data/wav/Mrajesh1.wav,126.29,126.8,Mrajesh1_33,ATRHA
-raw_data/wav/Mrajesh1.wav,131.55,132.05,Mrajesh1_34,ADRA
-raw_data/wav/Mrajesh1.wav,134.79134,135.31,Mrajesh1_35,ADRA
-raw_data/wav/Mrajesh1.wav,138.54,139.1,Mrajesh1_36,ADRA
-raw_data/wav/Mrajesh1.wav,142.83,143.39,Mrajesh1_37,ADRHA
-raw_data/wav/Mrajesh1.wav,146.42,146.86,Mrajesh1_38,ADRHA
-raw_data/wav/Mrajesh1.wav,150.2854,150.65392,Mrajesh1_39,ADRHA
-raw_data/wav/Mrajesh1.wav,155.17,155.62,Mrajesh1_40,ATA
-raw_data/wav/Mrajesh1.wav,158.66,159.14,Mrajesh1_41,ATA
-raw_data/wav/Mrajesh1.wav,162.15,162.57,Mrajesh1_42,ATA
-raw_data/wav/Mrajesh1.wav,165.68,166.15,Mrajesh1_43,ATHA
-raw_data/wav/Mrajesh1.wav,168.86,169.33,Mrajesh1_44,ATHA
-raw_data/wav/Mrajesh1.wav,171.88,172.35,Mrajesh1_45,ATHA
-raw_data/wav/Mrajesh1.wav,175.82,176.28,Mrajesh1_46,ADA
-raw_data/wav/Mrajesh1.wav,179.68637,180.10131,Mrajesh1_47,ADA
-raw_data/wav/Mrajesh1.wav,183.3034,183.68,Mrajesh1_48,ADA
-raw_data/wav/Mrajesh1.wav,192.53074,192.9594,Mrajesh1_49,ADHA
-raw_data/wav/Mrajesh1.wav,195.88,196.32,Mrajesh1_50,ADHA
-raw_data/wav/Mrajesh1.wav,199.37,199.8,Mrajesh1_51,ADHA
-raw_data/wav/Mrajesh1.wav,204.85,205.31,Mrajesh1_52,ANA
-raw_data/wav/Mrajesh1.wav,208.33,208.79,Mrajesh1_53,ANA
-raw_data/wav/Mrajesh1.wav,211.92,212.32936,Mrajesh1_54,ANA
-raw_data/wav/Mrajesh1.wav,217.76,218.22,Mrajesh1_55,APA
-raw_data/wav/Mrajesh1.wav,221.16006,221.6,Mrajesh1_56,APA
-raw_data/wav/Mrajesh1.wav,224.77,225.19,Mrajesh1_57,APA
-raw_data/wav/Mrajesh1.wav,229.5,229.93,Mrajesh1_58,APHA
-raw_data/wav/Mrajesh1.wav,232.94,233.4,Mrajesh1_59,APHA
-raw_data/wav/Mrajesh1.wav,236.62,237.03,Mrajesh1_60,APHA
-raw_data/wav/Mrajesh1.wav,241.61,242.01,Mrajesh1_61,ABA
-raw_data/wav/Mrajesh1.wav,245.0,245.42,Mrajesh1_62,ABA
-raw_data/wav/Mrajesh1.wav,248.3,248.7,Mrajesh1_63,ABA
-raw_data/wav/Mrajesh1.wav,252.56,253.04,Mrajesh1_64,ABHA
-raw_data/wav/Mrajesh1.wav,255.96,256.42,Mrajesh1_65,ABHA
-raw_data/wav/Mrajesh1.wav,259.73,260.19,Mrajesh1_66,ABHA
-raw_data/wav/Mrajesh1.wav,265.02,265.44,Mrajesh1_67,AMA
-raw_data/wav/Mrajesh1.wav,268.38,268.81,Mrajesh1_68,AMA
-raw_data/wav/Mrajesh1.wav,271.73,272.16582,Mrajesh1_69,AMA
-raw_data/wav/Mrajesh1.wav,277.02,277.43,Mrajesh1_70,AJA
-raw_data/wav/Mrajesh1.wav,280.58,281.01,Mrajesh1_71,AJA
-raw_data/wav/Mrajesh1.wav,284.2,284.61,Mrajesh1_72,AJA
-raw_data/wav/Mrajesh1.wav,288.87,289.3,Mrajesh1_73,ARA
-raw_data/wav/Mrajesh1.wav,292.25,292.64,Mrajesh1_74,ARA
-raw_data/wav/Mrajesh1.wav,295.55,295.94,Mrajesh1_75,ARA
-raw_data/wav/Mrajesh1.wav,300.06,300.47,Mrajesh1_76,ALA
-raw_data/wav/Mrajesh1.wav,303.83,304.23,Mrajesh1_77,ALA
-raw_data/wav/Mrajesh1.wav,307.78,308.15,Mrajesh1_78,ALA
-raw_data/wav/Mrajesh1.wav,313.2,313.6,Mrajesh1_79,AVLA
-raw_data/wav/Mrajesh1.wav,316.82,317.23,Mrajesh1_80,AVLA
-raw_data/wav/Mrajesh1.wav,320.29,320.64,Mrajesh1_81,AVLA
-raw_data/wav/Mrajesh1.wav,326.92,327.34,Mrajesh1_82,AXA
-raw_data/wav/Mrajesh1.wav,330.72,331.11,Mrajesh1_83,AXA
-raw_data/wav/Mrajesh1.wav,334.95,335.34,Mrajesh1_84,AXA
-raw_data/wav/Mrajesh1.wav,339.32,339.74,Mrajesh1_85,AXRA
-raw_data/wav/Mrajesh1.wav,342.92,343.39,Mrajesh1_86,AXRA
-raw_data/wav/Mrajesh1.wav,346.5,346.94,Mrajesh1_87,AXRA
-raw_data/wav/Mrajesh1.wav,351.0,351.46,Mrajesh1_88,ASA
-raw_data/wav/Mrajesh1.wav,354.65,355.08,Mrajesh1_89,ASA
-raw_data/wav/Mrajesh1.wav,358.36,358.93,Mrajesh1_90,ASA
-raw_data/wav/Mrajesh1.wav,363.37,363.74,Mrajesh1_91,AHHA
-raw_data/wav/Mrajesh1.wav,367.06,367.46,Mrajesh1_92,AHHA
-raw_data/wav/Mrajesh1.wav,370.91,371.32,Mrajesh1_93,AHHA
-raw_data/wav/Mrajesh1.wav,377.08,377.54,Mrajesh1_94,ARRA
-raw_data/wav/Mrajesh1.wav,380.64,381.08,Mrajesh1_95,ARRA
-raw_data/wav/Mrajesh1.wav,384.3,384.78,Mrajesh1_96,ARRA
-raw_data/wav/Mrajesh1.wav,389.84,390.35,Mrajesh1_97,ARHA
-raw_data/wav/Mrajesh1.wav,393.43,393.89,Mrajesh1_98,ARHA
-raw_data/wav/Mrajesh1.wav,396.95,397.41,Mrajesh1_99,ARHA
-raw_data/wav/Mrajesh1.wav,402.06592,402.5,Mrajesh1_100,ARTHA
-raw_data/wav/Mrajesh1.wav,405.45,405.97,Mrajesh1_101,ARTHA
-raw_data/wav/Mrajesh1.wav,409.16561,409.58684,Mrajesh1_102,ARTHA
-raw_data/wav/Mrajesh1.wav,417.44,417.87,Mrajesh1_103,ARTA
-raw_data/wav/Mrajesh1.wav,420.83,421.3,Mrajesh1_104,ARTA
-raw_data/wav/Mrajesh1.wav,424.6,425.01,Mrajesh1_105,ARTA
-raw_data/wav/Mrajesh1.wav,429.85,430.27,Mrajesh1_106,ANRA
-raw_data/wav/Mrajesh1.wav,433.42,433.81,Mrajesh1_107,ANRA
-raw_data/wav/Mrajesh1.wav,436.76,437.17,Mrajesh1_108,ANRA
-raw_data/wav/FNiralee2.wav,12.12585,12.44246,FNiralee2_1,AKA
-raw_data/wav/FNiralee2.wav,14.06,14.43,FNiralee2_2,AKA
-raw_data/wav/FNiralee2.wav,16.19,16.57,FNiralee2_3,AKA
-raw_data/wav/FNiralee2.wav,20.36,20.76,FNiralee2_4,AKHA
-raw_data/wav/FNiralee2.wav,22.68,23.06,FNiralee2_5,AKHA
-raw_data/wav/FNiralee2.wav,25.03,25.45,FNiralee2_6,AKHA
-raw_data/wav/FNiralee2.wav,37.54,37.97,FNiralee2_10,AGHA
-raw_data/wav/FNiralee2.wav,39.59,39.96,FNiralee2_11,AGHA
-raw_data/wav/FNiralee2.wav,41.59,41.97,FNiralee2_12,AGHA
-raw_data/wav/FNiralee2.wav,45.72,46.12,FNiralee2_13,ATXA
-raw_data/wav/FNiralee2.wav,48.03,48.42,FNiralee2_14,ATXA
-raw_data/wav/FNiralee2.wav,50.44,50.81,FNiralee2_15,ATXA
-raw_data/wav/FNiralee2.wav,54.46,54.83,FNiralee2_16,ATXHA
-raw_data/wav/FNiralee2.wav,56.58,56.96,FNiralee2_17,ATXHA
-raw_data/wav/FNiralee2.wav,58.67,59.04,FNiralee2_18,ATXHA
-raw_data/wav/FNiralee2.wav,62.92,63.31,FNiralee2_19,ADXA
-raw_data/wav/FNiralee2.wav,65.26,65.6,FNiralee2_20,ADXA
-raw_data/wav/FNiralee2.wav,67.45,67.79,FNiralee2_21,ADXA
-raw_data/wav/FNiralee2.wav,71.49,71.89,FNiralee2_22,AZA
-raw_data/wav/FNiralee2.wav,73.85,74.24,FNiralee2_23,AZA
-raw_data/wav/FNiralee2.wav,76.34,76.72,FNiralee2_24,AZA
-raw_data/wav/FNiralee2.wav,81.75,82.11,FNiralee2_25,ADXHA
-raw_data/wav/FNiralee2.wav,83.87,84.23,FNiralee2_26,ADXHA
-raw_data/wav/FNiralee2.wav,85.85,86.21,FNiralee2_27,ADXHA
-raw_data/wav/FNiralee2.wav,89.43872,89.77,FNiralee2_28,ATRA
-raw_data/wav/FNiralee2.wav,91.62353,91.93,FNiralee2_29,ATRA
-raw_data/wav/FNiralee2.wav,93.583,93.88,FNiralee2_30,ATRA
-raw_data/wav/FNiralee2.wav,97.68,98.06,FNiralee2_31,ATRHA
-raw_data/wav/FNiralee2.wav,99.89,100.29,FNiralee2_32,ATRHA
-raw_data/wav/FNiralee2.wav,102.05,102.48,FNiralee2_33,ATRHA
-raw_data/wav/FNiralee2.wav,106.32,106.7,FNiralee2_34,ADRA
-raw_data/wav/FNiralee2.wav,108.32,108.65,FNiralee2_35,ADRA
-raw_data/wav/FNiralee2.wav,110.32475,110.62,FNiralee2_36,ADRA
-raw_data/wav/FNiralee2.wav,114.60378,114.94,FNiralee2_37,ADRHA
-raw_data/wav/FNiralee2.wav,116.65,117.0209,FNiralee2_38,ADRHA
-raw_data/wav/FNiralee2.wav,118.76,119.12,FNiralee2_39,ADRHA
-raw_data/wav/FNiralee2.wav,122.86,123.23,FNiralee2_40,ATA
-raw_data/wav/FNiralee2.wav,129.43,129.79,FNiralee2_41,ATA
-raw_data/wav/FNiralee2.wav,131.61,131.97,FNiralee2_42,ATA
-raw_data/wav/FNiralee2.wav,133.54,133.9,FNiralee2_43,ATA
-raw_data/wav/FNiralee2.wav,137.21,137.59,FNiralee2_44,ATHA
-raw_data/wav/FNiralee2.wav,139.31,139.7,FNiralee2_45,ATHA
-raw_data/wav/FNiralee2.wav,141.25,141.64,FNiralee2_46,ATHA
-raw_data/wav/FNiralee2.wav,145.14,145.49,FNiralee2_47,ADA
-raw_data/wav/FNiralee2.wav,147.02,147.32,FNiralee2_48,ADA
-raw_data/wav/FNiralee2.wav,148.78,149.13,FNiralee2_49,ADA
-raw_data/wav/FNiralee2.wav,153.45395,153.79581,FNiralee2_50,ADHA
-raw_data/wav/FNiralee2.wav,155.34185,155.68289,FNiralee2_51,ADHA
-raw_data/wav/FNiralee2.wav,157.22864,157.52,FNiralee2_52,ADHA
-raw_data/wav/FNiralee2.wav,161.16,161.54,FNiralee2_53,ANA
-raw_data/wav/FNiralee2.wav,163.06,163.43,FNiralee2_54,ANA
-raw_data/wav/FNiralee2.wav,165.04,165.39,FNiralee2_55,ANA
-raw_data/wav/FNiralee2.wav,168.64,169.03,FNiralee2_56,ABA
-raw_data/wav/FNiralee2.wav,170.47,170.86,FNiralee2_57,ABA
-raw_data/wav/FNiralee2.wav,172.33,172.7,FNiralee2_58,ABA
-raw_data/wav/FNiralee2.wav,176.68,177.07,FNiralee2_59,APHA
-raw_data/wav/FNiralee2.wav,178.69,179.07,FNiralee2_60,APHA
-raw_data/wav/FNiralee2.wav,180.57,180.96,FNiralee2_61,APHA
-raw_data/wav/FNiralee2.wav,184.36,184.73,FNiralee2_62,ABA
-raw_data/wav/FNiralee2.wav,186.27,186.64,FNiralee2_63,ABA
-raw_data/wav/FNiralee2.wav,188.24,188.6,FNiralee2_64,ABA
-raw_data/wav/FNiralee2.wav,192.06,192.44,FNiralee2_65,ABHA
-raw_data/wav/FNiralee2.wav,194.15,194.52,FNiralee2_66,ABHA
-raw_data/wav/FNiralee2.wav,196.17,196.56,FNiralee2_67,ABHA
-raw_data/wav/FNiralee2.wav,199.7,200.06,FNiralee2_68,AMA
-raw_data/wav/FNiralee2.wav,201.88,202.27,FNiralee2_69,AMA
-raw_data/wav/FNiralee2.wav,203.85,204.22,FNiralee2_70,AMA
-raw_data/wav/FNiralee2.wav,208.24,208.61,FNiralee2_71,AJA
-raw_data/wav/FNiralee2.wav,210.43,210.78,FNiralee2_72,AJA
-raw_data/wav/FNiralee2.wav,212.43,212.76,FNiralee2_73,AJA
-raw_data/wav/FNiralee2.wav,216.72,217.06,FNiralee2_74,ARA
-raw_data/wav/FNiralee2.wav,218.69,219.03,FNiralee2_75,ARA
-raw_data/wav/FNiralee2.wav,220.6,220.94,FNiralee2_76,ARA
-raw_data/wav/FNiralee2.wav,225.52,225.86,FNiralee2_77,ALA
-raw_data/wav/FNiralee2.wav,227.58,227.9,FNiralee2_78,ALA
-raw_data/wav/FNiralee2.wav,229.7,230.05,FNiralee2_79,ALA
-raw_data/wav/FNiralee2.wav,233.93,234.27,FNiralee2_80,AVA
-raw_data/wav/FNiralee2.wav,235.95007,236.24,FNiralee2_81,AVA
-raw_data/wav/FNiralee2.wav,237.79,238.11,FNiralee2_82,AVA
-raw_data/wav/FNiralee2.wav,241.57,241.92,FNiralee2_83,AXA
-raw_data/wav/FNiralee2.wav,243.45,243.81,FNiralee2_84,AXA
-raw_data/wav/FNiralee2.wav,245.25,245.58,FNiralee2_85,AXA
-raw_data/wav/FNiralee2.wav,248.68,249.03,FNiralee2_86,AXRA
-raw_data/wav/FNiralee2.wav,250.54,250.88,FNiralee2_87,AXRA
-raw_data/wav/FNiralee2.wav,252.4,252.75,FNiralee2_88,AXRA
-raw_data/wav/FNiralee2.wav,256.55,256.94,FNiralee2_89,ASA
-raw_data/wav/FNiralee2.wav,258.55,258.92,FNiralee2_90,ASA
-raw_data/wav/FNiralee2.wav,260.44,260.81,FNiralee2_91,ASA
-raw_data/wav/FNiralee2.wav,264.58,264.96,FNiralee2_92,AHHA
-raw_data/wav/FNiralee2.wav,266.47,266.8,FNiralee2_93,AHHA
-raw_data/wav/FNiralee2.wav,268.29,268.6,FNiralee2_94,AHHA
-raw_data/wav/FNiralee2.wav,272.27,272.61,FNiralee2_95,ARRA
-raw_data/wav/FNiralee2.wav,274.12,274.48,FNiralee2_96,ARRA
-raw_data/wav/FNiralee2.wav,276.05,276.4,FNiralee2_97,ARRA
-raw_data/wav/FNiralee2.wav,279.87,280.25,FNiralee2_98,ARHA
-raw_data/wav/FNiralee2.wav,281.75,282.16,FNiralee2_99,ARHA
-raw_data/wav/FNiralee2.wav,283.77,284.15,FNiralee2_100,ARHA
-raw_data/wav/FNiralee2.wav,287.44,287.75,FNiralee2_101,ARTHA
-raw_data/wav/FNiralee2.wav,289.47,289.75,FNiralee2_102,ARTHA
-raw_data/wav/FNiralee2.wav,291.18,291.49,FNiralee2_103,ARTHA
-raw_data/wav/FNiralee2.wav,296.0,296.31,FNiralee2_104,ARTA
-raw_data/wav/FNiralee2.wav,298.08,298.38,FNiralee2_105,ARTA
-raw_data/wav/FNiralee2.wav,299.97,300.28,FNiralee2_106,ARTA
-raw_data/wav/FNiralee2.wav,304.18,304.53,FNiralee2_107,ANRA
-raw_data/wav/FNiralee2.wav,306.41,306.74,FNiralee2_108,ANRA
-raw_data/wav/FNiralee2.wav,308.63,308.95,FNiralee2_109,ANRA
-raw_data/wav/FNiralee1.wav,12.2023,12.50637,FNiralee1_1,AKA
-raw_data/wav/FNiralee1.wav,13.73,14.17,FNiralee1_2,AKA
-raw_data/wav/FNiralee1.wav,15.37,15.78,FNiralee1_3,AKA
-raw_data/wav/FNiralee1.wav,19.16,19.62,FNiralee1_4,AKHA
-raw_data/wav/FNiralee1.wav,20.87,21.35,FNiralee1_5,AKHA
-raw_data/wav/FNiralee1.wav,22.53,22.99,FNiralee1_6,AKHA
-raw_data/wav/FNiralee1.wav,34.08,34.52,FNiralee1_10,AGHA
-raw_data/wav/FNiralee1.wav,35.71,36.21,FNiralee1_11,AGHA
-raw_data/wav/FNiralee1.wav,37.54,37.9,FNiralee1_12,AGHA
-raw_data/wav/FNiralee1.wav,41.1,41.46,FNiralee1_13,ATXA
-raw_data/wav/FNiralee1.wav,42.79,43.13,FNiralee1_14,ATXA
-raw_data/wav/FNiralee1.wav,44.52,44.85,FNiralee1_15,ATXA
-raw_data/wav/FNiralee1.wav,48.85,49.13,FNiralee1_16,ATXHA
-raw_data/wav/FNiralee1.wav,50.57,50.83,FNiralee1_17,ATXHA
-raw_data/wav/FNiralee1.wav,52.3,52.55,FNiralee1_18,ATXHA
-raw_data/wav/FNiralee1.wav,56.65,56.89,FNiralee1_19,ADXA
-raw_data/wav/FNiralee1.wav,58.39,58.63,FNiralee1_20,ADXA
-raw_data/wav/FNiralee1.wav,60.0051,60.31,FNiralee1_21,ADXA
-raw_data/wav/FNiralee1.wav,64.18,64.52,FNiralee1_22,AZA
-raw_data/wav/FNiralee1.wav,65.89,66.24,FNiralee1_23,AZA
-raw_data/wav/FNiralee1.wav,67.67,68.02,FNiralee1_24,AZA
-raw_data/wav/FNiralee1.wav,74.73,74.99,FNiralee1_25,ADXHA
-raw_data/wav/FNiralee1.wav,76.51,76.77,FNiralee1_26,ADXHA
-raw_data/wav/FNiralee1.wav,78.28,78.55,FNiralee1_27,ADXHA
-raw_data/wav/FNiralee1.wav,81.94627,82.35,FNiralee1_28,ATRA
-raw_data/wav/FNiralee1.wav,83.56357,84.02,FNiralee1_29,ATRA
-raw_data/wav/FNiralee1.wav,85.33,85.8,FNiralee1_30,ATRA
-raw_data/wav/FNiralee1.wav,89.1,89.57,FNiralee1_31,ATRHA
-raw_data/wav/FNiralee1.wav,90.85,91.36,FNiralee1_32,ATRHA
-raw_data/wav/FNiralee1.wav,92.80223,93.2,FNiralee1_33,ATRHA
-raw_data/wav/FNiralee1.wav,96.6472,97.08,FNiralee1_34,ADRA
-raw_data/wav/FNiralee1.wav,98.42775,98.85,FNiralee1_35,ADRA
-raw_data/wav/FNiralee1.wav,100.17709,100.55,FNiralee1_36,ADRA
-raw_data/wav/FNiralee1.wav,103.75913,104.12,FNiralee1_37,ADRHA
-raw_data/wav/FNiralee1.wav,105.49903,105.91,FNiralee1_38,ADRHA
-raw_data/wav/FNiralee1.wav,107.15,107.66,FNiralee1_39,ADRHA
-raw_data/wav/FNiralee1.wav,111.13,111.63,FNiralee1_40,ATA
-raw_data/wav/FNiralee1.wav,112.97,113.45,FNiralee1_41,ATA
-raw_data/wav/FNiralee1.wav,114.78,115.2,FNiralee1_42,ATA
-raw_data/wav/FNiralee1.wav,119.07,119.59,FNiralee1_43,ATHA
-raw_data/wav/FNiralee1.wav,120.85,121.36,FNiralee1_44,ATHA
-raw_data/wav/FNiralee1.wav,122.77474,123.14,FNiralee1_45,ATHA
-raw_data/wav/FNiralee1.wav,127.0,127.29,FNiralee1_46,ADA
-raw_data/wav/FNiralee1.wav,128.82,129.07,FNiralee1_47,ADA
-raw_data/wav/FNiralee1.wav,130.57,130.82,FNiralee1_48,ADA
-raw_data/wav/FNiralee1.wav,137.98,138.28,FNiralee1_49,ADHA
-raw_data/wav/FNiralee1.wav,139.82,140.11,FNiralee1_50,ADHA
-raw_data/wav/FNiralee1.wav,141.4,141.88,FNiralee1_51,ADHA
-raw_data/wav/FNiralee1.wav,145.46,145.88,FNiralee1_52,ANA
-raw_data/wav/FNiralee1.wav,147.2,147.64,FNiralee1_53,ANA
-raw_data/wav/FNiralee1.wav,148.98,149.41,FNiralee1_54,ANA
-raw_data/wav/FNiralee1.wav,153.07,153.55,FNiralee1_55,APA
-raw_data/wav/FNiralee1.wav,154.85,155.33,FNiralee1_56,APA
-raw_data/wav/FNiralee1.wav,156.69,157.05,FNiralee1_57,APA
-raw_data/wav/FNiralee1.wav,161.48,161.87,FNiralee1_58,APHA
-raw_data/wav/FNiralee1.wav,163.26,163.69,FNiralee1_59,APHA
-raw_data/wav/FNiralee1.wav,164.96,165.43,FNiralee1_60,APHA
-raw_data/wav/FNiralee1.wav,168.91,169.35,FNiralee1_61,ABA
-raw_data/wav/FNiralee1.wav,170.67,171.12,FNiralee1_62,ABA
-raw_data/wav/FNiralee1.wav,172.42,172.87,FNiralee1_63,ABA
-raw_data/wav/FNiralee1.wav,176.5,176.98,FNiralee1_64,ABHA
-raw_data/wav/FNiralee1.wav,178.29,178.72,FNiralee1_65,ABHA
-raw_data/wav/FNiralee1.wav,180.1,180.53,FNiralee1_66,ABHA
-raw_data/wav/FNiralee1.wav,183.93,184.38,FNiralee1_67,AMA
-raw_data/wav/FNiralee1.wav,185.67,186.08,FNiralee1_68,AMA
-raw_data/wav/FNiralee1.wav,187.51,187.88,FNiralee1_69,AMA
-raw_data/wav/FNiralee1.wav,191.09,191.54,FNiralee1_70,AJA
-raw_data/wav/FNiralee1.wav,192.9,193.32,FNiralee1_71,AJA
-raw_data/wav/FNiralee1.wav,194.63,195.05,FNiralee1_72,AJA
-raw_data/wav/FNiralee1.wav,198.33,198.75,FNiralee1_73,ARA
-raw_data/wav/FNiralee1.wav,200.09,200.53,FNiralee1_74,ARA
-raw_data/wav/FNiralee1.wav,201.86,202.32,FNiralee1_75,ARA
-raw_data/wav/FNiralee1.wav,205.57307,205.92,FNiralee1_76,ALA
-raw_data/wav/FNiralee1.wav,207.39427,207.72,FNiralee1_77,ALA
-raw_data/wav/FNiralee1.wav,209.22802,209.53,FNiralee1_78,ALA
-raw_data/wav/FNiralee1.wav,213.166,213.5,FNiralee1_79,AVLA
-raw_data/wav/FNiralee1.wav,214.96899,215.29,FNiralee1_80,AVLA
-raw_data/wav/FNiralee1.wav,216.75,217.04,FNiralee1_81,AVLA
-raw_data/wav/FNiralee1.wav,223.34,223.7,FNiralee1_82,AXA
-raw_data/wav/FNiralee1.wav,225.14,225.51,FNiralee1_83,AXA
-raw_data/wav/FNiralee1.wav,226.96,227.29,FNiralee1_84,AXA
-raw_data/wav/FNiralee1.wav,231.2,231.55,FNiralee1_85,AXRA
-raw_data/wav/FNiralee1.wav,232.92,233.3,FNiralee1_86,AXRA
-raw_data/wav/FNiralee1.wav,234.59,235.03,FNiralee1_87,AXRA
-raw_data/wav/FNiralee1.wav,238.41,238.87,FNiralee1_88,ASA
-raw_data/wav/FNiralee1.wav,240.12,240.59,FNiralee1_89,ASA
-raw_data/wav/FNiralee1.wav,241.85,242.28,FNiralee1_90,ASA
-raw_data/wav/FNiralee1.wav,244.91,245.35,FNiralee1_91,AHHA
-raw_data/wav/FNiralee1.wav,246.78,247.16,FNiralee1_92,AHHA
-raw_data/wav/FNiralee1.wav,248.43,248.84,FNiralee1_93,AHHA
-raw_data/wav/FNiralee1.wav,252.15,252.62,FNiralee1_94,ARRA
-raw_data/wav/FNiralee1.wav,253.95,254.41,FNiralee1_95,ARRA
-raw_data/wav/FNiralee1.wav,255.75,256.21,FNiralee1_96,ARRA
-raw_data/wav/FNiralee1.wav,260.33,260.84,FNiralee1_97,ARHA
-raw_data/wav/FNiralee1.wav,262.11,262.59,FNiralee1_98,ARHA
-raw_data/wav/FNiralee1.wav,264.02813,264.42,FNiralee1_99,ARHA
-raw_data/wav/FNiralee1.wav,269.87,270.37,FNiralee1_100,ARTHA
-raw_data/wav/FNiralee1.wav,271.69,272.17,FNiralee1_101,ARTHA
-raw_data/wav/FNiralee1.wav,273.52161,273.93,FNiralee1_102,ARTHA
-raw_data/wav/FNiralee1.wav,277.66495,278.03,FNiralee1_103,ARTA
-raw_data/wav/FNiralee1.wav,279.44096,279.82,FNiralee1_104,ARTA
-raw_data/wav/FNiralee1.wav,281.33475,281.58,FNiralee1_105,ARTA
-raw_data/wav/FNiralee1.wav,284.2,284.57,FNiralee1_106,ANRA
-raw_data/wav/FNiralee1.wav,285.93737,286.28,FNiralee1_107,ANRA
-raw_data/wav/FNiralee1.wav,287.6676,287.97276,FNiralee1_108,ANRA
-raw_data/wav/Fsakshi1.wav,39.81,40.34,Fsakshi1_1,AKA
-raw_data/wav/Fsakshi1.wav,41.96,42.43,Fsakshi1_2,AKA
-raw_data/wav/Fsakshi1.wav,44.02,44.53,Fsakshi1_3,AKA
-raw_data/wav/Fsakshi1.wav,63.84,64.37,Fsakshi1_4,AKHA
-raw_data/wav/Fsakshi1.wav,65.94037,66.42,Fsakshi1_5,AKHA
-raw_data/wav/Fsakshi1.wav,68.01853,68.47103,Fsakshi1_6,AKHA
-raw_data/wav/Fsakshi1.wav,103.90945,104.43522,Fsakshi1_10,AGHA
-raw_data/wav/Fsakshi1.wav,106.02601,106.55178,Fsakshi1_11,AGHA
-raw_data/wav/Fsakshi1.wav,108.18,108.66,Fsakshi1_12,AGHA
-raw_data/wav/Fsakshi1.wav,123.76737,124.21639,Fsakshi1_13,ATXA
-raw_data/wav/Fsakshi1.wav,125.83,126.3,Fsakshi1_14,ATXA
-raw_data/wav/Fsakshi1.wav,127.91,128.4,Fsakshi1_15,ATXA
-raw_data/wav/Fsakshi1.wav,141.90668,142.39,Fsakshi1_16,ATXHA
-raw_data/wav/Fsakshi1.wav,144.06573,144.53,Fsakshi1_17,ATXHA
-raw_data/wav/Fsakshi1.wav,146.14092,146.63,Fsakshi1_18,ATXHA
-raw_data/wav/Fsakshi1.wav,160.05,160.51,Fsakshi1_19,ADXA
-raw_data/wav/Fsakshi1.wav,162.09909,162.64,Fsakshi1_20,ADXA
-raw_data/wav/Fsakshi1.wav,164.24,164.8,Fsakshi1_21,ADXA
-raw_data/wav/Fsakshi1.wav,186.7,187.21,Fsakshi1_22,AZA
-raw_data/wav/Fsakshi1.wav,188.85,189.38,Fsakshi1_23,AZA
-raw_data/wav/Fsakshi1.wav,191.05096,191.47,Fsakshi1_24,AZA
-raw_data/wav/Fsakshi1.wav,215.88561,216.3,Fsakshi1_25,ADXA
-raw_data/wav/Fsakshi1.wav,217.8715,218.3,Fsakshi1_26,ADXA
-raw_data/wav/Fsakshi1.wav,219.89,220.36,Fsakshi1_27,ADXA
-raw_data/wav/Fsakshi1.wav,236.44,236.91,Fsakshi1_28,ATRA
-raw_data/wav/Fsakshi1.wav,238.61789,239.05,Fsakshi1_29,ATRA
-raw_data/wav/Fsakshi1.wav,240.7,241.16,Fsakshi1_30,ATRA
-raw_data/wav/Fsakshi1.wav,256.27,256.82063,Fsakshi1_31,ATRHA
-raw_data/wav/Fsakshi1.wav,258.34,258.84,Fsakshi1_32,ATRHA
-raw_data/wav/Fsakshi1.wav,260.53,261.05,Fsakshi1_33,ATRHA
-raw_data/wav/Fsakshi1.wav,276.22,276.69,Fsakshi1_34,ADRA
-raw_data/wav/Fsakshi1.wav,278.34,278.8,Fsakshi1_35,ADRA
-raw_data/wav/Fsakshi1.wav,280.46,280.91,Fsakshi1_36,ADRA
-raw_data/wav/Fsakshi1.wav,295.77,296.29,Fsakshi1_37,ADRHA
-raw_data/wav/Fsakshi1.wav,297.88,298.35,Fsakshi1_38,ADRHA
-raw_data/wav/Fsakshi1.wav,299.97,300.50023,Fsakshi1_39,ADRHA
-raw_data/wav/Fsakshi1.wav,315.40762,315.87,Fsakshi1_40,ATA
-raw_data/wav/Fsakshi1.wav,317.74489,318.22,Fsakshi1_41,ATA
-raw_data/wav/Fsakshi1.wav,319.95,320.42,Fsakshi1_42,ADHA
-raw_data/wav/Fsakshi1.wav,334.37,334.84,Fsakshi1_43,ATA
-raw_data/wav/Fsakshi1.wav,336.52,336.98,Fsakshi1_44,ATA
-raw_data/wav/Fsakshi1.wav,338.66,339.34,Fsakshi1_45,ATA
-raw_data/wav/Fsakshi1.wav,354.5054,354.98572,Fsakshi1_46,ATHA
-raw_data/wav/Fsakshi1.wav,356.62771,357.14005,Fsakshi1_47,ATHA
-raw_data/wav/Fsakshi1.wav,358.69,359.24,Fsakshi1_48,ATHA
-raw_data/wav/Fsakshi1.wav,372.66,373.15,Fsakshi1_49,ADA
-raw_data/wav/Fsakshi1.wav,374.71,375.22,Fsakshi1_50,ADA
-raw_data/wav/Fsakshi1.wav,376.85,377.41,Fsakshi1_51,ADA
-raw_data/wav/Fsakshi1.wav,397.23,397.74569,Fsakshi1_52,ADHA
-raw_data/wav/Fsakshi1.wav,399.39343,399.80196,Fsakshi1_53,ADHA
-raw_data/wav/Fsakshi1.wav,401.5726,402.09008,Fsakshi1_54,ADHA
-raw_data/wav/Fsakshi1.wav,416.85,417.28,Fsakshi1_55,ANA
-raw_data/wav/Fsakshi1.wav,418.99219,419.42,Fsakshi1_56,ANA
-raw_data/wav/Fsakshi1.wav,421.13522,421.58,Fsakshi1_57,ANA
-raw_data/wav/Fsakshi1.wav,437.95,438.38,Fsakshi1_58,APA
-raw_data/wav/Fsakshi1.wav,439.99215,440.5,Fsakshi1_59,APA
-raw_data/wav/Fsakshi1.wav,442.47146,442.95,Fsakshi1_60,APA
-raw_data/wav/Fsakshi1.wav,456.75664,457.24,Fsakshi1_61,APHA
-raw_data/wav/Fsakshi1.wav,458.96815,459.5,Fsakshi1_62,APHA
-raw_data/wav/Fsakshi1.wav,461.1336,461.64283,Fsakshi1_63,APHA
-raw_data/wav/Fsakshi1.wav,474.98325,475.43082,Fsakshi1_64,ABA
-raw_data/wav/Fsakshi1.wav,476.92571,477.40014,Fsakshi1_65,ABA
-raw_data/wav/Fsakshi1.wav,479.06511,479.54849,Fsakshi1_66,ABA
-raw_data/wav/Fsakshi1.wav,494.67321,495.2472,Fsakshi1_67,ABHA
-raw_data/wav/Fsakshi1.wav,496.92613,497.37098,Fsakshi1_68,ABHA
-raw_data/wav/Fsakshi1.wav,499.06426,499.50911,Fsakshi1_69,ABHA
-raw_data/wav/Fsakshi1.wav,523.4368,523.88995,Fsakshi1_70,AMA
-raw_data/wav/Fsakshi1.wav,525.68094,526.17724,Fsakshi1_71,AMA
-raw_data/wav/Fsakshi1.wav,527.96823,528.42137,Fsakshi1_72,AMA
-raw_data/wav/Fsakshi1.wav,540.9978,541.47252,Fsakshi1_73,AJA
-raw_data/wav/Fsakshi1.wav,543.11246,543.54403,Fsakshi1_74,AJA
-raw_data/wav/Fsakshi1.wav,545.20555,545.70185,Fsakshi1_75,AJA
-raw_data/wav/Fsakshi1.wav,587.54402,587.97247,Fsakshi1_76,ARA
-raw_data/wav/Fsakshi1.wav,589.6186,590.04704,Fsakshi1_77,ARA
-raw_data/wav/Fsakshi1.wav,591.67062,592.14416,Fsakshi1_78,ARA
-raw_data/wav/Fsakshi1.wav,605.32507,605.79861,Fsakshi1_79,ALA
-raw_data/wav/Fsakshi1.wav,607.42219,607.87318,Fsakshi1_80,ALA
-raw_data/wav/Fsakshi1.wav,609.51931,610.0154,Fsakshi1_81,ALA
-raw_data/wav/Fsakshi1.wav,630.62641,631.11135,Fsakshi1_82,AVLA
-raw_data/wav/Fsakshi1.wav,632.95786,633.46145,Fsakshi1_83,AVLA
-raw_data/wav/Fsakshi1.wav,635.27066,635.7183,Fsakshi1_84,AVLA
-raw_data/wav/Fsakshi1.wav,647.29068,647.79427,Fsakshi1_85,AXA
-raw_data/wav/Fsakshi1.wav,651.71111,652.40122,Fsakshi1_86,AXA
-raw_data/wav/Fsakshi1.wav,666.42464,666.94931,Fsakshi1_87,AXRA
-raw_data/wav/Fsakshi1.wav,668.52332,669.04799,Fsakshi1_88,AXRA
-raw_data/wav/Fsakshi1.wav,670.7969,671.24207,Fsakshi1_89,AXRA
-raw_data/wav/Fsakshi1.wav,693.8708,694.39174,Fsakshi1_90,ASA
-raw_data/wav/Fsakshi1.wav,696.1034,696.60946,Fsakshi1_91,ASA
-raw_data/wav/Fsakshi1.wav,698.36577,698.81229,Fsakshi1_92,ASA
-raw_data/wav/Fsakshi1.wav,710.85717,711.37069,Fsakshi1_93,AHHA
-raw_data/wav/Fsakshi1.wav,713.11666,713.63019,Fsakshi1_94,AHHA
-raw_data/wav/Fsakshi1.wav,715.26062,715.74846,Fsakshi1_95,AHHA
-raw_data/wav/Fsakshi1.wav,767.99258,768.53831,Fsakshi1_96,ARRA
-raw_data/wav/Fsakshi1.wav,770.20962,770.82357,Fsakshi1_97,ARRA
-raw_data/wav/Fsakshi1.wav,772.42666,773.0065,Fsakshi1_98,ARRA
-raw_data/wav/Fsakshi1.wav,786.56158,787.05531,Fsakshi1_99,ARTHA
-raw_data/wav/Fsakshi1.wav,788.63526,789.32649,Fsakshi1_100,ARTHA
-raw_data/wav/Fsakshi1.wav,791.02988,791.47424,Fsakshi1_101,ARTHA
-raw_data/wav/Fsakshi1.wav,837.45387,837.96248,Fsakshi1_102,ARHA
-raw_data/wav/Fsakshi1.wav,839.62392,840.14947,Fsakshi1_103,ARHA
-raw_data/wav/Fsakshi1.wav,841.82787,842.33647,Fsakshi1_104,ARHA
-raw_data/wav/Fsakshi1.wav,855.17737,855.6517,Fsakshi1_105,ARTHA
-raw_data/wav/Fsakshi1.wav,857.35699,857.82829,Fsakshi1_106,ARTHA
-raw_data/wav/Fsakshi1.wav,859.6004,860.0717,Fsakshi1_107,ARTHA
-raw_data/wav/Fsakshi1.wav,887.90466,888.38248,Fsakshi1_108,ARTHA
-raw_data/wav/Fsakshi1.wav,889.96685,890.46983,Fsakshi1_109,ARTHA
-raw_data/wav/Fsakshi1.wav,892.53202,892.9344,Fsakshi1_110,ARTHA
-raw_data/wav/Fsakshi1.wav,904.8344,905.26193,Fsakshi1_111,ARTA
-raw_data/wav/Fsakshi1.wav,906.99719,907.44987,Fsakshi1_112,ARTA
-raw_data/wav/Fsakshi1.wav,909.05939,909.48691,Fsakshi1_113,ARTA
-raw_data/wav/Fsakshi1.wav,922.52165,923.0108,Fsakshi1_114,ANRA
-raw_data/wav/Fsakshi1.wav,924.60055,925.04079,Fsakshi1_115,ANRA
-raw_data/wav/Fsakshi1.wav,926.75282,927.19306,Fsakshi1_116,ANRA
-raw_data/wav/Mnirbhay2.wav,9.43,9.85,Mnirbhay2_1,AKA
-raw_data/wav/Mnirbhay2.wav,11.18,11.67,Mnirbhay2_2,AKA
-raw_data/wav/Mnirbhay2.wav,13.12,13.58,Mnirbhay2_3,AKA
-raw_data/wav/Mnirbhay2.wav,25.88,26.38762,Mnirbhay2_4,AKHA
-raw_data/wav/Mnirbhay2.wav,27.76,28.24,Mnirbhay2_5,AKHA
-raw_data/wav/Mnirbhay2.wav,29.65,30.12,Mnirbhay2_6,AKHA
-raw_data/wav/Mnirbhay2.wav,62.66857,63.11956,Mnirbhay2_10,AGHA
-raw_data/wav/Mnirbhay2.wav,64.51549,65.00944,Mnirbhay2_11,AGHA
-raw_data/wav/Mnirbhay2.wav,66.42,66.86,Mnirbhay2_12,AGHA
-raw_data/wav/Mnirbhay2.wav,82.38248,82.85495,Mnirbhay2_13,ATXA
-raw_data/wav/Mnirbhay2.wav,84.37,84.88,Mnirbhay2_14,ATXA
-raw_data/wav/Mnirbhay2.wav,86.52732,87.02126,Mnirbhay2_15,ATXA
-raw_data/wav/Mnirbhay2.wav,103.61,104.07,Mnirbhay2_16,ATXHA
-raw_data/wav/Mnirbhay2.wav,105.58,106.04,Mnirbhay2_17,ATXHA
-raw_data/wav/Mnirbhay2.wav,107.51,107.97,Mnirbhay2_18,ATXHA
-raw_data/wav/Mnirbhay2.wav,124.84,125.29,Mnirbhay2_19,ADXA
-raw_data/wav/Mnirbhay2.wav,126.89,127.32,Mnirbhay2_20,ADXA
-raw_data/wav/Mnirbhay2.wav,129.03132,129.51,Mnirbhay2_21,ADXA
-raw_data/wav/Mnirbhay2.wav,145.45592,145.54,Mnirbhay2_22,AZA
-raw_data/wav/Mnirbhay2.wav,147.14869,147.63,Mnirbhay2_23,AZA
-raw_data/wav/Mnirbhay2.wav,149.46,149.99,Mnirbhay2_24,AZA
-raw_data/wav/Mnirbhay2.wav,166.78,167.27,Mnirbhay2_25,ADXHA
-raw_data/wav/Mnirbhay2.wav,168.79,169.23984,Mnirbhay2_26,ADXHA
-raw_data/wav/Mnirbhay2.wav,170.7166,171.28,Mnirbhay2_27,ADXHA
-raw_data/wav/Mnirbhay2.wav,189.61112,190.00786,Mnirbhay2_28,ATRA
-raw_data/wav/Mnirbhay2.wav,191.55,191.97104,Mnirbhay2_29,ATRA
-raw_data/wav/Mnirbhay2.wav,193.69,194.09835,Mnirbhay2_30,ATRA
-raw_data/wav/Mnirbhay2.wav,210.15,210.61,Mnirbhay2_31,ATRHA
-raw_data/wav/Mnirbhay2.wav,212.14,212.59,Mnirbhay2_32,ATRHA
-raw_data/wav/Mnirbhay2.wav,214.24,214.68,Mnirbhay2_33,ATRHA
-raw_data/wav/Mnirbhay2.wav,231.25,231.66,Mnirbhay2_34,ADRA
-raw_data/wav/Mnirbhay2.wav,233.08,233.54,Mnirbhay2_35,ADRA
-raw_data/wav/Mnirbhay2.wav,234.99684,235.42,Mnirbhay2_36,ADRA
-raw_data/wav/Mnirbhay2.wav,252.07889,252.58,Mnirbhay2_37,ADRHA
-raw_data/wav/Mnirbhay2.wav,254.09,254.56,Mnirbhay2_38,ADRHA
-raw_data/wav/Mnirbhay2.wav,256.08874,256.6,Mnirbhay2_39,ADRHA
-raw_data/wav/Mnirbhay2.wav,273.25014,273.69,Mnirbhay2_40,ATA
-raw_data/wav/Mnirbhay2.wav,275.22682,275.68,Mnirbhay2_41,ATA
-raw_data/wav/Mnirbhay2.wav,277.22,277.69,Mnirbhay2_42,ATA
-raw_data/wav/Mnirbhay2.wav,294.29,294.78,Mnirbhay2_43,ATHA
-raw_data/wav/Mnirbhay2.wav,296.39,296.97403,Mnirbhay2_44,ATHA
-raw_data/wav/Mnirbhay2.wav,298.86,299.31,Mnirbhay2_45,ATHA
-raw_data/wav/Mnirbhay2.wav,314.52,314.98,Mnirbhay2_46,ADA
-raw_data/wav/Mnirbhay2.wav,316.69,317.12,Mnirbhay2_47,ADA
-raw_data/wav/Mnirbhay2.wav,318.83,319.32,Mnirbhay2_48,ADA
-raw_data/wav/Mnirbhay2.wav,335.74,336.18,Mnirbhay2_49,ADHA
-raw_data/wav/Mnirbhay2.wav,337.76,338.25,Mnirbhay2_50,ADHA
-raw_data/wav/Mnirbhay2.wav,339.93,340.45,Mnirbhay2_51,ADHA
-raw_data/wav/Mnirbhay2.wav,358.67,359.1,Mnirbhay2_52,ANA
-raw_data/wav/Mnirbhay2.wav,361.27,361.78,Mnirbhay2_53,ANA
-raw_data/wav/Mnirbhay2.wav,364.11,364.63,Mnirbhay2_54,ANA
-raw_data/wav/Mnirbhay2.wav,378.95,379.38,Mnirbhay2_55,APA
-raw_data/wav/Mnirbhay2.wav,381.2,381.7,Mnirbhay2_56,APA
-raw_data/wav/Mnirbhay2.wav,383.65,384.12,Mnirbhay2_57,APA
-raw_data/wav/Mnirbhay2.wav,402.09,402.52,Mnirbhay2_58,APHA
-raw_data/wav/Mnirbhay2.wav,404.26,404.7615,Mnirbhay2_59,APHA
-raw_data/wav/Mnirbhay2.wav,406.49,406.99992,Mnirbhay2_60,APHA
-raw_data/wav/Mnirbhay2.wav,425.99905,426.44,Mnirbhay2_61,ABA
-raw_data/wav/Mnirbhay2.wav,428.28,428.74,Mnirbhay2_62,ABA
-raw_data/wav/Mnirbhay2.wav,430.66,431.24591,Mnirbhay2_63,ABA
-raw_data/wav/Mnirbhay2.wav,445.96835,446.47,Mnirbhay2_64,ABHA
-raw_data/wav/Mnirbhay2.wav,448.35,448.85,Mnirbhay2_65,ABHA
-raw_data/wav/Mnirbhay2.wav,450.96,451.5,Mnirbhay2_66,ABHA
-raw_data/wav/Mnirbhay2.wav,468.9,469.36,Mnirbhay2_67,AMA
-raw_data/wav/Mnirbhay2.wav,471.5,471.89,Mnirbhay2_68,AMA
-raw_data/wav/Mnirbhay2.wav,474.39,474.84,Mnirbhay2_69,AMA
-raw_data/wav/Mnirbhay2.wav,491.13545,491.56,Mnirbhay2_70,AJA
-raw_data/wav/Mnirbhay2.wav,493.5,493.93,Mnirbhay2_71,AJA
-raw_data/wav/Mnirbhay2.wav,495.76,496.28,Mnirbhay2_72,AJA
-raw_data/wav/Mnirbhay2.wav,513.82299,514.22613,Mnirbhay2_73,ARA
-raw_data/wav/Mnirbhay2.wav,516.58,516.96,Mnirbhay2_74,ARA
-raw_data/wav/Mnirbhay2.wav,519.87,520.25,Mnirbhay2_75,ARA
-raw_data/wav/Mnirbhay2.wav,537.03,537.47,Mnirbhay2_76,ALA
-raw_data/wav/Mnirbhay2.wav,539.62,540.04,Mnirbhay2_77,ALA
-raw_data/wav/Mnirbhay2.wav,542.56,542.98,Mnirbhay2_78,ALA
-raw_data/wav/Mnirbhay2.wav,559.51,559.97,Mnirbhay2_79,AVLA
-raw_data/wav/Mnirbhay2.wav,562.11,562.54,Mnirbhay2_80,AVLA
-raw_data/wav/Mnirbhay2.wav,564.81,565.22,Mnirbhay2_81,AVLA
-raw_data/wav/Mnirbhay2.wav,580.21326,580.7,Mnirbhay2_82,AXA
-raw_data/wav/Mnirbhay2.wav,583.11,583.55602,Mnirbhay2_83,AXA
-raw_data/wav/Mnirbhay2.wav,585.95,586.39,Mnirbhay2_84,AXA
-raw_data/wav/Mnirbhay2.wav,606.88,607.33091,Mnirbhay2_85,AXRA
-raw_data/wav/Mnirbhay2.wav,609.07788,609.57,Mnirbhay2_86,AXRA
-raw_data/wav/Mnirbhay2.wav,611.51356,612.01,Mnirbhay2_87,AXRA
-raw_data/wav/Mnirbhay2.wav,629.52981,629.98,Mnirbhay2_88,ASA
-raw_data/wav/Mnirbhay2.wav,631.92526,632.41296,Mnirbhay2_89,ASA
-raw_data/wav/Mnirbhay2.wav,634.49285,635.03792,Mnirbhay2_90,ASA
-raw_data/wav/Mnirbhay2.wav,650.38952,650.86833,Mnirbhay2_91,AHHA
-raw_data/wav/Mnirbhay2.wav,652.91246,653.42809,Mnirbhay2_92,AHHA
-raw_data/wav/Mnirbhay2.wav,655.8037,656.31934,Mnirbhay2_93,AHHA
-raw_data/wav/Mnirbhay2.wav,672.69836,673.19558,Mnirbhay2_94,ARRA
-raw_data/wav/Mnirbhay2.wav,675.09238,675.62643,Mnirbhay2_95,ARRA
-raw_data/wav/Mnirbhay2.wav,677.57849,678.29669,Mnirbhay2_96,ARRA
-raw_data/wav/Mnirbhay2.wav,695.99463,696.52868,Mnirbhay2_97,ARHA
-raw_data/wav/Mnirbhay2.wav,698.53598,698.99637,Mnirbhay2_98,ARHA
-raw_data/wav/Mnirbhay2.wav,701.40881,701.85078,Mnirbhay2_99,ARHA
-raw_data/wav/Mnirbhay2.wav,718.0566,718.57224,Mnirbhay2_100,ARTHA
-raw_data/wav/Mnirbhay2.wav,720.39538,721.00309,Mnirbhay2_101,ARTHA
-raw_data/wav/Mnirbhay2.wav,722.95515,723.54445,Mnirbhay2_102,ARTHA
-raw_data/wav/Mnirbhay2.wav,737.92155,738.40035,Mnirbhay2_103,ARTA
-raw_data/wav/Mnirbhay2.wav,740.16825,740.64706,Mnirbhay2_104,ARTA
-raw_data/wav/Mnirbhay2.wav,742.4702,742.98584,Mnirbhay2_105,ARTA
-raw_data/wav/Mnirbhay2.wav,758.73893,759.21774,Mnirbhay2_106,ANRA
-raw_data/wav/Mnirbhay2.wav,761.16979,761.66701,Mnirbhay2_107,ANRA
-raw_data/wav/Mnirbhay2.wav,763.84005,764.31886,Mnirbhay2_108,ANRA
-raw_data/wav/Fsakshi2.wav,20.35,20.75,Fsakshi2_1,AKA
-raw_data/wav/Fsakshi2.wav,22.44,22.84,Fsakshi2_2,AKA
-raw_data/wav/Fsakshi2.wav,24.57,24.98,Fsakshi2_3,AKA
-raw_data/wav/Fsakshi2.wav,38.87,39.26,Fsakshi2_4,AKHA
-raw_data/wav/Fsakshi2.wav,40.87,41.29,Fsakshi2_5,AKHA
-raw_data/wav/Fsakshi2.wav,42.9,43.35,Fsakshi2_6,AKHA
-raw_data/wav/Fsakshi2.wav,74.46,74.83,Fsakshi2_10,AGHA
-raw_data/wav/Fsakshi2.wav,76.48,76.88,Fsakshi2_11,AGHA
-raw_data/wav/Fsakshi2.wav,78.43,78.81,Fsakshi2_12,AGHA
-raw_data/wav/Fsakshi2.wav,114.12,114.51,Fsakshi2_13,ATXA
-raw_data/wav/Fsakshi2.wav,116.04,116.4,Fsakshi2_14,ATXA
-raw_data/wav/Fsakshi2.wav,118.07,118.46,Fsakshi2_15,ATXA
-raw_data/wav/Fsakshi2.wav,132.92457,133.30157,Fsakshi2_16,ATXHA
-raw_data/wav/Fsakshi2.wav,134.75861,135.11523,Fsakshi2_17,ATXHA
-raw_data/wav/Fsakshi2.wav,136.90851,137.32078,Fsakshi2_18,ATXHA
-raw_data/wav/Fsakshi2.wav,151.74,152.17,Fsakshi2_19,ADXA
-raw_data/wav/Fsakshi2.wav,153.66,154.11,Fsakshi2_20,ADXA
-raw_data/wav/Fsakshi2.wav,155.72,156.08696,Fsakshi2_21,ADXA
-raw_data/wav/Fsakshi2.wav,170.38181,170.77,Fsakshi2_22,AZA
-raw_data/wav/Fsakshi2.wav,172.56227,172.95,Fsakshi2_23,AZA
-raw_data/wav/Fsakshi2.wav,174.70198,175.15,Fsakshi2_24,AZA
-raw_data/wav/Fsakshi2.wav,193.03361,193.47174,Fsakshi2_25,ADXHA
-raw_data/wav/Fsakshi2.wav,195.1,195.58,Fsakshi2_26,ADXHA
-raw_data/wav/Fsakshi2.wav,197.23,197.66,Fsakshi2_27,ADXHA
-raw_data/wav/Fsakshi2.wav,210.9,211.27,Fsakshi2_28,ATRA
-raw_data/wav/Fsakshi2.wav,212.7,213.11,Fsakshi2_29,ATRA
-raw_data/wav/Fsakshi2.wav,214.86,215.26,Fsakshi2_30,ATRA
-raw_data/wav/Fsakshi2.wav,229.05,229.45,Fsakshi2_31,ATRHA
-raw_data/wav/Fsakshi2.wav,230.91,231.31,Fsakshi2_32,ATRHA
-raw_data/wav/Fsakshi2.wav,232.99,233.38,Fsakshi2_33,ATRHA
-raw_data/wav/Fsakshi2.wav,243.8,244.18,Fsakshi2_34,ADRA
-raw_data/wav/Fsakshi2.wav,245.64,246.03,Fsakshi2_35,ADRA
-raw_data/wav/Fsakshi2.wav,247.88,248.26,Fsakshi2_36,ADRA
-raw_data/wav/Fsakshi2.wav,260.53,260.94,Fsakshi2_37,ADRHA
-raw_data/wav/Fsakshi2.wav,262.84,263.2,Fsakshi2_38,ADRHA
-raw_data/wav/Fsakshi2.wav,265.13,265.51,Fsakshi2_39,ADRHA
-raw_data/wav/Fsakshi2.wav,280.8,281.17,Fsakshi2_40,ATA
-raw_data/wav/Fsakshi2.wav,282.95,283.3,Fsakshi2_41,ATA
-raw_data/wav/Fsakshi2.wav,285.07,285.45,Fsakshi2_42,ATA
-raw_data/wav/Fsakshi2.wav,299.5564,299.86,Fsakshi2_43,ATHA
-raw_data/wav/Fsakshi2.wav,301.67338,301.99,Fsakshi2_44,ATHA
-raw_data/wav/Fsakshi2.wav,303.84758,304.14,Fsakshi2_45,ATHA
-raw_data/wav/Fsakshi2.wav,318.54,318.94,Fsakshi2_46,ADA
-raw_data/wav/Fsakshi2.wav,320.82,321.21,Fsakshi2_47,ADA
-raw_data/wav/Fsakshi2.wav,323.04,323.44,Fsakshi2_48,ADA
-raw_data/wav/Fsakshi2.wav,339.21035,339.62,Fsakshi2_49,ADHA
-raw_data/wav/Fsakshi2.wav,341.2481,341.64,Fsakshi2_50,ADHA
-raw_data/wav/Fsakshi2.wav,343.35,343.8,Fsakshi2_51,ADHA
-raw_data/wav/Fsakshi2.wav,355.67,356.04,Fsakshi2_52,ANA
-raw_data/wav/Fsakshi2.wav,357.86,358.27,Fsakshi2_53,ANA
-raw_data/wav/Fsakshi2.wav,360.05,360.42,Fsakshi2_54,ANA
-raw_data/wav/Fsakshi2.wav,372.54633,372.88,Fsakshi2_55,APA
-raw_data/wav/Fsakshi2.wav,374.63614,375.0,Fsakshi2_56,APA
-raw_data/wav/Fsakshi2.wav,376.76,377.17,Fsakshi2_57,APA
-raw_data/wav/Fsakshi2.wav,392.06584,392.45,Fsakshi2_58,APA
-raw_data/wav/Fsakshi2.wav,394.14,394.55,Fsakshi2_59,APA
-raw_data/wav/Fsakshi2.wav,396.27,396.69,Fsakshi2_60,APA
-raw_data/wav/Fsakshi2.wav,409.47,409.84,Fsakshi2_61,ABA
-raw_data/wav/Fsakshi2.wav,411.59,411.97,Fsakshi2_62,ABA
-raw_data/wav/Fsakshi2.wav,413.63,414.02,Fsakshi2_63,ABA
-raw_data/wav/Fsakshi2.wav,426.15,426.52,Fsakshi2_64,ABA
-raw_data/wav/Fsakshi2.wav,428.38,428.74,Fsakshi2_65,ABA
-raw_data/wav/Fsakshi2.wav,430.66,431.03,Fsakshi2_66,ABA
-raw_data/wav/Fsakshi2.wav,440.97,441.36,Fsakshi2_67,ABHA
-raw_data/wav/Fsakshi2.wav,442.94,443.3,Fsakshi2_68,ABHA
-raw_data/wav/Fsakshi2.wav,445.09,445.45,Fsakshi2_69,ABHA
-raw_data/wav/Fsakshi2.wav,458.79,459.16,Fsakshi2_70,AMA
-raw_data/wav/Fsakshi2.wav,460.75,461.1,Fsakshi2_71,AMA
-raw_data/wav/Fsakshi2.wav,463.13,463.54,Fsakshi2_72,AMA
-raw_data/wav/Fsakshi2.wav,478.28,478.65,Fsakshi2_73,AJA
-raw_data/wav/Fsakshi2.wav,480.43426,480.82,Fsakshi2_74,AJA
-raw_data/wav/Fsakshi2.wav,482.38755,482.76,Fsakshi2_75,AJA
-raw_data/wav/Fsakshi2.wav,497.63769,497.97,Fsakshi2_76,ARA
-raw_data/wav/Fsakshi2.wav,499.78126,500.14,Fsakshi2_77,ARA
-raw_data/wav/Fsakshi2.wav,501.83,502.14,Fsakshi2_78,ARA
-raw_data/wav/Fsakshi2.wav,514.9,515.23,Fsakshi2_79,ALA
-raw_data/wav/Fsakshi2.wav,516.90448,517.20164,Fsakshi2_80,ALA
-raw_data/wav/Fsakshi2.wav,518.82,519.16,Fsakshi2_81,ALA
-raw_data/wav/Fsakshi2.wav,530.06,530.43,Fsakshi2_82,AVLA
-raw_data/wav/Fsakshi2.wav,532.08,532.44,Fsakshi2_83,AVLA
-raw_data/wav/Fsakshi2.wav,534.08,534.44,Fsakshi2_84,AVLA
-raw_data/wav/Fsakshi2.wav,549.44879,549.73,Fsakshi2_85,AXA
-raw_data/wav/Fsakshi2.wav,551.56705,551.84,Fsakshi2_86,AXA
-raw_data/wav/Fsakshi2.wav,553.49274,553.84,Fsakshi2_87,AXA
-raw_data/wav/Fsakshi2.wav,564.9,565.3,Fsakshi2_88,AXRA
-raw_data/wav/Fsakshi2.wav,566.82,567.24,Fsakshi2_89,AXRA
-raw_data/wav/Fsakshi2.wav,568.85,569.27,Fsakshi2_90,AXRA
-raw_data/wav/Fsakshi2.wav,581.53512,581.89,Fsakshi2_91,ASA
-raw_data/wav/Fsakshi2.wav,583.61138,583.96,Fsakshi2_92,ASA
-raw_data/wav/Fsakshi2.wav,585.50872,585.88,Fsakshi2_93,ASA
-raw_data/wav/Fsakshi2.wav,597.45726,597.84,Fsakshi2_94,AHHA
-raw_data/wav/Fsakshi2.wav,599.37,599.72,Fsakshi2_95,AHHA
-raw_data/wav/Fsakshi2.wav,601.31716,601.67,Fsakshi2_96,AHHA
-raw_data/wav/Fsakshi2.wav,615.17959,615.54963,Fsakshi2_97,ARRA
-raw_data/wav/Fsakshi2.wav,617.15313,617.52317,Fsakshi2_98,ARRA
-raw_data/wav/Fsakshi2.wav,619.04033,619.41037,Fsakshi2_99,ARRA
-raw_data/wav/Fsakshi2.wav,632.49827,632.9127,Fsakshi2_100,ARHA
-raw_data/wav/Fsakshi2.wav,634.52019,634.94718,Fsakshi2_101,ARHA
-raw_data/wav/Fsakshi2.wav,636.50444,636.91887,Fsakshi2_102,ARHA
-raw_data/wav/Fsakshi2.wav,650.79154,651.15414,Fsakshi2_103,ARTHA
-raw_data/wav/Fsakshi2.wav,652.78583,653.14842,Fsakshi2_104,ARTHA
-raw_data/wav/Fsakshi2.wav,654.86252,655.25808,Fsakshi2_105,ARTHA
-raw_data/wav/Fsakshi2.wav,667.85559,668.21979,Fsakshi2_106,ARTA
-raw_data/wav/Fsakshi2.wav,669.71425,670.06589,Fsakshi2_107,ARTA
-raw_data/wav/Fsakshi2.wav,671.53524,671.87432,Fsakshi2_108,ARTA
-raw_data/wav/Fsakshi2.wav,685.33497,685.68661,Fsakshi2_109,ANRA
-raw_data/wav/Fsakshi2.wav,687.26899,687.63319,Fsakshi2_110,ANRA
-raw_data/wav/Fsakshi2.wav,689.4165,689.76814,Fsakshi2_111,ANRA
-raw_data/wav/Mnirbhay1.wav,26.58,26.97,Mnirbhay1_1,AKA
-raw_data/wav/Mnirbhay1.wav,28.72,29.12,Mnirbhay1_2,AKA
-raw_data/wav/Mnirbhay1.wav,31.08,31.51,Mnirbhay1_3,AKA
-raw_data/wav/Mnirbhay1.wav,34.18,34.72,Mnirbhay1_4,AKHA
-raw_data/wav/Mnirbhay1.wav,36.75,37.26,Mnirbhay1_5,AKHA
-raw_data/wav/Mnirbhay1.wav,39.43,39.94,Mnirbhay1_6,AKHA
-raw_data/wav/Mnirbhay1.wav,51.37,51.93,Mnirbhay1_10,AGHA
-raw_data/wav/Mnirbhay1.wav,53.77,54.25,Mnirbhay1_11,AGHA
-raw_data/wav/Mnirbhay1.wav,56.2,56.63,Mnirbhay1_12,AGHA
-raw_data/wav/Mnirbhay1.wav,61.26,61.61,Mnirbhay1_13,ATXA
-raw_data/wav/Mnirbhay1.wav,63.64,64.06,Mnirbhay1_14,ATXA
-raw_data/wav/Mnirbhay1.wav,66.11,66.47,Mnirbhay1_15,ATXA
-raw_data/wav/Mnirbhay1.wav,71.22,71.61,Mnirbhay1_16,ATXHA
-raw_data/wav/Mnirbhay1.wav,73.59,73.89,Mnirbhay1_17,ATXHA
-raw_data/wav/Mnirbhay1.wav,75.96,76.25,Mnirbhay1_18,ATXHA
-raw_data/wav/Mnirbhay1.wav,80.6,80.88,Mnirbhay1_19,ADXA
-raw_data/wav/Mnirbhay1.wav,82.72,83.08,Mnirbhay1_20,ADXA
-raw_data/wav/Mnirbhay1.wav,85.17,85.42,Mnirbhay1_21,ADXA
-raw_data/wav/Mnirbhay1.wav,90.30837,90.68,Mnirbhay1_22,AZA
-raw_data/wav/Mnirbhay1.wav,92.22,92.63,Mnirbhay1_23,AZA
-raw_data/wav/Mnirbhay1.wav,94.47,94.87,Mnirbhay1_24,AZA
-raw_data/wav/Mnirbhay1.wav,99.57696,99.94,Mnirbhay1_25,ADXHA
-raw_data/wav/Mnirbhay1.wav,101.56,101.99,Mnirbhay1_26,ADXHA
-raw_data/wav/Mnirbhay1.wav,103.81796,104.19,Mnirbhay1_27,ADXHA
-raw_data/wav/Mnirbhay1.wav,110.02914,110.42,Mnirbhay1_28,ATRA
-raw_data/wav/Mnirbhay1.wav,112.76914,113.12,Mnirbhay1_29,ATRA
-raw_data/wav/Mnirbhay1.wav,115.29,115.72,Mnirbhay1_30,ATRA
-raw_data/wav/Mnirbhay1.wav,120.27,120.73,Mnirbhay1_31,ATRHA
-raw_data/wav/Mnirbhay1.wav,122.57,122.98,Mnirbhay1_32,ATRHA
-raw_data/wav/Mnirbhay1.wav,124.93796,125.34,Mnirbhay1_33,ATRHA
-raw_data/wav/Mnirbhay1.wav,131.60932,131.97,Mnirbhay1_34,ADRA
-raw_data/wav/Mnirbhay1.wav,133.85,134.23074,Mnirbhay1_35,ADRA
-raw_data/wav/Mnirbhay1.wav,136.02507,136.42,Mnirbhay1_36,ADRA
-raw_data/wav/Mnirbhay1.wav,140.90692,141.31,Mnirbhay1_37,ADRHA
-raw_data/wav/Mnirbhay1.wav,143.10779,143.51,Mnirbhay1_38,ADRHA
-raw_data/wav/Mnirbhay1.wav,145.33,145.76,Mnirbhay1_39,ADRHA
-raw_data/wav/Mnirbhay1.wav,150.68,151.1,Mnirbhay1_40,ATA
-raw_data/wav/Mnirbhay1.wav,153.03,153.44,Mnirbhay1_41,ATA
-raw_data/wav/Mnirbhay1.wav,155.36,155.74,Mnirbhay1_42,ATA
-raw_data/wav/Mnirbhay1.wav,160.69,161.13,Mnirbhay1_43,ATHA
-raw_data/wav/Mnirbhay1.wav,162.93,163.34,Mnirbhay1_44,ATHA
-raw_data/wav/Mnirbhay1.wav,165.30569,165.71,Mnirbhay1_45,ATHA
-raw_data/wav/Mnirbhay1.wav,170.66,170.89,Mnirbhay1_46,ADA
-raw_data/wav/Mnirbhay1.wav,172.74,172.96,Mnirbhay1_47,ADA
-raw_data/wav/Mnirbhay1.wav,174.94,175.18,Mnirbhay1_48,ADA
-raw_data/wav/Mnirbhay1.wav,180.38,180.63,Mnirbhay1_49,ADHA
-raw_data/wav/Mnirbhay1.wav,182.56,182.82,Mnirbhay1_50,ADHA
-raw_data/wav/Mnirbhay1.wav,184.92552,185.22,Mnirbhay1_51,ADHA
-raw_data/wav/Mnirbhay1.wav,190.13,190.52,Mnirbhay1_52,ANA
-raw_data/wav/Mnirbhay1.wav,192.37,192.74,Mnirbhay1_53,ANA
-raw_data/wav/Mnirbhay1.wav,194.7,195.1,Mnirbhay1_54,ANA
-raw_data/wav/Mnirbhay1.wav,212.06,212.53,Mnirbhay1_55,APA
-raw_data/wav/Mnirbhay1.wav,215.52,216.04,Mnirbhay1_56,APA
-raw_data/wav/Mnirbhay1.wav,217.93,218.38,Mnirbhay1_57,APA
-raw_data/wav/Mnirbhay1.wav,223.57,223.96,Mnirbhay1_58,APHA
-raw_data/wav/Mnirbhay1.wav,225.75,226.14,Mnirbhay1_59,APHA
-raw_data/wav/Mnirbhay1.wav,227.86,228.24,Mnirbhay1_60,APHA
-raw_data/wav/Mnirbhay1.wav,253.28,253.67,Mnirbhay1_61,AJA
-raw_data/wav/Mnirbhay1.wav,255.19,255.58,Mnirbhay1_62,AJA
-raw_data/wav/Mnirbhay1.wav,257.32,257.66,Mnirbhay1_63,AJA
-raw_data/wav/Mnirbhay1.wav,260.65,261.03,Mnirbhay1_64,ARA
-raw_data/wav/Mnirbhay1.wav,262.86,263.12,Mnirbhay1_65,ARA
-raw_data/wav/Mnirbhay1.wav,264.97995,265.31,Mnirbhay1_66,ARA
-raw_data/wav/Mnirbhay1.wav,271.85996,272.18,Mnirbhay1_67,ALA
-raw_data/wav/Mnirbhay1.wav,273.68725,274.09,Mnirbhay1_68,ALA
-raw_data/wav/Mnirbhay1.wav,275.78704,276.15,Mnirbhay1_69,ALA
-raw_data/wav/Mnirbhay1.wav,280.37632,280.78,Mnirbhay1_70,AVLA
-raw_data/wav/Mnirbhay1.wav,282.37993,282.81,Mnirbhay1_71,AVLA
-raw_data/wav/Mnirbhay1.wav,284.44766,284.8,Mnirbhay1_72,AVLA
-raw_data/wav/Mnirbhay1.wav,288.0,288.27,Mnirbhay1_73,AXA
-raw_data/wav/Mnirbhay1.wav,289.96,290.35,Mnirbhay1_74,AXA
-raw_data/wav/Mnirbhay1.wav,292.28,292.55,Mnirbhay1_75,AXA
-raw_data/wav/Mnirbhay1.wav,298.44568,298.76,Mnirbhay1_76,AXRA
-raw_data/wav/Mnirbhay1.wav,300.48,300.78,Mnirbhay1_77,AXRA
-raw_data/wav/Mnirbhay1.wav,302.4,302.8,Mnirbhay1_78,AXRA
-raw_data/wav/Mnirbhay1.wav,307.24,307.65,Mnirbhay1_79,ASA
-raw_data/wav/Mnirbhay1.wav,309.36,309.77,Mnirbhay1_80,ASA
-raw_data/wav/Mnirbhay1.wav,311.46516,311.82,Mnirbhay1_81,ASA
-raw_data/wav/Mnirbhay1.wav,316.27,316.61,Mnirbhay1_82,AHHA
-raw_data/wav/Mnirbhay1.wav,318.42,318.76,Mnirbhay1_83,AHHA
-raw_data/wav/Mnirbhay1.wav,320.47,320.93,Mnirbhay1_84,AHHA
-raw_data/wav/Mnirbhay1.wav,326.25,326.66,Mnirbhay1_85,ARRA
-raw_data/wav/Mnirbhay1.wav,328.17,328.6,Mnirbhay1_86,ARRA
-raw_data/wav/Mnirbhay1.wav,330.29,330.64,Mnirbhay1_87,ARRA
-raw_data/wav/Mnirbhay1.wav,336.37,336.84,Mnirbhay1_88,ARHA
-raw_data/wav/Mnirbhay1.wav,338.54,338.92,Mnirbhay1_89,ARHA
-raw_data/wav/Mnirbhay1.wav,340.53772,340.93,Mnirbhay1_90,ARHA
-raw_data/wav/Mnirbhay1.wav,346.82911,347.25,Mnirbhay1_91,ARTHA
-raw_data/wav/Mnirbhay1.wav,348.80067,349.18,Mnirbhay1_92,ARTHA
-raw_data/wav/Mnirbhay1.wav,351.01266,351.38,Mnirbhay1_93,ARTHA
-raw_data/wav/Mnirbhay1.wav,357.02343,357.34,Mnirbhay1_94,ARTA
-raw_data/wav/Mnirbhay1.wav,358.94706,359.28,Mnirbhay1_95,ARTA
-raw_data/wav/Mnirbhay1.wav,361.09001,361.47,Mnirbhay1_96,ARTA
-raw_data/wav/Mnirbhay1.wav,365.43939,365.78,Mnirbhay1_97,ANRA
-raw_data/wav/Mnirbhay1.wav,367.37279,367.73,Mnirbhay1_98,ANRA
-raw_data/wav/Mnirbhay1.wav,369.16834,369.60616,Mnirbhay1_99,ANRA
+#file onset offset #item word
+raw_data/wav/Fbhavya1.wav 14.58966 15.01097 Fbhavya1_1 AKA
+raw_data/wav/Fbhavya1.wav 16.43404 16.84 Fbhavya1_2 AKA
+raw_data/wav/Fbhavya1.wav 18.24565 18.6576 Fbhavya1_3 AKA
+raw_data/wav/Fbhavya1.wav 35.21 35.69 Fbhavya1_4 AKHA
+raw_data/wav/Fbhavya1.wav 37.05 37.47 Fbhavya1_5 AKHA
+raw_data/wav/Fbhavya1.wav 38.74864 39.21422 Fbhavya1_6 AKHA
+raw_data/wav/Fbhavya1.wav 70.14459 70.56 Fbhavya1_10 AGHA
+raw_data/wav/Fbhavya1.wav 71.9268 72.34 Fbhavya1_11 AGHA
+raw_data/wav/Fbhavya1.wav 73.69 74.05 Fbhavya1_12 AGHA
+raw_data/wav/Fbhavya1.wav 95.19726 95.62208 Fbhavya1_13 ATXA
+raw_data/wav/Fbhavya1.wav 97.16202 97.57235 Fbhavya1_14 ATXA
+raw_data/wav/Fbhavya1.wav 98.98678 99.36 Fbhavya1_15 ATXA
+raw_data/wav/Fbhavya1.wav 102.34576 102.75 Fbhavya1_16 ATXHA
+raw_data/wav/Fbhavya1.wav 104.15402 104.55 Fbhavya1_17 ATXHA
+raw_data/wav/Fbhavya1.wav 105.91054 106.35 Fbhavya1_18 ATXHA
+raw_data/wav/Fbhavya1.wav 108.90505 109.36 Fbhavya1_19 ADXA
+raw_data/wav/Fbhavya1.wav 110.78631 111.19 Fbhavya1_20 ADXA
+raw_data/wav/Fbhavya1.wav 112.569 112.95 Fbhavya1_21 ADXA
+raw_data/wav/Fbhavya1.wav 115.97803 116.38 Fbhavya1_22 AZA
+raw_data/wav/Fbhavya1.wav 117.79049 118.17 Fbhavya1_23 AZA
+raw_data/wav/Fbhavya1.wav 119.53255 119.95 Fbhavya1_24 AZA
+raw_data/wav/Fbhavya1.wav 122.84 123.28 Fbhavya1_25 ADXA
+raw_data/wav/Fbhavya1.wav 124.77549 125.18796 Fbhavya1_26 ADXHA
+raw_data/wav/Fbhavya1.wav 126.66433 127.06 Fbhavya1_27 ADXHA
+raw_data/wav/Fbhavya1.wav 130.05553 130.46 Fbhavya1_28 ATRA
+raw_data/wav/Fbhavya1.wav 131.81828 132.24 Fbhavya1_29 ATRA
+raw_data/wav/Fbhavya1.wav 133.67631 134.00547 Fbhavya1_30 ATRA
+raw_data/wav/Fbhavya1.wav 137.67462 138.11 Fbhavya1_31 ATRHA
+raw_data/wav/Fbhavya1.wav 139.68812 140.09 Fbhavya1_32 ATRHA
+raw_data/wav/Fbhavya1.wav 141.69 142.09 Fbhavya1_33 ATRHA
+raw_data/wav/Fbhavya1.wav 145.4397 145.82 Fbhavya1_34 ADRA
+raw_data/wav/Fbhavya1.wav 147.26092 147.63 Fbhavya1_35 ADRA
+raw_data/wav/Fbhavya1.wav 149.09229 149.45944 Fbhavya1_36 ADRA
+raw_data/wav/Fbhavya1.wav 152.43025 152.86 Fbhavya1_37 ADRHA
+raw_data/wav/Fbhavya1.wav 154.30132 154.69 Fbhavya1_38 ADRHA
+raw_data/wav/Fbhavya1.wav 156.13224 156.52 Fbhavya1_39 ADRHA
+raw_data/wav/Fbhavya1.wav 161.00886 161.45 Fbhavya1_40 ATA
+raw_data/wav/Fbhavya1.wav 162.79481 163.19 Fbhavya1_41 ATA
+raw_data/wav/Fbhavya1.wav 164.65861 164.98 Fbhavya1_42 ATA
+raw_data/wav/Fbhavya1.wav 168.15444 168.54 Fbhavya1_43 ATHA
+raw_data/wav/Fbhavya1.wav 170.00742 170.45 Fbhavya1_44 ATHA
+raw_data/wav/Fbhavya1.wav 171.97849 172.35 Fbhavya1_45 ATHA
+raw_data/wav/Fbhavya1.wav 179.71 180.13 Fbhavya1_46 ADA
+raw_data/wav/Fbhavya1.wav 181.49373 181.88 Fbhavya1_47 ADA
+raw_data/wav/Fbhavya1.wav 183.25495 183.57 Fbhavya1_48 ADA
+raw_data/wav/Fbhavya1.wav 190.81563 191.2513 Fbhavya1_49 ADHA
+raw_data/wav/Fbhavya1.wav 192.64545 193.08 Fbhavya1_50 ADHA
+raw_data/wav/Fbhavya1.wav 194.50738 194.90637 Fbhavya1_51 ADHA
+raw_data/wav/Fbhavya1.wav 198.67358 199.02 Fbhavya1_52 ABA
+raw_data/wav/Fbhavya1.wav 200.47 200.86 Fbhavya1_53 ANA
+raw_data/wav/Fbhavya1.wav 202.37083 202.71 Fbhavya1_54 ANA
+raw_data/wav/Fbhavya1.wav 205.83398 206.27632 Fbhavya1_55 APA
+raw_data/wav/Fbhavya1.wav 207.72776 208.09 Fbhavya1_56 APA
+raw_data/wav/Fbhavya1.wav 209.57546 209.91 Fbhavya1_57 APA
+raw_data/wav/Fbhavya1.wav 213.73002 214.13 Fbhavya1_58 APHA
+raw_data/wav/Fbhavya1.wav 215.59956 216.03 Fbhavya1_59 APHA
+raw_data/wav/Fbhavya1.wav 217.54482 217.97 Fbhavya1_60 APHA
+raw_data/wav/Fbhavya1.wav 222.02 222.41 Fbhavya1_61 ABA
+raw_data/wav/Fbhavya1.wav 223.87 224.25 Fbhavya1_62 ABA
+raw_data/wav/Fbhavya1.wav 225.77 226.19 Fbhavya1_63 ABA
+raw_data/wav/Fbhavya1.wav 230.39151 230.76 Fbhavya1_64 ABHA
+raw_data/wav/Fbhavya1.wav 232.25019 232.68 Fbhavya1_65 ABHA
+raw_data/wav/Fbhavya1.wav 234.08174 234.52 Fbhavya1_66 ABHA
+raw_data/wav/Fbhavya1.wav 238.8 239.16 Fbhavya1_67 AMA
+raw_data/wav/Fbhavya1.wav 240.72 241.05 Fbhavya1_68 AMA
+raw_data/wav/Fbhavya1.wav 242.61 242.91 Fbhavya1_69 AMA
+raw_data/wav/Fbhavya1.wav 246.88 247.27077 Fbhavya1_70 AJA
+raw_data/wav/Fbhavya1.wav 248.7164 249.08499 Fbhavya1_71 AJA
+raw_data/wav/Fbhavya1.wav 250.59 250.91 Fbhavya1_72 AJA
+raw_data/wav/Fbhavya1.wav 254.44351 254.83 Fbhavya1_73 ARA
+raw_data/wav/Fbhavya1.wav 256.26 256.69 Fbhavya1_74 ARA
+raw_data/wav/Fbhavya1.wav 258.25719 258.6 Fbhavya1_75 ARA
+raw_data/wav/Fbhavya1.wav 263.88766 264.25548 Fbhavya1_76 ALA
+raw_data/wav/Fbhavya1.wav 265.6 266.02283 Fbhavya1_77 ALA
+raw_data/wav/Fbhavya1.wav 267.46272 267.83 Fbhavya1_78 ALA
+raw_data/wav/Fbhavya1.wav 271.46081 271.85 Fbhavya1_79 AVLA
+raw_data/wav/Fbhavya1.wav 273.31766 273.69 Fbhavya1_80 AVLA
+raw_data/wav/Fbhavya1.wav 275.23441 275.6 Fbhavya1_81 AVLA
+raw_data/wav/Fbhavya1.wav 281.56431 281.96 Fbhavya1_82 AXA
+raw_data/wav/Fbhavya1.wav 283.33177 283.76 Fbhavya1_83 AXA
+raw_data/wav/Fbhavya1.wav 285.24808 285.64 Fbhavya1_84 AXA
+raw_data/wav/Fbhavya1.wav 289.55329 289.97 Fbhavya1_85 AXRA
+raw_data/wav/Fbhavya1.wav 291.35143 291.73 Fbhavya1_86 AXRA
+raw_data/wav/Fbhavya1.wav 293.05803 293.45 Fbhavya1_87 AXRA
+raw_data/wav/Fbhavya1.wav 297.06056 297.46 Fbhavya1_88 ASA
+raw_data/wav/Fbhavya1.wav 298.82232 299.19 Fbhavya1_89 ASA
+raw_data/wav/Fbhavya1.wav 300.57555 300.96 Fbhavya1_90 ASA
+raw_data/wav/Fbhavya1.wav 304.36526 304.73 Fbhavya1_91 AHHA
+raw_data/wav/Fbhavya1.wav 306.15 306.58 Fbhavya1_92 AHHA
+raw_data/wav/Fbhavya1.wav 308.05748 308.45133 Fbhavya1_93 AHHA
+raw_data/wav/Fbhavya1.wav 311.41191 311.78442 Fbhavya1_94 ARRA
+raw_data/wav/Fbhavya1.wav 313.17125 313.61104 Fbhavya1_95 ARRA
+raw_data/wav/Fbhavya1.wav 315.02057 315.40385 Fbhavya1_96 ARRA
+raw_data/wav/Fbhavya1.wav 318.31994 318.79351 Fbhavya1_97 ARHA
+raw_data/wav/Fbhavya1.wav 319.99435 320.51866 Fbhavya1_98 ARHA
+raw_data/wav/Fbhavya1.wav 321.78171 322.2438 Fbhavya1_99 ARHA
+raw_data/wav/Fbhavya1.wav 326.93403 327.33848 Fbhavya1_100 ARTHA
+raw_data/wav/Fbhavya1.wav 328.69154 329.16511 Fbhavya1_101 ARTHA
+raw_data/wav/Fbhavya1.wav 330.60577 331.02557 Fbhavya1_102 ARTHA
+raw_data/wav/Fbhavya1.wav 336.57115 336.99044 Fbhavya1_103 ARTA
+raw_data/wav/Fbhavya1.wav 338.33398 338.69898 Fbhavya1_104 ARTA
+raw_data/wav/Fbhavya1.wav 340.15351 340.55943 Fbhavya1_105 ARTA
+raw_data/wav/Fbhavya1.wav 344.12769 344.54976 Fbhavya1_106 ANRA
+raw_data/wav/Fbhavya1.wav 345.91035 346.34256 Fbhavya1_107 ANRA
+raw_data/wav/Fbhavya1.wav 347.74609 348.08462 Fbhavya1_108 ANRA
+raw_data/wav/Fbhavya2.wav 8.39 8.93 Fbhavya2_1 AKA
+raw_data/wav/Fbhavya2.wav 10.7 11.28 Fbhavya2_2 AKA
+raw_data/wav/Fbhavya2.wav 13.05743 13.55 Fbhavya2_3 AKA
+raw_data/wav/Fbhavya2.wav 17.15 17.81 Fbhavya2_4 AKHA
+raw_data/wav/Fbhavya2.wav 19.69967 20.28724 Fbhavya2_5 AKHA
+raw_data/wav/Fbhavya2.wav 22.2458 22.8 Fbhavya2_6 AKHA
+raw_data/wav/Fbhavya2.wav 42.97959 43.52451 Fbhavya2_10 AGHA
+raw_data/wav/Fbhavya2.wav 45.51187 46.10166 Fbhavya2_11 AGHA
+raw_data/wav/Fbhavya2.wav 48.25 48.88396 Fbhavya2_12 AGHA
+raw_data/wav/Fbhavya2.wav 52.19 52.68777 Fbhavya2_13 ATXA
+raw_data/wav/Fbhavya2.wav 54.51 55.01 Fbhavya2_14 ATXA
+raw_data/wav/Fbhavya2.wav 56.88 57.38137 Fbhavya2_15 ATXA
+raw_data/wav/Fbhavya2.wav 61.12 61.65602 Fbhavya2_16 ATXHA
+raw_data/wav/Fbhavya2.wav 63.48 64.0105 Fbhavya2_17 ATXHA
+raw_data/wav/Fbhavya2.wav 65.87 66.37063 Fbhavya2_18 ATXHA
+raw_data/wav/Fbhavya2.wav 69.84 70.31638 Fbhavya2_19 ADXA
+raw_data/wav/Fbhavya2.wav 72.15 72.69619 Fbhavya2_20 ADXA
+raw_data/wav/Fbhavya2.wav 74.57 75.076 Fbhavya2_21 ADXA
+raw_data/wav/Fbhavya2.wav 78.7 79.23749 Fbhavya2_22 AZA
+raw_data/wav/Fbhavya2.wav 81.11 81.65612 Fbhavya2_23 AZA
+raw_data/wav/Fbhavya2.wav 83.33 83.89451 Fbhavya2_24 AZA
+raw_data/wav/Fbhavya2.wav 93.5 94.09103 Fbhavya2_25 ADXHA
+raw_data/wav/Fbhavya2.wav 95.94 96.49 Fbhavya2_26 ADXHA
+raw_data/wav/Fbhavya2.wav 98.26682 98.82 Fbhavya2_27 ADXHA
+raw_data/wav/Fbhavya2.wav 102.25533 102.75826 Fbhavya2_28 ATRA
+raw_data/wav/Fbhavya2.wav 104.5 105.01 Fbhavya2_29 ATRA
+raw_data/wav/Fbhavya2.wav 106.86548 107.36 Fbhavya2_30 ATRA
+raw_data/wav/Fbhavya2.wav 114.90941 115.43 Fbhavya2_31 ATRHA
+raw_data/wav/Fbhavya2.wav 117.36769 117.9 Fbhavya2_32 ATRHA
+raw_data/wav/Fbhavya2.wav 119.82004 120.37226 Fbhavya2_33 ATRHA
+raw_data/wav/Fbhavya2.wav 123.68566 124.1817 Fbhavya2_34 ADRA
+raw_data/wav/Fbhavya2.wav 126.16475 126.6761 Fbhavya2_35 ADRA
+raw_data/wav/Fbhavya2.wav 128.58537 129.07547 Fbhavya2_36 ADRA
+raw_data/wav/Fbhavya2.wav 132.37637 132.9209 Fbhavya2_37 ADRHA
+raw_data/wav/Fbhavya2.wav 134.74537 135.24376 Fbhavya2_38 ADRHA
+raw_data/wav/Fbhavya2.wav 137.22415 137.75 Fbhavya2_39 ADRHA
+raw_data/wav/Fbhavya2.wav 142.17883 142.66 Fbhavya2_40 ATA
+raw_data/wav/Fbhavya2.wav 144.49948 144.97 Fbhavya2_41 ATA
+raw_data/wav/Fbhavya2.wav 146.97 147.47 Fbhavya2_42 ATA
+raw_data/wav/Fbhavya2.wav 151.1213 151.6 Fbhavya2_43 ATHA
+raw_data/wav/Fbhavya2.wav 153.30776 153.79 Fbhavya2_44 ATHA
+raw_data/wav/Fbhavya2.wav 155.72736 156.25828 Fbhavya2_45 ATHA
+raw_data/wav/Fbhavya2.wav 159.21717 159.69337 Fbhavya2_46 ADA
+raw_data/wav/Fbhavya2.wav 162.01984 162.44044 Fbhavya2_47 ADA
+raw_data/wav/Fbhavya2.wav 164.70264 165.19 Fbhavya2_48 ADA
+raw_data/wav/Fbhavya2.wav 173.71177 174.24 Fbhavya2_49 ADHA
+raw_data/wav/Fbhavya2.wav 176.12967 176.65 Fbhavya2_50 ADHA
+raw_data/wav/Fbhavya2.wav 178.52405 179.07 Fbhavya2_51 ADHA
+raw_data/wav/Fbhavya2.wav 182.63703 183.07 Fbhavya2_52 ANA
+raw_data/wav/Fbhavya2.wav 184.88 185.38 Fbhavya2_53 ANA
+raw_data/wav/Fbhavya2.wav 187.14128 187.65 Fbhavya2_54 ANA
+raw_data/wav/Fbhavya2.wav 190.85 191.32478 Fbhavya2_55 APA
+raw_data/wav/Fbhavya2.wav 193.17 193.67 Fbhavya2_56 APA
+raw_data/wav/Fbhavya2.wav 195.58 196.06 Fbhavya2_57 APA
+raw_data/wav/Fbhavya2.wav 199.15 199.71959 Fbhavya2_58 APHA
+raw_data/wav/Fbhavya2.wav 201.59388 202.08 Fbhavya2_59 APHA
+raw_data/wav/Fbhavya2.wav 203.9804 204.54632 Fbhavya2_60 APHA
+raw_data/wav/Fbhavya2.wav 208.52112 209.03307 Fbhavya2_61 ABA
+raw_data/wav/Fbhavya2.wav 210.86227 211.32 Fbhavya2_62 ABA
+raw_data/wav/Fbhavya2.wav 213.11139 213.62 Fbhavya2_63 ABA
+raw_data/wav/Fbhavya2.wav 229.61735 230.12498 Fbhavya2_64 ABHA
+raw_data/wav/Fbhavya2.wav 231.85597 232.33 Fbhavya2_65 ABHA
+raw_data/wav/Fbhavya2.wav 234.02759 234.52 Fbhavya2_66 ABH
+raw_data/wav/Fbhavya2.wav 238.07 238.51 Fbhavya2_67 AJA
+raw_data/wav/Fbhavya2.wav 240.37279 240.82 Fbhavya2_68 AJA
+raw_data/wav/Fbhavya2.wav 242.71 243.19 Fbhavya2_69 AJA
+raw_data/wav/Fbhavya2.wav 293.59 294.14 Fbhavya2_70 AMA
+raw_data/wav/Fbhavya2.wav 296.21 296.78 Fbhavya2_71 AMA
+raw_data/wav/Fbhavya2.wav 298.81 299.43 Fbhavya2_72 AMA
+raw_data/wav/Fbhavya2.wav 302.62 303.08 Fbhavya2_73 ARA
+raw_data/wav/Fbhavya2.wav 305.1463 305.53542 Fbhavya2_74 ARA
+raw_data/wav/Fbhavya2.wav 307.58 308.06 Fbhavya2_75 ARA
+raw_data/wav/Fbhavya2.wav 311.10414 311.56919 Fbhavya2_76 ALA
+raw_data/wav/Fbhavya2.wav 313.51622 313.95027 Fbhavya2_77 ALA
+raw_data/wav/Fbhavya2.wav 316.15774 316.62899 Fbhavya2_78 ALA
+raw_data/wav/Fbhavya2.wav 319.77 320.22 Fbhavya2_79 AVLA
+raw_data/wav/Fbhavya2.wav 322.11 322.55 Fbhavya2_80 AVLA
+raw_data/wav/Fbhavya2.wav 324.53 325.01 Fbhavya2_81 AVLA
+raw_data/wav/Fbhavya2.wav 330.92 331.40632 Fbhavya2_82 AXA
+raw_data/wav/Fbhavya2.wav 333.35 333.84978 Fbhavya2_83 AXA
+raw_data/wav/Fbhavya2.wav 335.74 336.21 Fbhavya2_84 AXA
+raw_data/wav/Fbhavya2.wav 339.06848 339.59859 Fbhavya2_85 AXRA
+raw_data/wav/Fbhavya2.wav 341.35201 341.88794 Fbhavya2_86 AXRA
+raw_data/wav/Fbhavya2.wav 343.79865 344.32293 Fbhavya2_87 AXRA
+raw_data/wav/Fbhavya2.wav 347.6 348.08424 Fbhavya2_88 ASA
+raw_data/wav/Fbhavya2.wav 350.17028 350.62834 Fbhavya2_89 ASA
+raw_data/wav/Fbhavya2.wav 352.67105 353.17863 Fbhavya2_90 ASA
+raw_data/wav/Fbhavya2.wav 357.27 357.75 Fbhavya2_91 AHHA
+raw_data/wav/Fbhavya2.wav 359.61024 360.1 Fbhavya2_92 AHHA
+raw_data/wav/Fbhavya2.wav 362.16167 362.66 Fbhavya2_93 AHHA
+raw_data/wav/Fbhavya2.wav 365.78367 366.29 Fbhavya2_94 ARRA
+raw_data/wav/Fbhavya2.wav 368.24321 368.75826 Fbhavya2_95 ARRA
+raw_data/wav/Fbhavya2.wav 370.59858 371.11363 Fbhavya2_96 ARRA
+raw_data/wav/Fbhavya2.wav 374.84859 375.36778 Fbhavya2_97 ARHA
+raw_data/wav/Fbhavya2.wav 377.17067 377.68896 Fbhavya2_98 ARHA
+raw_data/wav/Fbhavya2.wav 379.54083 380.12518 Fbhavya2_99 ARHA
+raw_data/wav/Fbhavya2.wav 385.26014 385.73313 Fbhavya2_100 ARTHA
+raw_data/wav/Fbhavya2.wav 387.58306 388.05287 Fbhavya2_101 ARTHA
+raw_data/wav/Fbhavya2.wav 389.88054 390.36287 Fbhavya2_102 ARTHA
+raw_data/wav/Fbhavya2.wav 396.54195 396.95617 Fbhavya2_103 ARTA
+raw_data/wav/Fbhavya2.wav 398.96571 399.37433 Fbhavya2_104 ARTA
+raw_data/wav/Fbhavya2.wav 401.4192 401.84287 Fbhavya2_105 ARTA
+raw_data/wav/Fbhavya2.wav 404.86421 405.25726 Fbhavya2_106 ANRA
+raw_data/wav/Fbhavya2.wav 406.98305 407.46444 Fbhavya2_107 ANRA
+raw_data/wav/Fbhavya2.wav 409.34166 409.81447 Fbhavya2_108 ANRA
+raw_data/wav/Mrajesh2.wav 5.70032 6.08702 Mrajesh2_1 AKA
+raw_data/wav/Mrajesh2.wav 8.61035 9.0036 Mrajesh2_2 AKA
+raw_data/wav/Mrajesh2.wav 11.61 12.06 Mrajesh2_3 AKA
+raw_data/wav/Mrajesh2.wav 18.06 18.58 Mrajesh2_4 AKHA
+raw_data/wav/Mrajesh2.wav 20.64 21.19 Mrajesh2_5 AKHA
+raw_data/wav/Mrajesh2.wav 23.67 24.19 Mrajesh2_6 AKHA
+raw_data/wav/Mrajesh2.wav 40.11 40.64 Mrajesh2_10 AGHA
+raw_data/wav/Mrajesh2.wav 43.01 43.54 Mrajesh2_11 AGHA
+raw_data/wav/Mrajesh2.wav 46.33 46.81 Mrajesh2_12 AGHA
+raw_data/wav/Mrajesh2.wav 51.15 51.58 Mrajesh2_13 ATXA
+raw_data/wav/Mrajesh2.wav 54.08 54.55 Mrajesh2_14 ATXA
+raw_data/wav/Mrajesh2.wav 57.08 57.58 Mrajesh2_15 ATXA
+raw_data/wav/Mrajesh2.wav 61.44 61.96 Mrajesh2_16 ATXHA
+raw_data/wav/Mrajesh2.wav 64.26 64.81 Mrajesh2_17 ATXHA
+raw_data/wav/Mrajesh2.wav 67.22 67.7 Mrajesh2_18 ATXHA
+raw_data/wav/Mrajesh2.wav 70.85 71.34651 Mrajesh2_19 ADXA
+raw_data/wav/Mrajesh2.wav 73.9 74.32 Mrajesh2_20 ADXA
+raw_data/wav/Mrajesh2.wav 77.2 77.64 Mrajesh2_21 ADXA
+raw_data/wav/Mrajesh2.wav 81.6 82.15791 Mrajesh2_22 AZA
+raw_data/wav/Mrajesh2.wav 84.57938 85.10968 Mrajesh2_23 AZA
+raw_data/wav/Mrajesh2.wav 87.85 88.41286 Mrajesh2_24 AZA
+raw_data/wav/Mrajesh2.wav 97.37 97.87 Mrajesh2_25 ADXHA
+raw_data/wav/Mrajesh2.wav 100.57 101.06 Mrajesh2_26 ADXHA
+raw_data/wav/Mrajesh2.wav 103.9 104.36 Mrajesh2_27 ADXHA
+raw_data/wav/Mrajesh2.wav 109.27 109.79407 Mrajesh2_28 ATRA
+raw_data/wav/Mrajesh2.wav 112.33 112.82 Mrajesh2_29 ATRA
+raw_data/wav/Mrajesh2.wav 115.37 115.82 Mrajesh2_30 ATRA
+raw_data/wav/Mrajesh2.wav 120.04 120.54 Mrajesh2_31 ATRHA
+raw_data/wav/Mrajesh2.wav 123.11 123.68 Mrajesh2_32 ATRHA
+raw_data/wav/Mrajesh2.wav 126.29 126.8 Mrajesh2_33 ATRHA
+raw_data/wav/Mrajesh2.wav 131.55 132.05 Mrajesh2_34 ADRA
+raw_data/wav/Mrajesh2.wav 134.79134 135.31 Mrajesh2_35 ADRA
+raw_data/wav/Mrajesh2.wav 138.62948 139.1 Mrajesh2_36 ADRA
+raw_data/wav/Mrajesh2.wav 142.9207 143.39 Mrajesh2_37 ADRHA
+raw_data/wav/Mrajesh2.wav 146.42 146.86 Mrajesh2_38 ADRHA
+raw_data/wav/Mrajesh2.wav 150.21069 150.69626 Mrajesh2_39 ADRHA
+raw_data/wav/Mrajesh2.wav 155.17 155.62 Mrajesh2_40 ATA
+raw_data/wav/Mrajesh2.wav 158.66 159.14 Mrajesh2_41 ATA
+raw_data/wav/Mrajesh2.wav 162.15 162.57 Mrajesh2_42 ATA
+raw_data/wav/Mrajesh2.wav 165.68 166.15 Mrajesh2_43 ATHA
+raw_data/wav/Mrajesh2.wav 168.86 169.33 Mrajesh2_44 ATHA
+raw_data/wav/Mrajesh2.wav 171.88 172.35 Mrajesh2_45 ATHA
+raw_data/wav/Mrajesh2.wav 175.86154 176.33434 Mrajesh2_46 ADA
+raw_data/wav/Mrajesh2.wav 179.63112 180.10131 Mrajesh2_47 ADA
+raw_data/wav/Mrajesh2.wav 183.18347 183.68 Mrajesh2_48 ADA
+raw_data/wav/Mrajesh2.wav 192.4727 192.91993 Mrajesh2_49 ADHA
+raw_data/wav/Mrajesh2.wav 195.88 196.32 Mrajesh2_50 ADHA
+raw_data/wav/Mrajesh2.wav 199.37 199.8 Mrajesh2_51 ADHA
+raw_data/wav/Mrajesh2.wav 204.85 205.31 Mrajesh2_52 ANA
+raw_data/wav/Mrajesh2.wav 208.33 208.79 Mrajesh2_53 ANA
+raw_data/wav/Mrajesh2.wav 211.92 212.32936 Mrajesh2_54 ANA
+raw_data/wav/Mrajesh2.wav 217.76 218.22 Mrajesh2_55 APA
+raw_data/wav/Mrajesh2.wav 221.16006 221.6 Mrajesh2_56 APA
+raw_data/wav/Mrajesh2.wav 224.77 225.19 Mrajesh2_57 APA
+raw_data/wav/Mrajesh2.wav 229.5 229.93 Mrajesh2_58 APHA
+raw_data/wav/Mrajesh2.wav 232.94 233.4 Mrajesh2_59 APHA
+raw_data/wav/Mrajesh2.wav 236.62 237.03 Mrajesh2_60 APHA
+raw_data/wav/Mrajesh2.wav 241.61 242.01 Mrajesh2_61 ABA
+raw_data/wav/Mrajesh2.wav 245.0 245.42 Mrajesh2_62 ABA
+raw_data/wav/Mrajesh2.wav 248.3 248.7 Mrajesh2_63 ABA
+raw_data/wav/Mrajesh2.wav 252.56 253.04 Mrajesh2_64 ABHA
+raw_data/wav/Mrajesh2.wav 255.96 256.42 Mrajesh2_65 ABHA
+raw_data/wav/Mrajesh2.wav 259.73 260.19 Mrajesh2_66 ABHA
+raw_data/wav/Mrajesh2.wav 265.02 265.44 Mrajesh2_67 AMA
+raw_data/wav/Mrajesh2.wav 268.38 268.81 Mrajesh2_68 AMA
+raw_data/wav/Mrajesh2.wav 271.73 272.16582 Mrajesh2_69 AMA
+raw_data/wav/Mrajesh2.wav 277.02 277.43 Mrajesh2_70 AJA
+raw_data/wav/Mrajesh2.wav 280.58 281.01 Mrajesh2_71 AJA
+raw_data/wav/Mrajesh2.wav 284.2 284.61 Mrajesh2_72 AJA
+raw_data/wav/Mrajesh2.wav 288.87 289.3 Mrajesh2_73 ARA
+raw_data/wav/Mrajesh2.wav 292.25 292.64 Mrajesh2_74 ARA
+raw_data/wav/Mrajesh2.wav 295.55 295.94 Mrajesh2_75 ARA
+raw_data/wav/Mrajesh2.wav 300.06 300.47 Mrajesh2_76 ALA
+raw_data/wav/Mrajesh2.wav 303.83 304.23 Mrajesh2_77 ALA
+raw_data/wav/Mrajesh2.wav 307.78 308.15 Mrajesh2_78 ALA
+raw_data/wav/Mrajesh2.wav 313.2 313.6 Mrajesh2_79 AVLA
+raw_data/wav/Mrajesh2.wav 316.82 317.23 Mrajesh2_80 AVLA
+raw_data/wav/Mrajesh2.wav 320.29 320.64 Mrajesh2_81 AVLA
+raw_data/wav/Mrajesh2.wav 326.92 327.34 Mrajesh2_82 AXA
+raw_data/wav/Mrajesh2.wav 330.72 331.11 Mrajesh2_83 AXA
+raw_data/wav/Mrajesh2.wav 334.95 335.43323 Mrajesh2_84 AXA
+raw_data/wav/Mrajesh2.wav 339.29844 339.77762 Mrajesh2_85 AXRA
+raw_data/wav/Mrajesh2.wav 342.92 343.39 Mrajesh2_86 AXRA
+raw_data/wav/Mrajesh2.wav 346.5 346.98455 Mrajesh2_87 AXRA
+raw_data/wav/Mrajesh2.wav 351.04007 351.4937 Mrajesh2_88 ASA
+raw_data/wav/Mrajesh2.wav 354.65 355.13204 Mrajesh2_89 ASA
+raw_data/wav/Mrajesh2.wav 358.46716 358.97829 Mrajesh2_90 ASA
+raw_data/wav/Mrajesh2.wav 363.37 363.74 Mrajesh2_91 AHHA
+raw_data/wav/Mrajesh2.wav 367.06 367.46 Mrajesh2_92 AHHA
+raw_data/wav/Mrajesh2.wav 370.91 371.36623 Mrajesh2_93 AHHA
+raw_data/wav/Mrajesh2.wav 377.08 377.54 Mrajesh2_94 ARRA
+raw_data/wav/Mrajesh2.wav 380.64 381.08 Mrajesh2_95 ARRA
+raw_data/wav/Mrajesh2.wav 384.3 384.78 Mrajesh2_96 ARRA
+raw_data/wav/Mrajesh2.wav 389.88444 390.39557 Mrajesh2_97 ARHA
+raw_data/wav/Mrajesh2.wav 393.43 393.89 Mrajesh2_98 ARHA
+raw_data/wav/Mrajesh2.wav 396.95 397.41 Mrajesh2_99 ARHA
+raw_data/wav/Mrajesh2.wav 402.06559 402.53883 Mrajesh2_100 ARTHA
+raw_data/wav/Mrajesh2.wav 405.45 405.97 Mrajesh2_101 ARTHA
+raw_data/wav/Mrajesh2.wav 409.10685 409.58684 Mrajesh2_102 ARTHA
+raw_data/wav/Mrajesh2.wav 417.44 417.87 Mrajesh2_103 ARTA
+raw_data/wav/Mrajesh2.wav 420.83 421.3 Mrajesh2_104 ARTA
+raw_data/wav/Mrajesh2.wav 424.6 425.01 Mrajesh2_105 ARTA
+raw_data/wav/Mrajesh2.wav 429.85 430.27 Mrajesh2_106 ANRA
+raw_data/wav/Mrajesh2.wav 433.42 433.81 Mrajesh2_107 ANRA
+raw_data/wav/Mrajesh2.wav 436.76 437.17 Mrajesh2_108 ANRA
+raw_data/wav/Mrajesh1.wav 30.49 30.91 Mrajesh1_1 AKA
+raw_data/wav/Mrajesh1.wav 32.49 32.87 Mrajesh1_2 AKA
+raw_data/wav/Mrajesh1.wav 34.69 35.12 Mrajesh1_3 AKA
+raw_data/wav/Mrajesh1.wav 38.65 39.07 Mrajesh1_4 AKHA
+raw_data/wav/Mrajesh1.wav 40.94 41.4 Mrajesh1_5 AKHA
+raw_data/wav/Mrajesh1.wav 43.29 43.74 Mrajesh1_6 AKHA
+raw_data/wav/Mrajesh1.wav 58.97 59.4 Mrajesh1_10 AGHA
+raw_data/wav/Mrajesh1.wav 61.02 61.46 Mrajesh1_11 AGHA
+raw_data/wav/Mrajesh1.wav 63.18 63.6 Mrajesh1_12 AGHA
+raw_data/wav/Mrajesh1.wav 70.81894 71.11 Mrajesh1_13 ATXA
+raw_data/wav/Mrajesh1.wav 72.8 73.13 Mrajesh1_14 ATXA
+raw_data/wav/Mrajesh1.wav 74.96 75.24 Mrajesh1_15 ATXA
+raw_data/wav/Mrajesh1.wav 83.87406 84.29 Mrajesh1_16 ATXHA
+raw_data/wav/Mrajesh1.wav 86.16 86.43 Mrajesh1_17 ATXHA
+raw_data/wav/Mrajesh1.wav 88.17 88.61 Mrajesh1_18 ATXHA
+raw_data/wav/Mrajesh1.wav 94.93 95.19 Mrajesh1_19 ADXA
+raw_data/wav/Mrajesh1.wav 97.1 97.48 Mrajesh1_20 ADXA
+raw_data/wav/Mrajesh1.wav 99.39 99.77 Mrajesh1_21 ADXA
+raw_data/wav/Mrajesh1.wav 106.54 106.81 Mrajesh1_22 AZA
+raw_data/wav/Mrajesh1.wav 108.89 109.31 Mrajesh1_23 AZA
+raw_data/wav/Mrajesh1.wav 111.35 111.58 Mrajesh1_24 AZA
+raw_data/wav/Mrajesh1.wav 116.79986 117.1 Mrajesh1_25 ADXHA
+raw_data/wav/Mrajesh1.wav 118.94 119.21 Mrajesh1_26 ADXHA
+raw_data/wav/Mrajesh1.wav 121.12636 121.44 Mrajesh1_27 ADXHA
+raw_data/wav/Mrajesh1.wav 129.65566 129.96 Mrajesh1_28 ATRA
+raw_data/wav/Mrajesh1.wav 131.80583 132.11 Mrajesh1_29 ATRA
+raw_data/wav/Mrajesh1.wav 133.93 134.35 Mrajesh1_30 ATRA
+raw_data/wav/Mrajesh1.wav 141.42 141.86 Mrajesh1_31 ATRHA
+raw_data/wav/Mrajesh1.wav 143.61 143.98 Mrajesh1_32 ATRHA
+raw_data/wav/Mrajesh1.wav 145.65575 146.02 Mrajesh1_33 ATRHA
+raw_data/wav/Mrajesh1.wav 153.93255 154.25 Mrajesh1_34 ADRA
+raw_data/wav/Mrajesh1.wav 155.99412 156.35 Mrajesh1_35 ADRA
+raw_data/wav/Mrajesh1.wav 158.2176 158.51 Mrajesh1_36 ADRA
+raw_data/wav/Mrajesh1.wav 165.06857 165.41 Mrajesh1_37 ADRA
+raw_data/wav/Mrajesh1.wav 167.24135 167.59 Mrajesh1_38 ADRA
+raw_data/wav/Mrajesh1.wav 169.91 170.32 Mrajesh1_39 ADRA
+raw_data/wav/Mrajesh1.wav 177.79 178.19 Mrajesh1_40 ATA
+raw_data/wav/Mrajesh1.wav 180.0 180.41 Mrajesh1_41 ATA
+raw_data/wav/Mrajesh1.wav 182.2 182.62 Mrajesh1_42 ATA
+raw_data/wav/Mrajesh1.wav 190.42 190.85 Mrajesh1_43 ATHA
+raw_data/wav/Mrajesh1.wav 192.55 192.96 Mrajesh1_44 ATHA
+raw_data/wav/Mrajesh1.wav 194.84475 195.17 Mrajesh1_45 ATHA
+raw_data/wav/Mrajesh1.wav 200.94355 201.22 Mrajesh1_46 ADA
+raw_data/wav/Mrajesh1.wav 203.00796 203.28 Mrajesh1_47 ADA
+raw_data/wav/Mrajesh1.wav 205.24572 205.56 Mrajesh1_48 ADA
+raw_data/wav/Mrajesh1.wav 212.33605 212.66 Mrajesh1_49 ADHA
+raw_data/wav/Mrajesh1.wav 214.45848 214.73746 Mrajesh1_50 ADHA
+raw_data/wav/Mrajesh1.wav 216.68 217.12 Mrajesh1_51 ADHA
+raw_data/wav/Mrajesh1.wav 224.58 224.96 Mrajesh1_52 ANA
+raw_data/wav/Mrajesh1.wav 226.8 227.19 Mrajesh1_53 ANA
+raw_data/wav/Mrajesh1.wav 229.07 229.46 Mrajesh1_54 ANA
+raw_data/wav/Mrajesh1.wav 234.28 234.7 Mrajesh1_55 APA
+raw_data/wav/Mrajesh1.wav 236.86 237.26 Mrajesh1_56 APA
+raw_data/wav/Mrajesh1.wav 239.4 239.79 Mrajesh1_57 APA
+raw_data/wav/Mrajesh1.wav 247.20264 247.56 Mrajesh1_58 APHA
+raw_data/wav/Mrajesh1.wav 249.29 249.73 Mrajesh1_59 APHA
+raw_data/wav/Mrajesh1.wav 251.64 252.02 Mrajesh1_60 APHA
+raw_data/wav/Mrajesh1.wav 258.28 258.67 Mrajesh1_61 ABA
+raw_data/wav/Mrajesh1.wav 260.76 261.18533 Mrajesh1_62 ABA
+raw_data/wav/Mrajesh1.wav 264.0 264.37 Mrajesh1_63 ABA
+raw_data/wav/Mrajesh1.wav 270.07 270.46 Mrajesh1_64 ABHA
+raw_data/wav/Mrajesh1.wav 272.14 272.59 Mrajesh1_65 ABHA
+raw_data/wav/Mrajesh1.wav 274.39 274.86 Mrajesh1_66 ABHA
+raw_data/wav/Mrajesh1.wav 282.11385 282.46 Mrajesh1_67 AMA
+raw_data/wav/Mrajesh1.wav 284.3 284.72 Mrajesh1_68 AMA
+raw_data/wav/Mrajesh1.wav 286.672 287.06 Mrajesh1_69 AMA
+raw_data/wav/Mrajesh1.wav 293.87668 294.2 Mrajesh1_70 AJA
+raw_data/wav/Mrajesh1.wav 295.95 296.39 Mrajesh1_71 AJA
+raw_data/wav/Mrajesh1.wav 298.27 298.63 Mrajesh1_72 AJA
+raw_data/wav/Mrajesh1.wav 305.22 305.62 Mrajesh1_73 ARA
+raw_data/wav/Mrajesh1.wav 307.76 308.17 Mrajesh1_74 ARA
+raw_data/wav/Mrajesh1.wav 311.18513 311.49 Mrajesh1_75 ARA
+raw_data/wav/Mrajesh1.wav 317.67189 318.02 Mrajesh1_76 ALA
+raw_data/wav/Mrajesh1.wav 320.07887 320.38 Mrajesh1_77 ALA
+raw_data/wav/Mrajesh1.wav 322.30031 322.62 Mrajesh1_78 ALA
+raw_data/wav/Mrajesh1.wav 329.24457 329.58 Mrajesh1_79 AVLA
+raw_data/wav/Mrajesh1.wav 331.57769 331.9 Mrajesh1_80 AVLA
+raw_data/wav/Mrajesh1.wav 333.7 334.1 Mrajesh1_81 AVLA
+raw_data/wav/Mrajesh1.wav 339.73641 340.10553 Mrajesh1_82 AXA
+raw_data/wav/Mrajesh1.wav 342.06684 342.38 Mrajesh1_83 AXA
+raw_data/wav/Mrajesh1.wav 344.38074 344.66 Mrajesh1_84 AXA
+raw_data/wav/Mrajesh1.wav 353.34 353.68 Mrajesh1_85 AXRA
+raw_data/wav/Mrajesh1.wav 355.48557 355.83 Mrajesh1_86 AXRA
+raw_data/wav/Mrajesh1.wav 357.56 357.99144 Mrajesh1_87 AXRA
+raw_data/wav/Mrajesh1.wav 364.92 365.28 Mrajesh1_88 ASA
+raw_data/wav/Mrajesh1.wav 367.12 367.54 Mrajesh1_89 ASA
+raw_data/wav/Mrajesh1.wav 369.53 369.89 Mrajesh1_90 ASA
+raw_data/wav/Mrajesh1.wav 375.44 375.81 Mrajesh1_91 AHHA
+raw_data/wav/Mrajesh1.wav 377.71 378.09 Mrajesh1_92 AHHA
+raw_data/wav/Mrajesh1.wav 379.98 380.38 Mrajesh1_93 AHHA
+raw_data/wav/Mrajesh1.wav 388.0 388.44 Mrajesh1_94 ARRA
+raw_data/wav/Mrajesh1.wav 390.17 390.55 Mrajesh1_95 ARRA
+raw_data/wav/Mrajesh1.wav 392.45 392.86 Mrajesh1_96 ARRA
+raw_data/wav/Mrajesh1.wav 398.79 399.17 Mrajesh1_97 ARHA
+raw_data/wav/Mrajesh1.wav 400.95 401.34 Mrajesh1_98 ARHA
+raw_data/wav/Mrajesh1.wav 403.44645 403.85 Mrajesh1_99 ARHA
+raw_data/wav/Mrajesh1.wav 410.5558 410.89 Mrajesh1_100 ARTHA
+raw_data/wav/Mrajesh1.wav 412.76072 413.13 Mrajesh1_101 ARTHA
+raw_data/wav/Mrajesh1.wav 415.23001 415.57 Mrajesh1_102 ARTHA
+raw_data/wav/Mrajesh1.wav 421.4169 421.76 Mrajesh1_103 ARTA
+raw_data/wav/Mrajesh1.wav 423.5841 423.94 Mrajesh1_104 ARTA
+raw_data/wav/Mrajesh1.wav 425.91506 426.27 Mrajesh1_105 ARTA
+raw_data/wav/Mrajesh1.wav 432.93925 433.28 Mrajesh1_106 ANRA
+raw_data/wav/Mrajesh1.wav 435.27693 435.61 Mrajesh1_107 ANRA
+raw_data/wav/Mrajesh1.wav 437.80022 438.15 Mrajesh1_108 ANRA
+raw_data/wav/FNiralee2.wav 5.70032 6.08702 FNiralee2_1 AKA
+raw_data/wav/FNiralee2.wav 8.61035 9.0036 FNiralee2_2 AKA
+raw_data/wav/FNiralee2.wav 11.61 12.06 FNiralee2_3 AKA
+raw_data/wav/FNiralee2.wav 18.06 18.58 FNiralee2_4 AKHA
+raw_data/wav/FNiralee2.wav 20.64 21.19 FNiralee2_5 AKHA
+raw_data/wav/FNiralee2.wav 23.67 24.19 FNiralee2_6 AKHA
+raw_data/wav/FNiralee2.wav 40.11 40.64 FNiralee2_10 AGHA
+raw_data/wav/FNiralee2.wav 43.01 43.54 FNiralee2_11 AGHA
+raw_data/wav/FNiralee2.wav 46.33 46.81 FNiralee2_12 AGHA
+raw_data/wav/FNiralee2.wav 51.15 51.58 FNiralee2_13 ATXA
+raw_data/wav/FNiralee2.wav 54.08 54.55 FNiralee2_14 ATXA
+raw_data/wav/FNiralee2.wav 57.08 57.58 FNiralee2_15 ATXA
+raw_data/wav/FNiralee2.wav 61.44 61.96 FNiralee2_16 ATXHA
+raw_data/wav/FNiralee2.wav 64.26 64.81 FNiralee2_17 ATXHA
+raw_data/wav/FNiralee2.wav 67.22 67.7 FNiralee2_18 ATXHA
+raw_data/wav/FNiralee2.wav 70.85 71.29 FNiralee2_19 ADXA
+raw_data/wav/FNiralee2.wav 73.9 74.32 FNiralee2_20 ADXA
+raw_data/wav/FNiralee2.wav 77.2 77.64 FNiralee2_21 ADXA
+raw_data/wav/FNiralee2.wav 81.6 82.09 FNiralee2_22 AZA
+raw_data/wav/FNiralee2.wav 84.55 85.06 FNiralee2_23 AZA
+raw_data/wav/FNiralee2.wav 87.85 88.36 FNiralee2_24 AZA
+raw_data/wav/FNiralee2.wav 97.37 97.87 FNiralee2_25 ADXHA
+raw_data/wav/FNiralee2.wav 100.57 101.06 FNiralee2_26 ADXHA
+raw_data/wav/FNiralee2.wav 103.9 104.36 FNiralee2_27 ADXHA
+raw_data/wav/FNiralee2.wav 109.27 109.73 FNiralee2_28 ATRA
+raw_data/wav/FNiralee2.wav 112.33 112.82 FNiralee2_29 ATRA
+raw_data/wav/FNiralee2.wav 115.37 115.82 FNiralee2_30 ATRA
+raw_data/wav/FNiralee2.wav 120.04 120.54 FNiralee2_31 ATRHA
+raw_data/wav/FNiralee2.wav 123.11 123.68 FNiralee2_32 ATRHA
+raw_data/wav/FNiralee2.wav 126.29 126.8 FNiralee2_33 ATRHA
+raw_data/wav/FNiralee2.wav 131.55 132.05 FNiralee2_34 ADRA
+raw_data/wav/FNiralee2.wav 134.79134 135.31 FNiralee2_35 ADRA
+raw_data/wav/FNiralee2.wav 138.54 139.1 FNiralee2_36 ADRA
+raw_data/wav/FNiralee2.wav 142.83 143.39 FNiralee2_37 ADRHA
+raw_data/wav/FNiralee2.wav 146.42 146.86 FNiralee2_38 ADRHA
+raw_data/wav/FNiralee2.wav 150.2854 150.65392 FNiralee2_39 ADRHA
+raw_data/wav/FNiralee2.wav 155.17 155.62 FNiralee2_40 ATA
+raw_data/wav/FNiralee2.wav 158.66 159.14 FNiralee2_41 ATA
+raw_data/wav/FNiralee2.wav 162.15 162.57 FNiralee2_42 ATA
+raw_data/wav/FNiralee2.wav 165.68 166.15 FNiralee2_43 ATHA
+raw_data/wav/FNiralee2.wav 168.86 169.33 FNiralee2_44 ATHA
+raw_data/wav/FNiralee2.wav 171.88 172.35 FNiralee2_45 ATHA
+raw_data/wav/FNiralee2.wav 175.82 176.28 FNiralee2_46 ADA
+raw_data/wav/FNiralee2.wav 179.68637 180.10131 FNiralee2_47 ADA
+raw_data/wav/FNiralee2.wav 183.3034 183.68 FNiralee2_48 ADA
+raw_data/wav/FNiralee2.wav 192.53074 192.9594 FNiralee2_49 ADHA
+raw_data/wav/FNiralee2.wav 195.88 196.32 FNiralee2_50 ADHA
+raw_data/wav/FNiralee2.wav 199.37 199.8 FNiralee2_51 ADHA
+raw_data/wav/FNiralee2.wav 204.85 205.31 FNiralee2_52 ANA
+raw_data/wav/FNiralee2.wav 208.33 208.79 FNiralee2_53 ANA
+raw_data/wav/FNiralee2.wav 211.92 212.32936 FNiralee2_54 ANA
+raw_data/wav/FNiralee2.wav 217.76 218.22 FNiralee2_55 APA
+raw_data/wav/FNiralee2.wav 221.16006 221.6 FNiralee2_56 APA
+raw_data/wav/FNiralee2.wav 224.77 225.19 FNiralee2_57 APA
+raw_data/wav/FNiralee2.wav 229.5 229.93 FNiralee2_58 APHA
+raw_data/wav/FNiralee2.wav 232.94 233.4 FNiralee2_59 APHA
+raw_data/wav/FNiralee2.wav 236.62 237.03 FNiralee2_60 APHA
+raw_data/wav/FNiralee2.wav 241.61 242.01 FNiralee2_61 ABA
+raw_data/wav/FNiralee2.wav 245.0 245.42 FNiralee2_62 ABA
+raw_data/wav/FNiralee2.wav 248.3 248.7 FNiralee2_63 ABA
+raw_data/wav/FNiralee2.wav 252.56 253.04 FNiralee2_64 ABHA
+raw_data/wav/FNiralee2.wav 255.96 256.42 FNiralee2_65 ABHA
+raw_data/wav/FNiralee2.wav 259.73 260.19 FNiralee2_66 ABHA
+raw_data/wav/FNiralee2.wav 265.02 265.44 FNiralee2_67 AMA
+raw_data/wav/FNiralee2.wav 268.38 268.81 FNiralee2_68 AMA
+raw_data/wav/FNiralee2.wav 271.73 272.16582 FNiralee2_69 AMA
+raw_data/wav/FNiralee2.wav 277.02 277.43 FNiralee2_70 AJA
+raw_data/wav/FNiralee2.wav 280.58 281.01 FNiralee2_71 AJA
+raw_data/wav/FNiralee2.wav 284.2 284.61 FNiralee2_72 AJA
+raw_data/wav/FNiralee2.wav 288.87 289.3 FNiralee2_73 ARA
+raw_data/wav/FNiralee2.wav 292.25 292.64 FNiralee2_74 ARA
+raw_data/wav/FNiralee2.wav 295.55 295.94 FNiralee2_75 ARA
+raw_data/wav/FNiralee2.wav 300.06 300.47 FNiralee2_76 ALA
+raw_data/wav/FNiralee2.wav 303.83 304.23 FNiralee2_77 ALA
+raw_data/wav/FNiralee2.wav 307.78 308.15 FNiralee2_78 ALA
+raw_data/wav/FNiralee2.wav 313.2 313.6 FNiralee2_79 AVLA
+raw_data/wav/FNiralee2.wav 316.82 317.23 FNiralee2_80 AVLA
+raw_data/wav/FNiralee2.wav 320.29 320.64 FNiralee2_81 AVLA
+raw_data/wav/FNiralee2.wav 326.92 327.34 FNiralee2_82 AXA
+raw_data/wav/FNiralee2.wav 330.72 331.11 FNiralee2_83 AXA
+raw_data/wav/FNiralee2.wav 334.95 335.34 FNiralee2_84 AXA
+raw_data/wav/FNiralee2.wav 339.32 339.74 FNiralee2_85 AXRA
+raw_data/wav/FNiralee2.wav 342.92 343.39 FNiralee2_86 AXRA
+raw_data/wav/FNiralee2.wav 346.5 346.94 FNiralee2_87 AXRA
+raw_data/wav/FNiralee2.wav 351.0 351.46 FNiralee2_88 ASA
+raw_data/wav/FNiralee2.wav 354.65 355.08 FNiralee2_89 ASA
+raw_data/wav/FNiralee2.wav 358.36 358.93 FNiralee2_90 ASA
+raw_data/wav/FNiralee2.wav 363.37 363.74 FNiralee2_91 AHHA
+raw_data/wav/FNiralee2.wav 367.06 367.46 FNiralee2_92 AHHA
+raw_data/wav/FNiralee2.wav 370.91 371.32 FNiralee2_93 AHHA
+raw_data/wav/FNiralee2.wav 377.08 377.54 FNiralee2_94 ARRA
+raw_data/wav/FNiralee2.wav 380.64 381.08 FNiralee2_95 ARRA
+raw_data/wav/FNiralee2.wav 384.3 384.78 FNiralee2_96 ARRA
+raw_data/wav/FNiralee2.wav 389.84 390.35 FNiralee2_97 ARHA
+raw_data/wav/FNiralee2.wav 393.43 393.89 FNiralee2_98 ARHA
+raw_data/wav/FNiralee2.wav 396.95 397.41 FNiralee2_99 ARHA
+raw_data/wav/FNiralee2.wav 402.06592 402.5 FNiralee2_100 ARTHA
+raw_data/wav/FNiralee2.wav 405.45 405.97 FNiralee2_101 ARTHA
+raw_data/wav/FNiralee2.wav 409.16561 409.58684 FNiralee2_102 ARTHA
+raw_data/wav/FNiralee2.wav 417.44 417.87 FNiralee2_103 ARTA
+raw_data/wav/FNiralee2.wav 420.83 421.3 FNiralee2_104 ARTA
+raw_data/wav/FNiralee2.wav 424.6 425.01 FNiralee2_105 ARTA
+raw_data/wav/FNiralee2.wav 429.85 430.27 FNiralee2_106 ANRA
+raw_data/wav/FNiralee2.wav 433.42 433.81 FNiralee2_107 ANRA
+raw_data/wav/FNiralee2.wav 436.76 437.17 FNiralee2_108 ANRA
+raw_data/wav/FNiralee1.wav 30.55557 30.91 FNiralee1_1 AKA
+raw_data/wav/FNiralee1.wav 32.51424 32.87 FNiralee1_2 AKA
+raw_data/wav/FNiralee1.wav 34.69 35.12 FNiralee1_3 AKA
+raw_data/wav/FNiralee1.wav 38.67627 39.07 FNiralee1_4 AKHA
+raw_data/wav/FNiralee1.wav 40.96198 41.4 FNiralee1_5 AKHA
+raw_data/wav/FNiralee1.wav 43.29 43.74 FNiralee1_6 AKHA
+raw_data/wav/FNiralee1.wav 58.98769 59.4 FNiralee1_10 AGHA
+raw_data/wav/FNiralee1.wav 61.05634 61.46 FNiralee1_11 AGHA
+raw_data/wav/FNiralee1.wav 63.18 63.6 FNiralee1_12 AGHA
+raw_data/wav/FNiralee1.wav 70.716 71.11 FNiralee1_13 ATXA
+raw_data/wav/FNiralee1.wav 72.8 73.13 FNiralee1_14 ATXA
+raw_data/wav/FNiralee1.wav 74.85568 75.24 FNiralee1_15 ATXA
+raw_data/wav/FNiralee1.wav 83.89131 84.31827 FNiralee1_16 ATXHA
+raw_data/wav/FNiralee1.wav 86.0547 86.44332 FNiralee1_17 ATXHA
+raw_data/wav/FNiralee1.wav 88.22313 88.63928 FNiralee1_18 ATXHA
+raw_data/wav/FNiralee1.wav 94.8039 95.19 FNiralee1_19 ADXA
+raw_data/wav/FNiralee1.wav 97.1 97.53203 FNiralee1_20 ADXA
+raw_data/wav/FNiralee1.wav 99.41848 99.8182 FNiralee1_21 ADXA
+raw_data/wav/FNiralee1.wav 106.41559 106.83777 FNiralee1_22 AZA
+raw_data/wav/FNiralee1.wav 108.93977 109.33389 FNiralee1_23 AZA
+raw_data/wav/FNiralee1.wav 111.23161 111.61199 FNiralee1_24 AZA
+raw_data/wav/FNiralee1.wav 116.71625 117.13553 FNiralee1_25 ADXHA
+raw_data/wav/FNiralee1.wav 118.83502 119.24174 FNiralee1_26 ADXHA
+raw_data/wav/FNiralee1.wav 121.01044 121.44 FNiralee1_27 ADXHA
+raw_data/wav/FNiralee1.wav 129.6052 129.96 FNiralee1_28 ATRA
+raw_data/wav/FNiralee1.wav 131.70631 132.11 FNiralee1_29 ATRA
+raw_data/wav/FNiralee1.wav 133.96385 134.35 FNiralee1_30 ATRA
+raw_data/wav/FNiralee1.wav 141.44426 141.86 FNiralee1_31 ATRHA
+raw_data/wav/FNiralee1.wav 143.58842 143.98 FNiralee1_32 ATRHA
+raw_data/wav/FNiralee1.wav 145.65575 146.02 FNiralee1_33 ATRHA
+raw_data/wav/FNiralee1.wav 153.89795 154.25 FNiralee1_34 ADRA
+raw_data/wav/FNiralee1.wav 155.97471 156.35 FNiralee1_35 ADRA
+raw_data/wav/FNiralee1.wav 158.13423 158.51 FNiralee1_36 ADRA
+raw_data/wav/FNiralee1.wav 165.01711 165.41 FNiralee1_37 ADRHA
+raw_data/wav/FNiralee1.wav 167.14781 167.59 FNiralee1_38 ADRHA
+raw_data/wav/FNiralee1.wav 169.94174 170.32 FNiralee1_39 ADRHA
+raw_data/wav/FNiralee1.wav 177.80607 178.19 FNiralee1_40 ATA
+raw_data/wav/FNiralee1.wav 180.02546 180.41 FNiralee1_41 ATA
+raw_data/wav/FNiralee1.wav 182.2 182.62 FNiralee1_42 ATA
+raw_data/wav/FNiralee1.wav 190.43919 190.85 FNiralee1_43 ATHA
+raw_data/wav/FNiralee1.wav 192.584 192.96 FNiralee1_44 ATHA
+raw_data/wav/FNiralee1.wav 194.75029 195.17 FNiralee1_45 ATHA
+raw_data/wav/FNiralee1.wav 200.84126 201.22 FNiralee1_46 ADA
+raw_data/wav/FNiralee1.wav 202.96553 203.28 FNiralee1_47 ADA
+raw_data/wav/FNiralee1.wav 205.15444 205.56 FNiralee1_48 ADA
+raw_data/wav/FNiralee1.wav 212.25881 212.66 FNiralee1_49 ADHA
+raw_data/wav/FNiralee1.wav 214.37185 214.73746 FNiralee1_50 ADHA
+raw_data/wav/FNiralee1.wav 216.69652 217.12 FNiralee1_51 ADHA
+raw_data/wav/FNiralee1.wav 224.58 224.96 FNiralee1_52 ANA
+raw_data/wav/FNiralee1.wav 226.8 227.19 FNiralee1_53 ANA
+raw_data/wav/FNiralee1.wav 229.07 229.46 FNiralee1_54 ANA
+raw_data/wav/FNiralee1.wav 234.28 234.7 FNiralee1_55 APA
+raw_data/wav/FNiralee1.wav 236.89317 237.26 FNiralee1_56 APA
+raw_data/wav/FNiralee1.wav 239.4 239.79 FNiralee1_57 APA
+raw_data/wav/FNiralee1.wav 247.14445 247.56 FNiralee1_58 APHA
+raw_data/wav/FNiralee1.wav 249.32476 249.75712 FNiralee1_59 APHA
+raw_data/wav/FNiralee1.wav 251.64 252.02 FNiralee1_60 APHA
+raw_data/wav/FNiralee1.wav 258.30579 258.67 FNiralee1_61 ABA
+raw_data/wav/FNiralee1.wav 260.78434 261.18533 FNiralee1_62 ABA
+raw_data/wav/FNiralee1.wav 264.02423 264.37 FNiralee1_63 ABA
+raw_data/wav/FNiralee1.wav 270.08665 270.46 FNiralee1_64 ABHA
+raw_data/wav/FNiralee1.wav 272.19428 272.59 FNiralee1_65 ABHA
+raw_data/wav/FNiralee1.wav 274.45842 274.86 FNiralee1_66 ABHA
+raw_data/wav/FNiralee1.wav 282.06493 282.46 FNiralee1_67 AMA
+raw_data/wav/FNiralee1.wav 284.3229 284.72 FNiralee1_68 AMA
+raw_data/wav/FNiralee1.wav 286.672 287.06 FNiralee1_69 AMA
+raw_data/wav/FNiralee1.wav 293.82561 294.2 FNiralee1_70 AJA
+raw_data/wav/FNiralee1.wav 296.02775 296.39 FNiralee1_71 AJA
+raw_data/wav/FNiralee1.wav 298.27 298.63 FNiralee1_72 AJA
+raw_data/wav/FNiralee1.wav 305.22 305.62 FNiralee1_73 ARA
+raw_data/wav/FNiralee1.wav 307.79141 308.17 FNiralee1_74 ARA
+raw_data/wav/FNiralee1.wav 311.12517 311.49 FNiralee1_75 ARA
+raw_data/wav/FNiralee1.wav 317.67189 318.02 FNiralee1_76 ALA
+raw_data/wav/FNiralee1.wav 320.03728 320.38 FNiralee1_77 ALA
+raw_data/wav/FNiralee1.wav 322.25287 322.62 FNiralee1_78 ALA
+raw_data/wav/FNiralee1.wav 329.16907 329.58 FNiralee1_79 AVLA
+raw_data/wav/FNiralee1.wav 331.4921 331.9 FNiralee1_80 AVLA
+raw_data/wav/FNiralee1.wav 333.7345 334.1 FNiralee1_81 AVLA
+raw_data/wav/FNiralee1.wav 339.69181 340.10553 FNiralee1_82 AXA
+raw_data/wav/FNiralee1.wav 341.99323 342.38 FNiralee1_83 AXA
+raw_data/wav/FNiralee1.wav 344.27964 344.66 FNiralee1_84 AXA
+raw_data/wav/FNiralee1.wav 353.30433 353.68 FNiralee1_85 AXRA
+raw_data/wav/FNiralee1.wav 355.43159 355.86452 FNiralee1_86 AXRA
+raw_data/wav/FNiralee1.wav 357.5724 358.01124 FNiralee1_87 AXRA
+raw_data/wav/FNiralee1.wav 364.92 365.28 FNiralee1_88 ASA
+raw_data/wav/FNiralee1.wav 367.15067 367.54 FNiralee1_89 ASA
+raw_data/wav/FNiralee1.wav 369.53 369.89 FNiralee1_90 ASA
+raw_data/wav/FNiralee1.wav 375.45441 375.84886 FNiralee1_91 AHHA
+raw_data/wav/FNiralee1.wav 377.71 378.09 FNiralee1_92 AHHA
+raw_data/wav/FNiralee1.wav 379.98 380.38 FNiralee1_93 AHHA
+raw_data/wav/FNiralee1.wav 388.01737 388.44 FNiralee1_94 ARRA
+raw_data/wav/FNiralee1.wav 390.17 390.55 FNiralee1_95 ARRA
+raw_data/wav/FNiralee1.wav 392.45 392.86 FNiralee1_96 ARRA
+raw_data/wav/FNiralee1.wav 398.79 399.17 FNiralee1_97 ARHA
+raw_data/wav/FNiralee1.wav 400.95 401.34 FNiralee1_98 ARHA
+raw_data/wav/FNiralee1.wav 403.34471 403.85 FNiralee1_99 ARHA
+raw_data/wav/FNiralee1.wav 410.50326 410.89 FNiralee1_100 ARTHA
+raw_data/wav/FNiralee1.wav 412.72957 413.13 FNiralee1_101 ARTHA
+raw_data/wav/FNiralee1.wav 415.18175 415.57 FNiralee1_102 ARTHA
+raw_data/wav/FNiralee1.wav 421.38014 421.76 FNiralee1_103 ARTA
+raw_data/wav/FNiralee1.wav 423.5841 423.94 FNiralee1_104 ARTA
+raw_data/wav/FNiralee1.wav 425.91506 426.27 FNiralee1_105 ARTA
+raw_data/wav/FNiralee1.wav 432.86675 433.28 FNiralee1_106 ANRA
+raw_data/wav/FNiralee1.wav 435.22164 435.61 FNiralee1_107 ANRA
+raw_data/wav/FNiralee1.wav 437.75808 438.15 FNiralee1_108 ANRA
+raw_data/wav/Fsakshi1.wav 12.09581 12.44246 Fsakshi1_1 AKA
+raw_data/wav/Fsakshi1.wav 14.06 14.43 Fsakshi1_2 AKA
+raw_data/wav/Fsakshi1.wav 16.19 16.57 Fsakshi1_3 AKA
+raw_data/wav/Fsakshi1.wav 20.36 20.78212 Fsakshi1_4 AKHA
+raw_data/wav/Fsakshi1.wav 22.68 23.06 Fsakshi1_5 AKHA
+raw_data/wav/Fsakshi1.wav 25.03 25.48153 Fsakshi1_6 AKHA
+raw_data/wav/Fsakshi1.wav 37.60526 38.00178 Fsakshi1_10 AGHA
+raw_data/wav/Fsakshi1.wav 39.61802 39.98945 Fsakshi1_11 AGHA
+raw_data/wav/Fsakshi1.wav 41.59 41.97 Fsakshi1_12 AGHA
+raw_data/wav/Fsakshi1.wav 45.72 46.16903 Fsakshi1_13 ATXA
+raw_data/wav/Fsakshi1.wav 48.03 48.45378 Fsakshi1_14 ATXA
+raw_data/wav/Fsakshi1.wav 50.44 50.83154 Fsakshi1_15 ATXA
+raw_data/wav/Fsakshi1.wav 54.46 54.86326 Fsakshi1_16 ATXHA
+raw_data/wav/Fsakshi1.wav 56.58 56.98087 Fsakshi1_17 ATXHA
+raw_data/wav/Fsakshi1.wav 58.67 59.07796 Fsakshi1_18 ATXHA
+raw_data/wav/Fsakshi1.wav 62.92 63.34642 Fsakshi1_19 ADXA
+raw_data/wav/Fsakshi1.wav 65.26 65.65195 Fsakshi1_20 ADXA
+raw_data/wav/Fsakshi1.wav 67.45 67.833 Fsakshi1_21 ADXA
+raw_data/wav/Fsakshi1.wav 71.49 71.9246 Fsakshi1_22 AZA
+raw_data/wav/Fsakshi1.wav 73.85 74.29251 Fsakshi1_23 AZA
+raw_data/wav/Fsakshi1.wav 76.34 76.75982 Fsakshi1_24 AZA
+raw_data/wav/Fsakshi1.wav 81.75 82.15961 Fsakshi1_25 ADXHA
+raw_data/wav/Fsakshi1.wav 83.87 84.27825 Fsakshi1_26 ADXHA
+raw_data/wav/Fsakshi1.wav 85.85 86.24671 Fsakshi1_27 ADXHA
+raw_data/wav/Fsakshi1.wav 89.41015 89.79214 Fsakshi1_28 ATRA
+raw_data/wav/Fsakshi1.wav 91.59704 91.9456 Fsakshi1_29 ATRA
+raw_data/wav/Fsakshi1.wav 93.54041 93.89375 Fsakshi1_30 ATRA
+raw_data/wav/Fsakshi1.wav 97.68 98.07542 Fsakshi1_31 ATRHA
+raw_data/wav/Fsakshi1.wav 99.89 100.32351 Fsakshi1_32 ATRHA
+raw_data/wav/Fsakshi1.wav 102.11446 102.51782 Fsakshi1_33 ATRHA
+raw_data/wav/Fsakshi1.wav 106.32 106.73194 Fsakshi1_34 ADRA
+raw_data/wav/Fsakshi1.wav 108.32 108.66723 Fsakshi1_35 ADRA
+raw_data/wav/Fsakshi1.wav 110.28947 110.64522 Fsakshi1_36 ADRA
+raw_data/wav/Fsakshi1.wav 114.55256 114.96725 Fsakshi1_37 ADRHA
+raw_data/wav/Fsakshi1.wav 116.65 117.0209 Fsakshi1_38 ADRHA
+raw_data/wav/Fsakshi1.wav 118.76 119.14443 Fsakshi1_39 ADRHA
+raw_data/wav/Fsakshi1.wav 129.45941 129.81862 Fsakshi1_40 ATA
+raw_data/wav/Fsakshi1.wav 131.63411 131.97 Fsakshi1_41 ATA
+raw_data/wav/Fsakshi1.wav 133.54 133.9 Fsakshi1_42 ATA
+raw_data/wav/Fsakshi1.wav 137.21 137.60395 Fsakshi1_43 ATHA
+raw_data/wav/Fsakshi1.wav 139.31 139.7 Fsakshi1_44 ATHA
+raw_data/wav/Fsakshi1.wav 141.25 141.64 Fsakshi1_45 ATHA
+raw_data/wav/Fsakshi1.wav 145.14 145.50789 Fsakshi1_46 ADA
+raw_data/wav/Fsakshi1.wav 146.99549 147.34769 Fsakshi1_47 ADA
+raw_data/wav/Fsakshi1.wav 148.78 149.13 Fsakshi1_48 ADA
+raw_data/wav/Fsakshi1.wav 153.42712 153.79581 Fsakshi1_49 ADHA
+raw_data/wav/Fsakshi1.wav 155.32071 155.68289 Fsakshi1_50 ADHA
+raw_data/wav/Fsakshi1.wav 157.20509 157.52 Fsakshi1_51 ADHA
+raw_data/wav/Fsakshi1.wav 161.16 161.54 Fsakshi1_52 ANA
+raw_data/wav/Fsakshi1.wav 163.06 163.43 Fsakshi1_53 ANA
+raw_data/wav/Fsakshi1.wav 165.04 165.39 Fsakshi1_54 ANA
+raw_data/wav/Fsakshi1.wav 168.64 169.05561 Fsakshi1_55 ABA
+raw_data/wav/Fsakshi1.wav 170.50369 170.87754 Fsakshi1_56 ABA
+raw_data/wav/Fsakshi1.wav 172.36821 172.7 Fsakshi1_57 ABA
+raw_data/wav/Fsakshi1.wav 176.68 177.10213 Fsakshi1_58 APHA
+raw_data/wav/Fsakshi1.wav 178.71091 179.10183 Fsakshi1_59 APHA
+raw_data/wav/Fsakshi1.wav 180.57 180.99127 Fsakshi1_60 APHA
+raw_data/wav/Fsakshi1.wav 184.3815 184.7621 Fsakshi1_61 ABA
+raw_data/wav/Fsakshi1.wav 186.28449 186.66033 Fsakshi1_62 ABA
+raw_data/wav/Fsakshi1.wav 188.27312 188.62993 Fsakshi1_63 ABA
+raw_data/wav/Fsakshi1.wav 192.06 192.4733 Fsakshi1_64 ABHA
+raw_data/wav/Fsakshi1.wav 194.15 194.56529 Fsakshi1_65 ABHA
+raw_data/wav/Fsakshi1.wav 196.17 196.56 Fsakshi1_66 ABHA
+raw_data/wav/Fsakshi1.wav 199.7 200.08042 Fsakshi1_67 AMA
+raw_data/wav/Fsakshi1.wav 201.88 202.29306 Fsakshi1_68 AMA
+raw_data/wav/Fsakshi1.wav 203.85 204.22 Fsakshi1_69 AMA
+raw_data/wav/Fsakshi1.wav 208.24 208.62927 Fsakshi1_70 AJA
+raw_data/wav/Fsakshi1.wav 210.45721 210.78 Fsakshi1_71 AJA
+raw_data/wav/Fsakshi1.wav 212.43 212.78783 Fsakshi1_72 AJA
+raw_data/wav/Fsakshi1.wav 216.72 217.0911 Fsakshi1_73 ARA
+raw_data/wav/Fsakshi1.wav 218.69 219.03 Fsakshi1_74 ARA
+raw_data/wav/Fsakshi1.wav 220.6 220.94 Fsakshi1_75 ARA
+raw_data/wav/Fsakshi1.wav 225.52 225.88691 Fsakshi1_76 ALA
+raw_data/wav/Fsakshi1.wav 227.58 227.9 Fsakshi1_77 ALA
+raw_data/wav/Fsakshi1.wav 229.7 230.05 Fsakshi1_78 ALA
+raw_data/wav/Fsakshi1.wav 233.93 234.29348 Fsakshi1_79 AVA
+raw_data/wav/Fsakshi1.wav 235.90993 236.24 Fsakshi1_80 AVA
+raw_data/wav/Fsakshi1.wav 237.79 238.14033 Fsakshi1_81 AVA
+raw_data/wav/Fsakshi1.wav 241.57 241.95726 Fsakshi1_82 AXA
+raw_data/wav/Fsakshi1.wav 243.45 243.82822 Fsakshi1_83 AXA
+raw_data/wav/Fsakshi1.wav 245.25 245.61008 Fsakshi1_84 AXA
+raw_data/wav/Fsakshi1.wav 248.68 249.05589 Fsakshi1_85 AXRA
+raw_data/wav/Fsakshi1.wav 250.54 250.91916 Fsakshi1_86 AXRA
+raw_data/wav/Fsakshi1.wav 252.4 252.78702 Fsakshi1_87 AXRA
+raw_data/wav/Fsakshi1.wav 256.55 256.9662 Fsakshi1_88 ASA
+raw_data/wav/Fsakshi1.wav 258.55 258.94566 Fsakshi1_89 ASA
+raw_data/wav/Fsakshi1.wav 260.44 260.83946 Fsakshi1_90 ASA
+raw_data/wav/Fsakshi1.wav 264.58 265.00495 Fsakshi1_91 AHHA
+raw_data/wav/Fsakshi1.wav 266.47 266.83819 Fsakshi1_92 AHHA
+raw_data/wav/Fsakshi1.wav 268.29 268.63314 Fsakshi1_93 AHHA
+raw_data/wav/Fsakshi1.wav 272.27 272.63788 Fsakshi1_94 ARRA
+raw_data/wav/Fsakshi1.wav 274.12 274.52841 Fsakshi1_95 ARRA
+raw_data/wav/Fsakshi1.wav 276.05 276.43267 Fsakshi1_96 ARRA
+raw_data/wav/Fsakshi1.wav 279.87 280.27596 Fsakshi1_97 ARHA
+raw_data/wav/Fsakshi1.wav 281.78106 282.18449 Fsakshi1_98 ARHA
+raw_data/wav/Fsakshi1.wav 283.81891 284.18613 Fsakshi1_99 ARHA
+raw_data/wav/Fsakshi1.wav 287.44 287.78389 Fsakshi1_100 ARTHA
+raw_data/wav/Fsakshi1.wav 289.45027 289.79762 Fsakshi1_101 ARTHA
+raw_data/wav/Fsakshi1.wav 291.18 291.49 Fsakshi1_102 ARTHA
+raw_data/wav/Fsakshi1.wav 295.981 296.32972 Fsakshi1_103 ARTA
+raw_data/wav/Fsakshi1.wav 298.08 298.38 Fsakshi1_104 ARTA
+raw_data/wav/Fsakshi1.wav 299.97 300.28 Fsakshi1_105 ARTA
+raw_data/wav/Fsakshi1.wav 304.18 304.53 Fsakshi1_106 ANRA
+raw_data/wav/Fsakshi1.wav 306.41 306.76688 Fsakshi1_107 ANRA
+raw_data/wav/Fsakshi1.wav 308.63 308.97085 Fsakshi1_108 ANRA
+raw_data/wav/Mnirbhay2.wav 9.43 9.88074 Mnirbhay2_1 AKA
+raw_data/wav/Mnirbhay2.wav 11.18 11.67 Mnirbhay2_2 AKA
+raw_data/wav/Mnirbhay2.wav 13.12 13.58 Mnirbhay2_3 AKA
+raw_data/wav/Mnirbhay2.wav 25.88 26.38762 Mnirbhay2_4 AKHA
+raw_data/wav/Mnirbhay2.wav 27.76 28.24 Mnirbhay2_5 AKHA
+raw_data/wav/Mnirbhay2.wav 29.65 30.12 Mnirbhay2_6 AKHA
+raw_data/wav/Mnirbhay2.wav 62.66857 63.11956 Mnirbhay2_10 AGHA
+raw_data/wav/Mnirbhay2.wav 64.51549 65.00944 Mnirbhay2_11 AGHA
+raw_data/wav/Mnirbhay2.wav 66.42 66.90629 Mnirbhay2_12 AGHA
+raw_data/wav/Mnirbhay2.wav 82.38248 82.85495 Mnirbhay2_13 ATXA
+raw_data/wav/Mnirbhay2.wav 84.42695 84.90294 Mnirbhay2_14 ATXA
+raw_data/wav/Mnirbhay2.wav 86.58967 87.05608 Mnirbhay2_15 ATXA
+raw_data/wav/Mnirbhay2.wav 103.63373 104.11292 Mnirbhay2_16 ATXHA
+raw_data/wav/Mnirbhay2.wav 105.58 106.09354 Mnirbhay2_17 ATXHA
+raw_data/wav/Mnirbhay2.wav 107.51 108.01667 Mnirbhay2_18 ATXHA
+raw_data/wav/Mnirbhay2.wav 124.84 125.29 Mnirbhay2_19 ADXA
+raw_data/wav/Mnirbhay2.wav 126.89 127.32 Mnirbhay2_20 ADXA
+raw_data/wav/Mnirbhay2.wav 129.03132 129.51 Mnirbhay2_21 ADXA
+raw_data/wav/Mnirbhay2.wav 145.12529 145.56295 Mnirbhay2_22 AZA
+raw_data/wav/Mnirbhay2.wav 147.14869 147.63 Mnirbhay2_23 AZA
+raw_data/wav/Mnirbhay2.wav 149.50814 149.99 Mnirbhay2_24 AZA
+raw_data/wav/Mnirbhay2.wav 166.78 167.27 Mnirbhay2_25 ADXHA
+raw_data/wav/Mnirbhay2.wav 168.79 169.23984 Mnirbhay2_26 ADXHA
+raw_data/wav/Mnirbhay2.wav 170.81824 171.28 Mnirbhay2_27 ADXHA
+raw_data/wav/Mnirbhay2.wav 189.61112 190.00786 Mnirbhay2_28 ATRA
+raw_data/wav/Mnirbhay2.wav 191.55 191.97104 Mnirbhay2_29 ATRA
+raw_data/wav/Mnirbhay2.wav 193.69 194.09835 Mnirbhay2_30 ATRA
+raw_data/wav/Mnirbhay2.wav 210.17418 210.61 Mnirbhay2_31 ATRHA
+raw_data/wav/Mnirbhay2.wav 212.14 212.59 Mnirbhay2_32 ATRHA
+raw_data/wav/Mnirbhay2.wav 214.24 214.68 Mnirbhay2_33 ATRHA
+raw_data/wav/Mnirbhay2.wav 231.25 231.66 Mnirbhay2_34 ADRA
+raw_data/wav/Mnirbhay2.wav 233.08 233.54 Mnirbhay2_35 ADRA
+raw_data/wav/Mnirbhay2.wav 234.99684 235.42 Mnirbhay2_36 ADRA
+raw_data/wav/Mnirbhay2.wav 252.11272 252.58 Mnirbhay2_37 ADRHA
+raw_data/wav/Mnirbhay2.wav 254.09 254.56 Mnirbhay2_38 ADRHA
+raw_data/wav/Mnirbhay2.wav 256.08874 256.6 Mnirbhay2_39 ADRHA
+raw_data/wav/Mnirbhay2.wav 273.25014 273.69 Mnirbhay2_40 ATA
+raw_data/wav/Mnirbhay2.wav 275.22682 275.68 Mnirbhay2_41 ATA
+raw_data/wav/Mnirbhay2.wav 277.22 277.69 Mnirbhay2_42 ATA
+raw_data/wav/Mnirbhay2.wav 294.29 294.78 Mnirbhay2_43 ATHA
+raw_data/wav/Mnirbhay2.wav 296.44494 296.97403 Mnirbhay2_44 ATHA
+raw_data/wav/Mnirbhay2.wav 298.86 299.31 Mnirbhay2_45 ATHA
+raw_data/wav/Mnirbhay2.wav 314.52 314.98 Mnirbhay2_46 ADA
+raw_data/wav/Mnirbhay2.wav 316.69 317.12 Mnirbhay2_47 ADA
+raw_data/wav/Mnirbhay2.wav 318.83 319.32 Mnirbhay2_48 ADA
+raw_data/wav/Mnirbhay2.wav 335.77939 336.23622 Mnirbhay2_49 ADHA
+raw_data/wav/Mnirbhay2.wav 337.76 338.25 Mnirbhay2_50 ADHA
+raw_data/wav/Mnirbhay2.wav 339.93 340.45 Mnirbhay2_51 ADHA
+raw_data/wav/Mnirbhay2.wav 358.67 359.1 Mnirbhay2_52 ANA
+raw_data/wav/Mnirbhay2.wav 361.27 361.78 Mnirbhay2_53 ANA
+raw_data/wav/Mnirbhay2.wav 364.11 364.63 Mnirbhay2_54 ANA
+raw_data/wav/Mnirbhay2.wav 378.95 379.38 Mnirbhay2_55 APA
+raw_data/wav/Mnirbhay2.wav 381.2 381.7 Mnirbhay2_56 APA
+raw_data/wav/Mnirbhay2.wav 383.65 384.12 Mnirbhay2_57 APA
+raw_data/wav/Mnirbhay2.wav 402.09 402.52 Mnirbhay2_58 APHA
+raw_data/wav/Mnirbhay2.wav 404.26 404.7615 Mnirbhay2_59 APHA
+raw_data/wav/Mnirbhay2.wav 406.49 406.99992 Mnirbhay2_60 APHA
+raw_data/wav/Mnirbhay2.wav 426.03668 426.44 Mnirbhay2_61 ABA
+raw_data/wav/Mnirbhay2.wav 428.28 428.74 Mnirbhay2_62 ABA
+raw_data/wav/Mnirbhay2.wav 430.74512 431.24591 Mnirbhay2_63 ABA
+raw_data/wav/Mnirbhay2.wav 445.96835 446.47 Mnirbhay2_64 ABHA
+raw_data/wav/Mnirbhay2.wav 448.35 448.85 Mnirbhay2_65 ABHA
+raw_data/wav/Mnirbhay2.wav 450.96 451.5 Mnirbhay2_66 ABHA
+raw_data/wav/Mnirbhay2.wav 468.9 469.36 Mnirbhay2_67 AMA
+raw_data/wav/Mnirbhay2.wav 471.5 471.89 Mnirbhay2_68 AMA
+raw_data/wav/Mnirbhay2.wav 474.39 474.84 Mnirbhay2_69 AMA
+raw_data/wav/Mnirbhay2.wav 491.13545 491.56 Mnirbhay2_70 AJA
+raw_data/wav/Mnirbhay2.wav 493.5 493.93 Mnirbhay2_71 AJA
+raw_data/wav/Mnirbhay2.wav 495.82216 496.28 Mnirbhay2_72 AJA
+raw_data/wav/Mnirbhay2.wav 513.82299 514.30809 Mnirbhay2_73 ARA
+raw_data/wav/Mnirbhay2.wav 516.58 516.96 Mnirbhay2_74 ARA
+raw_data/wav/Mnirbhay2.wav 519.87 520.25 Mnirbhay2_75 ARA
+raw_data/wav/Mnirbhay2.wav 537.03 537.47 Mnirbhay2_76 ALA
+raw_data/wav/Mnirbhay2.wav 539.62 540.04 Mnirbhay2_77 ALA
+raw_data/wav/Mnirbhay2.wav 542.56 542.98 Mnirbhay2_78 ALA
+raw_data/wav/Mnirbhay2.wav 559.51 559.97 Mnirbhay2_79 AVLA
+raw_data/wav/Mnirbhay2.wav 562.11 562.54 Mnirbhay2_80 AVLA
+raw_data/wav/Mnirbhay2.wav 564.81 565.22 Mnirbhay2_81 AVLA
+raw_data/wav/Mnirbhay2.wav 580.27373 580.7 Mnirbhay2_82 AXA
+raw_data/wav/Mnirbhay2.wav 583.11 583.55602 Mnirbhay2_83 AXA
+raw_data/wav/Mnirbhay2.wav 585.95 586.39 Mnirbhay2_84 AXA
+raw_data/wav/Mnirbhay2.wav 606.88 607.33091 Mnirbhay2_85 AXRA
+raw_data/wav/Mnirbhay2.wav 609.07788 609.57 Mnirbhay2_86 AXRA
+raw_data/wav/Mnirbhay2.wav 611.51356 612.01 Mnirbhay2_87 AXRA
+raw_data/wav/Mnirbhay2.wav 629.52981 629.98 Mnirbhay2_88 ASA
+raw_data/wav/Mnirbhay2.wav 631.92526 632.41296 Mnirbhay2_89 ASA
+raw_data/wav/Mnirbhay2.wav 634.49285 635.03792 Mnirbhay2_90 ASA
+raw_data/wav/Mnirbhay2.wav 650.38952 650.86833 Mnirbhay2_91 AHHA
+raw_data/wav/Mnirbhay2.wav 652.91246 653.42809 Mnirbhay2_92 AHHA
+raw_data/wav/Mnirbhay2.wav 655.8037 656.31934 Mnirbhay2_93 AHHA
+raw_data/wav/Mnirbhay2.wav 672.69836 673.19558 Mnirbhay2_94 ARRA
+raw_data/wav/Mnirbhay2.wav 675.09238 675.62643 Mnirbhay2_95 ARRA
+raw_data/wav/Mnirbhay2.wav 677.81815 678.29669 Mnirbhay2_96 ARRA
+raw_data/wav/Mnirbhay2.wav 695.99463 696.52868 Mnirbhay2_97 ARHA
+raw_data/wav/Mnirbhay2.wav 698.58284 698.99637 Mnirbhay2_98 ARHA
+raw_data/wav/Mnirbhay2.wav 701.38532 701.85078 Mnirbhay2_99 ARHA
+raw_data/wav/Mnirbhay2.wav 718.08956 718.57224 Mnirbhay2_100 ARTHA
+raw_data/wav/Mnirbhay2.wav 720.39538 721.00309 Mnirbhay2_101 ARTHA
+raw_data/wav/Mnirbhay2.wav 723.00918 723.51711 Mnirbhay2_102 ARTHA
+raw_data/wav/Mnirbhay2.wav 737.96011 738.40035 Mnirbhay2_103 ARTA
+raw_data/wav/Mnirbhay2.wav 740.21115 740.64706 Mnirbhay2_104 ARTA
+raw_data/wav/Mnirbhay2.wav 742.50485 742.98584 Mnirbhay2_105 ARTA
+raw_data/wav/Mnirbhay2.wav 758.73893 759.21774 Mnirbhay2_106 ANRA
+raw_data/wav/Mnirbhay2.wav 761.16979 761.66701 Mnirbhay2_107 ANRA
+raw_data/wav/Mnirbhay2.wav 763.90215 764.36216 Mnirbhay2_108 ANRA
+raw_data/wav/Fsakshi2.wav 12.2023 12.53644 Fsakshi2_1 AKA
+raw_data/wav/Fsakshi2.wav 13.82167 14.17 Fsakshi2_2 AKA
+raw_data/wav/Fsakshi2.wav 15.45071 15.78 Fsakshi2_3 AKA
+raw_data/wav/Fsakshi2.wav 19.21365 19.62 Fsakshi2_4 AKHA
+raw_data/wav/Fsakshi2.wav 20.9532 21.35 Fsakshi2_5 AKHA
+raw_data/wav/Fsakshi2.wav 22.59172 22.99 Fsakshi2_6 AKHA
+raw_data/wav/Fsakshi2.wav 34.12889 34.52 Fsakshi2_10 AGHA
+raw_data/wav/Fsakshi2.wav 35.80924 36.21 Fsakshi2_11 AGHA
+raw_data/wav/Fsakshi2.wav 37.54 37.94673 Fsakshi2_12 AGHA
+raw_data/wav/Fsakshi2.wav 41.1 41.51335 Fsakshi2_13 ATXA
+raw_data/wav/Fsakshi2.wav 42.79 43.16025 Fsakshi2_14 ATXA
+raw_data/wav/Fsakshi2.wav 44.49205 44.86596 Fsakshi2_15 ATXA
+raw_data/wav/Fsakshi2.wav 48.77009 49.17363 Fsakshi2_16 ATXHA
+raw_data/wav/Fsakshi2.wav 50.49512 50.86762 Fsakshi2_17 ATXHA
+raw_data/wav/Fsakshi2.wav 52.23788 52.59264 Fsakshi2_18 ATXHA
+raw_data/wav/Fsakshi2.wav 56.54188 56.92073 Fsakshi2_19 ADXA
+raw_data/wav/Fsakshi2.wav 58.29303 58.66768 Fsakshi2_20 ADXA
+raw_data/wav/Fsakshi2.wav 59.98104 60.35148 Fsakshi2_21 ADXA
+raw_data/wav/Fsakshi2.wav 64.18 64.56329 Fsakshi2_22 AZA
+raw_data/wav/Fsakshi2.wav 65.89 66.28603 Fsakshi2_23 AZA
+raw_data/wav/Fsakshi2.wav 67.66686 68.05261 Fsakshi2_24 AZA
+raw_data/wav/Fsakshi2.wav 74.65066 74.9988 Fsakshi2_25 ADXHA
+raw_data/wav/Fsakshi2.wav 76.40547 76.80066 Fsakshi2_26 ADXHA
+raw_data/wav/Fsakshi2.wav 78.20262 78.55 Fsakshi2_27 ADXHA
+raw_data/wav/Fsakshi2.wav 81.94627 82.35 Fsakshi2_28 ATRA
+raw_data/wav/Fsakshi2.wav 83.63506 84.02 Fsakshi2_29 ATRA
+raw_data/wav/Fsakshi2.wav 85.42235 85.8 Fsakshi2_30 ATRA
+raw_data/wav/Fsakshi2.wav 89.14985 89.57 Fsakshi2_31 ATRHA
+raw_data/wav/Fsakshi2.wav 90.98209 91.36 Fsakshi2_32 ATRHA
+raw_data/wav/Fsakshi2.wav 92.80223 93.2 Fsakshi2_33 ATRHA
+raw_data/wav/Fsakshi2.wav 96.7017 97.08 Fsakshi2_34 ADRA
+raw_data/wav/Fsakshi2.wav 98.4695 98.85 Fsakshi2_35 ADRA
+raw_data/wav/Fsakshi2.wav 100.21526 100.55 Fsakshi2_36 ADRA
+raw_data/wav/Fsakshi2.wav 103.75913 104.12 Fsakshi2_37 ADRHA
+raw_data/wav/Fsakshi2.wav 105.49903 105.91 Fsakshi2_38 ADRHA
+raw_data/wav/Fsakshi2.wav 107.24923 107.66 Fsakshi2_39 ADRHA
+raw_data/wav/Fsakshi2.wav 111.13 111.63 Fsakshi2_40 ATA
+raw_data/wav/Fsakshi2.wav 112.97 113.45 Fsakshi2_41 ATA
+raw_data/wav/Fsakshi2.wav 114.78 115.2 Fsakshi2_42 ATA
+raw_data/wav/Fsakshi2.wav 119.15133 119.59 Fsakshi2_43 ATHA
+raw_data/wav/Fsakshi2.wav 120.94246 121.36 Fsakshi2_44 ATHA
+raw_data/wav/Fsakshi2.wav 122.7473 123.14 Fsakshi2_45 ATHA
+raw_data/wav/Fsakshi2.wav 126.92789 127.29 Fsakshi2_46 ADA
+raw_data/wav/Fsakshi2.wav 128.7406 129.07 Fsakshi2_47 ADA
+raw_data/wav/Fsakshi2.wav 130.48874 130.82 Fsakshi2_48 ADA
+raw_data/wav/Fsakshi2.wav 137.93788 138.28 Fsakshi2_49 ADHA
+raw_data/wav/Fsakshi2.wav 139.80311 140.11 Fsakshi2_50 ADHA
+raw_data/wav/Fsakshi2.wav 141.48882 141.88 Fsakshi2_51 ADHA
+raw_data/wav/Fsakshi2.wav 145.54474 145.88 Fsakshi2_52 ANA
+raw_data/wav/Fsakshi2.wav 147.2 147.64 Fsakshi2_53 ANA
+raw_data/wav/Fsakshi2.wav 149.07837 149.41 Fsakshi2_54 ANA
+raw_data/wav/Fsakshi2.wav 153.07 153.55 Fsakshi2_55 APA
+raw_data/wav/Fsakshi2.wav 154.85 155.33 Fsakshi2_56 APA
+raw_data/wav/Fsakshi2.wav 156.69 157.05 Fsakshi2_57 APA
+raw_data/wav/Fsakshi2.wav 161.48 161.87 Fsakshi2_58 APHA
+raw_data/wav/Fsakshi2.wav 163.26 163.69 Fsakshi2_59 APHA
+raw_data/wav/Fsakshi2.wav 165.04566 165.43 Fsakshi2_60 APHA
+raw_data/wav/Fsakshi2.wav 168.97163 169.35 Fsakshi2_61 ABA
+raw_data/wav/Fsakshi2.wav 170.72062 171.12 Fsakshi2_62 ABA
+raw_data/wav/Fsakshi2.wav 172.52456 172.87 Fsakshi2_63 ABA
+raw_data/wav/Fsakshi2.wav 176.5892 176.98 Fsakshi2_64 ABHA
+raw_data/wav/Fsakshi2.wav 178.37131 178.72 Fsakshi2_65 ABHA
+raw_data/wav/Fsakshi2.wav 180.16218 180.53 Fsakshi2_66 ABHA
+raw_data/wav/Fsakshi2.wav 183.93 184.38 Fsakshi2_67 AMA
+raw_data/wav/Fsakshi2.wav 185.70588 186.08 Fsakshi2_68 AMA
+raw_data/wav/Fsakshi2.wav 187.55426 187.88 Fsakshi2_69 AMA
+raw_data/wav/Fsakshi2.wav 191.09 191.54 Fsakshi2_70 AJA
+raw_data/wav/Fsakshi2.wav 192.95967 193.32 Fsakshi2_71 AJA
+raw_data/wav/Fsakshi2.wav 194.70339 195.05 Fsakshi2_72 AJA
+raw_data/wav/Fsakshi2.wav 198.38288 198.75 Fsakshi2_73 ARA
+raw_data/wav/Fsakshi2.wav 200.12353 200.53 Fsakshi2_74 ARA
+raw_data/wav/Fsakshi2.wav 201.97492 202.32 Fsakshi2_75 ARA
+raw_data/wav/Fsakshi2.wav 205.54043 205.92 Fsakshi2_76 ALA
+raw_data/wav/Fsakshi2.wav 207.35909 207.72 Fsakshi2_77 ALA
+raw_data/wav/Fsakshi2.wav 209.22802 209.53 Fsakshi2_78 ALA
+raw_data/wav/Fsakshi2.wav 213.13955 213.5 Fsakshi2_79 AVLA
+raw_data/wav/Fsakshi2.wav 214.93804 215.29 Fsakshi2_80 AVLA
+raw_data/wav/Fsakshi2.wav 216.75 217.07603 Fsakshi2_81 AVLA
+raw_data/wav/Fsakshi2.wav 223.32119 223.75349 Fsakshi2_82 AXA
+raw_data/wav/Fsakshi2.wav 225.14 225.51 Fsakshi2_83 AXA
+raw_data/wav/Fsakshi2.wav 226.96 227.29 Fsakshi2_84 AXA
+raw_data/wav/Fsakshi2.wav 231.2 231.55 Fsakshi2_85 AXRA
+raw_data/wav/Fsakshi2.wav 232.95103 233.34217 Fsakshi2_86 AXRA
+raw_data/wav/Fsakshi2.wav 234.66015 235.03 Fsakshi2_87 AXRA
+raw_data/wav/Fsakshi2.wav 238.46441 238.87 Fsakshi2_88 ASA
+raw_data/wav/Fsakshi2.wav 240.12 240.59 Fsakshi2_89 ASA
+raw_data/wav/Fsakshi2.wav 241.92585 242.28 Fsakshi2_90 ASA
+raw_data/wav/Fsakshi2.wav 245.02169 245.38223 Fsakshi2_91 AHHA
+raw_data/wav/Fsakshi2.wav 246.80321 247.21041 Fsakshi2_92 AHHA
+raw_data/wav/Fsakshi2.wav 248.4702 248.84 Fsakshi2_93 AHHA
+raw_data/wav/Fsakshi2.wav 252.21382 252.62 Fsakshi2_94 ARRA
+raw_data/wav/Fsakshi2.wav 253.98066 254.41 Fsakshi2_95 ARRA
+raw_data/wav/Fsakshi2.wav 255.8061 256.21 Fsakshi2_96 ARRA
+raw_data/wav/Fsakshi2.wav 260.36671 260.86112 Fsakshi2_97 ARHA
+raw_data/wav/Fsakshi2.wav 262.13946 262.59 Fsakshi2_98 ARHA
+raw_data/wav/Fsakshi2.wav 263.99239 264.42 Fsakshi2_99 ARHA
+raw_data/wav/Fsakshi2.wav 269.92046 270.37 Fsakshi2_100 ARTHA
+raw_data/wav/Fsakshi2.wav 271.72983 272.17 Fsakshi2_101 ARTHA
+raw_data/wav/Fsakshi2.wav 273.52161 273.93 Fsakshi2_102 ARTHA
+raw_data/wav/Fsakshi2.wav 277.64776 278.03 Fsakshi2_103 ARTA
+raw_data/wav/Fsakshi2.wav 279.4325 279.82 Fsakshi2_104 ARTA
+raw_data/wav/Fsakshi2.wav 281.28485 281.60484 Fsakshi2_105 ARTA
+raw_data/wav/Fsakshi2.wav 284.16595 284.58224 Fsakshi2_106 ANRA
+raw_data/wav/Fsakshi2.wav 285.91694 286.28 Fsakshi2_107 ANRA
+raw_data/wav/Fsakshi2.wav 287.62501 288.00268 Fsakshi2_108 ANRA
+raw_data/wav/Mnirbhay1.wav 39.86051 40.34 Mnirbhay1_1 AKA
+raw_data/wav/Mnirbhay1.wav 41.96 42.43 Mnirbhay1_2 AKA
+raw_data/wav/Mnirbhay1.wav 44.03693 44.56612 Mnirbhay1_3 AKA
+raw_data/wav/Mnirbhay1.wav 63.85806 64.39471 Mnirbhay1_4 AKHA
+raw_data/wav/Mnirbhay1.wav 65.94037 66.46534 Mnirbhay1_5 AKHA
+raw_data/wav/Mnirbhay1.wav 68.05502 68.55116 Mnirbhay1_6 AKHA
+raw_data/wav/Mnirbhay1.wav 103.95576 104.46157 Mnirbhay1_10 AGHA
+raw_data/wav/Mnirbhay1.wav 106.02601 106.55178 Mnirbhay1_11 AGHA
+raw_data/wav/Mnirbhay1.wav 108.19187 108.69767 Mnirbhay1_12 AGHA
+raw_data/wav/Mnirbhay1.wav 123.74137 124.21639 Mnirbhay1_13 ATXA
+raw_data/wav/Mnirbhay1.wav 125.83 126.3625 Mnirbhay1_14 ATXA
+raw_data/wav/Mnirbhay1.wav 127.92101 128.4 Mnirbhay1_15 ATXA
+raw_data/wav/Mnirbhay1.wav 141.90668 142.41555 Mnirbhay1_16 ATXHA
+raw_data/wav/Mnirbhay1.wav 144.06573 144.56335 Mnirbhay1_17 ATXHA
+raw_data/wav/Mnirbhay1.wav 146.14092 146.63 Mnirbhay1_18 ATXHA
+raw_data/wav/Mnirbhay1.wav 160.07458 160.54616 Mnirbhay1_19 ADXA
+raw_data/wav/Mnirbhay1.wav 162.05628 162.51196 Mnirbhay1_20 ADXA
+raw_data/wav/Mnirbhay1.wav 164.24 164.8 Mnirbhay1_21 ADXA
+raw_data/wav/Mnirbhay1.wav 186.71964 187.2242 Mnirbhay1_22 AZA
+raw_data/wav/Mnirbhay1.wav 188.88816 189.40346 Mnirbhay1_23 AZA
+raw_data/wav/Mnirbhay1.wav 191.04058 191.49146 Mnirbhay1_24 AZA
+raw_data/wav/Mnirbhay1.wav 215.872 216.32702 Mnirbhay1_25 ADXA
+raw_data/wav/Mnirbhay1.wav 217.85708 218.3271 Mnirbhay1_26 ADXA
+raw_data/wav/Mnirbhay1.wav 219.92717 220.37719 Mnirbhay1_27 ADXA
+raw_data/wav/Mnirbhay1.wav 236.4669 236.91 Mnirbhay1_28 ATRA
+raw_data/wav/Mnirbhay1.wav 238.65638 239.08452 Mnirbhay1_29 ATRA
+raw_data/wav/Mnirbhay1.wav 240.73205 241.16 Mnirbhay1_30 ATRA
+raw_data/wav/Mnirbhay1.wav 256.32772 256.82063 Mnirbhay1_31 ATRHA
+raw_data/wav/Mnirbhay1.wav 258.39535 258.87049 Mnirbhay1_32 ATRHA
+raw_data/wav/Mnirbhay1.wav 260.56219 261.06865 Mnirbhay1_33 ATRHA
+raw_data/wav/Mnirbhay1.wav 276.27178 276.7203 Mnirbhay1_34 ADRA
+raw_data/wav/Mnirbhay1.wav 278.36311 278.81684 Mnirbhay1_35 ADRA
+raw_data/wav/Mnirbhay1.wav 280.49094 280.92381 Mnirbhay1_36 ADRA
+raw_data/wav/Mnirbhay1.wav 295.78499 296.32082 Mnirbhay1_37 ADRHA
+raw_data/wav/Mnirbhay1.wav 297.88 298.35 Mnirbhay1_38 ADRHA
+raw_data/wav/Mnirbhay1.wav 300.04459 300.50023 Mnirbhay1_39 ADRHA
+raw_data/wav/Mnirbhay1.wav 334.4052 334.87117 Mnirbhay1_40 ATA
+raw_data/wav/Mnirbhay1.wav 336.53384 337.01041 Mnirbhay1_41 ATA
+raw_data/wav/Mnirbhay1.wav 338.68367 339.25554 Mnirbhay1_42 ATA
+raw_data/wav/Mnirbhay1.wav 354.51901 355.01848 Mnirbhay1_43 ATHA
+raw_data/wav/Mnirbhay1.wav 356.64808 357.12738 Mnirbhay1_44 ATHA
+raw_data/wav/Mnirbhay1.wav 358.71157 359.24 Mnirbhay1_45 ATHA
+raw_data/wav/Mnirbhay1.wav 372.64645 373.15218 Mnirbhay1_46 ADA
+raw_data/wav/Mnirbhay1.wav 374.75278 375.22 Mnirbhay1_47 ADA
+raw_data/wav/Mnirbhay1.wav 376.87997 377.41 Mnirbhay1_48 ADA
+raw_data/wav/Mnirbhay1.wav 397.21643 397.74569 Mnirbhay1_49 ADHA
+raw_data/wav/Mnirbhay1.wav 399.4068 399.89415 Mnirbhay1_50 ADHA
+raw_data/wav/Mnirbhay1.wav 401.58646 402.09008 Mnirbhay1_51 ADHA
+raw_data/wav/Mnirbhay1.wav 416.87951 417.29986 Mnirbhay1_52 ANA
+raw_data/wav/Mnirbhay1.wav 418.97076 419.42 Mnirbhay1_53 ANA
+raw_data/wav/Mnirbhay1.wav 421.11981 421.58 Mnirbhay1_54 ANA
+raw_data/wav/Mnirbhay1.wav 437.95 438.38 Mnirbhay1_55 APA
+raw_data/wav/Mnirbhay1.wav 440.03662 440.5 Mnirbhay1_56 APA
+raw_data/wav/Mnirbhay1.wav 442.49329 442.93438 Mnirbhay1_57 APA
+raw_data/wav/Mnirbhay1.wav 456.75664 457.24 Mnirbhay1_58 APHA
+raw_data/wav/Mnirbhay1.wav 458.98193 459.51362 Mnirbhay1_59 APHA
+raw_data/wav/Mnirbhay1.wav 461.20382 461.67953 Mnirbhay1_60 APHA
+raw_data/wav/Mnirbhay1.wav 475.01444 475.43082 Mnirbhay1_61 ABA
+raw_data/wav/Mnirbhay1.wav 476.94868 477.40014 Mnirbhay1_62 ABA
+raw_data/wav/Mnirbhay1.wav 479.04454 479.54849 Mnirbhay1_63 ABA
+raw_data/wav/Mnirbhay1.wav 494.7005 495.21627 Mnirbhay1_64 ABHA
+raw_data/wav/Mnirbhay1.wav 496.92613 497.37098 Mnirbhay1_65 ABHA
+raw_data/wav/Mnirbhay1.wav 499.12528 499.52161 Mnirbhay1_66 ABHA
+raw_data/wav/Mnirbhay1.wav 523.48494 523.88923 Mnirbhay1_67 AMA
+raw_data/wav/Mnirbhay1.wav 525.72241 526.14886 Mnirbhay1_68 AMA
+raw_data/wav/Mnirbhay1.wav 527.96823 528.44725 Mnirbhay1_69 AMA
+raw_data/wav/Mnirbhay1.wav 541.04764 541.47252 Mnirbhay1_70 AJA
+raw_data/wav/Mnirbhay1.wav 543.11246 543.54403 Mnirbhay1_71 AJA
+raw_data/wav/Mnirbhay1.wav 545.20555 545.63786 Mnirbhay1_72 AJA
+raw_data/wav/Mnirbhay1.wav 587.54402 588.01231 Mnirbhay1_73 ARA
+raw_data/wav/Mnirbhay1.wav 589.6186 590.04704 Mnirbhay1_74 ARA
+raw_data/wav/Mnirbhay1.wav 591.67062 592.14416 Mnirbhay1_75 ARA
+raw_data/wav/Mnirbhay1.wav 605.33987 605.76817 Mnirbhay1_76 ALA
+raw_data/wav/Mnirbhay1.wav 607.44483 607.87318 Mnirbhay1_77 ALA
+raw_data/wav/Mnirbhay1.wav 609.55502 610.0154 Mnirbhay1_78 ALA
+raw_data/wav/Mnirbhay1.wav 630.65411 631.11226 Mnirbhay1_79 AVLA
+raw_data/wav/Mnirbhay1.wav 632.95786 633.46145 Mnirbhay1_80 AVLA
+raw_data/wav/Mnirbhay1.wav 635.2971 635.76642 Mnirbhay1_81 AVLA
+raw_data/wav/Mnirbhay1.wav 647.29597 647.79427 Mnirbhay1_82 AXA
+raw_data/wav/Mnirbhay1.wav 649.4161 649.87823 Mnirbhay1_83 AXA
+raw_data/wav/Mnirbhay1.wav 651.74198 652.41868 Mnirbhay1_84 AXA
+raw_data/wav/Mnirbhay1.wav 666.42464 666.94931 Mnirbhay1_85 AXRA
+raw_data/wav/Mnirbhay1.wav 668.56602 669.04799 Mnirbhay1_86 AXRA
+raw_data/wav/Mnirbhay1.wav 670.78191 671.24207 Mnirbhay1_87 AXRA
+raw_data/wav/Mnirbhay1.wav 693.8913 694.39174 Mnirbhay1_88 ASA
+raw_data/wav/Mnirbhay1.wav 696.1034 696.60946 Mnirbhay1_89 ASA
+raw_data/wav/Mnirbhay1.wav 698.36577 698.81229 Mnirbhay1_90 ASA
+raw_data/wav/Mnirbhay1.wav 710.88793 711.37069 Mnirbhay1_91 AHHA
+raw_data/wav/Mnirbhay1.wav 713.12009 713.63019 Mnirbhay1_92 AHHA
+raw_data/wav/Mnirbhay1.wav 715.26062 715.74846 Mnirbhay1_93 AHHA
+raw_data/wav/Mnirbhay1.wav 767.99258 768.53831 Mnirbhay1_94 ARRA
+raw_data/wav/Mnirbhay1.wav 770.20962 770.77979 Mnirbhay1_95 ARRA
+raw_data/wav/Mnirbhay1.wav 772.46145 773.0997 Mnirbhay1_96 ARRA
+raw_data/wav/Mnirbhay1.wav 786.51315 787.04294 Mnirbhay1_97 ARTHA
+raw_data/wav/Mnirbhay1.wav 788.70799 789.26481 Mnirbhay1_98 ARTHA
+raw_data/wav/Mnirbhay1.wav 791.00555 791.53534 Mnirbhay1_99 ARTHA
+raw_data/wav/Mnirbhay1.wav 837.45387 837.96248 Mnirbhay1_100 ARHA
+raw_data/wav/Mnirbhay1.wav 839.62392 840.14947 Mnirbhay1_101 ARHA
+raw_data/wav/Mnirbhay1.wav 841.82787 842.33647 Mnirbhay1_102 ARHA
+raw_data/wav/Mnirbhay1.wav 887.90466 888.38248 Mnirbhay1_103 ARTHA
+raw_data/wav/Mnirbhay1.wav 889.96685 890.44296 Mnirbhay1_104 ARTHA
+raw_data/wav/Mnirbhay1.wav 892.5444 892.97769 Mnirbhay1_105 ARTHA
+raw_data/wav/Mnirbhay1.wav 904.87257 905.29323 Mnirbhay1_106 ARTA
+raw_data/wav/Mnirbhay1.wav 906.99719 907.41752 Mnirbhay1_107 ARTA
+raw_data/wav/Mnirbhay1.wav 909.12643 909.54182 Mnirbhay1_108 ARTA
+raw_data/wav/Mnirbhay1.wav 922.56447 923.00095 Mnirbhay1_109 ANRA
+raw_data/wav/Mnirbhay1.wav 924.61698 925.04307 Mnirbhay1_110 ANRA
+raw_data/wav/Mnirbhay1.wav 926.789 927.23068 Mnirbhay1_111 ANRA

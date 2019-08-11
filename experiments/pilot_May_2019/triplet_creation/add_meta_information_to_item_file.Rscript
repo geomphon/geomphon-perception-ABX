@@ -3,7 +3,7 @@
 # Adds the meta-information to the item file
 # (script modified to take and produce a csv file instead)
 #
-# Author: Ewan Dunbar
+# Author: Ewan Dunbar, Nicolas Brasset
 
 format_numeric <- function(x, ...) {
   numeric_cols <- vapply(x, is.numeric, logical(1))
@@ -67,7 +67,7 @@ WORD_TO_TARGET_PHONE <- c(
   ANRA= "ɳ"
 )
 
-readr::read_delim(INPUT, delim=",", col_types=readr::cols(
+readr::read_delim(INPUT, delim=" ", col_types=readr::cols(
     `#file` = readr::col_character(), onset = readr::col_double(),
     offset = readr::col_double(), `#item` = readr::col_character(),
     word = readr::col_character())) %>%
