@@ -49,40 +49,30 @@ def BUILD_ARGPARSE():
             type=str)
     parser.add_argument('tier_name', help="Name of TextGrid tier",
             type=str)
-    parser.add_argument('textgrid_path',
-            help="pairs of filenames, separated by a comma <TextGrid>,<WavFile>",
+    parser.add_argument('textgrid_path', help="directory containing .TextGrid files",
             type=str)
-    parser.add_argument('waveFile_path',
-            help="pairs of filenames, separated by a comma <TextGrid>,<WavFile>",
+    parser.add_argument('wavfile_path',
+            help="directory containing .wav files corresponding to .TextGrid files",
             type=str)
-    
+
     return parser
 
 if __name__ == "__main__":
-    
     parser = BUILD_ARGPARSE()
     args = parser.parse_args(sys.argv[1:])
-    
+
+    textgrid_files = glob.glob(osp.join(args.textgrid_path, "*.TextGrid"))
+    wav_files = glob.glob(osp.join(args.wavfile_path, "*.wav"))
+
     textgrid_wavefile_pairs = []
+    for tgf in textgrid_files:
+        tg_root = osp.splitext(osp.split(tgf)[1])[0]
+        wavf = osp.join(args.wavfile_path, tg_root) + ".wav"
+        if wavf in wav_files:
+            textgrid_wavefile_pairs.append((tgf, wavf))
 
-    mypathTxtGrid = args.textgrid_path + "*.TextGrid"
-    mypathWav = args.waveFile_path + "*.wav"
-
-    listTxtGrid = glob.glob(mypathTxtGrid)
-    listWav = glob.glob(mypathWav)
-
-    for txtGrid, waveFile in zip(listTxtGrid, listWav) :
-        textgrid_wavefile_pairs.append(txtGrid + "," + waveFile)
-        
     print_abx_item_file_header()
-    for tw in textgrid_wavefile_pairs:
-        try:
-            f_tg, f_wav = tw.split(",")
-        except ValueError:
-            eprint(
-"""ERROR: Need to provide paired TextGrid/wave file names""".replace(
-    "\n", " "))
-            sys.exit(1)
+    for f_tg, f_wav in textgrid_wavefile_pairs:
         try:
             tier = get_intervals(f_tg, args.tier_name)
         except Exception as e:

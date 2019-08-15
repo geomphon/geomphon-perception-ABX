@@ -1,65 +1,59 @@
-all: triplet-list \
+all: triplet_creation/triplet_list.csv \
 stimlist/stimuli_intervals \
 stimulus_list.csv \
 stimlist/item_meta_information_with_distances.csv \
 anonymize_data \
 split_output_to_results_files \
-filter_data \
+filter_data
 
 
 tmp:
 	mkdir -p tmp
 
-triplet-list: tmp
+triplet_creation/triplet_list.csv: tmp
 	python ../../src/textgrid_to_abx_item_file_word.py word \
 raw_data/textGrid/ \
 raw_data/wav/ \
 --excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.csv \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
-tmp/ABX_ITEM_FILE.csv tmp/ABX_ITEM_FILE_COMPLETE.csv \
-&& python triplet_creation/generate_triplets.py tmp/ABX_ITEM_FILE_COMPLETE.csv \
+tmp/ABX_ITEM_FILE.csv triplet_creationn/phoneme_info.csv tmp/ABX_ITEM_FILE_COMPLETE.csv \
+&& python triplet_creation/generate_triplets.py \
+--constraints-ab='(language_TGT!=language_OTH)&(language_TGT==language_TGT)&(language_OTH==language_OTH)' \
+tmp/ABX_ITEM_FILE_COMPLETE.csv \
 triplet_creation/triplet_list.csv
 
 distances/tmp:
 	mkdir -p distances/tmp
 
-distances/tmp/PAIRS_TMP.csv: triplet-list distances/tmp
+distances/tmp/PAIRS_TMP.csv: triplet_creation/triplet_list.csv distances/tmp
 	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
 stimlist/stimulus_list.csv triplet_creation/triplet_list.csv stimlist/item_meta_information.csv && \
 Rscript --vanilla \
 distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
 stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
 
-distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 44100 $@
 
-distances/tmp/distances__unnormed_filterbank__dtw_pathlength__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__unnormed_filterbank__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py distances/tmp/PAIRS_TMP.csv 44100 $@
 
-distances/tmp/distances__normed_mfcc__dtw_pathlength__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__normed_mfcc__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --nceps=13 --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 44100 $@
 
-distances/tmp/distances__unnormed_mfcc__dtw_pathlength__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__unnormed_mfcc__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --nceps=13 distances/tmp/PAIRS_TMP.csv 44100 $@
 
-distances/tmp/distances__normed_filterbank__dtw_sum__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__normed_filterbank__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --normalize-by-speaker --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 44100 $@
 
-distances/tmp/distances__unnormed_filterbank__dtw_sum__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__unnormed_filterbank__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 44100 $@
 
-distances/tmp/distances__normed_mfcc__dtw_sum__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__normed_mfcc__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --normalize-by-speaker --nceps=13 --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 44100 $@
 
-distances/tmp/distances__unnormed_mfcc__dtw_sum__by_pair.csv: \
-	distances/tmp distances/tmp/PAIRS_TMP.csv
+distances/tmp/distances__unnormed_mfcc__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --nceps=13 --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 44100 $@
 
 distances/distances__%.csv: distances/tmp/distances__%__by_pair.csv
