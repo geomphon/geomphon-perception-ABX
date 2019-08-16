@@ -27,7 +27,7 @@ def get_intervals(textgrid_fn, tier_name):
 
 def is_target_word(word, target_words):
     return word != "" \
-            and ((target_words is None) or (word in target_words))
+            and ((len(target_words) == 0) or (word in target_words))
 
 def print_abx_item_file_header():
     print("#file onset offset #item word")
@@ -64,6 +64,13 @@ if __name__ == "__main__":
     textgrid_files = glob.glob(osp.join(args.textgrid_path, "*.TextGrid"))
     wav_files = glob.glob(osp.join(args.wavfile_path, "*.wav"))
 
+    target_words = []
+    if args.target_words is not None:
+        target_words = args.target_words.split(',')
+    excluded_words = []
+    if args.excluded_words is not None:
+        excluded_words = args.excluded_words.split(',')
+
     textgrid_wavefile_pairs = []
     for tgf in textgrid_files:
         tg_root = osp.splitext(osp.split(tgf)[1])[0]
@@ -84,8 +91,8 @@ if __name__ == "__main__":
         index_number = 1  # SEE save_intervals_to_wavs.Praat
         for interval in tier:
             if interval.mark != "":
-                if is_target_word(interval.mark, args.target_words) \
-                        and not interval.mark in args.excluded_words:
+                if is_target_word(interval.mark, target_words) \
+                        and not interval.mark in excluded_words:
                     # SEE save_intervals_to_wavs.Praat
                     wavfile_stripped = osp.splitext(osp.basename(f_wav))[0]
                     item_id = wavfile_stripped + "_" + str(index_number)

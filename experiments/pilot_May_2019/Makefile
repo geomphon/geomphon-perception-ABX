@@ -16,7 +16,7 @@ raw_data/textGrid/ \
 raw_data/wav/ \
 --excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.csv \
 && Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
-tmp/ABX_ITEM_FILE.csv triplet_creationn/phoneme_info.csv tmp/ABX_ITEM_FILE_COMPLETE.csv \
+tmp/ABX_ITEM_FILE.csv triplet_creation/phoneme_info.csv tmp/ABX_ITEM_FILE_COMPLETE.csv \
 && python triplet_creation/generate_triplets.py \
 --constraints-ab='(language_TGT!=language_OTH)&(language_TGT==language_TGT)&(language_OTH==language_OTH)' \
 tmp/ABX_ITEM_FILE_COMPLETE.csv \
