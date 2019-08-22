@@ -176,3 +176,4 @@ and 'offset' columns""".replace("<F>", str(args.pair_file)))
         pairs.to_csv(sys.stdout, index=False)
     else:
         pairs.to_csv(args.output_file, index=False)
+
