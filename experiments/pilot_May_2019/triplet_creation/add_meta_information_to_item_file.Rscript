@@ -41,6 +41,7 @@ readr::read_delim(INPUT, delim=" ", col_types=readr::cols(
   dplyr::mutate(speaker=(function(x)
                           gsub("\\d+$", "", sapply(strsplit(x, "_"),
                                             function(y) y[[1]])))(`#item`)) %>%
+  dplyr::mutate(sex=substr(speaker, 1, 1)) %>%
   dplyr::mutate(phone=word_to_target_phone[word],
                 language=language[phone]) %>%
   format_numeric() %>% 

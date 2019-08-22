@@ -10,26 +10,32 @@ filter_data
 tmp:
 	mkdir -p tmp
 
-triplet_creation/triplet_list.csv: tmp
+tmp/ABX_ITEM_FILE.csv: tmp
 	python ../../src/textgrid_to_abx_item_file_word.py word \
 raw_data/textGrid/ \
 raw_data/wav/ \
---excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.csv \
-&& Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
-tmp/ABX_ITEM_FILE.csv triplet_creation/phoneme_info.csv tmp/ABX_ITEM_FILE_COMPLETE.csv \
-&& python triplet_creation/generate_triplets.py \
---constraints-ab='(language_TGT!=language_OTH)&(language_TGT==language_TGT)&(language_OTH==language_OTH)' \
+--excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.csv 
+
+tmp/ABX_ITEM_FILE_COMPLETE.csv: tmp/ABX_ITEM_FILE.csv
+	Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
+tmp/ABX_ITEM_FILE.csv triplet_creation/phoneme_info.csv tmp/ABX_ITEM_FILE_COMPLETE.csv
+
+triplet_creation/triplet_list.csv: tmp/ABX_ITEM_FILE_COMPLETE.csv
+	python triplet_creation/generate_triplets.py \
+--constraints-ab='(language_TGT!=language_OTH)&(language_TGT==language_TGT)&(language_OTH==language_OTH)&(sex_TGT==sex_OTH)' \
+--constraints-ax='(sex_TGT!=sex_X)' \
 tmp/ABX_ITEM_FILE_COMPLETE.csv \
 triplet_creation/triplet_list.csv
+
+tmp/ITEM_META_INFORMATION.csv: triplet_creation/triplet_list.csv
+	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
+stimlist/stimulus_list.csv triplet_creation/triplet_list.csv tmp/ITEM_META_INFORMATION.csv
 
 distances/tmp:
 	mkdir -p distances/tmp
 
-distances/tmp/PAIRS_TMP.csv: triplet_creation/triplet_list.csv distances/tmp
-	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
-stimlist/stimulus_list.csv triplet_creation/triplet_list.csv stimlist/item_meta_information.csv && \
-Rscript --vanilla \
-distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
+distances/tmp/PAIRS_TMP.csv:  tmp/ITEM_META_INFORMATION.csv distances/tmp
+	Rscript --vanilla distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
 stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
 
 distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
@@ -71,7 +77,7 @@ distances/distances__normed_mfcc__dtw_sum.csv \
 distances/distances__unnormed_mfcc__dtw_sum.csv \
 clean-distances-tmp
 
-stimulus_list.csv: stimlist/design.csv 
+stimlist/stimulus_list.csv: stimlist/design.csv 
 	python stimlist/generate_design.py 4 18 10 1 0 1 2 3 4 5 8000 0.00001 24 stimlist/design.csv
 
 stimlist/item_meta_information_with_distances.csv: distances
