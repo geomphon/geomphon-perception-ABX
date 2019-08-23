@@ -15,19 +15,6 @@ def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)  # FIXME WRAP
 
 
-def get_item(df, row, frame_tolerance):
-    if 'onset' in row.index and 'offset' in row.index \
-       and 'time' in df.columns:
-        rep = df[(df['file'] == row['file']) \
-                 & (df['time'] >= row['onset'] - frame_tolerance) \
-                 & (df['time'] <= row['offset'] + frame_tolerance)]
-    else:
-        rep = df[df['file'] == row['file']]
-    meta = pd.DataFrame([row])
-    result = rep.merge(meta, on='file', how='left')
-    result['item_frame'] = range(rep.shape[0])
-    return result
-
 
 # FIXME: It is broke!
 
@@ -84,6 +71,32 @@ def center_time(frame_numbers, frame_shift):
 #    features_df['_time'] = center_time(features_df['_frame_number'],
 #                                       feature_frame_shift)
 #    features_df['_file'] = filename
+
+def get_item(features, filename, onset, offset):
+   '''Get features corresponding to a chunk of a file
+   
+   :param features: Dictionary of features keyed by filename
+   :type features: [type]
+   :param filename: [description]
+   :type filename: [type]
+   :param onset: [description]
+   :type onset: [type]
+   :param offset: [description]
+   :type offset: [type]
+   :return: [description]
+   :rtype: [type]
+   ''' 
+    if 'onset' in row.index and 'offset' in row.index \
+       and 'time' in df.columns:
+        rep = df[(df['file'] == row['file']) \
+                 & (df['time'] >= row['onset'] - frame_tolerance) \
+                 & (df['time'] <= row['offset'] + frame_tolerance)]
+    else:
+        rep = df[df['file'] == row['file']]
+    meta = pd.DataFrame([row])
+    result = rep.merge(meta, on='file', how='left')
+    result['item_frame'] = range(rep.shape[0])
+    return result
 
 
 def calculate_distances(pairs, features, distance_fn):
@@ -176,4 +189,3 @@ and 'offset' columns""".replace("<F>", str(args.pair_file)))
         pairs.to_csv(sys.stdout, index=False)
     else:
         pairs.to_csv(args.output_file, index=False)
-
