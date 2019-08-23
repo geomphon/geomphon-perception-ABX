@@ -36,7 +36,7 @@ distances/tmp:
 
 distances/tmp/PAIRS_TMP.csv:  tmp/ITEM_META_INFORMATION.csv distances/tmp
 	Rscript --vanilla distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
-stimlist/item_meta_information.csv raw_data distances/tmp/PAIRS_TMP.csv
+tmp/ITEM_META_INFORMATION.csv raw_data distances/tmp/PAIRS_TMP.csv
 
 distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
 	python ../../src/wav_to_distance.py --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 44100 $@

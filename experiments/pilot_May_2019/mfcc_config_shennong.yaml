@@ -1,0 +1,89 @@
+mfcc:
+  # Constant coefficient for generalized Blackman window. Used only if
+  # window_type is 'blackman'. Default is 0.42.
+  blackman_coeff: 0.42
+  # Constant that controls scaling of MFCCs. Default is 22.0.
+  cepstral_lifter: 22.0
+  # Amount of dithering. 0.0 means no dither. Default is 1.0.
+  dither: 1.0
+  # Floor on energy (absolute, not relative) in MFCC computation.
+  # Default is 0.0.
+  energy_floor: 0.0
+  # Frame length in seconds. Default is 0.025.
+  frame_length: 0.025
+  # Frame shift in seconds. Default is 0.01.
+  frame_shift: 0.01
+  # High cutoff frequency for mel bins in Hertz. If high_freq < 0,
+  # offset from the Nyquist frequency. Default is 0.0.
+  high_freq: 0.0
+  # Low cutoff frequency for mel bins in Hertz. Default is 20.0.
+  low_freq: 20.0
+  # Number of triangular mel-frequency bins. The minimal number of
+  # bins is 3. Default is 23.
+  num_bins: 23
+  # Number of cepstra in MFCC computation (including C0). Must be
+  # smaller of equal to num_bins. Default is 13.
+  num_ceps: 13
+  # Coefficient for use in signal preemphasis. Default is 0.97.
+  preemph_coeff: 0.97
+  # If true, compute energy before preemphasis and windowing. Default
+  # is true.
+  raw_energy: true
+  # If True, subtract mean from waveform on each frame. Default is
+  # true.
+  remove_dc_offset: true
+  # If true, round window size to power of two. This is done by zero-
+  # padding input to FFT. Default is true.
+  round_to_power_of_two: true
+  # If true, output only frames that completely fit in the file. When
+  # True the number of frames depends on the frame_length. If False,
+  # the number of frames depends only on the frame_shift, and we
+  # reflect the data at the ends. Default is true.
+  snip_edges: true
+  # Use energy (instead of C0) in MFCC computation. Default is true.
+  use_energy: true
+  # High inflection point in piecewise linear VTLN warping function.
+  # In Hertz. If vtln_high < 0, offset from high_freq. Default is
+  # -500.0.
+  vtln_high: -500.0
+  # Low inflection point in piecewise linear VTLN warping function. In
+  # Hertz. Default is 100.0.
+  vtln_low: 100.0
+  # Type of window. Must be 'hamming', 'hanning', 'povey',
+  # 'rectangular' or 'blackman'. Default is povey.
+  window_type: povey
+cmvn:
+  # If false, do normalization by utterance, if true do normalization
+  # by speaker
+  by_speaker: false
+  # If true do normalization only on frames where voice activity has
+  # been detected, if false do not consider voice activity for
+  # normalization
+  with_vad: false
+  # The vad options are not used if 'with_vad' is false
+  vad:
+    # Scale factor of the mean log-energy. If this is set to s, to get
+    # the actual threshold we let m be the mean log-energy of the
+    # file, and use s*m + energy_threshold. Must be greater or equal
+    # to 0. Default is 0.5.
+    energy_mean_scale: 0.5
+    # Constant term in energy threshold for MFCC0 for VAD. See also
+    # energy_mean_scale. Default is 5.0.
+    energy_threshold: 5.0
+    # Number of frames of context on each side of central frame. The
+    # size of the window for which energy is monitored is 2 *
+    # frames_context + 1. Must be greater or equal to 0. Default is 0.
+    frames_context: 0
+    # Proportion of frames beyond the energy threshold. Parameter
+    # controlling the proportion of frames within the window that need
+    # to have more energy than the threshold. Must be in ]0, 1[.
+    # Default is 0.6.
+    proportion_threshold: 0.6
+delta:
+  # Order of delta computation. Default is 2.
+  order: 2
+  # Parameter controlling window for delta computation. The actual
+  # window size for each delta order is 1 + 2 * window. The behavior
+  # at the edges is to replicate the first or last frame. Default is
+  # 2.
+  window: 2
