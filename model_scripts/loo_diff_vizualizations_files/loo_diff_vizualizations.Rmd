@@ -1,0 +1,131 @@
+---
+title: "Comparing elpd_diff values for Hindi and Hindi-Kabardian"
+author: "Amelia"
+date: "16/08/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Parameters/ "degrees of freedom" affecting model results 
+### Data Parameters
+#### design
+1. number of subjects: 30  
+2. number of trials: 144 
+
+#### data sampling/predictors: 
+3. intercept = 1.3592 (based on pilots)
+4. values: acoustic distances and Econ, Glob,Loc assigned based on design  
+(https://docs.google.com/spreadsheets/d/1p-oHTYW3BOV3RMQPRBK8-JrQrIGJIOSUXm-C1fGeAk8/edit#gid=1153981776) 
+    + acoustic distances include jitter for each instance of a phone; Econ, Glob, Loc do not
+5. coefficients:  
+    + data sampled based on Econ, Glob,Loc each given coef of -1,0,1
+    + coef of acoustic distance based on pilots: -.1784
+
+6. Number of datasets =1 (this document compares only one instance of each dataset,
+but pipeline includes tools to sample multiple)
+
+### Model Parameters
+7. iterations: 2000
+8. chains: 4
+9. positive constrained priors:
+    + normal(0,10), truncated at 0 by specifying <lower=0>
+10. parameters of the horseshoe prior, appled to negative constrained priors:  
+    + real<lower=0> scale_global;   // scale for the half-t prior for tau
+    + real<lower=1> nu_global;      // degrees of freedom for the half-t prior for tau
+    + real<lower=0> nu_local;        // degrees of freedom for the half-t prior for lambdas
+    + real<lower=0> slab_scale;      // slab scale for the regularized horseshoe
+    + real<lower=0> slab_df;        // slab degrees of freedom for the regularized horseshoe
+
+
+
+
+
+### overall elpd_diff / se_diff
+
+```{r overall_diffs, echo=FALSE, message=FALSE}
+`%>%`<-magrittr::`%>%`
+hindi_loo_diff <-readr::read_csv("loo_diffs_hindi_dinst2_Sept_2.csv")
+hk_loo_diff<-readr::read_csv("loo_diffs_hk_dinst1_Sept_2.csv")
+
+all_loo_diffs<-dplyr::full_join(hindi_loo_diff,hk_loo_diff) %>%
+               dplyr::filter(!is.na(elpd_diff))
+
+all_loo_diffs$elpd_over_se <-NA
+for (i in 1:nrow(all_loo_diffs)){
+  all_loo_diffs$elpd_over_se[i] <- all_loo_diffs$elpd_diff[i]/all_loo_diffs$se_diff[i]
+}
+
+#identify outliers in se_diff
+loo_diffs_outliers<-subset(all_loo_diffs, all_loo_diffs$se_diff > 20)
+
+all_loo_diffs<-subset(all_loo_diffs, all_loo_diffs$se_diff < 20)
+
+library(ggplot2)
+ggplot(all_loo_diffs, aes(elpd_over_se, fill = d_experiment)) +
+  geom_histogram()
+
+ggplot(all_loo_diffs, aes(elpd_diff, fill = d_experiment)) +
+  geom_histogram()
+
+ggplot(all_loo_diffs, aes(se_diff, fill = d_experiment)) +
+  geom_histogram()
+
+
+```
+
+<!-- ### elpd_diff based on number of coeffs values that matching the model used -->
+<!-- (prediction: more matching coeffs, smaller elpd_diffs ) -->
+
+<!-- ```{r, echo=FALSE} -->
+
+<!-- ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=elpd_diff)) + -->
+<!--   geom_violin() + -->
+<!--   xlab("Number of coefficients for which the model matches the sign of the coeff as sampled") -->
+<!-- ``` -->
+
+<!-- ### se_diff based on number of coeffs values that matching the model used -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=se_diff)) + -->
+<!--   geom_violin() + -->
+<!--   xlab("Number of coefficients for which the model matches the sign of the coeff as sampled") -->
+
+<!-- ``` -->
+
+<!-- ### elpd_diff based on number of zero coeffs sampled -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- #calculate number of zeros  -->
+
+<!--  LOO_DIFF_FILE$num_zeroes <-dplyr::case_when( -->
+<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "three", -->
+<!--      LOO_DIFF_FILE$d_coef_econ!= 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "two", -->
+<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc != 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "two", -->
+<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "two", -->
+<!--      LOO_DIFF_FILE$d_coef_econ != 0 & LOO_DIFF_FILE$d_coef_loc != 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "one", -->
+<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc != 0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "one", -->
+<!--      LOO_DIFF_FILE$d_coef_econ != 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "one", -->
+<!--      LOO_DIFF_FILE$d_coef_econ != 0 & LOO_DIFF_FILE$d_coef_loc !=0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "zero") -->
+
+<!-- ggplot(LOO_DIFF_FILE, aes(x=num_zeroes, y=elpd_diff)) + -->
+<!--   geom_violin() + -->
+<!--   xlab("Number of coefficients sampled based on a zero effect")+ -->
+<!--   scale_x_discrete(limits=c("zero","one","two","three"))  -->
+
+
+<!-- ``` -->
+
+<!-- ### se_diff based on number of zero coeffs sampled -->
+
+<!-- ```{r, echo=FALSE} -->
+<!-- ggplot(all_loo_diffs aes(x=num_zeroes, y=se_diff)) + -->
+<!--   geom_violin() + -->
+<!--   xlab("Number of coefficients sampled based on a zero effect")+ -->
+<!--   scale_x_discrete(limits=c("zero","one","two","three")) -->
+<!-- ``` -->
+
