@@ -78,54 +78,49 @@ ggplot(all_loo_diffs, aes(se_diff, fill = d_experiment)) +
 
 ```
 
-<!-- ### elpd_diff based on number of coeffs values that matching the model used -->
-<!-- (prediction: more matching coeffs, smaller elpd_diffs ) -->
+### elpd_diff based on number of coeffs values that matching the model used
+(prediction: more matching coeffs, smaller elpd_diffs )
 
-<!-- ```{r, echo=FALSE} -->
+```{r, echo=FALSE}
 
-<!-- ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=elpd_diff)) + -->
-<!--   geom_violin() + -->
-<!--   xlab("Number of coefficients for which the model matches the sign of the coeff as sampled") -->
-<!-- ``` -->
+ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=elpd_diff)) +
+  geom_violin() +
+  xlab("Number of coefficients for which the model matches the sign of the coeff as sampled")
+```
 
-<!-- ### se_diff based on number of coeffs values that matching the model used -->
+### se_diff based on number of coeffs values that matching the model used
 
-<!-- ```{r, echo=FALSE} -->
-<!-- ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=se_diff)) + -->
-<!--   geom_violin() + -->
-<!--   xlab("Number of coefficients for which the model matches the sign of the coeff as sampled") -->
+```{r, echo=FALSE}
+ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=se_diff)) +
+  geom_violin() +
+  xlab("Number of coefficients for which the model matches the sign of the coeff as sampled")
 
-<!-- ``` -->
+```
+### elpd_diff/se_diff based on number of zero coeffs sampled
 
-<!-- ### elpd_diff based on number of zero coeffs sampled -->
+```{r, echo=FALSE}
+#calculate number of zeros
 
-<!-- ```{r, echo=FALSE} -->
-<!-- #calculate number of zeros  -->
+ all_loo_diffs$num_zeroes <-dplyr::case_when(
+     all_loo_diffs$d_coef_econ == 0 & all_loo_diffs$d_coef_loc == 0 & all_loo_diffs$d_coef_glob == 0 ~ "three",
+     all_loo_diffs$d_coef_econ!= 0 & all_loo_diffs$d_coef_loc == 0 & all_loo_diffs$d_coef_glob == 0 ~ "two",
+     all_loo_diffs$d_coef_econ == 0 & all_loo_diffs$d_coef_loc != 0 & all_loo_diffs$d_coef_glob == 0 ~ "two",
+     all_loo_diffs$d_coef_econ == 0 & all_loo_diffs$d_coef_loc == 0 & all_loo_diffs$d_coef_glob != 0 ~ "two",
+     all_loo_diffs$d_coef_econ != 0 & all_loo_diffs$d_coef_loc != 0 & all_loo_diffs$d_coef_glob == 0 ~ "one",
+     all_loo_diffs$d_coef_econ == 0 & all_loo_diffs$d_coef_loc != 0 & all_loo_diffs$d_coef_glob != 0 ~ "one",
+     all_loo_diffs$d_coef_econ != 0 & all_loo_diffs$d_coef_loc == 0 & all_loo_diffs$d_coef_glob != 0 ~ "one",
+     all_loo_diffs$d_coef_econ != 0 & all_loo_diffs$d_coef_loc !=0 & all_loo_diffs$d_coef_glob != 0 ~ "zero")
 
-<!--  LOO_DIFF_FILE$num_zeroes <-dplyr::case_when( -->
-<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "three", -->
-<!--      LOO_DIFF_FILE$d_coef_econ!= 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "two", -->
-<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc != 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "two", -->
-<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "two", -->
-<!--      LOO_DIFF_FILE$d_coef_econ != 0 & LOO_DIFF_FILE$d_coef_loc != 0 & LOO_DIFF_FILE$d_coef_glob == 0 ~ "one", -->
-<!--      LOO_DIFF_FILE$d_coef_econ == 0 & LOO_DIFF_FILE$d_coef_loc != 0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "one", -->
-<!--      LOO_DIFF_FILE$d_coef_econ != 0 & LOO_DIFF_FILE$d_coef_loc == 0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "one", -->
-<!--      LOO_DIFF_FILE$d_coef_econ != 0 & LOO_DIFF_FILE$d_coef_loc !=0 & LOO_DIFF_FILE$d_coef_glob != 0 ~ "zero") -->
-
-<!-- ggplot(LOO_DIFF_FILE, aes(x=num_zeroes, y=elpd_diff)) + -->
-<!--   geom_violin() + -->
-<!--   xlab("Number of coefficients sampled based on a zero effect")+ -->
-<!--   scale_x_discrete(limits=c("zero","one","two","three"))  -->
+ ggplot(all_loo_diffs, aes(x=num_zeroes, y=elpd_over_se)) + 
+   geom_violin() + 
+   xlab("Number of coefficients sampled based on a zero effect")+ 
+   scale_x_discrete(limits=c("zero","one","two","three")) 
 
 
-<!-- ``` -->
 
-<!-- ### se_diff based on number of zero coeffs sampled -->
+```
 
-<!-- ```{r, echo=FALSE} -->
-<!-- ggplot(all_loo_diffs aes(x=num_zeroes, y=se_diff)) + -->
-<!--   geom_violin() + -->
-<!--   xlab("Number of coefficients sampled based on a zero effect")+ -->
-<!--   scale_x_discrete(limits=c("zero","one","two","three")) -->
-<!-- ``` -->
+
+
+
 
