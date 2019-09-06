@@ -55,7 +55,7 @@ mfcc:
 cmvn:
   # If false, do normalization by utterance, if true do normalization
   # by speaker
-  by_speaker: false
+  by_speaker: true
   # If true do normalization only on frames where voice activity has
   # been detected, if false do not consider voice activity for
   # normalization

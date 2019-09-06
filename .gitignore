@@ -2,9 +2,14 @@ experiments/SUBJECT_ANONYMIZATION_FILE.csv
 experiments/pilot_july_2018/data/raw
 experiments/pilot_july_2018/deploy
 experiments/pilot_july_2018/geomphon-LMEDS_v-c925d74
+experiments/pilot_May_2019/stimuli_intervals
+experiments/pilot_May_2019/stimuli_triplets
 *.swp
 .Rproj.user
 .DS_Store
 .Rhistory
 .RData
-.rds
+*.rds
+Geomphon-perception.code-workspace
+.vscode/launch.json
+.vscode/settings.json

@@ -24,6 +24,13 @@ import os
 import fnmatch
 import shutil
 import pandas as pd
+import random
+
+ALPHABET = [
+    "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
+    "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+]
+
 
 def anonymize_subject_id(real_subject_id, table):
     if sum(table['RealID'] == real_subject_id) > 0:
@@ -32,10 +39,13 @@ def anonymize_subject_id(real_subject_id, table):
         updated_table = table
     else:
         anon_id = "X_" + ''.join(random.sample(ALPHABET, 10))
-        new_row = pd.DataFrame()
-        updated_table = table.append({'RealID': real_subject_id,
-                                     'AnonID': anon_id}, ignore_index=True)
+        updated_table = table.append(
+            {
+                'RealID': real_subject_id,
+                'AnonID': anon_id
+            }, ignore_index=True)
     return anon_id, updated_table
+
 
 if __name__ == "__main__":
     input_folder = sys.argv[1]
@@ -46,7 +56,7 @@ if __name__ == "__main__":
     if os.path.isfile(anon_file):
         anon_table = pd.read_csv(anon_file)
     else:
-        anon_table = pd.DataFrame(columns=['RealID','AnonID'])
+        anon_table = pd.DataFrame(columns=['RealID', 'AnonID'])
 
     # Re-create folder structure of input directory and rename
     # files
@@ -66,4 +76,3 @@ if __name__ == "__main__":
 
     # Write out updated anonymization file
     anon_table.to_csv(anon_file, index=False)
-
