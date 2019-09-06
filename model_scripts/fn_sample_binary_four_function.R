@@ -47,7 +47,7 @@ sample_binary_four <- function(d, response_var, predictor_vars, coef_values,inte
   
   #1.3592 on logit scale 
   
-  m <- glm(formula(f), data=d, family="binomial")
+  m <- glm(formula(f), data=d, family="binomial", maxit = 100)
   m$coefficients["(Intercept)"]<- intercept
   m$coefficients[predictor_vars[1]] <- coef_values[1]
   m$coefficients[predictor_vars[2]] <- coef_values[2]
