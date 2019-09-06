@@ -4,14 +4,14 @@
 # make standats, save them, and then run the models 
 # Author: Ameila Kimball
 
-ARGS <- commandArgs(TRUE)
+#ARGS <- commandArgs(TRUE)
 
-DATA_FOLDER <- ARGS[1]#"sampled_data" #
-MASTER <-  ARGS[2] #"master_df_hk_dinst1.csv" #
-RDS_FOLDER<-ARGS[3] #"model_output_rds"#  
-EXPERIMENT<-ARGS[4] #"hk" #
+DATA_FOLDER <- "sampled_data" #ARGS[1]#
+MASTER <-  "master_df_hk_dinst2.csv" #ARGS[2] #
+RDS_FOLDER<-"model_output_rds"#  ARGS[3] #
+EXPERIMENT<-"hk" #ARGS[4] #
 
-BATCH_SIZE <- 5
+BATCH_SIZE <- 2
 
 
 

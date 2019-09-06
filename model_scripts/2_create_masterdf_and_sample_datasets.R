@@ -5,7 +5,7 @@
 
 #master df vars
 EXPERIMENT_NAME<- "hk"
-DATA_INSTANCE <- "dinst1"
+DATA_INSTANCE <- "dinst2"
 MASTER_OUT_CSV <- paste0("master_df_",
                          EXPERIMENT_NAME,
                          "_",
@@ -63,6 +63,11 @@ full_design$item <- NA
 for (i in 1:nrow(full_design)) {
   full_design$item[i] <- paste(full_design$Phone_NOTENG[i],full_design$Phone_ENG[i],sep = "_")
 }
+
+full_design$item <- as.factor(full_design$item)
+
+#the below are dummy values, but must be present for the sampler to work. 
+full_design$response_var <- 1
 
 
 
