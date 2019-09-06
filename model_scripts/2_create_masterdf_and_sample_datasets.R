@@ -15,9 +15,7 @@ MASTER_OUT_CSV <- paste0("master_df_",
 #data sampling vars
 DATA_SUB_FOLDER <- "sampled_data"
 DESIGN_CSV<- "exp_designs/exp_design_hk_144.csv"
-NUM_TRIALS = 144
 NUM_SUBJS = 30 
-
 
 
 ##################
@@ -30,39 +28,41 @@ master_df<- create_masterdf(vars=c("econ","glob","loc"),
                             exp_name= EXPERIMENT_NAME,
                             data_inst= DATA_INSTANCE)
                             
-
 readr::write_csv(master_df, path=MASTER_OUT_CSV)
-
-
-
-
-#FIXME num trials should be = nrow(design csv) 
 
 ####################
 #create csv dataset#
 ####################
+
 design_df <- readr::read_csv(DESIGN_CSV)
+num_trials = nrow(design_df)
 
 colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
 
-
 subjs<- c()
 for (i in 1:NUM_SUBJS) {
-    subjs[i] = rep_len(paste("subject",i,sep = "_"),num_trials) #define numtrials above 
+    subjs[i] = paste("subject",i,sep = "_")
 }
 
-#repeat subjects
+trials <- c()
 
-subs_trials <- expand.grid(subjs, trials)
+for (i in 1:num_trials){
+  trials[i] = paste("trial",i,sep = "_")
+}
+
+subs_trials <- expand.grid(trials,subjs)
 names(subs_trials)<-c("subject","trial")
 
-#THE BELOW IS JUST a dumb way to do rep_len for a df
-rep_design<- design_df[rep(seq_len(nrow(design_df)),# NUMsubjs 100), ]
-                           
-                          
-rep_design <- rep_design[1:(NUM_SUBJS*NUM_TRIALS),
-                         c('Phone_NOTENG','Phone_ENG', 'Econ','Loc','Glob','acoustic_distance')]
 
+rep_design_df<- design_df %>% dplyr::slice(rep(dplyr::row_number(), NUM_SUBJS))
+
+full_design <- dplyr::bind_cols(rep_design_df,subs_trials)
+
+full_design$item <- NA
+
+for (i in 1:nrow(full_design)) {
+  full_design$item[i] <- paste(full_design$Phone_NOTENG[i],full_design$Phone_ENG[i],sep = "_")
+}
 
 
 

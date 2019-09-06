@@ -115,12 +115,10 @@ ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=se_diff)) +
    geom_violin() + 
    xlab("Number of coefficients sampled based on a zero effect")+ 
    scale_x_discrete(limits=c("zero","one","two","three")) 
+```
+
+```{r, echo=FALSE}
 
 
 
 ```
-
-
-
-
-
