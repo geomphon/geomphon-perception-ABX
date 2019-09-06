@@ -52,7 +52,7 @@ but pipeline includes tools to sample multiple)
 hindi_loo_diff <-readr::read_csv("loo_diffs_hindi_dinst2_Sept_2.csv")
 hk_loo_diff<-readr::read_csv("loo_diffs_hk_dinst1_Sept_2.csv")
 
-all_loo_diffs<-dplyr::full_join(hindi_loo_diff,hk_loo_diff) %>%
+all_loo_diffs<-dplyr::bind_rows(hindi_loo_diff,hk_loo_diff) %>%
                dplyr::filter(!is.na(elpd_diff))
 
 all_loo_diffs$elpd_over_se <-NA
@@ -117,8 +117,3 @@ ggplot(all_loo_diffs, aes(x=as.factor(NUM_MATCHES), y=se_diff)) +
    scale_x_discrete(limits=c("zero","one","two","three")) 
 ```
 
-```{r, echo=FALSE}
-
-
-
-```
