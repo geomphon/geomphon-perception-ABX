@@ -10,6 +10,7 @@ import scipy
 
 import shennong.features.pipeline as snpipeline
 from fastdtw import fastdtw
+from joblib import Parallel, delayed
 
 
 def eprint(*args, **kwargs):
@@ -93,7 +94,8 @@ def get_item(features, utterance_id, onset, offset):
 def calculate_distances(pairs,
                         features,
                         utterance_ids,
-                        distance_fn=dtw_cosine_mean):
+                        distance_fn=dtw_cosine_mean,
+                        njobs=1):
     '''Calculate distances between given pairs.
     
     :param pairs: Pairs to be calculated
@@ -109,32 +111,29 @@ def calculate_distances(pairs,
     :return: A list of distance values
     :rtype: list
     '''
-    return [distance_fn(get_item(features,
-                                 utterance_ids[(pairs.iloc[i].loc['file_1'],
-                                  pairs.iloc[i].loc['speaker_1'])],
-                                 pairs.iloc[i].loc['onset_1'],
-                                 pairs.iloc[i].loc['offset_1']),
-                        get_item(features,
-                                 utterance_ids[(pairs.iloc[i].loc['file_2'],
-                                  pairs.iloc[i].loc['speaker_2'])],
-                                 pairs.iloc[i].loc['onset_2'],
-                                 pairs.iloc[i].loc['offset_2'])) \
-            for i in range(len(pairs))]
+    return Parallel(n_jobs=njobs)(
+        delayed(distance_fn)(
+            get_item(features, utterance_ids[(pairs.iloc[i].loc['file_1'],
+                               pairs.iloc[i].loc['speaker_1'])],
+                               pairs.iloc[i].loc['onset_1'],
+                               pairs.iloc[i].loc['offset_1']),
+            get_item(features, utterance_ids[(pairs.iloc[i].loc['file_2'],
+                               pairs.iloc[i].loc['speaker_2'])],
+                               pairs.iloc[i].loc['onset_2'],
+                               pairs.iloc[i].loc['offset_2'])) 
+        for i in range(len(pairs)))
 
 
 def BUILD_ARGPARSE():
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument('--njobs', help="Number of parallel jobs", type=int)
     parser.add_argument('pair_file', help="Pair file", type=str)
     parser.add_argument('shennong_config_file',
                         help="Shennong feature extraction config file",
                         type=str)
-    parser.add_argument('output_file',
-                        nargs='?',
-                        help="Output file",
-                        type=str,
-                        default=None)
+    parser.add_argument('output_file', help="Output file", type=str)
     return parser
 
 
@@ -148,6 +147,7 @@ if __name__ == "__main__":
             "<F>", str(args.pair_file)).replace("<M>",
                                                 str(e)).replace("\n", " "))
         sys.exit(1)
+    
 
     items_1 = pairs[[
         c for c in pairs.columns if len(c) > 2 and c[-2:] == "_1"
@@ -174,11 +174,7 @@ columns don't match""".replace("<F>", str(args.pair_file)))
 
     features = snpipeline.extract_features(args.shennong_config_file,
                                            utterance_index,
-                                           njobs=3)
-    distances = calculate_distances(pairs, features, utterance_ids)
-    pairs['distance'] = distances
-
-    if args.output_file is None:
-        pairs.to_csv(sys.stdout, index=False)
-    else:
-        pairs.to_csv(args.output_file, index=False)
+                                           njobs=args.njobs)
+    pairs['distance'] = calculate_distances(pairs, features, utterance_ids,
+                                            njobs=args.njobs)
+    pairs.to_csv(args.output_file, index=False)

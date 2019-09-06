@@ -1,157 +1,59 @@
-all: triplet_creation/triplet_list.csv \
-stimlist/stimuli_intervals \
-stimulus_list.csv \
-stimlist/item_meta_information_with_distances.csv \
-anonymize_data \
-split_output_to_results_files \
-filter_data
+all: stimuli_triplets results.csv
 
-
-tmp:
-	mkdir -p tmp
-
-tmp/ABX_ITEM_FILE.csv: tmp
+abx_intervals.txt: 
 	python ../../src/textgrid_to_abx_item_file_word.py word \
-raw_data/textGrid/ \
-raw_data/wav/ \
---excluded-words=SAY,AGAIN,sp0 > tmp/ABX_ITEM_FILE.csv 
+stimuli_raw/textGrid/ stimuli_raw/wav/ > abx_intervals.txt
 
-tmp/ABX_ITEM_FILE_COMPLETE.csv: tmp/ABX_ITEM_FILE.csv
-	Rscript --vanilla triplet_creation/add_meta_information_to_item_file.Rscript \
-tmp/ABX_ITEM_FILE.csv triplet_creation/phoneme_info.csv tmp/ABX_ITEM_FILE_COMPLETE.csv
+intervals.csv: abx_intervals.txt
+	Rscript --vanilla add_meta_information_to_item_file.Rscript abx_intervals.txt \
+phoneme_info.csv intervals.csv
 
-triplet_creation/triplet_list.csv: tmp/ABX_ITEM_FILE_COMPLETE.csv
-	python triplet_creation/generate_triplets.py \
+all_triplets.csv.gz: intervals.csv
+	python generate_triplets.py \
 --constraints-ab='(language_TGT!=language_OTH)&(language_TGT==language_TGT)&(language_OTH==language_OTH)&(sex_TGT==sex_OTH)' \
---constraints-ax='(sex_TGT!=sex_X)' \
-tmp/ABX_ITEM_FILE_COMPLETE.csv \
-triplet_creation/triplet_list.csv
+--constraints-ax='(sex_TGT!=sex_X)' intervals.csv all_triplets.csv \
+&& bzip2 all_triplets.csv
 
-tmp/ITEM_META_INFORMATION.csv: triplet_creation/triplet_list.csv
-	Rscript --vanilla distances/combine_triplet_meta_information.Rscript \
-stimlist/stimulus_list.csv triplet_creation/triplet_list.csv tmp/ITEM_META_INFORMATION.csv
+design.csv: all_triplets.csv.gz
+	bunzip2 -k all_triplets.csv \
+&& python optimize_design.py --desired-energy .0001 --seed 3004 \
+all_triplets.csv design.csv \
+&& rm all_triplets.csv
 
-distances/tmp:
-	mkdir -p distances/tmp
+pairs.csv: design.csv 
+	Rscript --vanilla triplets_to_pairs.Rscript design.csv pairs.csv
 
-distances/tmp/PAIRS_TMP.csv:  tmp/ITEM_META_INFORMATION.csv distances/tmp
-	Rscript --vanilla distances/prepare_stimuli_for_distance_calculation_aug.Rscript \
-tmp/ITEM_META_INFORMATION.csv raw_data distances/tmp/PAIRS_TMP.csv
+distances_by_pair.csv: pairs.csv
+	python ../../src/wav_to_distance.py --njobs 4 pairs.csv \
+mfcc_config_shennong.yaml distances_by_pair.csv
 
-distances/tmp/distances__normed_filterbank__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 44100 $@
+triplets.csv: distances_by_pair.csv
+	Rscript --vanilla distance_pairs_to_triplets.Rscript \
+distances_by_pair.csv triplets.csv
 
-distances/tmp/distances__unnormed_filterbank__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py distances/tmp/PAIRS_TMP.csv 44100 $@
+stimuli_intervals: intervals.csv 
+	python save_intervals_to_wavs.py intervals.csv stimuli_intervals 
 
-distances/tmp/distances__normed_mfcc__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --nceps=13 --normalize-by-speaker distances/tmp/PAIRS_TMP.csv 44100 $@
+stimuli_triplets: stimuli_intervals triplets.csv
+	python save_triplets_to_wavs.py triplets.csv stimuli_intervals \
+stimuli_triplets 
 
-distances/tmp/distances__unnormed_mfcc__dtw_pathlength__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --nceps=13 distances/tmp/PAIRS_TMP.csv 44100 $@
+lmeds_output/raw: 
+	mkdir -p lmeds_output_raw && python \
+../../src/anonymize_lmeds_data_filenames.py ${RAW_DATA_PATH} lmeds_output/raw \
+${ANON_KEY_PATH}
 
-distances/tmp/distances__normed_filterbank__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --normalize-by-speaker --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 44100 $@
+lmeds_output/csv: lmeds_output/raw
+	mkdir -p lmeds_output/csv && python split_output_to_results_files.py \
+lmeds_output/raw lmeds_output/raw/responses.csv \
+lmeds_output/raw/presurvey.csv lmeds_output/raw/postsurvey.csv \
+lmeds_output/raw/postsurvey2.csv
 
-distances/tmp/distances__unnormed_filterbank__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 44100 $@
+results.csv: lmeds_output/csv triplets.csv
+	Rscript --vanilla preprocess.Rscript lmeds_output/csv/presurvey.csv \
+lmeds_output/csv/results.csv lmeds_output/csv/postsurvey.csv \
+lmeds_output/csv/postsurvey2.csv triplets.csv results.csv
 
-distances/tmp/distances__normed_mfcc__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --normalize-by-speaker --nceps=13 --distance-function=dtw_euclidean distances/tmp/PAIRS_TMP.csv 44100 $@
-
-distances/tmp/distances__unnormed_mfcc__dtw_sum__by_pair.csv: distances/tmp/PAIRS_TMP.csv
-	python ../../src/wav_to_distance.py --nceps=13 --distance-function=dtw_euclidean  distances/tmp/PAIRS_TMP.csv 44100 $@
-
-distances/distances__%.csv: distances/tmp/distances__%__by_pair.csv
-	Rscript --vanilla \
-distances/reshape_result_of_distance_calculation_aug.Rscript \
-$< stimuli $@
-
-distances: distances/distances__normed_filterbank__dtw_pathlength.csv \
-distances/distances__unnormed_filterbank__dtw_pathlength.csv \
-distances/distances__normed_mfcc__dtw_pathlength.csv \
-distances/distances__unnormed_mfcc__dtw_pathlength.csv \
-distances/distances__normed_filterbank__dtw_sum.csv \
-distances/distances__unnormed_filterbank__dtw_sum.csv \
-distances/distances__normed_mfcc__dtw_sum.csv \
-distances/distances__unnormed_mfcc__dtw_sum.csv \
-clean-distances-tmp
-
-stimlist/stimulus_list.csv: stimlist/design.csv 
-	python stimlist/generate_design.py 4 18 10 1 0 1 2 3 4 5 8000 0.00001 24 stimlist/design.csv
-
-stimlist/item_meta_information_with_distances.csv: distances
-	Rscript --vanilla \
-distances/merge_distances.Rscript \
-stimlist/item_meta_information.csv \
-stimlist/item_meta_information_with_distances.csv \
-distances/distances__*.csv
-
-stimlist/stimuli_intervals:
-	python stimlist/save_intervals_to_wavs.py word stimlist/stimuli_intervals \
-stimlist/meta_info_filelist.csv \
-raw_data/textGrid/Mnirbhay1.TextGrid,raw_data/wav/Mnirbhay1.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Mnirbhay2.wav \
-raw_data/textGrid/Fsakshi1.TextGrid,raw_data/wav/Fsakshi1.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Fsakshi2.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Fbhavya1.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Fbhavya2.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/FNiralee1.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/FNiralee2.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Mrajesh1.wav \
-raw_data/textGrid/Mnirbhay2.TextGrid,raw_data/wav/Mrajesh2.wav \
-
-
-#NB- this step ONLY takes absolute paths to raw data files. raw data files contain
-#personally identifiable information and  should never be shared or synced to git 
-anonymize_data: 
-	python anonymize_lmeds_data_filenames.py \
-/Users/post-doc/Desktop/output \
-/Users/post-doc/Documents/GitHub/geomphon-perception-ABX/experiments/pilot_May_2019/anon_output \
-/Users/post-doc/Desktop/anon_key.csv
-
-split_output_to_results_files: anon_output
-	python anonymize_data/split_output_to_results_files.py \
-anon_output/ \
-anon_output/results.csv \
-anon_output/presurvey.csv \
-anon_output/postsurvey.csv \
-anon_output/postsurvey2.csv
-
-filter_data: distances/item_meta_information_with_distances.csv
-	Rscript --vanilla results/analysis_step1_preprocess_May_2019_pilot.Rscript \
-anon_output/presurvey.csv \
-anon_output/results.csv \
-anon_output/postsurvey.csv \
-anon_output/postsurvey2.csv \
-distances/item_meta_information_with_distances.csv \
-results/geomphon_pilot_results_for_analysis.csv
-
-clean-design:
-	rm stimlist/design.csv
-
-clean-stimulus-list:
-	rm stimlist/stimulus_list.csv
-
-clean-distances-tmp:
-	rm -rf distances/tmp
-
-clean-distances: clean-distances-tmp
-	rm -f distances/distances_*.csv
-
-clean-stimuli-intervals:
-	rm -rf raw_data/stimuli_intervals
-
-clean-stimuli-construction: clean-stimuli-intervals
-
-clean-tmp:
-	rm -rf tmp
-clean-all: clean-design \
-clean-stimulus-list \
-clean-distances-tmp \
-clean-distances \
-clean-stimuli_intervals \
-clean-stimuli-construction
 
 
 
