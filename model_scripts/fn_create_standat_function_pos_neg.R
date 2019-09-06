@@ -29,7 +29,7 @@ create_standat <- function(data_file, pos_vars, neg_vars) {
   
   dep_var <- dataset[["response_var"]]
   subj_var <- dataset[["subject"]]
-  item_var <- dataset[["trial"]]
+  item_var <- dataset[["item"]]
   
   
   stan_list<- list(accuracy=as.integer(dep_var),
