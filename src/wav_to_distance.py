@@ -164,7 +164,7 @@ columns don't match""".replace("<F>", str(args.pair_file)))
     if not set(['file', 'onset', 'offset', 'speaker']).issubset(
             items_1.columns):
         eprint("""Issue with pair file (<F>): missing 'file', 'speaker',
-'onset', and 'offset' columns""".replace("<F>", str(args.pair_file)))
+'onset', or 'offset' column(s)""".replace("<F>", str(args.pair_file)))
         sys.exit(1)
     items = pd.concat([items_1, items_2], sort=True).drop_duplicates()
     file_spk_ = items[['file', 'speaker']].drop_duplicates()
