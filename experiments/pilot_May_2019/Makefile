@@ -8,14 +8,14 @@ intervals.csv: abx_intervals.txt
 	Rscript --vanilla add_meta_information_to_item_file.Rscript abx_intervals.txt \
 phoneme_info.csv intervals.csv
 
-all_triplets.csv.gz: intervals.csv
+all_triplets.csv.bz2: intervals.csv
 	python generate_triplets.py \
---constraints-ab='(language_TGT!=language_OTH)&(language_TGT==language_TGT)&(language_OTH==language_OTH)&(sex_TGT==sex_OTH)' \
+--constraints-ab='(language_TGT!=language_OTH)&(language_TGT==language_TGT)&(language_OTH==language_OTH)&(sex_TGT==sex_OTH)&(speaker_TGT!=speaker_OTH)' \
 --constraints-ax='(sex_TGT!=sex_X)' intervals.csv all_triplets.csv \
 && bzip2 all_triplets.csv
 
-design.csv: all_triplets.csv.gz
-	bunzip2 -k all_triplets.csv \
+design.csv: all_triplets.csv.bz2
+	bunzip2 -k all_triplets.csv.bz2 \
 && python optimize_design.py --desired-energy .0001 --seed 3004 \
 all_triplets.csv design.csv \
 && rm all_triplets.csv

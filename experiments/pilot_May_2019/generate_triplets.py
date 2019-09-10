@@ -56,18 +56,15 @@ soundsdf_b = add_suffix(remove_hash(soundsdf[:]), "_OTH")
 soundsdf_x = add_suffix(remove_hash(soundsdf[:]), "_X")
 
 soundsdf_ab = cart_prod(soundsdf_a, soundsdf_b)\
-        .query("speaker_TGT != speaker_OTH")\
         .query("phone_TGT != phone_OTH")
 if args.constraints_ab is not None:
     soundsdf_ab = soundsdf_ab.query(args.constraints_ab)
 soundsdf_ax = cart_prod(soundsdf_a, soundsdf_x)\
-        .query("speaker_TGT != speaker_X")\
         .query("phone_TGT == phone_X")
 if args.constraints_ax is not None:
     soundsdf_ax = soundsdf_ax.query(args.constraints_ax)
 
-soundsdf_abx = pd.merge(soundsdf_ab, soundsdf_ax)\
-        .query("speaker_OTH != speaker_X") # Risks running out of memory
+soundsdf_abx = pd.merge(soundsdf_ab, soundsdf_ax) # Risks running out of memory
 
 triplet_ixs = range(1, len(soundsdf_abx) + 1)
 digits = len(str(triplet_ixs[-1]))
