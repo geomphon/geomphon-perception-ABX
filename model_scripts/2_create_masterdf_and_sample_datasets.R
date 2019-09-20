@@ -4,8 +4,8 @@
 `%>%`<-magrittr::`%>%`
 
 #master df vars
-EXPERIMENT_NAME<- "hk"
-DATA_INSTANCE <- "dinst2"
+EXPERIMENT_NAME<- "fake_grid"
+DATA_INSTANCE <- "dinst1"
 MASTER_OUT_CSV <- paste0("master_df_",
                          EXPERIMENT_NAME,
                          "_",
@@ -14,8 +14,8 @@ MASTER_OUT_CSV <- paste0("master_df_",
 
 #data sampling vars
 DATA_SUB_FOLDER <- "sampled_data"
-DESIGN_CSV<- "exp_designs/exp_design_hk_144.csv"
-NUM_SUBJS = 30 
+DESIGN_CSV<- "exp_designs/fake_grid.csv"
+NUM_SUBJS = 30
 
 
 ##################
@@ -40,15 +40,14 @@ num_trials = nrow(design_df)
 colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
 
 subjs<- c()
-for (i in 1:NUM_SUBJS) {
+  for (i in 1:NUM_SUBJS) {
     subjs[i] = paste("subject",i,sep = "_")
-}
+  }
 
 trials <- c()
-
-for (i in 1:num_trials){
-  trials[i] = paste("trial",i,sep = "_")
-}
+  for (i in 1:num_trials){
+    trials[i] = paste("trial",i,sep = "_")
+  }
 
 subs_trials <- expand.grid(trials,subjs)
 names(subs_trials)<-c("subject","trial")
@@ -79,23 +78,30 @@ source(sample_binary_four)
 
 coef_dist <- -.1784  #effect of acoustic distance. taken from pilot data 
 
-uniq_filenames <- unique(master_df$csv_filename)
+corr_mods <-subset(master_df, master_df$is_correct_model=="TRUE")
+uniq_filenames<-unique(master_df$csv_filename)
 
-
-for (i in 1:length(uniq_filenames)){
+for (i in 1:nrow(corr_mods)){
   
-  data_i <- sample_binary_four(d = full_design,
+    data_i <- sample_binary_four(d = full_design,
                               response_var = "response_var",
                               predictor_vars = c("Econ",
                                                  "Glob",
                                                  "Loc",
                                                  "acoustic_distance"),
-                              coef_values = c(master_df$d_coef_econ[i],
-                                              master_df$d_coef_glob[i],
-                                              master_df$d_coef_loc[i],
+                              
+                              ##########
+                              ######
+                              ###THATS the effing problem!!! 
+                              coef_values = c(
+                                              corr_mods$d_coef_econ[i],
+                                              corr_mods$d_coef_glob[i],
+                                              corr_mods$d_coef_loc[i],
                                               coef_dist),
+                              
                               intercept = 1.3592
                               )
+  
     readr::write_csv(data_i,path = paste0(DATA_SUB_FOLDER,"/",uniq_filenames[i]))
 }
 
