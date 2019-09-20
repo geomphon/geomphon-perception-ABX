@@ -3,7 +3,7 @@
 #'
 #' @param d A data frame
 #' @param response_var The name of a column in `d` containing only 0 and 1
-#' @param predictor_vars The name of four columns in `d`
+#' @param predictor_vars The name of three columns in `d`
 #' @param coef_values The coefficient value to use for sampling
 #' @param intercept a numeric. value of intercept
 #' 
@@ -46,7 +46,7 @@ sample_binary_three <- function(d, response_var, predictor_vars, coef_values,int
   m$coefficients[predictor_vars[2]] <- coef_values[2]
   m$coefficients[predictor_vars[3]] <- coef_values[3]
 
-  
+
   pred_prob <- predict(m, type="response", newdata=d)
   for (i in 1:nrow(d)){
     d[[response_var]][i] <- sample(c(0,1), 1,

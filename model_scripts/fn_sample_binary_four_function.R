@@ -40,11 +40,7 @@ sample_binary_four <- function(d, response_var, predictor_vars, coef_values,inte
              as.character(predictor_vars[4]),
              sep="")
   
-  #FIXME add beta binomial regression or other model with more noise
-  #to better mimic real data 
-  
-  #FIXME be able to add the intercept 
-  
+
   #1.3592 on logit scale 
   
   m <- glm(formula(f), data=d, family="binomial", maxit = 100)

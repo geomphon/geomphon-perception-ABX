@@ -3,12 +3,15 @@
 
 `%>%` <- magrittr::`%>%`
 
-EXP_DATA_COMB <- "fake_grid_dinst5" # e.g. hindi_dinst1",
-########
-#glm 
-########
+EXP_DATA_COMB <- "hindi_dinst6" # e.g. hindi_dinst1",
 
-      master_df <-readr::read_csv(paste0("master_df_",EXP_DATA_COMB,".csv"))
+
+######
+#glm 
+######
+
+
+      master_df <-readr::read_csv(paste0("../master_df_",EXP_DATA_COMB,".csv"))
       
       corr_master <- subset(master_df, master_df$is_correct_model==TRUE)
       
@@ -19,14 +22,14 @@ EXP_DATA_COMB <- "fake_grid_dinst5" # e.g. hindi_dinst1",
       corr_master$Econ_coef_glm <-NA
       corr_master$Glob_coef_glm <-NA
       corr_master$Loc_coef_glm <-NA
-     # corr_master$ac_dist_coef_glm <-NA
-     # corr_master$acoustic_distance <- -.1784 #value of acoustic distance in sampled data
+      corr_master$ac_dist_coef_glm <-NA
+      corr_master$acoustic_distance <- -.1784 #value of acoustic distance in sampled data
       
-      #
+      
       for (i in 1:nrow(corr_master)) {
-        data_list[[i]] <- readr::read_csv(paste0("sampled_data/",corr_master$csv_filename[i]))
+        data_list[[i]] <- readr::read_csv(paste0("../sampled_data/",corr_master$csv_filename[i]))
 
-         mod_list[[i]] <- glm(response_var~Econ+Glob+Loc, #acoustic_distance,
+        mod_list[[i]] <- glm(response_var~Econ+Glob+Loc, #acoustic_distance,
                              family=binomial(),
                              data = data_list[[i]])
 
@@ -35,15 +38,15 @@ EXP_DATA_COMB <- "fake_grid_dinst5" # e.g. hindi_dinst1",
          corr_master$Econ_coef_glm[i]<-sum_list[[i]]$coefficients[2] #Econ
          corr_master$Glob_coef_glm[i]<-sum_list[[i]]$coefficients[3] #glob
          corr_master$Loc_coef_glm[i]<-sum_list[[i]]$coefficients[4] #Loc
-        # corr_master$ac_dist_coef_glm[i]<-sum_list[[i]]$coefficients[5] #acoustic_distance
+         corr_master$ac_dist_coef_glm[i]<-sum_list[[i]]$coefficients[5] #acoustic_distance
       }
       
       
       corr_master<- 
           dplyr::mutate(corr_master,Econ_glm_diff = Econ_coef_glm-d_coef_econ) %>%
           dplyr::mutate(.,Glob_glm_diff = Glob_coef_glm-d_coef_glob) %>%
-          dplyr::mutate(.,Loc_glm_diff = Loc_coef_glm-d_coef_loc) #%>%
-         # dplyr::mutate(.,ac_dist_diff = ac_dist_coef_glm-acoustic_distance)
+          dplyr::mutate(.,Loc_glm_diff = Loc_coef_glm-d_coef_loc) %>%
+          dplyr::mutate(.,ac_dist_diff = ac_dist_coef_glm-acoustic_distance)
       
     
       readr::write_csv(corr_master, paste0("corr_master_",EXP_DATA_COMB,".csv"))
