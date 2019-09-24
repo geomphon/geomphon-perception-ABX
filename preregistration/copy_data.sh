@@ -19,3 +19,6 @@ cp ../experiments/pilot_july_2018/distances_mfcc.csv data_timit_mfcc.csv
 cp ../experiments/pilot_Aug_2018/analysis/geomphon_pilot_results_for_analysis.csv data_lab_human.csv
 cp ../experiments/pilot_Aug_2018/distances_bottleneck.csv data_lab_bottleneck.csv
 cp ../experiments/pilot_Aug_2018/distances_mfcc.csv data_lab_mfcc.csv
+
+# Long triplet file
+cp ../experiments/pilot_May_2019/triplets.csv hindi_design_long.csv
