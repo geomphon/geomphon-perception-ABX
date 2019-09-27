@@ -1,8 +1,10 @@
 ---
 title: "Pre-pre-registration"
-author: "Ewan Dunbar"
-date: "18/09/2019"
-output: html_document
+author: "Ewan Dunbar, Amelia Kimball"
+date: "27/09/2019"
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -156,6 +158,7 @@ pilot_a_by_triplet <- pilot_a %>%
           rbind(1, ratio_mfcc)),
         accuracy_pred_bn_ratio=boot::inv.logit(lme4::fixef(pilot_a_bn_ratio_m) %*%
           rbind(1, ratio_bn)))
+
 pilot_b_by_triplet <- pilot_b %>%
   dplyr::group_by(listener_group, tripletid, delta_bn, delta_mfcc,
                   ratio_bn, ratio_mfcc,
@@ -516,7 +519,159 @@ To be adversarial, the best is probably to assume the worst: assume that the bas
 [...]
 
 ## Selection of stimuli
+Selection of triplet stimuli is based on four things: 
 
+1) acoustic distances 
+     a) distance to target <  distance to other 
+     b) ratio of differences is not so large as to create only ceiling performance
+         --> currently: log ratio is > -.4)
+     
+2) GEOMPHON scores 
+    c) prefer triplest Econ, Glob, Loc as uncorrelated as possible in order to improve model performance 
+    
+3) Domain knowledge 
+    d) rule out stimuli that do not sound good to phoneticians 
+         -->remove velar fricatives, which were not native to our speaker's dialects
+    e) attempt to balance stimuli by linguistic categories 
+         --> sample one instance from each phone pair before further sampling to arrive at 150 stimuli
+         
+4)expeirmental balance
+   f) once all above filters have been applied to select pairs, list of triplets is submitted to 
+   simulated annealar script which will optimize a stimuli list that  has the best combinations 
+   that decorrelate speaker combination from phone pair.
+    
+```{r hindi_stim_selection, echo = FALSE, messages = FALSE}
+hindi_design_long <- readr::read_csv("hindi_design_long.csv")
+hindi_design_long <- dplyr::mutate(hindi_design_long,response_var = 0) %>%
+                     dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>%
+                     dplyr::filter(., phone_TGT != "ɣ"& phone_OTH != "ɣ" & phone_X != "ɣ") %>%
+                     dplyr::filter(., phone_TGT != "x"& phone_OTH != "x" & phone_X != "x")
+
+
+proposed_hindi <- dplyr::filter(hindi_design_long,distance_OTH>distance_TGT) %>%
+                   dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>% 
+                   dplyr::mutate(., log_ratio_distance= log(distance_TGT/distance_OTH))%>%
+                   dplyr::filter(., log_ratio_distance > -.4) %>%
+                   dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
+                                      "_",
+                                      as.character(phone_OTH))) %>%
+                   dplyr::group_by(., phone_pair)%>%
+                   dplyr::sample_n(size = 1) %>%
+                   dplyr::ungroup() %>%
+                   dplyr::sample_n(size = 150)
+                   
+
+```
+
+sample accuracy data based on coefficient drawn from pilot experiments, visualize accuracy vs. distances ratio
+
+```{r proposed_stim_sampling}
+
+mean_intercept <- mean(lme4::fixef(pilot_a_bn_ratio_m)[[1]],
+                       lme4::fixef(pilot_b_bn_ratio_m)[[1]],
+                       lme4::fixef(pilot_c_bn_ratio_m)[[1]])
+
+mean_coef_dist <- mean(lme4::fixef(pilot_a_bn_ratio_m)[[2]],
+                       lme4::fixef(pilot_b_bn_ratio_m)[[2]],
+                       lme4::fixef(pilot_c_bn_ratio_m)[[2]])
+  
+long_hindi_m <- glm(response_var~ratio_distance, data=hindi_design_long, family="binomial", maxit = 100)
+    long_hindi_m$coefficients["(Intercept)"]<- mean_intercept
+    long_hindi_m$coefficients["ratio_distance"] <- mean_coef_dist
+  
+##### repeat design for N subjects and add summary accuracy score
+NUM_SUBJS = 60
+
+long_hindi_subjs<- hindi_design_long[rep(1:nrow(hindi_design_long),NUM_SUBJS),]
+
+    subjs<- c()
+      for (i in (1:NUM_SUBJS)) {
+        subjs[i] = paste("subject",i,sep = "_")
+      }
+
+subjs_rep<-as.data.frame(rep.int(subjs,nrow(hindi_design_long)))
+names(subjs_rep)<-c("subject")
+
+long_hindi_subjs <- dplyr::bind_cols(subjs_rep,long_hindi_subjs)
+
+pred_prob <- predict(long_hindi_m, type="response", newdata=long_hindi_subjs)
+    
+      for (i in 1:nrow(long_hindi_subjs)) {
+          long_hindi_subjs[["response_var"]][i] <- sample(c(0,1), 1,
+                                         prob=c((1-pred_prob[i]), pred_prob[i]))
+        }
+
+
+long_hindi_acc_by_phone_pair <- long_hindi_subjs %>%
+  dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
+                                      "_",
+                                      as.character(phone_OTH))) %>%
+  dplyr::mutate(., log_ratio_distance=log(distance_TGT/distance_OTH)) %>%
+  dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>%
+  dplyr::group_by(.,phone_pair,log_ratio_distance,ratio_distance) %>%
+  dplyr::summarize(accuracy=mean(response_var))
+
+                
+ggplot2::ggplot(long_hindi_acc_by_phone_pair, ggplot2::aes(x=log_ratio_distance, y=accuracy)) +
+  ggplot2::geom_point() +
+  ggplot2::geom_smooth()+
+  ggplot2::geom_vline(xintercept=0.0) +
+  ggplot2::geom_hline(yintercept=0.5) +
+  ggplot2::ggtitle("Log distance ratios versus accuracy by phone pair") +
+  ggplot2::xlab("log (distance ratio)") +
+  ggplot2::ylab("Accuracy") 
+
+
+
+
+prop_hindi_m <- glm(response_var~ratio_distance, data=proposed_hindi, family="binomial", maxit = 100)
+    prop_hindi_m$coefficients["(Intercept)"]<- mean_intercept
+    prop_hindi_m$coefficients["ratio_distance"] <- mean_coef_dist
+  
+##### repeat design for N subjects and add summary accuracy score
+NUM_SUBJS = 60
+
+prop_hindi_subjs<- proposed_hindi[rep(1:nrow(proposed_hindi),NUM_SUBJS),]
+
+    subjs<- c()
+      for (i in (1:NUM_SUBJS)) {
+        subjs[i] = paste("subject",i,sep = "_")
+      }
+
+subjs_rep<-as.data.frame(rep.int(subjs,nrow(proposed_hindi)))
+names(subjs_rep)<-c("subject")
+
+prop_hindi_subjs <- dplyr::bind_cols(subjs_rep,prop_hindi_subjs)
+
+pred_prob <- predict(prop_hindi_m, type="response", newdata=prop_hindi_subjs)
+    
+      for (i in 1:nrow(prop_hindi_subjs)) {
+          prop_hindi_subjs[["response_var"]][i] <- sample(c(0,1), 1,
+                                         prob=c((1-pred_prob[i]), pred_prob[i]))
+        }
+
+prop_hindi_acc_by_phone_pair <- prop_hindi_subjs %>%
+  dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
+                                      "_",
+                                      as.character(phone_OTH))) %>%
+  dplyr::mutate(., log_ratio_distance=log(distance_TGT/distance_OTH)) %>%
+  dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>%
+  dplyr::group_by(.,phone_pair,log_ratio_distance,ratio_distance) %>%
+  dplyr::summarize(accuracy=mean(response_var))
+
+                
+ggplot2::ggplot(prop_hindi_acc_by_phone_pair, ggplot2::aes(x=log_ratio_distance, y=accuracy)) +
+  ggplot2::geom_point() +
+  ggplot2::geom_smooth()+
+  ggplot2::geom_vline(xintercept=0.0) +
+  ggplot2::geom_text(ggplot2::aes(label=phone_pair))+
+  ggplot2::geom_hline(yintercept=0.5) +
+  ggplot2::ggtitle("Log distance ratios versus accuracy by phone pair") +
+  ggplot2::xlab("log (distance ratio)") +
+  ggplot2::ylab("Accuracy") 
+
+
+```
 
 
 ## Final detailed design
