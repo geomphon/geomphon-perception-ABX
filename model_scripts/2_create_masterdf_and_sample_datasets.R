@@ -5,7 +5,7 @@
 
 #master df vars
 EXPERIMENT_NAME<- "fake_grid"
-DATA_INSTANCE <- "dinst1"
+DATA_INSTANCE <- "dinst5"
 MASTER_OUT_CSV <- paste0("master_df_",
                          EXPERIMENT_NAME,
                          "_",
@@ -15,7 +15,7 @@ MASTER_OUT_CSV <- paste0("master_df_",
 #data sampling vars
 DATA_SUB_FOLDER <- "sampled_data"
 DESIGN_CSV<- "exp_designs/fake_grid.csv"
-NUM_SUBJS = 30
+NUM_SUBJS = 1000
 
 
 ##################
@@ -37,7 +37,7 @@ readr::write_csv(master_df, path=MASTER_OUT_CSV)
 design_df <- readr::read_csv(DESIGN_CSV)
 num_trials = nrow(design_df)
 
-colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
+#colnames(design_df)[colnames(design_df)=="Acoustic distance"] <- "acoustic_distance"
 
 subjs<- c()
   for (i in 1:NUM_SUBJS) {
@@ -59,11 +59,11 @@ full_design <- dplyr::bind_cols(rep_design_df,subs_trials)
 
 full_design$item <- NA
 
-for (i in 1:nrow(full_design)) {
-  full_design$item[i] <- paste(full_design$Phone_NOTENG[i],full_design$Phone_ENG[i],sep = "_")
-}
+#for (i in 1:nrow(full_design)) {
+ # full_design$item[i] <- paste(full_design$Phone_NOTENG[i],full_design$Phone_ENG[i],sep = "_")
+#}
 
-full_design$item <- as.factor(full_design$item)
+#full_design$item <- as.factor(full_design$item)
 
 #the below are dummy values, but must be present for the sampler to work. 
 full_design$response_var <- 1
@@ -73,8 +73,13 @@ full_design$response_var <- 1
 ######################
 #sample data and save#
 ######################
-sample_binary_four<-"fn_sample_binary_four_function.R"
-source(sample_binary_four)
+
+#four for hindi, 3 for fake grid
+#sample_binary_four<-"fn_sample_binary_four_function.R"
+#source(sample_binary_four)
+
+sample_binary_three<-"fn_sample_binary_three_function.R"
+source(sample_binary_three)
 
 coef_dist <- -.1784  #effect of acoustic distance. taken from pilot data 
 
@@ -83,21 +88,19 @@ uniq_filenames<-unique(master_df$csv_filename)
 
 for (i in 1:nrow(corr_mods)){
   
-    data_i <- sample_binary_four(d = full_design,
+   # data_i <- sample_binary_four(d = full_design,
+   data_i <- sample_binary_three(d = full_design,
                               response_var = "response_var",
                               predictor_vars = c("Econ",
                                                  "Glob",
-                                                 "Loc",
-                                                 "acoustic_distance"),
-                              
-                              ##########
-                              ######
-                              ###THATS the effing problem!!! 
+                                                 "Loc"),
+                                                #"acoustic_distance"),
+
                               coef_values = c(
                                               corr_mods$d_coef_econ[i],
                                               corr_mods$d_coef_glob[i],
-                                              corr_mods$d_coef_loc[i],
-                                              coef_dist),
+                                              corr_mods$d_coef_loc[i]),
+                                             # coef_dist),
                               
                               intercept = 1.3592
                               )
