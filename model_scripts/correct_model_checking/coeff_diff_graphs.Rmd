@@ -1,0 +1,168 @@
+---
+title: "Correct Model Checking"
+author: "Amelia"
+date: "27/09/2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+This document takes as inputs the "final_corr_master" files created by 
+"build_corr_masters.R"
+```{r read in data, warnings = FALSE, message = FALSE,echo=FALSE}
+
+hindi_dinst1<-readr::read_csv("final_corr_master_hindi_dinst1.csv")
+  hindi_dinst1$numsubjs<-30
+hindi_dinst2<-readr::read_csv("final_corr_master_hindi_dinst2.csv")
+  hindi_dinst2$numsubjs<-30
+hindi_dinst3<-readr::read_csv("final_corr_master_hindi_dinst3.csv")
+  hindi_dinst3$numsubjs<-60
+hindi_dinst4<-readr::read_csv("final_corr_master_hindi_dinst4.csv")
+  hindi_dinst4$numsubjs <- 90
+hindi_dinst5<-readr::read_csv("final_corr_master_hindi_dinst5.csv")
+  hindi_dinst5$numsubjs<- 10
+#hindi_dinst6<-readr::read_csv("corr_master_hindi_dinst6.csv")
+#  hindi_dinst6$numsubjs<- 1000
+#skipping dinst6 because brmses not done running 
+
+  #skipping 1 so that have equal numbers of each 
+hindi_for_hists<-dplyr::bind_rows(hindi_dinst2,
+                                  hindi_dinst3,
+                                  hindi_dinst4,
+                                  hindi_dinst5) 
+
+fake_grid_dinst1<-readr::read_csv("corr_master_fake_grid_dinst1.csv")
+    fake_grid_dinst1$numsubjs  <-30
+fake_grid_dinst2<-readr::read_csv("corr_master_fake_grid_dinst2.csv")
+    fake_grid_dinst2$numsubjs  <-60
+fake_grid_dinst3<-readr::read_csv("corr_master_fake_grid_dinst3.csv")
+    fake_grid_dinst3$numsubjs  <-90
+fake_grid_dinst4<-readr::read_csv("corr_master_fake_grid_dinst4.csv")
+    fake_grid_dinst4$numsubjs <- 10
+fake_grid_dinst5<-readr::read_csv("corr_master_fake_grid_dinst5.csv")
+    fake_grid_dinst5$numsubjs <- 1000
+
+fake_grid_for_hists<-dplyr::bind_rows(fake_grid_dinst1,
+                                      fake_grid_dinst2,
+                                      fake_grid_dinst3,
+                                      fake_grid_dinst4,
+                                      fake_grid_dinst5)
+
+
+```
+
+vizualise the coef differences calculated by glms 
+
+```{r glm diffs, echo=FALSE}
+
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Econ_glm_diff)) +
+    ggplot2::geom_histogram(binwidth = .1,
+                            position="identity",
+                            alpha = 0.4)+
+    ggplot2::scale_x_continuous(limits = c(-10,10))+
+    ggplot2::ggtitle("Econ coef differenece,hindi data,
+                                        calculated by glm, by number of subjects")+
+    ggplot2::facet_grid(numsubjs ~ .)
+
+
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Glob_glm_diff)) +
+    ggplot2::geom_histogram(binwidth = .1,
+                            position="identity",
+                            alpha = 0.4)+
+    ggplot2::scale_x_continuous(limits = c(-10,10))+
+    ggplot2::ggtitle("Glob coef differenece, hindi data,
+                     calculated by glm, by number of subjects")+
+    ggplot2::facet_grid(numsubjs ~ .)
+
+
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Loc_glm_diff)) +
+    ggplot2::geom_histogram(binwidth = .1,
+                            position="identity",
+                            alpha = 0.4)+
+    ggplot2::scale_x_continuous(limits = c(-10,10))+
+    ggplot2::ggtitle("Loc coef differenece, hindi data,
+                                 calculated by glm, by number of subjects")+
+    ggplot2::facet_grid(numsubjs ~ .)
+
+
+
+ggplot2::ggplot(fake_grid_for_hists, ggplot2::aes(x = Econ_glm_diff)) +
+    ggplot2::geom_histogram(binwidth = .1,
+                            position="identity",
+                            alpha = 0.4)+
+    ggplot2::scale_x_continuous(limits = c(-10,10))+
+    ggplot2::ggtitle("Econ coef differenece,fake grid data,
+                     calculated by glm, by number of subjects")+
+    ggplot2::facet_grid(numsubjs ~ .)
+
+
+ggplot2::ggplot(fake_grid_for_hists, ggplot2::aes(x = Glob_glm_diff)) +
+    ggplot2::geom_histogram(binwidth = .1,
+                            position="identity",
+                            alpha = 0.4)+
+    ggplot2::scale_x_continuous(limits = c(-10,10))+
+    ggplot2::ggtitle("Glob coef differenece, fake grid data,
+                     calculated by glm, by number of subjects")+
+    ggplot2::facet_grid(numsubjs ~ .)
+
+
+ggplot2::ggplot(fake_grid_for_hists, ggplot2::aes(x = Loc_glm_diff)) +
+    ggplot2::geom_histogram(binwidth = .1,
+                            position="identity",
+                            alpha = 0.4)+
+    ggplot2::scale_x_continuous(limits = c(-10,10))+
+    ggplot2::ggtitle("Loc coef differenece, fake grid data,
+                     calculated by glm, by number of subjects")+
+    ggplot2::facet_grid(numsubjs ~ .)
+
+
+```
+
+##variability in posterior draws for hindi model 
+these graphs show the sd for each of the 27 correct models for
+each of the four data instances for hindi
+
+plots faceted by number of subjects/data instance
+
+```{r brms_plots_hindi, echo=FALSE}
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = econ_sd)) +
+  ggplot2::geom_histogram(binwidth = .1,position="identity", alpha = 0.4)+
+  ggplot2::scale_x_continuous(limits = c(0,2))+
+  ggplot2::ggtitle("sds of econ posterior")+
+  ggplot2::facet_grid(numsubjs ~ .)
+
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = glob_sd)) +
+  ggplot2::geom_histogram(binwidth = .1,position="identity", alpha = 0.4)+
+  ggplot2::scale_x_continuous(limits = c(0,2))+
+  ggplot2::ggtitle("sds of glob posterior")+
+  ggplot2::facet_grid(numsubjs ~ .)
+
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = econ_sd)) +
+  ggplot2::geom_histogram(binwidth = .1,position="identity", alpha = 0.4)+
+  ggplot2::scale_x_continuous(limits = c(0,2))+
+  ggplot2::ggtitle("sds of loc posterior")+
+  ggplot2::facet_grid(numsubjs ~ .)
+
+```
+
+rhats for hindi models -- 
+
+```{r brms_hindi_rhats, echo=FALSE}
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Econ_brms_rhat)) +
+  ggplot2::geom_histogram(binwidth = .1,position="identity", alpha = 0.4)+
+  ggplot2::scale_x_continuous(limits = c(0,2))+
+  ggplot2::ggtitle("rhats of econ")+
+  ggplot2::facet_grid(numsubjs ~ .)
+
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Glob_brms_rhat)) +
+  ggplot2::geom_histogram(binwidth = .1,position="identity", alpha = 0.4)+
+  ggplot2::scale_x_continuous(limits = c(0,2))+
+  ggplot2::ggtitle("rhats glob")+
+  ggplot2::facet_grid(numsubjs ~ .)
+
+ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Loc_brms_rhat)) +
+  ggplot2::geom_histogram(binwidth = .1,position="identity", alpha = 0.4)+
+  ggplot2::scale_x_continuous(limits = c(0,2))+
+  ggplot2::ggtitle("rhats  loc")+
+  ggplot2::facet_grid(numsubjs ~ .)
+
+```
