@@ -5,8 +5,9 @@
 ##########################
 ARGS <- commandArgs(TRUE)
 
-EXPERIMENT <- ARGS[1]# "hindi""fake_grid"#
-DATA_INST <- ARGS[2] #"dinst5""dinst1" #
+EXPERIMENT <- ARGS[1] #"fake_grid"#"hindi"
+DATA_INST <- ARGS[2] #"dinst1" #"dinst5"
+FORMULA <- ARGS[3] #"response_var ~ Econ + Glob + Loc + (1|subject)"#
 
 corr_master<-readr::read_csv(paste0("corr_master_",
                                     EXPERIMENT,
@@ -30,7 +31,7 @@ for (i in c(1:nrow(corr_master))){
   brms_data <- readr::read_csv(paste0("../sampled_data/",corr_master$csv_filename[i]))
   
   brms_mods[[i]] = brms::brm(
-    response_var ~ Econ + Glob + Loc + (1|subject) + (1|trial),
+    as.formula(FORMULA),
     data = brms_data,
     family = 'bernoulli',
     prior = brms::set_prior('normal(0, 10)'),
