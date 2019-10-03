@@ -1,0 +1,160 @@
+---
+title: "Pre-registration_Geomphon_hindi"
+author: "Amelia"
+date: "03/10/2019"
+output: html_document
+---
+
+# Letter 
+
+#### A brief scientific case for consideration
+
+This study is _____
+
+#### Ethics approval  and funding 
+the study has been approved by  the Comité d’Éthique de la Recherche as of June 13, 2019.  The study is funded by the Agence National de Récherche grant number _____.   Web hosting will be provided by the Laboratoire de Linguistique Formelle.  The study is ready to commence immediately. 
+
+#### anticipated timeline
+
+#### we opt/ do not opt for Open Peer Review 
+We agree to participate in the Open Peer Review system. 
+#### registration on OSF 
+following Stage 1 in principle acceptance, we agree to register the approved protocol on the Open Science Framework (https://osf.io/) either publicly or under private embargo until submission of the Stage 2 manuscript.
+#### Withdrawl
+if the authors withdraw their paper following in principle acceptance, they agree to Collabra: Psychology publishing a short summary of the pre-registered study on its Registered Reports OSF page under a headline Withdrawn Registrations.
+
+#### Suggested appropriate or opposed Editors and Reviewers 
+
+
+
+
+
+# Introduction
+### background and literature review
+Over a lifetime of speech perception, humans fine-tune their sensitivity to phonetic differences that are contrastive in their native language.  When listeners learn a new phone, be it a phone from a new language or a variant they have not previously encountered, they are faced with the task of perceiving new sounds with a perceptual system that is tuned to their native language.   There is, of course,  extensive research investigating precisely how this is accomplished. In formal models of language learning such as the Speech Learning Model (Flege) and the Perceptual Assimilation Model (Best,1995, Best & Tyler 2007), an important concept that has arisen from past work is the distance of the new sound to the nearest sound in the native inventory.  New sounds that will be hard to discriminate from an old sound that is close, and easier to discriminate from an old sound that is farther away.
+
+This "distance" is defined in different ways: principally, as either an objective acoustic distance measured on some element of an acoustic signal, or as a perceptual distance which can be measured through discrimination tasks. However, a narrow focus on the distance between one old sound and one new sound ignores the crucial fact that phonetic space is crowded for most sound inventories.   A new sound which is "near" to one old sound may be "far" from other sounds, and if a distribution or category develops and changes over time, a move "farther" from one sound is likely to be "nearer" to another sound. 
+
+We argue that perception of a phone involves not just the process of comparing the new sound to the nearest old sound, but also as the process of adding new sounds into an already established inventory.  In particular, we are interested in how an inventory would change if the new sound is incorporated. It has been shown previously that inventories are not random in their shape _______ Dunbar & Dupoux(citations).  Dunpar & Doupoux develop three measurements which encompass these values, .  the measurements are based on discrete features determined by _____ So far no empirical study has measured the 
+
+In this project, we collect discrimination data from an ABX task in which listeners discriminate pairs of sounds.  We measure the distance between the sounds both using acoustic measures and also the degree to which a native inventory would change in geometry if the new sounds were incorporated.  We use French and English speakers, listening to unfamiliar Hindi sounds.  
+
+
+### Experimental aims 
+The experiment aims to compare the extent to which geomphon scores are predictive of acoustic distance, and compare this to the effect of acoustic distance.
+
+### Hypotheses 
+H1) We hypothesize that, as previous research has shown, a pair of sounds that are farther apart in acoustic distance will be easier to tell apart then sounds that are very close in acoustic distance. 
+
+H2) We hypothesize that geomphon scores will be predictive of discimination accuracy, above and beyond the effect of acoustic distance.   
+
+
+# Method
+
+
+
+
+### sample 
+#### population 
+ Participants will be recruited in three venues: 
+  1) English speaking participants will be recruited on Amazon Mechanical Turk, with qualifications set to:
+      -location is US 
+      -approval rate 95% or higher 
+      -have ocmplete 100 HITs
+      
+  2) French speaking paricipants will be recruited recruited on Amazon Mechanical Turk, with qualifications set to:
+      -location is US 
+      -approval rate 95% or higher 
+      -have ocmplete 100 HITs
+  3) French speaking participants will also be recruited through ___
+  
+      
+#### inclusion and exclusion criteria
+Each participant will answer a demographic survey designed to determine their .  To incentivize truthful behavior, all participants will be paid regardless of their answers. 
+
+Participants will be excluded if they meet any of the following criteria:  
+
+Demographics:
+1) They answer "Yes" to question "Do you have any problems with your hearing or vision, other than glasses?"
+2) They answer "Yes" to question "Have you been diagnosed with a speech or language impairment?"
+3) They answer "Yes" to question "Have you ever taken a linguistics course?"
+4) Their answer to the question "Do you have an idea about what we might have been investigating?" indicates that they were aware of ______
+
+5) They indicate they have proficiency in another language 
+6) they indicate they have high experience in another language 
+7) they indicate they have both medium proficiency and medium experience in another language
+
+Performance:
+8)Their performance is not significantly different from chance, as determined by___ 
+9)Their performance is not significantly different from ceiling, as determined by___
+
+all data from all subjects that meet the above criteria will be included in the analysis. 
+
+We will run N subjects (the total goal number, based on power analysis below), and then run the above analyses to determine the number of subjects that pass all criteria.  We will then run batches of size (N-number who have already passed criteria) until we reach N subjects.  Each batch of data will be posted to OSF in raw, anonymized format on the day of collection. 
+
+
+
+#### number of subjects 
+
+
+
+### stimuli 
+ Procedure for recording of stimuli: 
+ 
+ 
+ Choice of unfamiliar language 
+ Choice of sound pairs 
+ 
+ choice of specific "triplets"  (i.e. ABX combinations in a certain order with certain speakers.)
+ 
+ 
+
+### experimental procedure
+Participants will be .  exact code to launch a direct replication, including all demographic surveys, can be found here ___PERSISTENT URL
+
+Participants will first .  
+
+Stimuli will be presented in "triplets", meaning ABX recordings. 
+A description of study procedures in sufficient detail to allow another researcher to repeat the methodology exactly, without requiring further information. These procedures must be adhered to exactly in the subsequent experiments or any Stage 2 manuscript will be summarily rejected. Please note that reviewers at Stage 1 will be asked to specifically consider whether the stated study procedures contain sufficient detail to prevent undisclosed procedural flexibility.
+Proposed analysis pipeline, including all preprocessing steps, and a precise 
+ 
+# Results 
+
+Results will take the form of _____
+
+# Analysis 
+
+#Preprocessing 
+
+# reality checks 
+Full descriptions must be provided of any outcome-neutral criteria that are required for successful testing of the stated hypotheses. Such ‘reality checks’ might include the absence of floor or ceiling effects, or positive controls. Please note that reviewers will be asked to judge whether the manuscript includes sufficient specification of reality checks.
+
+# models  Any covariates or regressors must be stated.
+
+Consistent with the guidelines of Simmons et al. (2011), proposed analyses involving covariates must be reported with and without the covariate(s) included.
+
+
+We will determine whether there is an effect by ___
+
+We will determine the relative size of effect by comparing the coefficients returned by the model. 
+
+
+# Interpretation of results
+Interpretative plan, including specification of which outcomes will be interpreted as support or disconfirmation of the proposed hypotheses, for each of the proposed analyses. In each case, authors should include a statement of what result would be taken as consistent with the prediction, what result would be taken as disconfirmation, and what result (if any) would be taken as inconclusive.
+
+
+1) geomphon features and acosutic distance are both predictive of discrimination, and equally so.
+    We will in
+2) geomphon features and acoustic distance are both predictive of discrimination, but geomphon features are a better fit to discrimination data. 
+   We will interpret this to mean ____
+3) geomphon features and acoustic distance are both predictive of discrimination, but acoustic distance is a better fit to discrimination data. 
+   We will interpret this to mean ____
+4) acoustic distance, but not geomphon features is predictive of discrimination 
+5) geomphon features, but not acoustic distance are predictive of discrimination  
+ We will interpret this as a failure to replicate the well-known effect of acoustic distance, and therefore a failure of the experimental protocol. 
+6) neither acoustic distance nor geomphon features are predictive of discrimination 
+ We will interpret this as a failure to replicate the well-known effect of acoustic distance, and therefore a failure of the experimental protocol. 
+ 
+ #timeline 
+ Timeline for completion of the study and proposed resubmission date if registration review is successful. Extensions to this deadline can be negotiated with the action editor.
+
