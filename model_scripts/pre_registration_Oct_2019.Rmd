@@ -119,7 +119,7 @@ We can see that the distribution approaches zero as the number of subjects incre
 Because this experiment aims to tease apart the effects of acoustic distance and each of the geomphon scores, it was important to find a language that has sounds that are both familiar and unfamiliar. For practical reasons our discrimination experiments are to be run with English and French listeners, and therefore it was necessary to find a language which has some sounds that are similar to sounds in the inventory of French and English, and some sounds that are highly dissimilar. In addition, the unfamilar sounds should involve the best spread of each geomphon score, as well as acoustic distances. 
 
 **we chose consonants rather than vowels because??**
-Geomphon scores are based on phonological features, which are defined for the subsets of either vowels or consonants in an inventory.  While it would be possible to calculate these scores for a space including both consonants and vowels, we decided that this was not productive because.  Antoher way to put this is that the different fatures appliedd to consonants and vowels capture an intuitive insight: that consonants and vowels are fundamentally different.  Practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. 
+Geomphon scores are based on phonological features, which are defined for the subsets of either vowels or consonants in an inventory.  While it would be possible to calculate these scores for a space including both consonants and vowels, we decided that this was not productive because.  Anotherer way to put this is that the different features applied to consonants and vowels capture an intuitive insight: that consonants and vowels are fundamentally different.  Practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. 
 
 Dunbar and Dupoux calculated Geomphon scores for **N** languages and the feature matrices used to do this are available **here**  Using these matrices, we identified a list of languages that  **criteria**.  Of the languages on this list, Hindi was chosen because it was a language that has many consonants that are familiar to French and English speakers **examples**, and also many that are unfamiliar (in particular, retroflex sounds).  It was also a language for which we would be able to recruit speakers in France and the United States. 
  **other reasons we chose Hindi? other details about how this happened?**
@@ -137,16 +137,17 @@ All textgrids were hand checked  and ajusted for accuracy, and all splice points
  
 #### procedure for building and selecting stimuli 
  
-Each stimulus tests one pair of phonemes.  One member of the pair is a familiar sound, and one member is an unfamiliar sound.   Note that the "familiar" sounds were hindi sounds spoken by the hindi speakers.  However, these were sounds such as /d/ or /z/ that are (according to the IPA) also included in both French and English.  The unfamiliar sounds, on the other hand, were sounds such as /dʒʰ/, /bʰ/, or /ɖ,/ which are not included in the inventory of either English or French. 
+Each stimulus tests one pair of phonemes.  One member of the pair is a familiar sound, and one member is an unfamiliar sound.  It is important to clarify that the "familiar" sounds were hindi sounds spoken by the hindi speakers.However, these were sounds such as /d/ or /z/ that are (according to the IPA) also included in both French and English. The rationale for this is 
+**NEED JUSTIFICATION FOR THIS**
+
+The unfamiliar sounds, on the other hand, were sounds such as /dʒʰ/, /bʰ/, or /ɖ,/ which are not included in the inventory of either English or French. 
 
 **stumuli selection section from other rmd goes here**
 
-for a pair of phonemes PQ, four possible ABX "triplets" exist: PQP PQQ QPP QPQ) 
-  
-choice of sound orders (i.e. the order and speaker of the sounds.)
- 
-choice of speaker (simmaneal)
 
+Once the pairs of phonemes were chosen, it was necessary to determine the order of the phonemes, which sound would be the target, and which speaker's recording  would be used.  Given the number of combinations and the list yielded from the selection process above, it is not feasible to simply counterbalance all combinations of these within the number of trials .   
+
+Instead, we ensure that the answer is not inferrable from the order or speaker by defining weights for, and use a simulated annealer to optimize a design in which we minimize the extent to which the speaker and order is predictive of the correct answer. 
 
 
 ### experimental procedure
@@ -157,19 +158,12 @@ ___PERSISTENT URL.
 
 A description of method is below: 
 
-Participants first read a consent form and indicate their consent. 
+Participants first read a consent form and indicate their consent. Then participants fill out a demographic survey. 
 
-training ??
-
-randomization??
-
-
-for each stimulus, participants are asked _______
+randomization, training, instructions, etc. 
 
 
 
-A description of study procedures in sufficient detail to allow another researcher to repeat the methodology exactly, without requiring further information. These procedures must be adhered to exactly in the subsequent experiments or any Stage 2 manuscript will be summarily rejected. Please note that reviewers at Stage 1 will be asked to specifically consider whether the stated study procedures contain sufficient detail to prevent undisclosed procedural flexibility.
-Proposed analysis pipeline, including all preprocessing steps, and a precise 
 
 ### model specifications 
 
