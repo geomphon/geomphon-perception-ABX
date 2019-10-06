@@ -43,18 +43,18 @@ This "distance" is defined in different ways: principally, as either an objectiv
 We argue that perception of a phone involves not just the process of comparing the new sound to the nearest old sound, but also as the process of adding new sounds into an already established inventory.  In particular, we are interested in how an inventory would change if the new sound is incorporated. It has been shown previously that sound inventories are not random in their distribution of sounds (Dunbar & Dupoux 2016). Dunpar & Doupoux (2016) develop three measurements which encompass these values:  
 
 
-1) economy (Econ): if two inventories have the same number of sounds, those sounds tend, all things being equal, to require relatively few features to characterize  
+1) economy ("Econ"): if two inventories have the same number of sounds, those sounds tend, all things being equal, to require relatively few features to characterize  
 
-2) local symmetry (Loc) : if two inventories have the same number of sounds, using the same number of features, those sounds tend to make relatively many "minimal oppositions" between pairs of sounds, which differ only in one feature  
+2) local symmetry ("Loc") : if two inventories have the same number of sounds, using the same number of features, those sounds tend to make relatively many "minimal oppositions" between pairs of sounds, which differ only in one feature  
 
-3) global symmetry: if two inventories are matched geometrically on the other two properties, they tend to have sounds that are more symmetrically distributed	
+3) global symmetry ("Glob"): if two inventories are matched geometrically on the other two properties, they tend to have sounds that are more symmetrically distributed	
 
 Because these metrics measure the geometry of an entire inventory,  we call these measures "geomphon scores" The calculation of these scores is based on discrete phonological features, and details of the precise method are available in Dunbar & Dupoux (2016).  While Dunbar & Dupoux establish that sound inventories of the worlds languages maximize these properties above and beyond the distribution expected by chance, they do not establish *why* inventories maximize these scores.  One possible reason is that inventories that maximize these scores are optimal for discrimination of sounds within an inventory.  This would lead to the prediction that a change in inventory that reduces one of these scores would lead to worse discrimination, when compared to a change in inventory that increases one of these scores. 
 
 In this project, we collect discrimination data from an ABX task in which listeners discriminate pairs of sounds. We use French and English speakers, listening to unfamiliar Hindi sounds. 
 
 ### Experimental aims 
-The experiment aims to whether changes in geomphon scores are predictive of discrimination accuracy, above and beyond the effect of acoustic distance
+The experiment aims to test whether the relatiuon of all the sounds in an inventory affect perception of a given unafamiliar sound.  Specifically, we test whether changes in geomphon scores are predictive of discrimination accuracy, above and beyond the effect of acoustic distance to one nearest sound. 
 
 ### Hypotheses 
 H1) We hypothesize that, as previous research has shown, a pair of sounds that are farther apart in acoustic distance will be easier to tell apart then sounds that are very close in acoustic distance. 
@@ -81,7 +81,7 @@ H2) We hypothesize that changes in Econ, Glob, and Loc will each be predictive o
     * following mechanical turk's policies, all Amazon Mechanical Turk participants are > 18 years of age
     
 3) French speaking participants will also be recruited through RISC and the facebook groups for linguistics and Psychology research.  
-**these speakers won't be paid?** 
+**DECISION: will we use these? will these speakers won't be paid?** 
     
   
 #### Inclusion and exclusion criteria
@@ -92,48 +92,47 @@ Data from any subject who meets **any** of the following criteria will be **excl
 1) They answer "Yes" to question "Do you have any problems with your hearing or vision, other than glasses?"
 2) They answer "Yes" to question "Have you been diagnosed with a speech or language impairment?"
 3) They answer "Yes" to question "Have you ever taken a linguistics course?"
-4) Their answer to the question "Do you have an idea about what we might have been investigating?" **indicates that they were aware of the purporse of the experiment.**
-5) They indicate they have proficiency in another language  **(They answer ___ to the question ___)
+4) **DECISION: include this?? Their answer to the question "Do you have an idea about what we might have been investigating?" indicates that they were aware of the purporse of the experiment.**
+5) They indicate they have high proficiency in another language  **(They answer ___ to the question ___)
 6) they indicate they have high experience in another language  (They answer ___ to the question ___)  
 7) they indicate they have both medium proficiency and medium experience in another language  
-8) Their performance is not significantly different from chance, as determined by___  
-9) Their performance is not significantly different from ceiling, as determined by___  
-10) Participant has NA/no data for >2 trials (for any reason, e.g.user error, unanticipated technical error)**
+8) **DECISION: INCLUDE THIS?Their performance is not significantly different from chance, as determined by___**  
+9) **DECISION: INCLUDE THIS? Their performance is not significantly different from ceiling, as determined by___**  
+10) **DECISION: INCLUDE THIS? Participant has NA/no data for >2 trials (for any reason, e.g.user error, unanticipated technical error)**
 
-
-We will run  a batch of 90 subjects (the total goal number, based on power analysis below), and then run the above analyses to determine the number of subjects that pass all criteria.  We will then run batches of size (90-number who have already passed criteria) until we reach 90 subjects.  Each batch of data will be posted to OSF in raw, anonymized format on the day of collection, before a new batch is collected. 
+We will run  a batch of 90 subjects (the total goal number, based on power analysis below), and then run the above analyses to determine the number of subjects that pass all criteria.  We will then run batches of size (90 - number who have already passed the above criteria) until we reach 90 subjects.  Each batch of data will be posted to OSF in raw, anonymized format on the day of collection, before a new batch is collected. 
 
 
 #### number of subjects 
 
-**(consider adding graph of N based on acoustic distances from disastrous Roger Levy presentation)**
+**AMELIA note: (consider adding graph of N based on acoustic distances from disastrous Roger Levy presentation)**
 
-Our goal was to ensure that for our given design there would be enough data that the mean of the posterior distribution would not differ greatly from the true effect. To determine the number of subjects necessary, we sampled data based on a variety of values of the coefficients, and then ran models to detect these effects.
+Our goal was to ensure that for our given design there would be enough data that the mean of the posterior distribution would not differ greatly from the true effect. To determine the number of subjects necessary to achive this goal, we tested this directly by sampling datasets based on a variety of values of coefficients, and then ran models to detect these known coefficient values.
 
-We graph below the difference between the value input as the coefficient and the mean of the posterior for 27 combinations of values (3 predictors ^ (3 coefficient values: -1,0,1)) .  If the mean of the posterior is exactly the same as the value on which we sampled the data, we would see a value of zero.  
+We graph below the difference between the value input as the coefficient and the mean of the posterior for 27 combinations of values (All combinations of  3 coefficient values (-1,0,1) for 3 predictors) .  If the mean of the posterior is exactly the same as the value on which we sampled the data, we would see a value of zero.  
 
 We can see that the distribution approaches zero as the number of subjects increases. An N of *90 subjects* was selected as the best balance between the practicalities of running many subjects and the extent to which the mean of the posterior distribution would reflect the true value. 
-
 
 ### stimuli 
 
 ##### Choice of unfamiliar language:  
 Because this experiment aims to tease apart the effects of acoustic distance and each of the geomphon scores, it was important to find a language that has sounds that are both familiar and unfamiliar. For practical reasons our discrimination experiments are to be run with English and French listeners, and therefore it was necessary to find a language which has some sounds that are similar to sounds in the inventory of French and English, and some sounds that are highly dissimilar. In addition, the unfamilar sounds should involve the best spread of each geomphon score, as well as acoustic distances. 
 
-We chose to consider either consonants or vowels because we hypothesize discrimination between pairs consisting of one vowel and one consonant would yield ceiling level accuracy. **we chose consonants rather than vowels because??**
+**we chose consonants rather than vowels because??**
+Geomphon scores are based on phonological features, which are defined for the subsets of either vowels or consonants in an inventory.  While it would be possible to calculate these scores for a space including both consonants and vowels, we decided that this was not productive because.  Antoher way to put this is that the different fatures appliedd to consonants and vowels capture an intuitive insight: that consonants and vowels are fundamentally different.  Practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. 
 
- Hindi was chosen because it was a language that has many consonants that are familiar to French and English speakers **examples**, and also many that are unfamiliar (in particular, retroflex sounds).  
+Dunbar and Dupoux calculated Geomphon scores for **N** languages and the feature matrices used to do this are available **here**  Using these matrices, we identified a list of languages that  **criteria**.  Of the languages on this list, Hindi was chosen because it was a language that has many consonants that are familiar to French and English speakers **examples**, and also many that are unfamiliar (in particular, retroflex sounds).  It was also a language for which we would be able to recruit speakers in France and the United States. 
  **other reasons we chose Hindi? other details about how this happened?**
  
  
 ##### Procedure for recording of stimuli: 
  
-5 Hind-Urdu speakers (3 female) were recorded in a sound attenuated booth in either the Université de Paris or the University of Massachusetts.   All reported that Hindi was the principal language they spoke with their family as children.  Each speaker was paid  $20 for their recording and signed an informed consent form.  
+5 Hind-Urdu speakers (3 female) were recorded in a sound attenuated booth in either the Université de Paris or the University of Massachusetts.   All reported that Hindi was the principal language they spoke with their family as children.  The primary motivation for using multiple speakers was to introduce variability and noise into the experiment, and so the speakers were not controlled for sociolinguistic factors (e.g. age, place of birth,etc.) Each speaker was paid  $20 for their recording and signed an informed consent form.  
  
- Participants spoke all consonants of Hindi in a pseudoword /a_a/ context.  Each pseudo word was written on a list in Devanagri and latin script, with a sample word in devanagri including the target consonant sound.  For elicitation purposes each pseudoword was said in a sentence context "kripya ____ kahie" ("please bring _____"). Speaker 1 recorded all peseudowords once.  Speakers 2-5 recorded all consonant sounds twice.  The first time, they listened to speaker 1, and then paused the recording and repeated after Speaker 1.  They were told to try to repeat at about the same pace.  Recordings are considered individually identifiable information and so are not available publically, but are available for research purposes, including replication, by emailing **ewansemail**
+ Participants spoke all consonants of Hindi in a pseudoword /a_a/ context.  Each pseudo word was written on a list in Devanagri and latin script, with a sample word in Devanagri including the target consonant sound.  For elicitation purposes each pseudoword was said in a sentence context "kripya ____ kahie" **add Devanagri and IPA** ("please bring _____"). Speaker 1 recorded all peseudowords once.  Speakers 2-5 recorded all consonant sounds twice.  The  first time, speakers 2-5 listened to speaker 1, and then paused the recording and repeated after Speaker 1.  They were told to try to repeat at about the same pace.  Recordings are considered individually identifiable information and so are not available publically, but are approved for sharing for research purposes, including replication, by emailing **ewansemail**
 
-Textgrids for all recordings were created using forced alignment. Transcripts, code, and textgrids are available at **URL**
-all textgrids were hand checked for accuracy, and all splice points were adjusted to the nearest zero crossing.  
+Textgrids for all recordings were created using forced alignment **details of tools Nicolas used**. Transcripts, code, and textgrids are available at **URL**
+All textgrids were hand checked  and ajusted for accuracy, and all splice points were moved to the nearest zero crossing.  
  
  
 #### procedure for building and selecting stimuli 
