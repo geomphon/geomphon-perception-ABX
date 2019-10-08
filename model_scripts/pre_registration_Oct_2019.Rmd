@@ -10,7 +10,9 @@ output:
 
 # Letter 
 
-The process of perception of an unfamiliar speech sound is generally considered to involve a comparison of the unfamiliar sound to representations of familiar sounds heard in the past.  However, much research testing the ability to discriminate an unfamiliar sound focuses on the difference betweeen the unfamiliar sound and one familiar sound that is determined to be the "nearest" sound in perceptual or acoustic space.  This narrow focus on the one nearest sound ignores the large and often crowded represetation space.  We know that sound inventories of language are not randomly assigned, but instead can be measured to have global and local symmetry and economy, above and beyond what would be expected by chance. (Dunbar & Dupoux 2016)   We ask: does the shape of the entire sound inventory affect discirmination of an unfamiliar sound, above and beyond the effect of distance to the nearest sound? The research has implications for theories of language change and second language acquisition and practical applications in language teaching. 
+The process of perception of an unfamiliar speech sound is theorized to involve a comparison of the unfamiliar sound to representations of familiar sounds heard in the past.  However, research testing the ability to discriminate an unfamiliar sound often focuses on the difference betweeen the unfamiliar sound and one familiar sound that is determined to be the "nearest" sound in perceptual or acoustic space.  This narrow focus on the one nearest sound ignores the rest of a large and often crowded represetation space.  
+
+This is important because it is known that sound inventories of language are not random in their geometric shape, but instead can be measured to have global and local symmetry and economy, above and beyond what would be expected by chance. (Dunbar & Dupoux 2016)   We ask: does the shape of the entire sound inventory affect discirmination of an unfamiliar sound, above and beyond the effect of distance to the nearest sound? Our research has implications for theories of language change and second language acquisition and practical applications in language teaching. 
 
 
 The study has been approved by  the Comité d’Éthique de la Recherche  of Université Paris Decartes as of June 13, 2019.  All funding for participant payment is covered by the Agence National de Récherche grant numbers ANR-17-CE28-0009 (GEOMPHON) and  ANR-10-LABX-0083 (EFL).   Web hosting for the online studies will be provided by the Laboratoire de Linguistique Formelle.  The study is ready to commence immediately.  
@@ -34,10 +36,9 @@ Till Poppels
 
 # Introduction
 ### background and literature review
-Over a lifetime of speech perception, humans fine-tune their sensitivity to phonetic differences that are contrastive in their native language.  When listeners learn a new phone, be it a phone from a new language or a variant they have not previously encountered, they are faced with the task of perceiving new sounds with a perceptual system that is tuned to their native language.   There is, of course,  extensive research investigating precisely how this is accomplished. In formal models of language learning such as the Speech Learning Model (Flege) and the Perceptual Assimilation Model (Best,1995, Best & Tyler 2007), an important concept that has arisen from past work is the distance of the unfamiliar sound to the nearest familiar sound in the native inventory.  Unfamiliar sounds will be hard to discriminate from a familiar sound that is close, and easier to discriminate from a familiar sound that is farther away.
+Over a lifetime of speech perception, humans fine-tune their sensitivity to phonetic differences that are contrastive in their native language.  When listeners learn a new phone, be it a phone from a new language or a variant they have not previously encountered, they are faced with the task of perceiving new sounds with a perceptual system that is tuned to their native language.   There is extensive research investigating precisely how this is accomplished. In formal models of language learning such as the Speech Learning Model (Flege) and the Perceptual Assimilation Model (Best,1995, Best & Tyler 2007), an important concept that has arisen from past work is the distance of the unfamiliar sound to the nearest familiar sound in the native inventory.  Unfamiliar sounds will be hard to discriminate from a familiar sound that is close, and easier to discriminate from a familiar sound that is farther away.
 
-This "distance" is defined in different ways: principally, as either an objective acoustic distance measured on some element of an acoustic signal, or as a perceptual distance which can be measured through discrimination tasks. However, a narrow focus on the distance between one familiar sound and one unfamiliar sound ignores the crucial fact that phonetic space is crowded for most sound inventories.   An unfamiliar sound which is "far" from one familar sound may be "near" to other sounds, and if a distribution or category develops and changes over time, a move "farther" from one sound is likely to be "nearer" to another sound. 
-
+This "distance" is defined in different ways: principally, as either an objective acoustic distance measured on some element of an acoustic signal, or as a perceptual distance which can be measured through discrimination tasks. However, a narrow focus on the distance between one familiar sound and one unfamiliar sound ignores the crucial fact that phonetic space is crowded for most sound inventories.   An unfamiliar sound which is "far" from one familar sound may be "near" to other sounds, and if a distribution or category develops and changes over time, a move "farther" from one sound is likely to be "nearer" to another sound. We can measure this effect by looking at how the shape of an inventory would change if a new sound were added.  
 
 
 We argue that perception of a phone involves not just the process of comparing the new sound to the nearest old sound, but also as the process of adding new sounds into an already established inventory.  In particular, we are interested in how an inventory would change if the new sound is incorporated. It has been shown previously that sound inventories are not random in their distribution of sounds (Dunbar & Dupoux 2016). Dunpar & Doupoux (2016) develop three measurements which encompass these values:  
@@ -54,15 +55,14 @@ Because these metrics measure the geometry of an entire inventory,  we call thes
 In this project, we collect discrimination data from an ABX task in which listeners discriminate pairs of sounds. We use French and English speakers, listening to unfamiliar Hindi sounds. 
 
 ### Experimental aims 
-The experiment aims to test whether the relatiuon of all the sounds in an inventory affect perception of a given unafamiliar sound.  Specifically, we test whether changes in geomphon scores are predictive of discrimination accuracy, above and beyond the effect of acoustic distance to one nearest sound. 
+The experiment aims to test whether the spatial relation of all the sounds in an inventory affect perception of a given unafamiliar sound.  Specifically, we test whether changes in geomphon scores are predictive of discrimination accuracy, above and beyond the effect of acoustic distance to one nearest sound. 
 
 ### Hypotheses 
-H1) We hypothesize that, as previous research has shown, a pair of sounds that are farther apart in acoustic distance will be easier to tell apart then sounds that are very close in acoustic distance. 
+H1) We hypothesize that, as previous research has shown, a pair of sounds that are farther apart in acoustic distance will be easier to discriminate than two sounds that are very close in acoustic distance. 
 
 H2) We hypothesize that changes in Econ, Glob, and Loc will each be predictive of discimination accuracy, above and beyond the effect of acoustic distance.   
 
 # Method
-
 
 ### sample 
 #### population 
@@ -81,7 +81,7 @@ H2) We hypothesize that changes in Econ, Glob, and Loc will each be predictive o
     * following mechanical turk's policies, all Amazon Mechanical Turk participants are > 18 years of age
     
 3) French speaking participants will also be recruited through RISC and the facebook groups for linguistics and Psychology research.  
-**DECISION: will we use these? will these speakers won't be paid?** 
+**DECISION: will we use these? will these speakers be paid?** 
     
   
 #### Inclusion and exclusion criteria
@@ -107,11 +107,13 @@ We will run  a batch of 90 subjects (the total goal number, based on power analy
 
 **AMELIA note: (consider adding graph of N based on acoustic distances from disastrous Roger Levy presentation)**
 
-Our goal was to ensure that for our given design there would be enough data that the mean of the posterior distribution would not differ greatly from the true effect. To determine the number of subjects necessary to achive this goal, we tested this directly by sampling datasets based on a variety of values of coefficients, and then ran models to detect these known coefficient values.
+Our goal was to ensure that for our given design there would be enough data that the mean of the posterior distribution would not differ greatly from the true effect. To determine the number of subjects necessary to achive this goal, we tested directly by sampling datasets based on a variety of values of coefficients, and then ran models to detect these known coefficient values.
 
-We graph below the difference between the value input as the coefficient and the mean of the posterior for 27 combinations of values (All combinations of  3 coefficient values (-1,0,1) for 3 predictors) .  If the mean of the posterior is exactly the same as the value on which we sampled the data, we would see a value of zero.  
+We graph below the difference between the value input as the coefficient and the mean of the posterior for 27 combinations of values (All combinations of 3 coefficient values (-1,0,1),  for 3 predictors) .  In the best case scenario the mean of the posterior is exactly the same as the coefficient value we used to sample the data, and therefore the difference shown on this chart is zero. We can see that the distribution approaches zero as the number of subjects increases. 
 
-We can see that the distribution approaches zero as the number of subjects increases. An N of *90 subjects* was selected as the best balance between the practicalities of running many subjects and the extent to which the mean of the posterior distribution would reflect the true value. 
+An N of *90 subjects* was selected as the best balance between the practicalities of running many subjects and the extent to which the mean of the posterior distribution would reflect the true value. 
+
+
 
 ### stimuli 
 
@@ -119,10 +121,14 @@ We can see that the distribution approaches zero as the number of subjects incre
 Because this experiment aims to tease apart the effects of acoustic distance and each of the geomphon scores, it was important to find a language that has sounds that are both familiar and unfamiliar. For practical reasons our discrimination experiments are to be run with English and French listeners, and therefore it was necessary to find a language which has some sounds that are similar to sounds in the inventory of French and English, and some sounds that are highly dissimilar. In addition, the unfamilar sounds should involve the best spread of each geomphon score, as well as acoustic distances. 
 
 **we chose consonants rather than vowels because??**
-Geomphon scores are based on phonological features, which are defined for the subsets of either vowels or consonants in an inventory.  While it would be possible to calculate these scores for a space including both consonants and vowels, we decided that this was not productive because.  Anotherer way to put this is that the different features applied to consonants and vowels capture an intuitive insight: that consonants and vowels are fundamentally different.  Practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. 
+Geomphon scores are based on phonological features, which are defined for the subsets of either vowels or consonants in an inventory.  It is possible to calculate these scores for to calculate these scores for a space including both consonants and vowels, we decided that this was not productive because.  Anotherer way to put this is that the different features applied to consonants and vowels capture an intuitive insight: that consonants and vowels are fundamentally different.  Practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. 
 
-Dunbar and Dupoux calculated Geomphon scores for **N** languages and the feature matrices used to do this are available **here**  Using these matrices, we identified a list of languages that  **criteria**.  Of the languages on this list, Hindi was chosen because it was a language that has many consonants that are familiar to French and English speakers **examples**, and also many that are unfamiliar (in particular, retroflex sounds).  It was also a language for which we would be able to recruit speakers in France and the United States. 
+Dunbar and Dupoux calculated Geomphon scores for **N** languages and the feature matrices used to do this are available **here**  Using these matrices, we identified a list of languages that  **criteria**. We then calculated scores base don **fill in details from monday meeting**
+
+Of the languages on this list, Hindi was chosen because it was a language that has many consonants that are familiar to French and English speakers **examples**, and also many that are unfamiliar (in particular, retroflex sounds).  It was also a language for which we would be able to recruit speakers in France and the United States. 
  **other reasons we chose Hindi? other details about how this happened?**
+ 
+ 
  
  
 ##### Procedure for recording of stimuli: 
@@ -137,17 +143,19 @@ All textgrids were hand checked  and ajusted for accuracy, and all splice points
  
 #### procedure for building and selecting stimuli 
  
-Each stimulus tests one pair of phonemes.  One member of the pair is a familiar sound, and one member is an unfamiliar sound.  It is important to clarify that the "familiar" sounds were hindi sounds spoken by the hindi speakers.However, these were sounds such as /d/ or /z/ that are (according to the IPA) also included in both French and English. The rationale for this is 
-**NEED JUSTIFICATION FOR THIS**
+Each stimulus tests one pair of phonemes.  One member of the pair is a familiar sound, and one member is an unfamiliar sound.  It is important to clarify that the "familiar" sounds were hindi sounds spoken by the hindi speakers. However, these were sounds such as /d/ or /z/ that are included in both French and English inventories. This means that the "familiar" sounds may differ systematically from the native versions.  However, since these "familiar" sounds are present in the inventories of French and English (i.e. would be transcribed as the same phone in IPA), and the unfamiliar sounds are not, we expect that the familiar sounds are much closer to native sounds (**and indeed our measurements confirm this**).  The rationale for performing the experiment this way was to have consistency in the context surrounding the phone of interest.  If English speakers recorded the english consonants and Hindi speakers the hindi consonants, the surrounding vowels have the potential to give additional cues useful for discrimination and push discrimination towards ceiling, **as indeed we found in previous pilot__**
 
-The unfamiliar sounds, on the other hand, were sounds such as /dʒʰ/, /bʰ/, or /ɖ,/ which are not included in the inventory of either English or French. 
+The unfamiliar sounds, on the other hand, were sounds which are unambiguously absent in both French and English, such as as /dʒʰ/, /bʰ/, or /ɖ,/. 
+
 
 **stumuli selection section from other rmd goes here**
 
 
-Once the pairs of phonemes were chosen, it was necessary to determine the order of the phonemes, which sound would be the target, and which speaker's recording  would be used.  Given the number of combinations and the list yielded from the selection process above, it is not feasible to simply counterbalance all combinations of these within the number of trials .   
+Once the pairs of phonemes were chosen, it was necessary to determine the order of the phonemes, which sound would be the target, and which speaker's recording would be used.  The number of trials was constrained to 150 based on time estimates of previous experiments.  Given the number of permutations of these options it is not feasible to simply counterbalance all combinations of these within the number of trials, which was constrained to 150 trials based on .   
 
 Instead, we ensure that the answer is not inferrable from the order or speaker by defining weights for, and use a simulated annealer to optimize a design in which we minimize the extent to which the speaker and order is predictive of the correct answer. 
+
+**stimuli are cut out and spliced together LIKE SO**
 
 
 ### experimental procedure
@@ -159,6 +167,8 @@ ___PERSISTENT URL.
 A description of method is below: 
 
 Participants first read a consent form and indicate their consent. Then participants fill out a demographic survey. 
+
+Participants hear a triplet
 
 randomization, training, instructions, etc. 
 
@@ -260,7 +270,7 @@ b) there is an effect of acoustic distance
 We will interpret this to be a confirmation that our experimental protocol was well-designed to detect the effects of interest. 
 
 
-step 2:  examine the effect of acoustic difference
+step 2:  examine the effect of geomphon scores
 
 possible outcomes: 
 
