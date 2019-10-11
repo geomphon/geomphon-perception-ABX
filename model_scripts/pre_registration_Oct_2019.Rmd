@@ -3,9 +3,9 @@ title: "Pre-registration_Geomphon_hindi"
 author: "Amelia"
 date: "01/10/2019"
 output:
-  html_document: default
-  pdf_document: default
   word_document: default
+  pdf_document: default
+  html_document: default
 ---
 
 # Letter 
@@ -120,8 +120,7 @@ An N of *90 subjects* was selected as the best balance between the practicalitie
 ##### Choice of unfamiliar language:  
 Because this experiment aims to tease apart the effects of acoustic distance and each of the geomphon scores, it was important to find a language that has sounds that are both familiar and unfamiliar. For practical reasons our discrimination experiments are to be run with English and French listeners, and therefore it was necessary to find a language which has some sounds that are similar to sounds in the inventory of French and English, and some sounds that are highly dissimilar. In addition, the unfamilar sounds should involve the best spread of each geomphon score, as well as acoustic distances. 
 
-**we chose consonants rather than vowels because??**
-Geomphon scores are based on phonological features, which are defined for the subsets of either vowels or consonants in an inventory.  It is possible to calculate these scores for to calculate these scores for a space including both consonants and vowels, we decided that this was not productive because.  Anotherer way to put this is that the different features applied to consonants and vowels capture an intuitive insight: that consonants and vowels are fundamentally different.  Practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. 
+While geomphon scores can be calculated based on a full inventory of consonants and vowels,  practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. We therefore use only consonants
 
 Dunbar and Dupoux calculated Geomphon scores for **N** languages and the feature matrices used to do this are available **here**  Using these matrices, we identified a list of languages that  **criteria**. We then calculated scores base don **fill in details from monday meeting**
 
@@ -158,7 +157,7 @@ Instead, we ensure that the answer is not inferrable from the order or speaker b
 **stimuli are cut out and spliced together LIKE SO**
 
 ### calculation of geomphon scores 
-rememember that these are differences, not raw scores. Also, these scores are 
+# **EWAN**
 
 ### experimental procedure
 
@@ -177,49 +176,55 @@ randomization, training, instructions, etc.
 
 ### model specifications 
 
-#### calculation  and choice of covariates 
+####  covariates 
 
-**this is in the pre-prereg_rmd**
+**amelia incorporate pre-prereg_rmd**
 acoustic distance -- how chose how calculated 
 MFCCs?  log distance? delta distance? 
-*needed: review of exactly how acoustic distances are calculated, as well as motivation for a specific acoustic distance score* 
-*some info in old code ver sept 2018 * 
-
+ 
 geomphon scores 
--caculated based on ____ 
 
 
 #### method to determine whether an effect of a coefficient is non-zero 
 Based on our design we expect acoustic distance will be non-zero. (indeed, we have specifically designed the stimuli to ensure this is the case)
  
-The effect of the geomphon scores, however, is as yet undetermined. *and is expected to be smaller than the effect of acoustic distance* Therefore, a significant concern was to determine a model that would detect a difference between a small, positive effect and a zero effect. 
+The effect of the geomphon scores, however, is as yet undetermined, and is expected to be smaller than the effect of acoustic distance *?* Therefore, a significant concern was to determine a model that would detect a difference between a small, positive effect and a zero effect. 
 
 
-To this end, we use comparison of leave-one-out-cross valitation ("loo") scores with varying priors. 
+To this end, we use comparison of leave-one-out-cross valitation ("loo") scores with models specified with varying priors.  The loo value obtained is a measure of the predictive ability of a model.  Specifically, it is an estimate  out-of-sample predictive accuracy using within-sample fits. We use the pareto smoothed importance sampling implemented in the loo() package, as documented in Vehtari et al. (2016). 
+
+Because we cannot be sure of the size of the expected effect, it is important to establish a methodology that is sensitive to small but non-zero positive effects.  To accomplish this we use loo() and truncated priors.  A truncated prior is simply a prior for which the density curve is truncated at some value. 
+
+In our case, we use a normal(0,10) prior and truncate the value at zero. We can therefore apply a model truncated to be <= 0 to a model to be >= 0.   If an effect of interest is not meaningfully different than zero, two models, one with a truncated positive prior and one with a truncated negative prior will not differ (nor would they differ from a model with no effect of this predictor).  If, on the other hand, the effect is different from zero, either the truncated positive prior or the truncated negative prior will show better predictivity in the direction of the effect. 
+
 
 For example, to test for an effect of Econ, we will run a model such as the following:
 
-  accuracy ~ Econ + Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair),  priors: N(0,10) for all covariates
+ accuracy ~ Econ + Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair)
 
-we will run the model four times:  
+we will run the model three times:  
 
-* Model A as above, 
-* Model B once removing the effect of Econ, (simulating a zreo effect)  
-* Model C applying a prior truncated to be >=0  
-* Model D applying a prior trunacted to be <=0
+* Model A: removing the effect of Econ, (simulating a zero effect)  
+  accuracy ~ Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair),  
+priors: N(0,10) for all covariates
 
+* Model B applying a prior truncated to be >=0  
+  accuracy ~ Econ + Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair),  
+prior Econ: truncated gaussian N(0,10) >=0
+all other priors: N(0,10)
 
-We will then complete pairwise differences to compare the differences in loo scores between each of these four using loo_compare(), which gives an elpd_diff score.  The elpd_diff shows which model has a better loo score, and the output of loo.compare() includes the s.e. of this difference score. *We will determine whether two  models is meaningfully "different" by using the rule of thumb put forth by ___ that the difference is larger than it's s.e.*
+* Model C applying a prior trunacted to be <=0
+accuracy ~ Econ + Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair)
+prior Econ: truncated gaussian N(0,10) <=0
+all other priors: N(0,10)
 
-We will interpret there to be a positive effect of one of the geomphon scores IFF 
- Model C and Model B are different, AND Model C is better (i.e. has ____ loo) than Model B. 
- 
-negative effects??
+We will then complete pairwise differences to compare the differences in loo scores between each of these four using loo_compare(), which gives a we used  the difference in  expected log predictive density (elpd_diff). The elpd_diff shows which model has a better loo score,  and therefore better predictive accuracy. The output of loo.compare() includes the s.e. of this difference score. We will determine whether two  models is meaningfully "different" by using the rule of thumb put forth by Vehtari that the elpd_diff is 5 times larger than it's s.e.*?*
 
-repeated measures??
+In order to make all comparisons of all combinations of the three predictors of interest, we will run a total of 27 models (all combinations of 3 predictors (Econ, Glob, Loc) and three priors (truncated posistive, truncated negative, zero)).  
 
-Why aren't we using Bayes factors for model comparison??
+We will then use compare_models() in the loo package to obtain a ranking of their elpd_diff scores. 
 
+We will interpret there to be a positive effect of one of the geomphon scores Model B is better than model A AND model C. 
 
 
 # Results & Analysis 
@@ -227,7 +232,7 @@ Why aren't we using Bayes factors for model comparison??
 ### Preprocessing 
 Data will be filtered for whether it confirms to criteria outlined in subejct inclusion/exclusion above.    All data that meets criteria will be used in analysis. 
 
-**While we have no reason to antifcipate messy data or NAs, Here is our policy**
+*While we have no reason to antifcipate messy data or NAs, Here is our policy*
 
 
 ### reality checks 
@@ -284,4 +289,30 @@ b) there is no effect of any of the geomphon scores above and beyond the effect 
 
 # timeline 
  Timeline for completion of the study and proposed resubmission date if registration review is successful. Extensions to this deadline can be negotiated with the action editor.
+
+
+## concerns with using loo for comparing multiple models. 
+
+Vehtari, Gelman, Gabry 2016: 
+https://www.arxiv-vanity.com/papers/1507.04544/
+"Cross-validation and WAIC should not be used to select a single model among a large number of models due to a selection induced bias as demonstrated, for example, by Piironen and Vehtari (2016)."
+
+
+Piironen & vehtari 2017 
+https://link.springer.com/article/10.1007/s11222-016-9649-y
+"Although LOO-CV and WAIC can be used to obtain a nearly unbiased estimate of the predictive ability of a given model, both of these estimates contain a stochastic error term whose variance can be substantial when the dataset is not very large. This variance in the estimate may lead to overfitting in the selection process causing nonoptimal model selection and inducing bias in the performance estimate for the selected model (e.g., Ambroise and McLachlan 2002; Reunanen 2003; Cawley and Talbot 2010). The overfitting in the selection may be negligible if only a few models are being compared but, as we will demonstrate, may become a problem for a larger number of candidate models, such as in variable selection."
+
+
+https://discourse.mc-stan.org/t/interpreting-elpd-diff-loo-package/1628
+Vehtari "The difference of 1 SE is definitely too small. If n is not small, and there is no bad observation model misspecification (ie. you have made model checking), and there are no khats>0.7, then as a rule of thumb, I would say that difference of 5 SE starts to be on the safe side.""
+" Overall loo is not good for detecting very small differences between models"
+
+ https://avehtari.github.io/masterclass/slides_model_assesment_selection.pdf slide 151 
+"Cross-validation can be used for model selection if
+- small number of models
+- the difference between models is clear
+• Do not use cross-validation to choose from a large set of
+models
+- selection process leads to overfitting" 
+
 
