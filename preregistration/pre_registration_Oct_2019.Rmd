@@ -7,7 +7,9 @@ output:
   pdf_document: default
   word_document: default
 ---
-
+```{r setup, include=FALSE}
+`%>%` <- magrittr::`%>%`
+```
 # Letter 
 
 The process of perception of an unfamiliar speech sound is theorized to involve a comparison of the unfamiliar sound to representations of familiar sounds heard in the past.  However, research testing the ability to discriminate an unfamiliar sound often focuses on the difference betweeen the unfamiliar sound and one familiar sound that is determined to be the "nearest" sound in perceptual or acoustic space.  This narrow focus on the one nearest sound ignores the rest of a large and often crowded represetation space.  
@@ -55,10 +57,8 @@ In this project, we collect discrimination data from an ABX task in which listen
 ### Experimental aims 
 The experiment aims to test whether the spatial relation of all the sounds in a phoneme inventory affect perception of a given unafamiliar sound.  Specifically, we test whether changes in geomphon scores are predictive of discrimination accuracy, above and beyond the effect of acoustic distance to one nearest sound. 
 
-### Hypotheses 
-H1) We hypothesize that, as previous research has shown, a pair of sounds that are farther apart in acoustic distance will be easier to discriminate than two sounds that are very close in acoustic distance. 
-
-H2) We hypothesize that changes in Econ, Glob, and Loc will each be predictive of discimination accuracy, above and beyond the effect of acoustic distance.   
+### Hypothesiss 
+ We hypothesize that changes in Econ, Glob, and Loc will each be predictive of discimination accuracy, above and beyond the effect of acoustic distance.   
 
 # Method
 
@@ -78,8 +78,7 @@ H2) We hypothesize that changes in Econ, Glob, and Loc will each be predictive o
     * have completed > 100 HITS  
     * following mechanical turk's policies, all Amazon Mechanical Turk participants are > 18 years of age
     
-3) French speaking participants will also be recruited through RISC and the facebook groups for linguistics and Psychology research.  
-**DECISION: will we use these? will these speakers be paid?** 
+3) French speaking participants will also be recruited through an email list ("RISC") and the Facebook groups that focus on recruiting subjectsfor linguistics and Psychology research.  Speakers recruited through email and Facebook will not be paid. 
     
   
 #### Inclusion and exclusion criteria
@@ -90,19 +89,17 @@ Data from any subject who meets **any** of the following criteria will be **excl
 1) They answer "Yes" to question "Do you have any problems with your hearing or vision, other than glasses/contacts?"
 2) They answer "Yes" to question "Have you been diagnosed with a speech or language impairment?"
 3) They answer "Yes" to question "Have you ever taken a linguistics course?"
-4) **DECISION: include this?? Their answer to the question "Do you have an idea about what we might have been investigating?" indicates that they were aware of the purporse of the experiment.**
-5) They indicate they have high proficiency in another language  **(They answer ___ to the question ___)
-6) they indicate they have high experience in another language  (They answer ___ to the question ___)  
-7) they indicate they have both medium proficiency and medium experience in another language  
-8) **DECISION: INCLUDE THIS?Their performance is not significantly different from chance, as determined by___**  
-9) **DECISION: INCLUDE THIS? Their performance is not significantly different from ceiling, as determined by___**  
-10) **DECISION: INCLUDE THIS? Participant has NA/no data for >2 trials (for any reason, e.g.user error, unanticipated technical error)**
+4) They indicate they have high proficiency in another language  **(They answer ___ to the question ___)
+5) they indicate they have high experience in another language  (They answer ___ to the question ___)  
+6) they indicate they have both medium proficiency and medium experience in another language  
+7) DECISION: INCLUDE THIS?Their performance is not significantly different from chance, as determined by___  
+8) DECISION: INCLUDE THIS? Their performance is not significantly different from ceiling, as determined by___ 
+9) DECISION: INCLUDE THIS? Participant has NA/no data for >3 trials (for any reason, e.g.user error, unanticipated technical error)
 
 We will run  a batch of 90 subjects (the total goal number, based on power analysis below), and then run the above analyses to determine the number of subjects that pass all criteria.  We will then run batches of size (90 - number who have already passed the above criteria) until we reach 90 subjects.  Each batch of data will be posted to OSF in raw, anonymized format on the day of collection, before a new batch is collected. 
 
 
 #### number of subjects 
-
 
 Our goal was to ensure that for our given design there would be enough data that the mean of the posterior distribution would not differ greatly from the true effect. To determine the number of subjects necessary to achive this goal, we tested directly by sampling datasets based on a variety of values of coefficients, and then running models to detect these known coefficient values.
 
@@ -167,9 +164,9 @@ ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Loc_glm_diff)) +
 
 While geomphon scores can be calculated based on a full inventory of consonants and vowels,  practically speaking, discrimination between pairs of sounds consisting of one vowel and one consonant would yield ceiling level accuracy and be uninformative for our research question. We therefore chose to use only consonants. 
 
-Dunbar and Dupoux calculated Geomphon scores for **N** languages and the feature matrices used to do this are available **here**  Using these matrices, we identified a list of languages that  **criteria**. We then calculated scores base don **fill in details from monday meeting**
+Dunbar and Dupoux calculated Geomphon scores for **N** languages and the feature matrices used to do this are available **here**.  For the purposes of choosing a language, we were interested not in the geomphon scores of the entire inventory, but rather the *change* in geomphon scores if sounds from a new inventory were added to either English or French.  For each sound in an unfamilar language, we calculated the change in geomphon scores from the base value for English compared to the value for English if the sound in question was added to the inventory. **(and french?)**   (For details of how the scores were calculated, see section "Calculation of geomphon scores" below)
 
-Of the languages on this list, Hindi was chosen because it was a language that has many consonants that are familiar to French and English speakers (e.g. /n/,/m/, /b/, /j/), and also many that are unfamiliar (in particular, retroflex sounds,  and voiced aspirated stops).  It was also a language for which we would be able to recruit model speakers in France and the United States. 
+We identified Hindi as the best canditate lagnauge because it was a language that has many consonants that are familiar to French and English speakers (e.g. /n/,/m/, /b/, /j/), and also many that are unfamiliar (in particular, retroflex sounds,  and voiced aspirated stops). It also showed variation in the change in geomphon scores, and is a language for which we would be able to recruit model speakers in France and the United States. 
  
 ##### Procedure for recording of stimuli: 
  
@@ -184,12 +181,13 @@ Textgrids for all recordings were created using forced alignment using **the Pen
  
 Each stimulus tests one pair of phonemes.  One member of the pair is a familiar sound, and one member is an unfamiliar sound.   The "familiar" sounds were phonesthat are included in both French and English inventories (i.e. would be transcribed as the same IPA symbol in French, English, and Hindi).  The familiar sounds are listed below: 
 /b,d,g,p,t,k,v,ð,z,s,d͡ʒ,t͡ʃ,n,j,ɾ,h,ʃ/
+**note that ð,d͡ʒ,t͡ʃ, are not familiar in french??**
 
-The unfamiliar sounds, on the other hand, were sounds which are  present in the inventory of Hindi byt unambiguously absent in both French and English.  The unfamiliar sounds are listed below:
+The unfamiliar sounds, on the other hand, were sounds which are  present in the inventory of Hindi but unambiguously absent in both French and English.  The unfamiliar sounds are listed below:
 
 /bʰ,d̪ʰ,ɖ,ɖʰ,dʒʰ,ɡʰ,ɳ,ɽ,ʈ/
 
-Each unfamiliar sound was paired with the familiar sounds which we judged to be most similar. Examples of the pairs formed for the unfamiliar sounds /bʰ/, /ʈ/, and /ɳ	/ are below:  
+Each unfamiliar sound was paired with the familiar sounds which were judged by the authors to be most likely to be confused in dsicrimination, i.e. to be most similar in perception.  Examples of the pairs formed for the unfamiliar sounds /bʰ/, /ʈ/, and /ɳ	/ are below:  
 
 bʰ	b
 bʰ	d
@@ -203,26 +201,25 @@ bʰ	v
 ɳ	n
 ɳ	j
 
-It is important to clarify that both the familiar and unfamiliar sounds were spoken by the Hindi speakers. We acknowledge that because they were spoken by Hindi speakers, the "familiar" sounds may differ systematically from the English and French version of these sounds. The rationale for performing the experiment this way was to have consistency in the context surrounding the phone of interest.  If instead English speakers recorded the English consonants and Hindi speakers the Hindi consonants, the surrounding vowels have the potential to give additional cues useful for discrimination and push discrimination towards ceiling, **as  we found in previous pilot X**. While the "familiar" sounds may differ slightly from their versions in English and French, the unfamiliar sounds were chosen to be much further than unfamiliar sounds in acoustic distance and phonological features.   (**and indeed our measurements confirm this**). 
+It is important to clarify that both the familiar and unfamiliar sounds were spoken by the Hindi speakers.  Because they were spoken by Hindi speakers, the "familiar" sounds may differ systematically from the English and French version of these sounds. The rationale for recording in this way was to have consistency in the context surrounding the phone of interest.  If instead English speakers recorded the English consonants and Hindi speakers the Hindi consonants, the surrounding vowels have the potential to give additional cues useful for discrimination and push discrimination towards ceiling, **as  we found in previous pilot X**. While the "familiar" sounds may differ slightly from their versions in English and French, the unfamiliar sounds were chosen to be much further than unfamiliar sounds in acoustic distance and phonological features.   (**and indeed our measurements confirm this**). 
 
-## Selection of stimuli
-Selection of triplet stimuli is based on four things: 
+
+Selection of stimuli was based on four things:  
 
 1) acoustic distances 
      a) distance to target <  distance to other 
-     b) ratio of differences is not so large as to create only ceiling performance
+     b) based on ratio of differences is not so large as to create only ceiling performance
          --> currently: log ratio is > -.4)
-     
+         
 2) GEOMPHON scores 
     c) prefer triplest Econ, Glob, Loc as uncorrelated as possible in order to improve model performance 
-    
 3) Domain knowledge 
     d) rule out stimuli that do not sound good to phoneticians 
-         -->remove velar fricatives, which were not native to our speaker's dialects
+         -->remove velar fricatives, which were not native to our speakers' (and in deed most hindi, rather than urdu speakers) dialects
     e) attempt to balance stimuli by linguistic categories 
          --> sample one instance from each phone pair before further sampling to arrive at 150 stimuli
          
-4)expeirmental balance
+4)experimental balance
    f) once all above filters have been applied to select pairs, list of triplets is submitted to 
    simulated annealar script which will optimize a stimuli list that  has the best combinations 
    that decorrelate speaker combination from phone pair.
@@ -233,7 +230,6 @@ Once the pairs of phonemes were chosen, it was necessary to combine recordings o
 ## construction of stimuli 
 Once the design is decided, each recording is spliced togehter with **______ ISI bewteen A&B and B& X**
 
-
 ### calculation of geomphon scores 
 
 
@@ -243,7 +239,7 @@ Code sufficient to launch a direct replication, including all demographic survey
 
 ___PERSISTENT URL. 
 
-A description of method is below: 
+# A description of method is below: 
 
 Participants first read a consent form and indicate their consent. Then participants fill out a demographic survey. 
 
@@ -256,14 +252,230 @@ randomization, training, instructions, etc.
 
 ####  covariates 
 the covariates in the model are acoustic distance, and the three geomphon scores 
-**amelia incorporate pre-prereg_rmd**
 
-acoustic distance -- how chose how calculated 
-MFCCs? 
-How to operationalize Acoustic distance log distance? delta distance? 
- 
+##acoustic distance 
+acoustic distance is a simple concept intuitively but may be operationalized in many ways, or be based on many features 
+
+We tested the predictive ability of of two measures of acoustic distance in our pilot data: 
+MFCCs
+"bottleneck features"  **how calculated**
+We found that in all three pilots, there is a clear advantage for the multilingual
+bottleneck features over MFCC features in predicting the human responses.
+(for further details on the selection process see **linktormd** )
+
+We draw on three sets of ABX phone discrimination pilot data:
+
+- **Pilot-a:** Cross-linguistic (English/French) ABX phoneme experiment, lab speech, three speakers A-B-X, presented to English and French listener groups
+- **Pilot-b:** TIMIT ABX phoneme experiment, from corpus, three speakers A-B-X, presented to English and French listener groups
+- **Pilot-c:** English lab speech ABX phoneme experiment, two speakers AB-X, presented to English and French listener groups
+
+```{r load-pilot-a, include=FALSE}
+pilot_a_human <- tibble::as_tibble(read.csv("data_nika_human.csv",
+                                            row.names=1)) %>%
+  dplyr::mutate(listener_group=ifelse(subject_language.x == "eng",
+                                      "English", "French"))
+pilot_a_bottleneck <- readr::read_csv("data_nika_bottleneck.csv",
+                                      col_types=readr::cols()) %>%
+  dplyr::rename(bn_TGT=bottle_tgt_x, bn_OTH=bottle_oth_x) %>%
+  dplyr::mutate(delta_bn=bn_TGT-bn_OTH, ratio_bn=bn_TGT/bn_OTH)
+pilot_a_mfcc <- readr::read_csv("data_nika_mfcc.csv",
+                                col_types=readr::cols()) %>%
+  dplyr::rename(mfcc_TGT=mfcc_tgt_x, mfcc_OTH=mfcc_oth_x) %>%
+  dplyr::mutate(delta_mfcc=mfcc_TGT-mfcc_OTH, ratio_mfcc=mfcc_TGT/mfcc_OTH)
+pilot_a <- dplyr::left_join(pilot_a_human, pilot_a_bottleneck, 
+                            by="tripletid") %>%
+  dplyr::left_join(pilot_a_mfcc, by="tripletid")
+```
+
+```{r load-pilot-b, include=FALSE}
+pilot_b_human <- readr::read_csv("data_timit_human.csv",
+                                      col_types=readr::cols()) %>%
+  dplyr::mutate(tripletid=sapply(strsplit(tripletid, "_"),
+                                 function(x) x[2])) %>%
+  dplyr::mutate(listener_group=ifelse(subject_language == "English_turkers",
+                                      "English", "French"))
+pilot_b_meta <- readr::read_csv("data_timit_meta.csv",
+                                col_types=readr::cols())
+pilot_b_bottleneck <- readr::read_csv("data_timit_bottleneck.csv",
+                                      col_types=readr::cols()) %>%
+  dplyr::rename(bn_TGT=distance_TGT, bn_OTH=distance_OTH) %>%
+  dplyr::mutate(delta_bn=bn_TGT-bn_OTH, ratio_bn=bn_TGT/bn_OTH)
+pilot_b_mfcc <- readr::read_csv("data_timit_mfcc.csv",
+                                      col_types=readr::cols()) %>%
+  dplyr::rename(mfcc_TGT=distance_TGT, mfcc_OTH=distance_OTH) %>%
+  dplyr::mutate(delta_mfcc=mfcc_TGT-mfcc_OTH, ratio_mfcc=mfcc_TGT/mfcc_OTH)
+pilot_b <- dplyr::left_join(pilot_b_human, pilot_b_bottleneck, 
+                            by="tripletid") %>%
+  dplyr::left_join(pilot_b_mfcc, by="tripletid") %>%
+  dplyr::left_join(pilot_b_meta, by="tripletid") %>%
+  dplyr::mutate(user_corr=ifelse(presentation_order == "AB",
+                                 first_sound, second_sound))
+```
+
+```{r load-pilot-c, include=FALSE}
+pilot_c_human <- tibble::as_tibble(
+  read.csv("data_lab_human.csv", row.names=1)) %>%
+  dplyr::mutate(listener_group=subject_language.x)
+pilot_c_bottleneck <- readr::read_csv("data_lab_bottleneck.csv",
+                                      col_types=readr::cols()) %>%
+  dplyr::rename(bn_TGT=distance_TGT, bn_OTH=distance_OTH) %>%
+  dplyr::mutate(delta_bn=bn_TGT-bn_OTH, ratio_bn=bn_TGT/bn_OTH)
+pilot_c_mfcc <- readr::read_csv("data_lab_mfcc.csv",
+                                      col_types=readr::cols()) %>%
+  dplyr::rename(mfcc_TGT=distance_TGT, mfcc_OTH=distance_OTH) %>%
+  dplyr::mutate(delta_mfcc=mfcc_TGT-mfcc_OTH, ratio_mfcc=mfcc_TGT/mfcc_OTH)
+pilot_c <- dplyr::left_join(pilot_c_human, pilot_c_bottleneck, 
+                            by="tripletid") %>%
+  dplyr::left_join(pilot_c_mfcc, by="tripletid")
+```
+
+
+```{r hindi_stim_selection, echo = FALSE, messages = FALSE}
+hindi_design_long <- readr::read_csv("hindi_design_long.csv")
+hindi_design_long <- dplyr::mutate(hindi_design_long,response_var = 0) %>%
+                     dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>%
+                     dplyr::filter(., phone_TGT != "ɣ"& phone_OTH != "ɣ" & phone_X != "ɣ") %>%
+                     dplyr::filter(., phone_TGT != "x"& phone_OTH != "x" & phone_X != "x")
+
+
+proposed_hindi <- dplyr::filter(hindi_design_long,distance_OTH>distance_TGT) %>%
+                   dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>% 
+                   dplyr::mutate(., log_ratio_distance= log(distance_TGT/distance_OTH))%>%
+                   dplyr::filter(., log_ratio_distance > -.4) %>%
+                   dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
+                                      "_",
+                                      as.character(phone_OTH))) %>%
+                   dplyr::group_by(., phone_pair)%>%
+                   dplyr::sample_n(size = 1) %>%
+                   dplyr::ungroup() %>%
+                   dplyr::sample_n(size = 150)
+
+
+pilot_a_bn_ratio_m <- lme4::glmer(user_corr ~ ratio_bn + (1|tripletid) + (1|subject_id),
+                            data=pilot_a, family="binomial")
+pilot_b_bn_ratio_m <- lme4::glmer(user_corr ~ ratio_bn + (1|tripletid) + (1|subject_id),
+                            data=pilot_b, family="binomial")
+pilot_c_bn_ratio_m <- lme4::glmer(user_corr ~ ratio_bn + (1|tripletid) + (1|subject_id),
+                            data=pilot_c, family="binomial")
+                   
+```
+
+
+We vizualize below 
+
+```{r proposed_stim_sampling}
+
+mean_intercept <- mean(lme4::fixef(pilot_a_bn_ratio_m)[[1]],
+                       lme4::fixef(pilot_b_bn_ratio_m)[[1]],
+                       lme4::fixef(pilot_c_bn_ratio_m)[[1]])
+
+mean_coef_dist <- mean(lme4::fixef(pilot_a_bn_ratio_m)[[2]],
+                       lme4::fixef(pilot_b_bn_ratio_m)[[2]],
+                       lme4::fixef(pilot_c_bn_ratio_m)[[2]])
+  
+long_hindi_m <- glm(response_var~ratio_distance, data=hindi_design_long, family="binomial", maxit = 100)
+    long_hindi_m$coefficients["(Intercept)"]<- mean_intercept
+    long_hindi_m$coefficients["ratio_distance"] <- mean_coef_dist
+  
+##### repeat design for N subjects and add summary accuracy score
+NUM_SUBJS = 60
+
+long_hindi_subjs<- hindi_design_long[rep(1:nrow(hindi_design_long),NUM_SUBJS),]
+
+    subjs<- c()
+      for (i in (1:NUM_SUBJS)) {
+        subjs[i] = paste("subject",i,sep = "_")
+      }
+
+subjs_rep<-as.data.frame(rep.int(subjs,nrow(hindi_design_long)))
+names(subjs_rep)<-c("subject")
+
+long_hindi_subjs <- dplyr::bind_cols(subjs_rep,long_hindi_subjs)
+
+pred_prob <- predict(long_hindi_m, type="response", newdata=long_hindi_subjs)
+    
+      for (i in 1:nrow(long_hindi_subjs)) {
+          long_hindi_subjs[["response_var"]][i] <- sample(c(0,1), 1,
+                                         prob=c((1-pred_prob[i]), pred_prob[i]))
+        }
+
+
+long_hindi_acc_by_phone_pair <- long_hindi_subjs %>%
+  dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
+                                      "_",
+                                      as.character(phone_OTH))) %>%
+  dplyr::mutate(., log_ratio_distance=log(distance_TGT/distance_OTH)) %>%
+  dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>%
+  dplyr::group_by(.,phone_pair,log_ratio_distance,ratio_distance) %>%
+  dplyr::summarize(accuracy=mean(response_var))
+
+                
+ggplot2::ggplot(long_hindi_acc_by_phone_pair, ggplot2::aes(x=log_ratio_distance, y=accuracy)) +
+  ggplot2::geom_point() +
+  ggplot2::geom_smooth()+
+  ggplot2::geom_vline(xintercept=0.0) +
+  ggplot2::geom_hline(yintercept=0.5) +
+  ggplot2::ggtitle("Log distance ratios versus accuracy by phone pair") +
+  ggplot2::xlab("log (distance ratio)") +
+  ggplot2::ylab("Accuracy") 
+
+
+
+
+prop_hindi_m <- glm(response_var~ratio_distance, data=proposed_hindi, family="binomial", maxit = 100)
+    prop_hindi_m$coefficients["(Intercept)"]<- mean_intercept
+    prop_hindi_m$coefficients["ratio_distance"] <- mean_coef_dist
+  
+##### repeat design for N subjects and add summary accuracy score
+NUM_SUBJS = 60
+
+prop_hindi_subjs<- proposed_hindi[rep(1:nrow(proposed_hindi),NUM_SUBJS),]
+
+    subjs<- c()
+      for (i in (1:NUM_SUBJS)) {
+        subjs[i] = paste("subject",i,sep = "_")
+      }
+
+subjs_rep<-as.data.frame(rep.int(subjs,nrow(proposed_hindi)))
+names(subjs_rep)<-c("subject")
+
+prop_hindi_subjs <- dplyr::bind_cols(subjs_rep,prop_hindi_subjs)
+
+pred_prob <- predict(prop_hindi_m, type="response", newdata=prop_hindi_subjs)
+    
+      for (i in 1:nrow(prop_hindi_subjs)) {
+          prop_hindi_subjs[["response_var"]][i] <- sample(c(0,1), 1,
+                                         prob=c((1-pred_prob[i]), pred_prob[i]))
+        }
+
+prop_hindi_acc_by_phone_pair <- prop_hindi_subjs %>%
+  dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
+                                      "_",
+                                      as.character(phone_OTH))) %>%
+  dplyr::mutate(., log_ratio_distance=log(distance_TGT/distance_OTH)) %>%
+  dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>%
+  dplyr::group_by(.,phone_pair,log_ratio_distance,ratio_distance) %>%
+  dplyr::summarize(accuracy=mean(response_var))
+
+                
+ggplot2::ggplot(prop_hindi_acc_by_phone_pair, ggplot2::aes(x=log_ratio_distance, y=accuracy)) +
+  ggplot2::geom_point() +
+  ggplot2::geom_smooth()+
+  ggplot2::geom_vline(xintercept=0.0) +
+  ggplot2::geom_text(ggplot2::aes(label=phone_pair))+
+  ggplot2::geom_hline(yintercept=0.5) +
+  ggplot2::ggtitle("Log distance ratios versus accuracy by phone pair") +
+  ggplot2::xlab("log (distance ratio)") +
+  ggplot2::ylab("Accuracy") 
+
+
+```
+in addition, each ABX trial has two acoustic distances of interest: the distance bewtween A and X, and the distance between B and X.  We hypothesize that it is the difference between these distances that will drive the accuracy of 
+
  
 geomphon scores 
+
+
 
 
 #### method to determine whether an effect of a coefficient is non-zero 
@@ -308,7 +520,8 @@ We will interpret there to be a positive effect of one of the geomphon scores Mo
 
 #### random effects structure 
 
-
+ We expect variation by subject and by item.  We will include random slopes and intercepts for subjects, and random slopes and intercepts by item. 
+ There are several ways that we could define item.  We choose **__THIS WAY_**
 
 # Results & Analysis 
 
@@ -329,7 +542,7 @@ possible outcomes:
 
 a) there is no effect of acoustic distance, as determined by ________
   
-We will interpret this as a failure to replicate the well-known effect of acoustic distance. Given that the stimuli were chosen specifically to have an effect of acoustic distance, that the number of subjects was chosen specifically to be able to robustly detect this effect, and that three previous pilots show large significant effects of distance, we will we will consider this a fatal failure of the experimental protocol.  We will withdraw the study and pre-register a new experimental protocol with more subjects and/ or an easier task in order to detect the effect of acoustic distance. 
+We will interpret this as a failure to replicate the effect of acoustic distance. Given that the stimuli were chosen specifically to have an effect of acoustic distance, that the number of subjects was chosen specifically to be able to robustly detect this effect, and that three previous pilots show large, significant effects of distance, we will we will consider this a fatal failure of the experimental protocol.  We will withdraw the study and pre-register a new experimental protocol with more subjects and/ or an easier task in order to detect the effect of acoustic distance. 
 
 b) there is an effect of acoustic distance 
 
