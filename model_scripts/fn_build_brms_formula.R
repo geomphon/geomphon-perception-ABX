@@ -13,22 +13,22 @@ build_brms_formula<- function(posvars,
     bform <-bf(as.formula("response_var ~ normvars + posvars + negvars"), nl = TRUE,
                lf(as.formula(paste0("normvars ~ ",normvars)), center = TRUE),
                lf(as.formula(paste0("posvars ~ 0 + ",posvars)), cmc = FALSE),
-               lf(as.formula(paste0("negvars ~ 0 + ",negvars)), cmc = FALSE))
+               lf(as.formula(paste0("negvars ~ 0 + ",negvars,"+ (1|subject) + (1|item)")), cmc = FALSE))
     
   } else if (is.na(normvars)) {
     bform <-bf(as.formula("response_var ~ posvars + negvars"), nl = TRUE,
                lf(as.formula(paste0("posvars ~ 0 + ",posvars)), cmc = FALSE),
-               lf(as.formula(paste0("negvars ~ 0 + ",negvars)), cmc = FALSE))
+               lf(as.formula(paste0("negvars ~ 0 + ",negvars,"+ (1|subject) + (1|item)")), cmc = FALSE))
     
   } else if (is.na(posvars)) {
     bform <-bf(as.formula("response_var ~ normvars + negvars"), nl = TRUE,
                lf(as.formula(paste0("normvars ~ ",normvars)), center = TRUE),
-               lf(as.formula(paste0("negvars ~ 0 + ",negvars)), cmc = FALSE))
+               lf(as.formula(paste0("negvars ~ 0 + ",negvars,"+ (1|subject) + (1|item)")), cmc = FALSE))
     
   } else if (is.na(negvars)) {
     bform <-bf(as.formula("response_var ~ normvars + posvars"), nl = TRUE,
                lf(as.formula(paste0("normvars ~ ",normvars)), center = TRUE),
-               lf(as.formula(paste0("posvars ~ 0 + ",posvars)), cmc = FALSE))
+               lf(as.formula(paste0("posvars ~ 0 + ",posvars, "+ (1|subject) + (1|item)")), cmc = FALSE))
   }
   
   return(bform)
