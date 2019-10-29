@@ -1022,14 +1022,14 @@ item []:
             text = "" 
         intervals [253]:
             xmin = 204.08 
-            xmax = 204.64 
+            xmax = 204.55676967656507 
             text = "kripyaa" 
         intervals [254]:
-            xmin = 204.64 
-            xmax = 204.95 
+            xmin = 204.55676967656507 
+            xmax = 204.95974190328852 
             text = "afa" 
         intervals [255]:
-            xmin = 204.95 
+            xmin = 204.95974190328852 
             xmax = 205.41 
             text = "kahiee" 
         intervals [256]:
@@ -1206,14 +1206,14 @@ item []:
             text = "" 
         intervals [299]:
             xmin = 245.45 
-            xmax = 245.91 
+            xmax = 245.94320516095183 
             text = "kripyaa" 
         intervals [300]:
-            xmin = 245.91 
-            xmax = 246.31 
+            xmin = 245.94320516095183 
+            xmax = 246.34076276693446 
             text = "ama" 
         intervals [301]:
-            xmin = 246.31 
+            xmin = 246.34076276693446 
             xmax = 246.81 
             text = "kahiee" 
         intervals [302]:
@@ -7669,7 +7669,7 @@ item []:
         intervals [1447]:
             xmin = 368.21 
             xmax = 385.55 
-            text = "sp" 
+            text = "" 
         intervals [1448]:
             xmin = 385.55 
             xmax = 385.5687074829932 
@@ -7679,7 +7679,7 @@ item []:
         name = "word" 
         xmin = 0 
         xmax = 385.5687074829932 
-        intervals: size = 199 
+        intervals: size = 217 
         intervals [1]:
             xmin = 0 
             xmax = 26.58 
@@ -8066,26 +8066,26 @@ item []:
             text = "ADA" 
         intervals [97]:
             xmin = 175.18 
-            xmax = 180.38 
+            xmax = 180.25618767964 
             text = "" 
         intervals [98]:
-            xmin = 180.38 
+            xmin = 180.25618767964 
             xmax = 180.63 
             text = "ADHA" 
         intervals [99]:
             xmin = 180.63 
-            xmax = 182.56 
+            xmax = 182.45200271737275 
             text = "" 
         intervals [100]:
-            xmin = 182.56 
+            xmin = 182.45200271737275 
             xmax = 182.82 
             text = "ADHA" 
         intervals [101]:
             xmin = 182.82 
-            xmax = 184.92552357896355 
+            xmax = 184.8500177714811 
             text = "" 
         intervals [102]:
-            xmin = 184.92552357896355 
+            xmin = 184.8500177714811 
             xmax = 185.22 
             text = "ADHA" 
         intervals [103]:
@@ -8106,373 +8106,445 @@ item []:
             text = "ANA" 
         intervals [107]:
             xmin = 192.74 
-            xmax = 194.7 
+            xmax = 194.74441539797672 
             text = "" 
         intervals [108]:
-            xmin = 194.7 
+            xmin = 194.74441539797672 
             xmax = 195.1 
             text = "ANA" 
         intervals [109]:
             xmin = 195.1 
-            xmax = 212.06 
+            xmax = 200.21746548645643 
             text = "" 
         intervals [110]:
-            xmin = 212.06 
-            xmax = 212.53 
+            xmin = 200.21746548645643 
+            xmax = 200.58 
             text = "APA" 
         intervals [111]:
+            xmin = 200.58 
+            xmax = 202.26205407942211 
+            text = "" 
+        intervals [112]:
+            xmin = 202.26205407942211 
+            xmax = 202.69 
+            text = "APA" 
+        intervals [113]:
+            xmin = 202.69 
+            xmax = 204.55676967656507 
+            text = "" 
+        intervals [114]:
+            xmin = 204.55676967656507 
+            xmax = 204.95974190328852 
+            text = "APA" 
+        intervals [115]:
+            xmin = 204.95974190328852 
+            xmax = 212.06 
+            text = "" 
+        intervals [116]:
+            xmin = 212.06 
+            xmax = 212.53 
+            text = "APHA" 
+        intervals [117]:
             xmin = 212.53 
             xmax = 215.52 
             text = "" 
-        intervals [112]:
+        intervals [118]:
             xmin = 215.52 
             xmax = 216.04 
-            text = "APA" 
-        intervals [113]:
+            text = "APHA" 
+        intervals [119]:
             xmin = 216.04 
             xmax = 217.93 
             text = "" 
-        intervals [114]:
+        intervals [120]:
             xmin = 217.93 
             xmax = 218.38 
-            text = "APA" 
-        intervals [115]:
+            text = "APHA" 
+        intervals [121]:
             xmin = 218.38 
             xmax = 223.57 
             text = "" 
-        intervals [116]:
+        intervals [122]:
             xmin = 223.57 
             xmax = 223.96 
-            text = "APHA" 
-        intervals [117]:
+            text = "ABA" 
+        intervals [123]:
             xmin = 223.96 
             xmax = 225.75 
             text = "" 
-        intervals [118]:
+        intervals [124]:
             xmin = 225.75 
             xmax = 226.14 
-            text = "APHA" 
-        intervals [119]:
+            text = "ABA" 
+        intervals [125]:
             xmin = 226.14 
             xmax = 227.86 
             text = "" 
-        intervals [120]:
+        intervals [126]:
             xmin = 227.86 
             xmax = 228.24 
-            text = "APHA" 
-        intervals [121]:
+            text = "ABA" 
+        intervals [127]:
             xmin = 228.24 
+            xmax = 237.99 
+            text = "" 
+        intervals [128]:
+            xmin = 237.99 
+            xmax = 238.4 
+            text = "ABHA" 
+        intervals [129]:
+            xmin = 238.4 
+            xmax = 239.9109233179739 
+            text = "" 
+        intervals [130]:
+            xmin = 239.9109233179739 
+            xmax = 240.29 
+            text = "ABHA" 
+        intervals [131]:
+            xmin = 240.29 
+            xmax = 241.86507185815003 
+            text = "" 
+        intervals [132]:
+            xmin = 241.86507185815003 
+            xmax = 242.26 
+            text = "ABHA" 
+        intervals [133]:
+            xmin = 242.26 
+            xmax = 245.94320516095183 
+            text = "" 
+        intervals [134]:
+            xmin = 245.94320516095183 
+            xmax = 246.34076276693446 
+            text = "AMA" 
+        intervals [135]:
+            xmin = 246.34076276693446 
+            xmax = 247.87 
+            text = "" 
+        intervals [136]:
+            xmin = 247.87 
+            xmax = 248.24 
+            text = "AMA" 
+        intervals [137]:
+            xmin = 248.24 
+            xmax = 249.78 
+            text = "" 
+        intervals [138]:
+            xmin = 249.78 
+            xmax = 250.18 
+            text = "AMA" 
+        intervals [139]:
+            xmin = 250.18 
             xmax = 253.28 
             text = "" 
-        intervals [122]:
+        intervals [140]:
             xmin = 253.28 
             xmax = 253.67 
             text = "AJA" 
-        intervals [123]:
+        intervals [141]:
             xmin = 253.67 
-            xmax = 255.19 
+            xmax = 255.23259350400858 
             text = "" 
-        intervals [124]:
-            xmin = 255.19 
+        intervals [142]:
+            xmin = 255.23259350400858 
             xmax = 255.58 
             text = "AJA" 
-        intervals [125]:
+        intervals [143]:
             xmin = 255.58 
             xmax = 257.32 
             text = "" 
-        intervals [126]:
+        intervals [144]:
             xmin = 257.32 
             xmax = 257.66 
             text = "AJA" 
-        intervals [127]:
+        intervals [145]:
             xmin = 257.66 
             xmax = 260.65 
             text = "" 
-        intervals [128]:
+        intervals [146]:
             xmin = 260.65 
             xmax = 261.03 
             text = "ARA" 
-        intervals [129]:
+        intervals [147]:
             xmin = 261.03 
-            xmax = 262.86 
+            xmax = 262.75258941621223 
             text = "" 
-        intervals [130]:
-            xmin = 262.86 
+        intervals [148]:
+            xmin = 262.75258941621223 
             xmax = 263.12 
             text = "ARA" 
-        intervals [131]:
+        intervals [149]:
             xmin = 263.12 
             xmax = 264.9799521931661 
             text = "" 
-        intervals [132]:
+        intervals [150]:
             xmin = 264.9799521931661 
             xmax = 265.31 
             text = "ARA" 
-        intervals [133]:
+        intervals [151]:
             xmin = 265.31 
-            xmax = 271.85995727876366 
+            xmax = 271.80975504670084 
             text = "" 
-        intervals [134]:
-            xmin = 271.85995727876366 
+        intervals [152]:
+            xmin = 271.80975504670084 
             xmax = 272.18 
             text = "ALA" 
-        intervals [135]:
+        intervals [153]:
             xmin = 272.18 
             xmax = 273.6872537857326 
             text = "" 
-        intervals [136]:
+        intervals [154]:
             xmin = 273.6872537857326 
             xmax = 274.09 
             text = "ALA" 
-        intervals [137]:
+        intervals [155]:
             xmin = 274.09 
             xmax = 275.7870418770741 
             text = "" 
-        intervals [138]:
+        intervals [156]:
             xmin = 275.7870418770741 
             xmax = 276.15 
             text = "ALA" 
-        intervals [139]:
+        intervals [157]:
             xmin = 276.15 
-            xmax = 280.3763200019415 
+            xmax = 280.40474332640633 
             text = "" 
-        intervals [140]:
-            xmin = 280.3763200019415 
+        intervals [158]:
+            xmin = 280.40474332640633 
             xmax = 280.78 
             text = "AVLA" 
-        intervals [141]:
+        intervals [159]:
             xmin = 280.78 
-            xmax = 282.37993459291624 
+            xmax = 282.40629215610585 
             text = "" 
-        intervals [142]:
-            xmin = 282.37993459291624 
+        intervals [160]:
+            xmin = 282.40629215610585 
             xmax = 282.81 
             text = "AVLA" 
-        intervals [143]:
+        intervals [161]:
             xmin = 282.81 
             xmax = 284.44766485080214 
             text = "" 
-        intervals [144]:
+        intervals [162]:
             xmin = 284.44766485080214 
             xmax = 284.8 
             text = "AVLA" 
-        intervals [145]:
+        intervals [163]:
             xmin = 284.8 
-            xmax = 288 
+            xmax = 287.9002042242018 
             text = "" 
-        intervals [146]:
-            xmin = 288 
+        intervals [164]:
+            xmin = 287.9002042242018 
             xmax = 288.27 
             text = "AXA" 
-        intervals [147]:
+        intervals [165]:
             xmin = 288.27 
             xmax = 289.96 
             text = "" 
-        intervals [148]:
+        intervals [166]:
             xmin = 289.96 
             xmax = 290.35 
             text = "AXA" 
-        intervals [149]:
+        intervals [167]:
             xmin = 290.35 
-            xmax = 292.28 
+            xmax = 292.1772441894783 
             text = "" 
-        intervals [150]:
-            xmin = 292.28 
+        intervals [168]:
+            xmin = 292.1772441894783 
             xmax = 292.55 
             text = "AXA" 
-        intervals [151]:
+        intervals [169]:
             xmin = 292.55 
-            xmax = 298.44568428356706 
+            xmax = 298.38341957963274 
             text = "" 
-        intervals [152]:
-            xmin = 298.44568428356706 
+        intervals [170]:
+            xmin = 298.38341957963274 
             xmax = 298.76 
             text = "AXRA" 
-        intervals [153]:
+        intervals [171]:
             xmin = 298.76 
-            xmax = 300.48 
+            xmax = 300.36831360758254 
             text = "" 
-        intervals [154]:
-            xmin = 300.48 
+        intervals [172]:
+            xmin = 300.36831360758254 
             xmax = 300.78 
             text = "AXRA" 
-        intervals [155]:
+        intervals [173]:
             xmin = 300.78 
             xmax = 302.4 
             text = "" 
-        intervals [156]:
+        intervals [174]:
             xmin = 302.4 
             xmax = 302.8 
             text = "AXRA" 
-        intervals [157]:
+        intervals [175]:
             xmin = 302.8 
-            xmax = 307.24 
+            xmax = 307.26635601811773 
             text = "" 
-        intervals [158]:
-            xmin = 307.24 
+        intervals [176]:
+            xmin = 307.26635601811773 
             xmax = 307.65 
             text = "ASA" 
-        intervals [159]:
+        intervals [177]:
             xmin = 307.65 
             xmax = 309.36 
             text = "" 
-        intervals [160]:
+        intervals [178]:
             xmin = 309.36 
             xmax = 309.77 
             text = "ASA" 
-        intervals [161]:
+        intervals [179]:
             xmin = 309.77 
             xmax = 311.46515624925274 
             text = "" 
-        intervals [162]:
+        intervals [180]:
             xmin = 311.46515624925274 
             xmax = 311.82 
             text = "ASA" 
-        intervals [163]:
+        intervals [181]:
             xmin = 311.82 
             xmax = 316.27 
             text = "" 
-        intervals [164]:
+        intervals [182]:
             xmin = 316.27 
             xmax = 316.61 
             text = "AHHA" 
-        intervals [165]:
+        intervals [183]:
             xmin = 316.61 
             xmax = 318.42 
             text = "" 
-        intervals [166]:
+        intervals [184]:
             xmin = 318.42 
             xmax = 318.76 
             text = "AHHA" 
-        intervals [167]:
+        intervals [185]:
             xmin = 318.76 
             xmax = 320.47 
             text = "" 
-        intervals [168]:
+        intervals [186]:
             xmin = 320.47 
             xmax = 320.93 
             text = "AHHA" 
-        intervals [169]:
+        intervals [187]:
             xmin = 320.93 
-            xmax = 326.25 
+            xmax = 326.1990375053328 
             text = "" 
-        intervals [170]:
-            xmin = 326.25 
+        intervals [188]:
+            xmin = 326.1990375053328 
             xmax = 326.66 
             text = "ARRA" 
-        intervals [171]:
+        intervals [189]:
             xmin = 326.66 
             xmax = 328.17 
             text = "" 
-        intervals [172]:
+        intervals [190]:
             xmin = 328.17 
             xmax = 328.6 
             text = "ARRA" 
-        intervals [173]:
+        intervals [191]:
             xmin = 328.6 
             xmax = 330.29 
             text = "" 
-        intervals [174]:
+        intervals [192]:
             xmin = 330.29 
             xmax = 330.64 
             text = "ARRA" 
-        intervals [175]:
+        intervals [193]:
             xmin = 330.64 
             xmax = 336.37 
             text = "" 
-        intervals [176]:
+        intervals [194]:
             xmin = 336.37 
             xmax = 336.84 
             text = "ARHA" 
-        intervals [177]:
+        intervals [195]:
             xmin = 336.84 
             xmax = 338.54 
             text = "" 
-        intervals [178]:
+        intervals [196]:
             xmin = 338.54 
             xmax = 338.92 
             text = "ARHA" 
-        intervals [179]:
+        intervals [197]:
             xmin = 338.92 
             xmax = 340.5377182771199 
             text = "" 
-        intervals [180]:
+        intervals [198]:
             xmin = 340.5377182771199 
             xmax = 340.93 
             text = "ARHA" 
-        intervals [181]:
+        intervals [199]:
             xmin = 340.93 
             xmax = 346.82911064914265 
             text = "" 
-        intervals [182]:
+        intervals [200]:
             xmin = 346.82911064914265 
             xmax = 347.25 
             text = "ARTHA" 
-        intervals [183]:
+        intervals [201]:
             xmin = 347.25 
             xmax = 348.8006674066617 
             text = "" 
-        intervals [184]:
+        intervals [202]:
             xmin = 348.8006674066617 
             xmax = 349.18 
             text = "ARTHA" 
-        intervals [185]:
+        intervals [203]:
             xmin = 349.18 
             xmax = 351.0126579150978 
             text = "" 
-        intervals [186]:
+        intervals [204]:
             xmin = 351.0126579150978 
             xmax = 351.38 
             text = "ARTHA" 
-        intervals [187]:
+        intervals [205]:
             xmin = 351.38 
             xmax = 357.02342783872473 
             text = "" 
-        intervals [188]:
+        intervals [206]:
             xmin = 357.02342783872473 
             xmax = 357.34 
             text = "ARTA" 
-        intervals [189]:
+        intervals [207]:
             xmin = 357.34 
             xmax = 358.94705759333823 
             text = "" 
-        intervals [190]:
+        intervals [208]:
             xmin = 358.94705759333823 
             xmax = 359.28 
             text = "ARTA" 
-        intervals [191]:
+        intervals [209]:
             xmin = 359.28 
             xmax = 361.0900117416623 
             text = "" 
-        intervals [192]:
+        intervals [210]:
             xmin = 361.0900117416623 
             xmax = 361.47 
             text = "ARTA" 
-        intervals [193]:
+        intervals [211]:
             xmin = 361.47 
             xmax = 365.4393926675019 
             text = "" 
-        intervals [194]:
+        intervals [212]:
             xmin = 365.4393926675019 
             xmax = 365.78 
             text = "ANRA" 
-        intervals [195]:
+        intervals [213]:
             xmin = 365.78 
-            xmax = 367.3727930452209 
+            xmax = 367.3004696777867 
             text = "" 
-        intervals [196]:
-            xmin = 367.3727930452209 
+        intervals [214]:
+            xmin = 367.3004696777867 
             xmax = 367.73 
             text = "ANRA" 
-        intervals [197]:
+        intervals [215]:
             xmin = 367.73 
             xmax = 369.1683431018426 
             text = "" 
-        intervals [198]:
+        intervals [216]:
             xmin = 369.1683431018426 
             xmax = 369.6061570818704 
             text = "ANRA" 
-        intervals [199]:
+        intervals [217]:
             xmin = 369.6061570818704 
             xmax = 385.5687074829932 
             text = "" 
