@@ -24,8 +24,8 @@ pairs.csv: design.csv
 	Rscript --vanilla triplets_to_pairs.Rscript design.csv pairs.csv
 
 distances_by_pair.csv: pairs.csv
-	python ../../src/wav_to_distance.py --njobs 4 pairs.csv \
-mfcc_config_shennong.yaml distances_by_pair.csv
+	python ../../src/wav_to_distance.py --njobs 1 pairs.csv \
+bottleneck_config_shennong.yaml distances_by_pair.csv
 
 triplets.csv: distances_by_pair.csv
 	Rscript --vanilla distance_pairs_to_triplets.Rscript \
