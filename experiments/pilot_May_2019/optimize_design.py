@@ -219,6 +219,7 @@ if __name__ == "__main__":
                   file=sys.stderr)
             if new_energy < current_energy:
                 current_energy = new_energy
+                current_state = opt.state
             else:
                 print("Iteration " + str(iteration) +
                       ": Design did not improve, leaving unchanged",
@@ -227,7 +228,7 @@ if __name__ == "__main__":
             opt.set_schedule(improvement_schedule)
             iteration += 1
     except SystemExit:
-        print("Interrupted, saving current state as " + args.output_file +
+        print("Interrupted, saving previous state as " + args.output_file +
               " (can be resumed using --initialization)",
               file=sys.stderr)
         opt.state = current_state
