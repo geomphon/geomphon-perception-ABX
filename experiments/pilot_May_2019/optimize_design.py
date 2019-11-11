@@ -72,6 +72,7 @@ class ABXAnnealer(simanneal.Annealer):
         self.speaker_triples_inv = {(st['speaker_TGT'], st['speaker_OTH'],
                                      st['speaker_X']): i
                                     for i, st in self.speaker_triples.items()}
+        self.n_speaker_triples = len(self.speaker_triples)
         self.n_trials = len(self.phone_pairs) * len(ABXAnnealer.ab_orders())
         self.initialize_state(init)
 
@@ -107,10 +108,10 @@ class ABXAnnealer(simanneal.Annealer):
         s = self.state
         pred_phone_from_spkr = sklearn.metrics.normalized_mutual_info_score(
             s[:, ABXAnnealer.phone_pair_col()],
-            s[:, ABXAnnealer.speaker_triple_col()])
+            s[:, ABXAnnealer.speaker_triple_col()], average_method='arithmetic')
         pred_ab_order_from_spkr = sklearn.metrics.normalized_mutual_info_score(
             s[:, ABXAnnealer.ab_order_col()],
-            s[:, ABXAnnealer.speaker_triple_col()])
+            s[:, ABXAnnealer.speaker_triple_col()], average_method='arithmetic')
         num_repetitions = self.n_trials \
             - sum([
                 len(np.unique(s[s[:,ABXAnnealer.phone_pair_col()] == pp][:,
@@ -118,8 +119,11 @@ class ABXAnnealer(simanneal.Annealer):
                 for pp in self.phone_pairs.keys()
             ])
         normalized_num_repetitions = num_repetitions / self.n_trials
+        spk_used = np.unique(self.state[:,ABXAnnealer.speaker_triple_col()])
+        prop_spk_used = len(spk_used)/self.n_speaker_triples
+        prop_spk_missing = 1 - prop_spk_used
         return pred_phone_from_spkr + pred_ab_order_from_spkr \
-            + normalized_num_repetitions
+            + normalized_num_repetitions + prop_spk_missing
 
     def state_df(self):
         ab_order = pd.DataFrame({
