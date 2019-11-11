@@ -185,6 +185,13 @@ if __name__ == "__main__":
         opt = ABXAnnealer(triplets, init)
     else:
         opt = ABXAnnealer(triplets)
+    initial_state = opt.state
+    initial_energy = opt.energy()
+    print("Initial energy: " + str(initial_energy), file=sys.stderr)
+    if args.desired_energy is not None:
+        desired_energy = args.desired_energy
+    else:
+        desired_energy = initial_energy
     print("Optimizing initial annealing schedule...", file=sys.stderr)
     sys.stderr.flush()
     initial_schedule = opt.auto(3, steps=100)
@@ -193,12 +200,7 @@ if __name__ == "__main__":
     improvement_schedule['tmax'] = initial_schedule['tmax'] * math.exp(
         -math.log(initial_schedule['tmax'] / initial_schedule['tmin']) * 0.99)
     opt.set_schedule(initial_schedule)
-    initial_energy = opt.energy()
-    print("Initial energy: " + str(initial_energy), file=sys.stderr)
-    if args.desired_energy is not None:
-        desired_energy = args.desired_energy
-    else:
-        desired_energy = initial_energy
+    opt.state = initial_state
     print("Iterating until energy drops below: " + str(desired_energy),
           file=sys.stderr)
     iteration = 1
