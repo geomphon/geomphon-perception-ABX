@@ -10,6 +10,16 @@ import pandas as pd
 import argparse
 import os, sys
 
+def normalize_amplitude(sound, target_dbfs):
+    return sound.apply_gain(target_dbfs - sound.dBFS)
+
+def get_audio(filename, onset_s, offset_s):
+    audio = AudioSegment.from_wav(filename)
+    onset_ms = round(onset_s * 1000)
+    offset_ms = round(offset_s * 1000)
+    segment_raw = audio[onset_ms:(offset_ms + 1)]
+    segment = normalize_amplitude(segment_raw, -20)
+    return segment
 
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)  # FIXME WRAP
@@ -28,9 +38,6 @@ def BUILD_ARGPARSE():
                         default=500,
                         help="BX Silence interval (ms)")
     parser.add_argument('triplet_file', help="Triplet file name", type=str)
-    parser.add_argument('interval_folder',
-                        help="Interval folder name",
-                        type=str)
     parser.add_argument('triplet_folder',
                         help="Output triplet folder name",
                         type=str)
@@ -54,9 +61,12 @@ if __name__ == "__main__":
     triplets = pd.read_csv(args.triplet_file)
     for _, triplet in triplets.iterrows():
         try:
-            audio_TGT = AudioSegment.from_wav(triplet['file_TGT'])
-            audio_OTH = AudioSegment.from_wav(triplet['file_OTH'])
-            audio_X = AudioSegment.from_wav(triplet['file_X'])
+            audio_TGT = get_audio(triplet['file_TGT'], triplet['onset_TGT'],
+                                  triplet['offset_TGT'])
+            audio_OTH = get_audio(triplet['file_OTH'], triplet['onset_OTH'],
+                                  triplet['offset_OTH'])
+            audio_X = get_audio(triplet['file_X'], triplet['onset_X'],
+                                  triplet['offset_X'])
         except Exception as e:
             eprint("""Problem reading audio file: <M>""".replace(
                 "<M>", str(e)).replace("\n", " "))
@@ -72,3 +82,5 @@ if __name__ == "__main__":
                      format="mp3")
         audio.export(os.path.join(ogg_folder, triplet['triplet_id'] + ".ogg"),
                      format="ogg")
+
+

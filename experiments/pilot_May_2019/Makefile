@@ -31,12 +31,8 @@ triplets.csv: distances_by_pair.csv
 	Rscript --vanilla distance_pairs_to_triplets.Rscript \
 distances_by_pair.csv triplets.csv
 
-stimuli_intervals: intervals.csv 
-	python save_intervals_to_wavs.py intervals.csv stimuli_intervals 
-
-stimuli_triplets: stimuli_intervals triplets.csv
-	python save_triplets_to_wavs.py triplets.csv stimuli_intervals \
-stimuli_triplets 
+stimuli_triplets: triplets.csv
+	python save_triplets_to_wavs.py triplets.csv stimuli_triplets 
 
 lmeds_output/raw: 
 	mkdir -p lmeds_output_raw && python \
