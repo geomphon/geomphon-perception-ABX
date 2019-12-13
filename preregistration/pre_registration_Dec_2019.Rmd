@@ -40,17 +40,13 @@ Till Poppels
 ### background 
 Over a lifetime of speech perception, humans fine-tune their sensitivity to phonetic differences that are contrastive in their native language.  When listeners hear a new phone, be it a phone from a new language or a variant they have not previously encountered, they are faced with the task of perceiving new sounds with a perceptual system that is tuned to their native language and dialect.   There is extensive research investigating precisely how this is accomplished. In formal models of language learning such as the Speech Learning Model (Flege) and the Perceptual Assimilation Model (Best,1995, Best & Tyler 2007), an important concept that has arisen from past work is the distance of the unfamiliar sound to the nearest familiar sound in the native inventory.  Unfamiliar sounds will be hard to discriminate from a familiar sound that is close, and easier to discriminate from a familiar sound that is farther away.
 
-What makes two sounds "close" or "far away" is defined in different ways: principally, as either an objective acoustic distance measured on some element of an acoustic signal, or as a perceptual distance which can be measured through discrimination tasks. However, a narrow focus on the distance between one familiar sound and one unfamiliar sound ignores the crucial fact that phonetic space is crowded for most sound inventories. If we consider representations in a continous acoustic space, an unfamiliar sound which is "far" from one familar sound may also be "near" to other sounds. A familiar example is to look at the vowel space, mapped by the first formant vs second formant. The inventory of Spanish has five vowels (below, in black), and when vizualized in an f1 vs f2 they show somewhat even spacing, and a symmetrical distribution.  Let us imagine a Spanish speaker who is encountering French sounds for the first time and is attempting to add them to their mental representation.  Some french sounds will be very similar acoustically to sounds already exsisting in their inventory, and some will be very different. Also, adding a new sound to their already established inventory of sounds will also change the arrangement of sounds in the inventory. In the case of the added sounds here (in red, below),both /y/ and /ɛ/ have a similar distance to the nearest sounds in the native inventory.  However, adding /ɛ/ increases the symmetry of the system and creates an inventory with similar distance between each sound, whereas adding /y/ creates an inventory that is unbalanced, has less symmetry, and has greater variation in the distances between sounds.  
-
+What makes two sounds "close" or "far away" is defined in different ways: principally, as either an objective acoustic distance measured on some element of an acoustic signal, or as a perceptual distance which can be measured through discrimination tasks. However, a narrow focus on the distance between one familiar sound and one unfamiliar sound ignores the crucial fact that phonetic space is crowded for most sound inventories. If we consider representations in a continous acoustic space, an unfamiliar sound which is "far" from one familar sound may also be "near" to other sounds. A familiar example is to look at the vowel space, mapped by the first formant vs second formant. The inventory of Spanish has five vowels (below, in black), and when vizualized in an f1 vs f2 they show somewhat even spacing, and a symmetrical distribution.  Let us imagine a Spanish speaker who is encountering French sounds for the first time and is attempting to add them to their mental representation.  Some french sounds will be very similar acoustically to sounds already exsisting in their inventory, and some will be very different. Also, adding a new sound to their already established inventory of sounds will also change the arrangement of sounds in the inventory. In the case of the added sounds here (in red, below),both /y/ and /ɛ/ have a similar distance to the nearest sounds in the native inventory.  However, adding /ɛ/ only does not substantially change  the symmetry of the system and creates an inventory with similar distance between each sound, whereas adding /y/ only creates an inventory that is unbalanced, has less symmetry, and has greater variation in the distances between sounds.  
 
  ![Alt text](250px-Spanish_vowel_chart_added_sounds.png)
 
-##FIX THIS FIGURE- better examples with distance markers made. 
-
-
 This leads us to the question: Is accuracy in discriminating a new sound principally driven by acoustic distance to the nearest sound in the native inventory?  Or does the change in shape of the inventory also play a role?
 
-We follow this line of inquiry because of previous work indicating that sound inventories are not random in their distribution of sounds (Dunbar & Dupoux 2016). Dunpar & Doupoux (2016) develop three measurements which encompass these tendencies:  
+We follow this line of inquiry because of previous work indicating that sound inventories are not random in their distribution of sounds (Dunbar & Dupoux 2016). Dunpar & Doupoux (2016) develop three measurements which encompass these tendencies:
 
 1) economy ("Econ"): if two inventories have the same number of sounds, those sounds tend, all things being equal, to require relatively few features to characterize.  
 
@@ -60,9 +56,9 @@ We follow this line of inquiry because of previous work indicating that sound in
 
 Because these metrics measure the geometry of an entire inventory,  we call these measures "geomphon scores." Unlike the toy example above displaying an inventory in a continuous f1-f2 space, these scores are based on discrete discrete phonological features, and visualise inventories as n-dimensional hypercubes. This allows the scores to take into account far more features than the simple two-dimensional diagram above.  Details of the precise method are available in Dunbar & Dupoux (2016).  While Dunbar & Dupoux establish that sound inventories of the worlds languages maximize these properties above and beyond the distribution expected by chance, they do not establish *why* inventories maximize these scores.  One possible reason is that inventories that maximize these scores are optimal for discrimination of sounds within an inventory.  This would lead to the prediction that a change in inventory that reduces one of these scores would lead to worse discrimination, when compared to a change in inventory that increases one of these scores. 
 
-The motivation for this experiment is to test whether the spatial relation of all the sounds in a phoneme inventory affect perception of a given unafamiliar sound.  Specifically, we test whether changes in geomphon scores are predictive of discrimination accuracy, above and beyond the effect of acoustic distance to one nearest sound.  
+The motivation for this experiment is to test whether the relation of all the sounds in a phoneme inventory affect perception of a given unafamiliar sound.  Specifically, we test whether changes in geomphon scores are predictive of discrimination accuracy, above and beyond the effect of the acoustic distance to the one nearest sound in the inventory.   
 
-To accomplish this we collect discrimination data from an ABX task. That is, listeners hear one sound ("A"), then another sound ("B""), and then a new instance of one of the previously heard sounds ("X").  Each AB pair of sounds includes one sound that is familiar (= part of the native inventory of participants), and one sound that is unfamiliar (= not part of the native inventory of participants). For each pair of sounds, we calculate the acoustic distance between sounds, and also the change in geomphon scores if the unfamiliar sound were added to the native inventory. (see more detail in #Method, below)  In brief, our hypotheses are as follows:
+To accomplish this we collect discrimination data from an ABX task. That is, listeners hear one sound ("A"), then another sound ("B"), and then a new instance of one of the previously heard sounds ("X").  Each AB pair of sounds includes one sound that is familiar (= part of the native inventory of participants), and one sound that is unfamiliar (= not part of the native inventory of participants). For each pair of sounds, we calculate the acoustic distance between sounds, and also the change in geomphon scores if the unfamiliar sound were added to the native inventory. (see more detail in Method, below)  In brief, our hypotheses are as follows:
 
 ### Hypothesiss 
 We hypothesize that changes in Econ, Glob, and Loc will each be predictive of discimination accuracy, above and beyond the effect of acoustic distance.   
@@ -72,12 +68,12 @@ We hypothesize that changes in Econ, Glob, and Loc will each be predictive of di
  
  1) For each trial with sounds A, B, and X(an instance of either A or B),  we will measure the acoustic distance between A and X, and between B and X. If these distances are similar, we predict the task will be hard because this indicates that X is similar to both A and B. If, however, one of the distances is much greater than the other, it will be obvious which sound X is an instance of, and the task will be easy.  In short, we predict that the larger the difference between the measured distances (A->X) and (B->X), the higher the discrimination accuracy will be. 
  
- 2) Each trial ABX will have one unfamiliar sound. Each unfamiliar sound will be given a value for how much it would change geomphon scores if it were added to the native inventory. We expect that the more a sound would cause a negative change in a geomphon score, the lower the discrimination accuracy for that sound will be. 
-
-
-this will be operationalized as a generalized linear model with a logistic link function. The dependent variable will be participant accuracy. The predictors of interest will be the change in each of the geomphon scores, and the difference in acoustic distances for the two sounds in each trial.  We expect  the effect will vary by subject and by item and so we intend to include random effects in the model for subject and for item. In lme4() syntax, the model would be written as follows: 
+ 2) Each trial ABX will have one unfamiliar sound. Each unfamiliar sound will be given a value for how much it would change geomphon scores if it were added to the native inventory. We expect that the more a sound would cause a negative change in a geomphon score, the lower the discrimination accuracy for that sound will be.  
+ 
+This will be analyzed using a generalized linear model with a logistic link function, implemented in a Bayesian framework.  The dependent variable will be participant accuracy. The predictors of interest will be the change in each of the geomphon scores, and the difference in acoustic distances for the two sounds in each trial.  We expect  the effect will vary by subject and by item and so we intend to include the maximum random effects structure justified by the design.  In R syntax, the model would be written as follows:  
 
 Accuracy ~  Change_in_econ + Change_in_glob + Change_in_loc + difference_between_acoustic_distances + (1 + Econ+glob + Loc + acoustic_distance|subject) + (1|item)
+
 
 
 # Method
@@ -88,7 +84,7 @@ Code sufficient to launch a direct replication, including all demographic survey
 summary of method: (more details below) The experiment is presented via an internet webrowser. Participants first read a consent form and indicate their consent. Then participants fill out a demographic survey.  In each trial, participants hear one sound ("A"), then another sound ("B""), and then a new instance of one of the previously heard sounds ("X").They are asked to indicate whether the last sound was more similar to the first sound, or to the second sound.  They indicate their choice using the keyboard.  Each trial is marked correct or incorrect. 
 
 
-### sample 
+## sample 
 #### population 
  Participants will be recruited in three venues:  
  
@@ -105,32 +101,25 @@ summary of method: (more details below) The experiment is presented via an inter
     * following mechanical turk's policies, all Amazon Mechanical Turk participants are > 18 years of age
     
 3) French speaking participants will also be recruited through an email list ("RISC") and the Facebook groups that focus on recruiting volunteer subjects for linguistics and Psychology research.  Speakers recruited through email and Facebook will not be paid. 
-    
+
+#### number of subjects 
+We will sample 90 subjects. see "Model Validation"" section below for how we arrived at this number.  
   
 #### Inclusion and exclusion criteria
 Each participant will answer a demographic survey designed to determine their eligibility.  To incentivize truthful behavior in online participants, all Mechanical Turk participants will be paid regardless of their answers.
 
 Data from any subject who meets **any** of the following criteria will be **excluded**.  
 
-1) They answer "No" to question "Do you consider yourself a native speaker of English?"  (/French for french speakers )
-2) they answer "Yes" to the question:  
-Avez vous été exposé-e de façon intensive à une autre langue que le français dans votre enfance ? (RO) </b>  <br /><br />- Répondez oui si, avant l'âge de 8 ans, vous avez été exposé à une autre langue que le Français pendant une période assez longue (au moins 1 an) <br /><br /> - Ceci peut inclure le fait d'avoir vécu dans un endroit où cette langue était parlée et parler cette langue, ou le fait qu'un de vos parents vous parle en utilisant cette langue très souvent. <br /><br /> - Ceci n'inclut pas de brèves expositions, comme regarder des films/la télévision... dans cette langue, ou des visites occasionnelles de parents.
+1) They answer "No" to question "Do you consider yourself a native speaker of English?"  (/French for french speakers )  
 
+2) they answer "Yes" to the question: "Did you have significant exposure to a language other than English in your childhood?  Respond yes if, before age 8, you were exposed to another alnguage during a long period (at least 1 year)
+This could include living in another country where this language was spoke, or having a caregiver who consistently spoke to you in this language.  Respond no if you were only exposed briefly, for example by watching TV or movies in this other language, or occasional visits to family"
 
-We will run  a batch of 90 subjects (the total goal number, based on power analysis below), and then filter the data by the  to determine the number of subjects that pass all criteria.  We will then run batches of size (90 - number who have already passed the above criteria) until we reach 90 subjects.  Each batch of data will be posted to OSF in raw, anonymized format on the day of collection, before a new batch is collected. 
+3) accuracy of less than 80% on the set of ten check questions (ten ABX trials specifically designed to be easy, based on acoustic distance and former pilots)
 
+We will run  a batch of 90 subjects and then filter the data by the  to determine the number of subjects that pass all criteria.  We will then run batches of size (90 - number who have already passed the above criteria) until we reach 90 subjects.  Each batch of data will be posted to OSF in raw, anonymized format on the day of collection, before a new batch is collected. 
 
- #CHECK QUESTIONS?
- #FILTERED ON ACCURACY 
- #Pick ten easy triplets to filter on.  cutoff at 80% correct 
- #add to list of things to fix in scripts.  
- 
-
-#### number of subjects 
-We will sample 90 subjects. see model validation section below for how we arrived at this number. 
-
-
-### stimuli 
+## Stimuli 
 
 ##### Choice of unfamiliar language:  
  For practical reasons our discrimination experiments are to be run with English and French listeners, and therefore it was necessary to find a language which has some sounds that are similar to sounds in the inventory of French and English, and some sounds that are highly dissimilar. In addition, the unfamilar sounds should involve the best spread of each geomphon score, as well as acoustic distances. 
@@ -162,17 +151,16 @@ The unfamiliar sounds, on the other hand, were sounds which are  present in the 
 
 Each unfamiliar sound was paired with the familiar sounds which were judged by the authors to be most likely to be confused in dsicrimination, i.e. to be most similar in perception.  Examples of the pairs formed for the unfamiliar sounds /bʰ/, /ʈ/, and /ɳ	/ are below:  
 
+#add four and only four pairs here. 
 bʰ	b
 bʰ	d
 bʰ	g
 bʰ	p
-bʰ	t
-bʰ	k
-bʰ	v
 ʈ	t
 ʈ	d
 ɳ	n
 ɳ	j
+
 
 It is important to clarify that both the familiar and unfamiliar sounds were spoken by the Hindi speakers.  Because they were spoken by Hindi speakers, the "familiar" sounds may differ systematically from the English and French version of these sounds. The rationale for recording in this way was to have consistency in the context surrounding the phone of interest.  If instead English speakers recorded the English consonants and Hindi speakers the Hindi consonants, the surrounding vowels have the potential to give additional cues useful for discrimination and push discrimination towards ceiling, **as  we found in previous pilot X**. While the "familiar" sounds may differ slightly from their versions in English and French, the unfamiliar sounds were chosen to be much further than unfamiliar sounds in acoustic distance and phonological features.   (**and indeed our measurements confirm this**). 
 
@@ -184,9 +172,7 @@ Selection of stimuli was based on four things:
      b) based on ratio of differences is not so large as to create only ceiling performance
          --> currently: log ratio is > -.4)
          
-2) GEOMPHON scores 
-    c) prefer triplest Econ, Glob, Loc as uncorrelated as possible in order to improve model performance 
-3) Domain knowledge 
+2) Domain knowledge 
     d) rule out stimuli that do not sound good to phoneticians 
          -->remove velar fricatives, which were not native to our speakers' (and in deed most hindi, rather than urdu speakers) dialects
     e) attempt to balance stimuli by linguistic categories 
@@ -197,16 +183,23 @@ Selection of stimuli was based on four things:
    simulated annealar script which will optimize a stimuli list that  has the best combinations 
    that decorrelate speaker combination from phone pair.
 
-Once the pairs of phonemes were chosen, it was necessary to combine recordings of the sounds to create ABX trials. An ABX trial consists of a sound (A), a different sound (B), and then a repetition of either A or B (the X, which participants match to either A or B).  For a trial with a given pair of phonemes, it is necessary to determine the order of the phonemes, which sound is the target, and which speaker's recording is used.  The number of trials was constrained to 150 based on time estimates of previous experiments.  Given the number of permutations of these options it is not feasible to simply counterbalance all combinations of order, target phone, and speaker within the number of trials. 
+Once the pairs of phonemes were chosen, it was necessary to combine recordings of the sounds to create ABX trials. An ABX trial consists of a sound (A), a different sound (B), and then a repetition of either A or B (the X, which participants match to either A or B).  For a trial with a given pair of phonemes, it is necessary to determine the order of the phonemes, which sound is the target, and which speaker's recording is used.  The number of trials was constrained to no more than 150 based on time estimates of previous experiments.  Given the number of permutations of these options it is not feasible to simply counterbalance all combinations of order, target phone, and speaker within the number of trials. 
+
+#CHECK TRIALS
+
+##so instead what did we do
 
 
 ## construction of stimuli 
-Once the design is decided, each recording is spliced togehter with **______ ISI bewteen A&B and B& X**
+Once the design is decided, each recording is spliced togehter with **______ ISI bewteen A&B and B& X**.  Each
 
 ### calculation of geomphon scores 
+details here? 
 
 
 ### experimental procedure
+
+##specify how did stuff, including randomization
 
  
 
@@ -437,15 +430,32 @@ ggplot2::ggplot(prop_hindi_acc_by_phone_pair, ggplot2::aes(x=log_ratio_distance,
 ```
 in addition, each ABX trial has two acoustic distances of interest: the distance bewtween A and X, and the distance between B and X.  We hypothesize that it is the difference between these distances that will drive the accuracy of 
 
- 
-geomphon scores 
 
 
-#Model validation
 
-#move to model section and say see below
+#Model validation / power analysis 
+Geomphon scores have never, to our knowlege, been used as predictors of discrimination in a similar experiment. 
+Additionally, their scale is arbitrary.  Given this, we have no data on which to estimate the scale of their effect on discrimination (if any), and no way in which to calculate a traditional power analysis. Particularly, we were motivated to ensure that our model setup would differentiate between a small, positive effect, and a zero effect.  In order to be confident that our experiment design and model specification is sufficiently sensitive to capture an effect, should it be present, we tested the sensitivity of our model setup, and also of our model comparison technique, using data sampled with a known effect. 
 
-Our goal was to ensure that for our given design there would be enough data that the mean of the posterior distribution would not differ greatly from the true effect. To determine the number of subjects necessary to achive this goal, we tested directly by sampling datasets based on a variety of values of coefficients, and then running models to detect these known coefficient values.
+##1) How accurate is our design and analysis setting at returning the coefficient of the true data generating process?
+
+operationalize this as testing whethe mean of the posterior distribution would not differ greatly from the true effect. 
+
+This depends on three things: 
+1. the experiment design 
+2. the number of subjects 
+3. the size of the effect. 
+
+### experiment design 
+
+
+### amount of data 
+This will depend on the amount of data (in our case, determined by the number of subjects run in the experiment), and also on the magnitude of the effect. 
+
+(all code for this process is available at _______)
+
+
+To determine the number of subjects necessary to achive this goal, we tested directly by sampling datasets based on a variety of values of coefficients, and then running models to detect these known coefficient values.
 
 We graph below the difference between the value input as the coefficient and the mean of the posterior for 27 combinations of values (All combinations of 3 coefficient values (-1,0,1),  for 3 predictors) .  In the best case scenario the mean of the posterior is exactly the same as the coefficient value we used to sample the data, and therefore the difference shown on this graph is zero. We can see that the distribution approaches zero as the number of subjects increases. 
 
@@ -505,8 +515,12 @@ ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Loc_glm_diff)) +
 
 
 
+##2) Does our model comparison technique consistently discriminate (small) positive effects from zero effects?
+
+
+
 #### method to determine whether an effect of a coefficient is non-zero 
-Based on our design we expect acoustic distance will be non-zero. (indeed, we have specifically designed the stimuli to ensure this is the case)
+Based on our design we expect acoustic distance will be non-zero. (indeed, we have specifically designed the stimuli and selected the design to ensure this is the case)
  
 The effect of the geomphon scores, however, is as yet undetermined, and may be larger or smaller than the effect of acoustic distance. Therefore, a significant concern was to determine a model that would detect a difference between a small, positive effect and a zero effect. 
 
