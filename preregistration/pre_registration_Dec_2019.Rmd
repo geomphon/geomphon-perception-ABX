@@ -58,7 +58,7 @@ The motivation for this experiment is to test whether the relation of all the so
 
 To accomplish this we collect discrimination data from an ABX task. That is, listeners hear one sound ("A"), then another sound ("B"), and then a new instance of one of the previously heard sounds ("X").  Each AB pair of sounds includes one sound that is familiar (= part of the native inventory of participants), and one sound that is unfamiliar (= not part of the native inventory of participants). For each pair of sounds, we calculate the acoustic distance between sounds, and also the change in geomphon scores if the unfamiliar sound were added to the native inventory. (see more detail in Method, below)  In brief, our hypotheses are as follows:
 
-### Hypothesiss 
+### Hypothesis 
 We hypothesize that changes in Econ, Glob, and Loc will each be predictive of discimination accuracy, above and beyond the effect of acoustic distance.   
 
 ### Predictions and operationalization of hypotheses
@@ -147,7 +147,7 @@ The unfamiliar sounds, on the other hand, were sounds which are  present in the 
 "ɳ"   "ɽ"   "ɡʱ"  "ʈʰ"  "bʱ"  "dʱ"  "ɖ"   "ɖʱ"  "d͡ʒʱ  
 
 
-We have an estimate of the effect of acoustic distance based on other pilots with different stimuli (for details see section "acoustic distance" in the statistical model section). When chosing which familiar sounds to pair the unfamiliar sounds with, we found that pairs of sounds with large differences in acoustic distance were close to ceiling performance in discrimination. Therefore, it was a priority to pair unfamiliar sounds with similar familiar sounds. (e.g., pairing /bʱ/ with /b/ , which are quite close in acoustic distance, rather than, say, /m/ and  /"d͡ʒ/ which are very far in acoustic distance)  To build our design, we first calculated the mean difference in acoustic distance for all instances of each pair of stimuli. We then estimated discrimination accuracy based on these new acoustic distance measures, and our previously found effect of acoustic distance.  For each unfamiliar phone, we selected the four unfamiliar-familiar pairs that were the closest in terms of acoustic distance, and therefore would likely be difficult to discriminate. Four was chosen because it would facilitate counterbalancing (see next paragraph) Examples of the pairs for  /ɡʱ/ and /bʱ/ are below.
+We have an estimate of the effect of acoustic distance based on other pilots with different stimuli (for details see section "acoustic distance" in the statistical model section). When chosing which familiar sounds to pair the unfamiliar sounds with, we found that pairs of sounds with large differences in acoustic distance were close to ceiling performance in discrimination. Therefore, it was a priority to pair unfamiliar sounds with similar familiar sounds. (e.g., pairing /bʱ/ with /b/ , which are quite close in acoustic distance, rather than, say, /m/ and  /"d͡ʒ/ which are very far in acoustic distance)  To build our design, we first calculated the mean difference in acoustic distance for all instances of each pair of stimuli. We then estimated discrimination accuracy based on these new acoustic distance measures, and our previously found effect of acoustic distance.  For each unfamiliar phone, we selected the four unfamiliar-familiar pairs that were the closest in terms of acoustic distance (see section "acoustic distance", below), and therefore would likely be difficult to discriminate. Four was chosen because it would facilitate counterbalancing (see next paragraph) Examples of the pairs for  /ɡʱ/ and /bʱ/ are below.
 
 ɡʱ,d  
 ɡʱ,g  
@@ -182,28 +182,26 @@ Statistical models are generalized linear mixed effects models with a logit link
 The dependent variable is accuracy, interpreted as a binary 1 (= correct) or 0 (= incorrect)
 
 ####covariates 
-the covariates in the model are the difference in geomphon score, and the acoustic distance.  
+the covariates in the model are the difference in geomphon scores, and the acoustic distance.  
 The geomphon scores are defined for each unfamiliar phone, and therefore all pairs that include a given unfamiliar sound have the same difference in geomphon score, for a total of 9 different geomphon scores, one for each unfamiliar phone. The acoustic distance, on the other hand, is calculated for a given set of recordings, and so each of the 144 trials have a different acoustic distance score. 
 
 #####geomphon scores 
 For details on geomphon scores see section "calculation of geomphon scores", above
 
 #####acoustic distance 
-We tested the predictive ability of of two measures of acoustic distance in our pilot data: 
-MFCCs, and "bottleneck features"  (Silnova et al. 2018)  
-<span style="color:orange">Amelia: add description of MFCCs and bottlenects</span>  
-<span style="color:orange">Amelia: add equation style description specifying how delta ac dists were calculated</span>
 
-We found that in all three pilots, there is a clear advantage for the multilingual bottleneck features over MFCC features in predicting the human responses, and that there is a linear, effect of the log(distance ratio): the bigger the log(distance ratio), the lower the accuracy. 
+Our prediction states that "For each trial with sounds A, B, and X(an instance of either A or B),  we will measure the acoustic distance between A and X, and between B and X. If these distances are similar, we predict the task will be hard because this indicates that X is similar to both A and B. If, however, one of the distances is much greater than the other, it will be obvious which sound X is an instance of, and the task will be easy.  In short, we predict that the larger the difference between the measured distances (A->X) and (B->X), the higher the discrimination accuracy will be."  For this method, it was important to establish a way to measure acoustic distance, and a way to approximate the difference between the A-X and B-X distance. 
 
-
-We illustrate this below using three sets of ABX phone discrimination pilot data:
+ We tested our methods using three sets of ABX phone discrimination pilot data:
 
 - **Pilot-a:** Cross-linguistic (English/French) ABX phoneme experiment, lab speech, three speakers A-B-X, presented to English and French listener groups
 - **Pilot-b:** TIMIT ABX phoneme experiment, from corpus, three speakers A-B-X, presented to English and French listener groups
 - **Pilot-c:** English lab speech ABX phoneme experiment, two speakers AB-X, presented to English and French listener groups
 
-<span style="color:orange">Amelia: add explanation of and motivation for graphs below</span>
+
+For all pilots, we compared distances calculated by MFCCs with distances calculated by "bottleneck features"  trained on a multilingual corpus (Silnova et al. 2018). We found that in all three pilots, there is a clear advantage for the multilingual bottleneck features over MFCC features in predicting the human responses. Additionally, we wanted one measure to encompass the difference between the A-X distance and the B-X distance.  We tested a simple difference, a ratio, and the log transformed ratio score. We found that the log(distance ratio) provided a linear effect, with the bigger the log(distance ratio), the lower the accuracy.  
+Based on the effect of acoustic distance from previous pilots, we were able to estimate the acuracy for each pair of sounds in the present experiment. As stated in section "Experiment Design," we then selected familiar-unfamiliar pairs which were very similar (pairs with a higher log(distance ratio), that is pairs on the righthandside of the graph below ), in order to ensure both that the experiment would be diffcult enough, and also that our log(distance ratio) values fell within the linear portion of the trend below. 
+
 ```{r load-pilot-a, include=FALSE}
 pilot_a_human <- tibble::as_tibble(read.csv("data_nika_human.csv",
                                             row.names=1)) %>%
@@ -276,7 +274,7 @@ hindi_design_long <- dplyr::mutate(hindi_design_long,response_var = 0) %>%
 proposed_hindi <- dplyr::filter(hindi_design_long,distance_OTH>distance_TGT) %>%
                    dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>% 
                    dplyr::mutate(., log_ratio_distance= log(distance_TGT/distance_OTH))%>%
-                   dplyr::filter(., log_ratio_distance > -.4) %>%
+                   dplyr::filter(., log_ratio_distance > -.7) %>%
                    dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
                                       "_",
                                       as.character(phone_OTH))) %>%
@@ -298,7 +296,7 @@ pilot_c_bn_ratio_m <- lme4::glmer(user_corr ~ ratio_bn + (1|tripletid) + (1|subj
 
 
 
-```{r proposed_stim_sampling, echo=FALSE}
+```{r proposed_stim_sampling, echo=FALSE, message= FALSE, warning=FALSE}
 
 mean_intercept <- mean(lme4::fixef(pilot_a_bn_ratio_m)[[1]],
                        lme4::fixef(pilot_b_bn_ratio_m)[[1]],
@@ -355,56 +353,10 @@ ggplot2::ggplot(long_hindi_acc_by_phone_pair, ggplot2::aes(x=log_ratio_distance,
   ggplot2::ylab("Accuracy") 
 
 
-
-
-prop_hindi_m <- glm(response_var~ratio_distance, data=proposed_hindi, family="binomial", maxit = 100)
-    prop_hindi_m$coefficients["(Intercept)"]<- mean_intercept
-    prop_hindi_m$coefficients["ratio_distance"] <- mean_coef_dist
-  
-##### repeat design for N subjects and add summary accuracy score
-NUM_SUBJS = 60
-
-prop_hindi_subjs<- proposed_hindi[rep(1:nrow(proposed_hindi),NUM_SUBJS),]
-
-    subjs<- c()
-      for (i in (1:NUM_SUBJS)) {
-        subjs[i] = paste("subject",i,sep = "_")
-      }
-
-subjs_rep<-as.data.frame(rep.int(subjs,nrow(proposed_hindi)))
-names(subjs_rep)<-c("subject")
-
-prop_hindi_subjs <- dplyr::bind_cols(subjs_rep,prop_hindi_subjs)
-
-pred_prob <- predict(prop_hindi_m, type="response", newdata=prop_hindi_subjs)
-    
-      for (i in 1:nrow(prop_hindi_subjs)) {
-          prop_hindi_subjs[["response_var"]][i] <- sample(c(0,1), 1,
-                                         prob=c((1-pred_prob[i]), pred_prob[i]))
-        }
-
-prop_hindi_acc_by_phone_pair <- prop_hindi_subjs %>%
-  dplyr::mutate(., phone_pair =paste0(as.character(phone_TGT),
-                                      "_",
-                                      as.character(phone_OTH))) %>%
-  dplyr::mutate(., log_ratio_distance=log(distance_TGT/distance_OTH)) %>%
-  dplyr::mutate(., ratio_distance=distance_TGT/distance_OTH) %>%
-  dplyr::group_by(.,phone_pair,log_ratio_distance,ratio_distance) %>%
-  dplyr::summarize(accuracy=mean(response_var))
-
-                
-ggplot2::ggplot(prop_hindi_acc_by_phone_pair, ggplot2::aes(x=log_ratio_distance, y=accuracy)) +
-  ggplot2::geom_point() +
-  ggplot2::geom_smooth()+
-  ggplot2::geom_vline(xintercept=0.0) +
-  ggplot2::geom_text(ggplot2::aes(label=phone_pair))+
-  ggplot2::geom_hline(yintercept=0.5) +
-  ggplot2::ggtitle("Log distance ratios versus accuracy by phone pair") +
-  ggplot2::xlab("log (distance ratio)") +
-  ggplot2::ylab("Accuracy") 
-
-
 ```
+ 
+
+
 
 
 ##Model validation and power analysis 
@@ -422,14 +374,12 @@ Specifically, we investigate the effects of the following things on model sensit
 3. the size of the effect. 
 
 #### experiment design 
-As explained above in section ""
- 
- 
+As explained above in section "Experiment design" the design of the experiment is fixed based on the number of unfamilar sounds in Hindi, and on the length of pilot experiments. 
+
 #### amount of data 
+With the experiment design fixed, the amoung of data is determined by the number of subjects. To determine the number of subjects necessary to achive high acuraccy in detecting a known effect, we tested directly by sampling datasets based on a variety of values of coefficients, and then running models to detect these known coefficient values.
 
-To determine the number of subjects necessary to achive this goal, we tested directly by sampling datasets based on a variety of values of coefficients, and then running models to detect these known coefficient values.
-
-We graph below the difference between the value input as the coefficient and the mean of the posterior for 27 combinations of values (All combinations of 3 coefficient values (-1,0,1),  for 3 predictors) .  In the best case scenario the mean of the posterior is exactly the same as the coefficient value we used to sample the data, and therefore the difference shown on this graph is zero. We can see that the distribution approaches zero as the number of subjects increases. 
+We graph below the difference between the value input as the coefficient and the mean of the posterior for 27 combinations of values (All combinations of 3 coefficient values (-1,0,1),  for  the three geomphon scores) .  In the best case scenario the mean of the posterior is exactly the same as the coefficient value we used to sample the data, and therefore the difference shown on this graph is zero. We can see that the distribution approaches zero as the number of subjects increases. 
 
 An N of 90 subjects was selected as the best balance between the practicalities of running many subjects and the extent to which the mean of the posterior distribution would reflect the true value. 
 <span style="color:orange">Amelia:updategraphs</span>,
@@ -486,81 +436,59 @@ ggplot2::ggplot(hindi_for_hists, ggplot2::aes(x = Loc_glm_diff)) +
 
 
 
-
-
 ###2) Does our model comparison technique consistently discriminate (small) positive effects from zero effects?
 
-
-
 #### method to determine whether an effect of a coefficient is non-zero 
-Based on our design we expect acoustic distance will be non-zero. (indeed, we have specifically designed the stimuli and selected the design to ensure this is the case)
+Based on our design we expect acoustic distance will be non-zero. (indeed, we have specifically designed the stimuli and selected the design to ensure this is the case, and our interpretive plan, below, reflects this.)
  
 The effect of the geomphon scores, however, is as yet undetermined, and may be larger or smaller than the effect of acoustic distance. Therefore, a significant concern was to determine a model that would detect a difference between a small, positive effect and a zero effect. 
 
-To this end, we use comparison of leave-one-out-cross valitation ("loo") scores with models specified with varying priors.  The loo value obtained is a measure of the predictive ability of a model.  Specifically, it is an estimate of out-of-sample predictive accuracy using within-sample fits. We use the pareto smoothed importance sampling implemented in the loo() package, as documented in Vehtari et al. (2016). 
+To this end, we use Bayes factor model comparisons of models specified with truncated priors.  A truncated prior is simply a prior for which the density curve is truncated at some value. 
 
-Because we cannot be sure of the size of the expected effect, it is important to establish a methodology that is sensitive to small but non-zero positive effects.  To accomplish this we use loo() and truncated priors.  A truncated prior is simply a prior for which the density curve is truncated at some value. 
+In our case, we are interested in detecting the difference between a small, positive value and a zero effect.  We will compare two models: 
 
-In our case, we use a normal(0,10) prior and truncate the value at zero. We can therefore apply a model truncated to be <= 0 to a model to be >= 0.   If an effect of interest is not meaningfully different than zero, two models, one with a truncated positive prior and one with a truncated negative prior will not differ (nor would they differ from a model with no effect of this predictor).  If, on the other hand, the effect is different from zero, either the truncated positive prior or the truncated negative prior will show better predictivity in the direction of the effect. 
+Model A)  a model which includes the effects of all three geomphon scores, each with a Normal prior centered around zero and truncated to be >= 0
 
+accuracy ~ change_in_econ + change_in_econ + change_in_loc + log(acoustic_distance_ratio)   
+   priors:   
+    change_in_econ   N(0,10), trucated >=0  
+    change_in_glob   N(0,10), trucated >=0  
+    change_in_loc    N(0,10), trucated >=0  
+    log(acoustic_distance_ratio)  N(0,10)  
+    
+The advantage for a truncated prior here is that if there is a small positive affect, the prior gives extra weight in order to differntiate this from zero. 
 
-For example, to test for an effect of Econ, we will run a model such as the following:
-
- accuracy ~ Econ + Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair)
-
-we will run the model three times:  
-
-* Model A: removing the effect of Econ, (simulating a zero effect)  
-  accuracy ~ Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair),  
-priors: N(0,10) for all covariates
-
-* Model B applying a prior truncated to be >=0  
-  accuracy ~ Econ + Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair),  
-prior Econ: truncated gaussian N(0,10) >=0
-all other priors: N(0,10)
-
-* Model C applying a prior trunacted to be <=0
-accuracy ~ Econ + Glob + Loc + acoustic_distance + (1|Subject) + (1|phone_pair)
-prior Econ: truncated gaussian N(0,10) <=0
-all other priors: N(0,10)
-
-We will then complete pairwise differences to compare the differences in loo scores between each of these four using loo_compare(), which gives a we used  the difference in  expected log predictive density (elpd_diff). The elpd_diff shows which model has a better loo score,  and therefore better predictive accuracy. The output of loo.compare() includes the s.e. of this difference score. We will determine whether two  models is meaningfully "different" by using the rule of thumb put forth by Vehtari that the elpd_diff is 5 times larger than it's s.e.*?*
-
-In order to make all comparisons of all combinations of the three predictors of interest, we will run a total of 27 models (all combinations of 3 predictors (Econ, Glob, Loc) and three priors (truncated posistive, truncated negative, zero)).  
-
-We will then use compare_models() in the loo package to obtain a ranking of their elpd_diff scores. 
-
-We will interpret there to be a positive effect of one of the geomphon scores Model B is better than model A AND model C. 
+Model B)  The "zero model." This model removes the effects of change_in_econ, change_in_glob, and change_in_loc, simulating a zero effect for all three.   
+accuracy ~log(acoustic_distance_ratio)   
+   priors:   
+    log(acoustic_distance_ratio)  N(0,10)  
 
 #### random effects structure 
 
- We expect variation by subject and by item.  We will include random slopes and intercepts for subjects, and random slopes and intercepts by item. 
+ We expect variation by subject and by item.  We will include random slopes and intercepts for subjects, and random slopes and intercepts by item, creating the maximal random effects structure justified by the design, following Barr (2013) 
+ 
  
  
 
 # Results & Analysis 
 
 ### Preprocessing 
-Data will be filtered for whether it confirms to criteria outlined in subejct inclusion/exclusion above.    All data that meets criteria will be used in analysis. 
+Data will be filtered for whether it confirms to criteria outlined in subejct inclusion/exclusion above.    All data from any subject that meets the selection criteria will be used. 
 
 ### reality checks 
 Our hypotheses take for granted an effect of acoustic distance.  Therefore, an effect of acoustic distance is a required first step before interpreting the geomphon scores.(see interpretive plan, below)
-
-  -# re-create graph from above 
   
 
 # Interperative plan 
 
+step 1: confirm effect of acoustic distance by re-creating the same log(distance ratio) vs. accuracy by phone pair graph in section "acoustic distance" above.   The effect of acoustic distance should mirror past pilots and sampled data in showing a negative, linear trend. 
 
- Our interpretive plan therefore will be 
-
-step 1: conduct reality checks to confirm effect of acoustic distance.
 
 possible outcomes:
 
-a) there is no effect of acoustic distance, as determined by ________
+a) there is no effect of acoustic distance, or the effect varies greatly from previous pilots. 
   
-We will interpret this as a failure to replicate the effect of acoustic distance. Given that the stimuli were chosen specifically to have an effect of acoustic distance, that the number of subjects was chosen specifically to be able to robustly detect this effect, and that three previous pilots show large, significant effects of distance, we will we will consider this a fatal failure of the experimental protocol.  We will withdraw the study and pre-register a new experimental protocol with more subjects and/ or an easier task in order to detect the effect of acoustic distance. 
+We will interpret this as a failure to replicate the effect of acoustic distance. Given that the stimuli were chosen specifically to have an effect of acoustic distance, that the number of subjects was chosen specifically to be able to robustly detect this effect, and that three previous pilots show significant effects of distance, we will we will consider this a fatal failure of the experimental protocol.  We will withdraw the study and pre-register a new experimental protocol with more subjects and/ or an easier task in order to detect the effect of acoustic distance. 
 
 b) there is an effect of acoustic distance 
 
@@ -571,10 +499,11 @@ step 2:  examine the effect of geomphon scores
 
 possible outcomes: 
 
-a) there is an effect of one or more of the geomphon features, above an beyond the effect of acoustic distance only.
-We will interpret this as a confirmation of our hypotheses
+a) Model comparison shows an advantage for Model A, which includes effects of one or more of the geomphon features.  
+We will interpret this as a confirmation of our hypothesis, and consider it evidence that at least one of these scores is predictive of human discrimination
 
-b) there is no effect of any of the geomphon scores above and beyond the effect of acoustic distance. 
+b) Model comparison shows an advantage for Model B, or no difference between Model A and Model B. 
+We will interpret this as a rejection of our hypothesis, and consider it evidence  that there is no effect of geomphon scores on discrimination accuracy once acoustic distance has been taken into account. 
 
 
 
